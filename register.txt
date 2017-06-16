@@ -1,5 +1,5 @@
 This file shows the Namecoin's transaction ID containing the hash of previous commit. It is for registering/copyright purposes.
-Namecoin transaction ID with previous commit hash: 2efe7eac6514a7943a8619caa6be0117ad2df903ca12766d4c612bcf07c1eaf5
+Namecoin transaction ID with previous commit hash: ab4fcdfbe7487218cc68b836ce56d9df04dd72f172ec0bff8470ce6985851f67
 Address/Name/Domain: tamigucho.bit
 Owner: Plasmmer
 Namecoin transaction ID with Ownership proof: 0f9140fe91f91812f71648ea2e90730b67297c212621b3a0b5b071ce0f0c678e
