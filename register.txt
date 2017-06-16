@@ -1,8 +1,5 @@
 This file shows the Namecoin's transaction ID containing the hash of previous commit. It is for registering/copyright purposes.
-Previous commit Namecoin tx ID: b00dd90fa8708fe7f4ee83737919aefeb8d67b6208d3da1d3505767d604e7789
+Namecoin transaction ID with previous commit hash: 
 Address/Name/Domain: tamigucho.bit
-Namecoin address: ??
 Owner: Plasmmer
-Message: 
-I'm Plasmmer. I was born with the full name Daniell Wilson Jose Mesquita, on the city of Cascavel, state of Parana, in Brazil. I was born in April 9 of the 1997 year, and currently I'm 20 years old. I declare I'm owner of this Namecoin address and of any copyrights/registers I do by using file hash codes in transactions. Also, I declare I'm owner of the Namecoin address tamigucho.bit, wich was transferred to this address.
-Signature: ??
+Namecoin transaction ID with Ownership proof: 0f9140fe91f91812f71648ea2e90730b67297c212621b3a0b5b071ce0f0c678e
