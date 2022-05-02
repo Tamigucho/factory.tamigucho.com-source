@@ -1,0 +1,5 @@
+{
+"genotype": {"name": "Jumpider", "start_hp": "", "start_attack": "", "start_defense": "", "max_hp": "", "max_attack": "", "max_defense": "", "start_capture_rate": "", "max_capture_rate": "", "max_exp": "", "metamorphose_rate": "18", "base_level": "5", "types": "", "gender": "", "dna_gender": "", "dna_specie": "", "dna_variety": "", "max_strenght": "",},
+"fenotype": {"nickname": "Jumpider", "": ""},
+"status": {"hp": "", "pp": "", "held_item": "", "strenght": ""}
+}
