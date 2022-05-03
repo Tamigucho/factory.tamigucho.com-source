@@ -1,0 +1,4 @@
+https://phonemons.github.io/
+https://phonemon.eth.link/
+ipfs://phonemon.eth
+phonemon.eth
