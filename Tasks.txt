@@ -1,1 +1,3 @@
+recover phonemon.blogspot.com: use same colors/favicon/design, redirect
+
 /history/
