@@ -1,3 +1,5 @@
+/vspokemon/ add both pokemon and tamigucho logotypes in a fancy vs. design!
+
 recover phonemon.blogspot.com: use same colors/favicon/design, redirect
 
 /history/
