@@ -1,10 +1,15 @@
 body {
-font-family:'Cabin'!important;
-background:#e3e2e2!important
+  font-family:'Cabin'!important;
+  background: #f9f9f9 url(../img/blogger2013/bg.png);
+  color: #555555;
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header, header {
-    background: #34a0ca!important;
+    background: #3AA3CB!important;
 }
 
 .logo,logo {
@@ -24,7 +29,7 @@ background:#e3e2e2!important
 header nav ul li p{color:#fff!important}
 
 ::selection {
-    background: #34a0ca!important;
+    background: #3AA3CB!important;
     color: #fff!important;
 }
 
@@ -50,7 +55,7 @@ button.color:hover{background:#fff;color:#00964a}
     background-color:#00964a!important;
 }
 
-.footer,footer{background:#34a0ca;color:#fff}
+.footer,footer{background:#3AA3CB;color:#fff}
 
 @media(max-width:8in){
 .logo, logo {
