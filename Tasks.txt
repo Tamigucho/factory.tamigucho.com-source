@@ -1,8 +1,8 @@
-- Tables to all of 2022 and 2023 tamis
-- Tables to all of 2013 and 2014 tamis
-- Tables to all of 2015-2017 tamis
-- Tables to all of 2018-2019 tamis
+- Tables for the 2022-2023 tamis (and types)
+- Tables for the 2013-2014 tamis (and types)
+- Tables for the 2015-2017 tamis (and types)
+- Tables for the 2018-2019 tamis (and types)
 
 recover phonemon.blogspot.com: redirect it
 
-- Descriptions and types (also collapsibles)
+- Descriptions and types as Collapsibles
