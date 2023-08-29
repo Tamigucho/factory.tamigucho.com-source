@@ -1,5 +1,3 @@
-- mv in-line CSS to its own custom file
-
 - add link to Bouldegg's morph (link to Petalrock)
 
 - add evo/morph graphics as in Bouldegg
