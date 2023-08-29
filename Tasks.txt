@@ -1,3 +1,9 @@
+- add links to Featured Phonemons
+
+- add links to all tabbed tamis, and mv their names above imgs
+
+- add evo/morph graphics as in Bouldegg
+
 - Tables for the 2022-2023 tamis (and types)
 - Tables for the 2013-2014 tamis (and types)
 - Tables for the 2015-2017 tamis (and types)
