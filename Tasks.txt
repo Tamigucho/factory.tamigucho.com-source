@@ -1,5 +1,3 @@
-- add links to Featured Phonemons ; rename this section to include the "Tamigucho" naming ; add description to this section
-
 - add links to all tabbed tamis, and mv their names above imgs
 
 - rename all Instagram imgs
