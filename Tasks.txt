@@ -2,6 +2,9 @@
 
 - add links to all tabbed tamis, and mv their names above imgs
 
+- rename all Instagram imgs
+- mv in-line CSS to its own custom file
+
 - add evo/morph graphics as in Bouldegg
 
 - Tables for the 2022-2023 tamis (and types)
