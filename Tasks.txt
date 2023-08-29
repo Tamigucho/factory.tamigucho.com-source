@@ -1,4 +1,5 @@
-- add link to Bouldegg's morph (link to Petalrock)
+- add link to Petalrock in Bouldegg's morph ; add link to Bouldegg in Petalrock
+- same for the Sprouterra line!
 
 - add evo/morph graphics as in Bouldegg
 
