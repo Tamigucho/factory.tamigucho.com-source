@@ -4,10 +4,13 @@
 - add evo/morph graphics as in Bouldegg
 
 - Tables for the 2022-2023 tamis (and types)
+- Descriptions of 2022-2023 as Collapsibles
 - Tables for the 2013-2014 tamis (and types)
+- Descriptions of 2013-2014 as Collapsibles
 - Tables for the 2015-2017 tamis (and types)
+- Descriptions of 2015-2017 as Collapsibles
+- mv infos from 2018-2019 to /history page (tamigucho.com)
 - Tables for the 2018-2019 tamis (and types)
+- Descriptions of 2018-2019 as Collapsibles
 
 recover phonemon.blogspot.com: redirect it
-
-- Descriptions and types as Collapsibles
