@@ -1,4 +1,3 @@
-- rename all Instagram imgs
 - mv in-line CSS to its own custom file
 
 - add link to Bouldegg's morph (link to Petalrock)
