@@ -1,0 +1,2 @@
+Make the Private version of the factory repo! Store imgs on CloudDrives as bkp, make them accompained of .md5, .sha256 and .cid files for each!
+Proof of blockchain registration.

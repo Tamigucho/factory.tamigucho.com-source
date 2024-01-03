@@ -1,11 +1,13 @@
-- add link to Petalrock in Bouldegg's morph ; add link to Bouldegg in Petalrock
+- add "Fit in gaming generation: " on each tami (example: Torchnid: starter of Gen3)
+
+- add link to Petalrock in Bouldegg's morph ; add link to Bouldegg in Petalrock (same for Beanbie->Beaneck)
 - same for the Sprouterra line!
 
 - add evo/morph graphics as in Bouldegg
 
-- Tables for the 2022-2023 tamis (and types)
+- Tables for the 2022 tamis (and types)
 - Descriptions of 2022-2023 as Collapsibles
-- Tables for the 2013-2014 tamis (and types)
+- Tables for the 2013 tamis (and types)
 - Descriptions of 2013-2014 as Collapsibles
 - Tables for the 2015-2017 tamis (and types)
 - Descriptions of 2015-2017 as Collapsibles
