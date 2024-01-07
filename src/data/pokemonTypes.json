@@ -37,7 +37,7 @@
   {
     "type": "Flying",
     "color": "#A890F0",
-    "emoji": "🕊️"
+    "emoji": "🪽"
   },
   {
     "type": "Ghost",
@@ -60,7 +60,7 @@
     "emoji": "❄️"
   },
   {
-    "type": "Normal",
+    "type": "Neutral",
     "color": "#A8A878",
     "emoji": "🐾"
   },
@@ -88,5 +88,10 @@
     "type": "Water",
     "color": "#6890F0",
     "emoji": "💧"
+  },
+  {
+    "type": "Paper",
+    "color": "#FFFFFF",
+    "emoji": "📄"
   }
 ]

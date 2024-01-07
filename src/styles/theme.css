@@ -17,12 +17,13 @@
   --type-grass: #78C850;
   --type-ground: #E0C068;
   --type-ice: #98D8D8;
-  --type-normal: #A8A878;
+  --type-neutral: #A8A878;
   --type-poison: #A040A0;
   --type-psychic: #F85888;
   --type-rock: #B8A038;
   --type-steel: #B8B8D0;
   --type-water: #6890F0;
+  --type-paper: #FFFFFF;
 }
 
 /* Header styles */
@@ -74,7 +75,7 @@
   cursor: pointer;
 }
 
-.type-badge{border-radius:5px;border:1px solid;text-decoration:none}
+.type-badge{border-radius:5px;border:1px solid;text-decoration:none;color:#FFFFFF}
 .type-badge:hover{text-decoration:none}
 
 /* Dynamically assign background colors based on Pokémon type */
