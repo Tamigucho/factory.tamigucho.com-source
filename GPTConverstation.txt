@@ -1,0 +1,114 @@
+Uncaught SyntaxError: expected expression, got '<'
+main.js:1:1
+Uncaught SyntaxError: expected expression, got '<'
+bundle.js:1:1
+
+
+
+
+
+
+
+
+
+
+The error messages you're seeing, Uncaught SyntaxError: expected expression, got '<', are typically thrown by JavaScript interpreters when they encounter a less-than sign (<) where they don't expect one. This often happens when you're trying to use JSX syntax (which includes HTML-like tags) outside of a JSX context.
+
+In a React project, JSX code should be written inside .jsx or .js files and transpiled into regular JavaScript using a tool like Babel. If you're seeing this error, it's likely that either your JSX code is in a file that isn't being transpiled, or your build system isn't set up correctly to handle JSX.
+
+Here are some steps you can take to troubleshoot this issue:
+
+1. Check your file extensions: Make sure your React components are in .jsx or .js files. For example, in the provided codebase, the main React component is in src/App.js and other components are in src/components/. If you have any JSX code outside of these files, move it into a .jsx or .js file.
+
+2. Check your build system: If you're using a tool like Webpack or Parcel to bundle your code, make sure it's set up to transpile JSX. This usually involves including a Babel loader and a .babelrc file with the appropriate presets. In the provided package.json, Babel and its presets are included in the devDependencies, which suggests that Babel is being used to transpile the code.
+
+3. Check your server setup: If you're serving your bundled JavaScript file with a server, make sure the server is correctly set up to serve the file. If the server is misconfigured and serves an HTML error page instead of the JavaScript file, you might see the Uncaught SyntaxError: expected expression, got '<' error.
+
+If you're still having trouble after checking these things, please provide more information about your build system and server setup, and I'll be happy to help further.
+
+
+
+
+
+
+
+
+
+
+
+
+Why my URL is http://localhost:3000/your-username/react-material-pokemon-sit instead of http://localhost:3000/react-material-pokemon-sit
+
+
+
+
+
+
+
+
+
+The URL you're seeing (http://localhost:3000/your-username/react-material-pokemon-sit) is likely due to the way your routing is set up in your React application.
+
+In your src/App.js file, you're using react-router-dom to handle routing. The Route components define the paths for your application.
+
+      <Routes>
+        <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
+        <Route path="/type/:typeName" element={<TypePage />} />
+        {/* Add more routes as needed */}
+        
+If you're seeing an extra segment (your-username) in your URL, it's likely that this segment is being added somewhere in your routing configuration.
+
+Here are a few things you can check:
+
+1. Check your BrowserRouter usage: The BrowserRouter component in react-router-dom uses the HTML5 history API to keep your UI in sync with the URL. Make sure you're not adding an extra path segment when you use it.
+
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    
+2. Check your Route paths: Make sure none of your Route components in src/App.js are adding the extra your-username segment to the path.
+
+3. Check your links: Check the Link or NavLink components in your application to ensure you're not adding the extra segment there.
+
+          <Link className="navbar-brand" to="/">
+            Pokémons <span className="badge bg-secondary">{pokemonCount}</span>
+          </Link>
+          
+4. Check your server setup: If you're using a development server like create-react-app's, check its configuration. It's unlikely, but possible, that the server is adding the extra path segment.
+
+If you're still having trouble, please provide more information about your routing and server setup, and I'll be happy to help further.
+
+
+
+
+
+
+
+
+
+
+The stylesheet http://localhost:3000/your-username/react-material-pokemon-sit/styles/theme.css/ was not loaded because its MIME type, “text/html”, is not “text/css”.
+
+
+
+
+
+
+
+
+
+The error message you're seeing, The stylesheet http://localhost:3000/your-username/react-material-pokemon-sit/styles/theme.css/ was not loaded because its MIME type, “text/html”, is not “text/css”, typically occurs when the server is unable to find the requested CSS file and returns an HTML response (like a 404 error page) instead. The browser expects a CSS file (with MIME type text/css), but it gets an HTML response (with MIME type text/html), hence the error.
+
+Here are some steps you can take to troubleshoot this issue:
+
+1. Check the file path: Make sure the theme.css file is located in the correct directory. In your code, it's imported in src/index.js and src/App.js:
+
+import './styles/theme.css'; // Importing custom theme styles
+
+import './styles/theme.css';
+
+2. Check the server setup: If you're using a development server like create-react-app's, it should be configured to serve static files like CSS correctly. If you're using a different server, you might need to check its static file serving configuration.
+
+3. Check the URL: The URL http://localhost:3000/your-username/react-material-pokemon-sit/styles/theme.css/ seems to have an extra segment (your-username). This could be causing the server to look for the CSS file in the wrong place. Make sure your server and routing configuration doesn't add any unnecessary path segments.
+
+If you're still having trouble after checking these things, please provide more information about your server setup and the location of your CSS file, and I'll be happy to help further.

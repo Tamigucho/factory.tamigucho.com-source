@@ -22,16 +22,8 @@
     "@babel/preset-react": "^7.17.0",
     "babel-loader": "^8.2.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/react-material-pokemon-site.git"
-  },
   "author": "Your Name",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/your-username/react-material-pokemon-site/issues"
-  },
-  "homepage": "https://github.com/your-username/react-material-pokemon-site#readme",
   "browserslist": {
     "production": [
       ">0.2%",

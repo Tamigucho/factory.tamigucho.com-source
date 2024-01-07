@@ -13,10 +13,13 @@ This project is a basic ReactJS template site that utilizes a theme similar to D
 
 ## Installation
 
-To get started with this project, clone the repository and install the dependencies:
+To get started with this project, <!--clone the repository and--> install the dependencies:
+
+<!--```bash
+git clone https://github.com/your-username/react-material-pokemon-site.git
+```-->
 
 ```bash
-git clone https://github.com/your-username/react-material-pokemon-site.git
 cd react-material-pokemon-site
 npm install
 ```
@@ -53,17 +56,17 @@ The project is structured as follows:
 - `.gitignore`: Specifies intentionally untracked files to ignore.
 - `README.md`: Documentation for the project.
 
-## Contributing
+<!--## Contributing
 
-If you would like to contribute to this project, please feel free to make a pull request or open an issue on the [GitHub repository](https://github.com/your-username/react-material-pokemon-site).
+If you would like to contribute to this project, please feel free to make a pull request or open an issue on the [GitHub repository](https://github.com/your-username/react-material-pokemon-site).-->
 
 ## License
 
 This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
 
-## Author
+<!--## Author
 
-Your Name
+Your Name-->
 
 ## Acknowledgments
 
