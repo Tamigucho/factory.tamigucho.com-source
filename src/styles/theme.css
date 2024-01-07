@@ -85,8 +85,27 @@
 /* Dynamically assign background colors based on Pokémon type */
 .type-bug { background-color: var(--type-bug) }
 .type-dark { background-color: var(--type-dark) }
-/* ... Repeat for all 18 types ... */
+.type-dragon { background-color: var(--type-dragon) }
+.type-electric { background-color: var(--type-electric) }
+.type-fairy { background-color: var(--type-fairy) }
+.type-fighting { background-color: var(--type-fighting) }
+.type-fire { background-color: var(--type-fire) }
+.type-flying { background-color: var(--type-flying) }
+.type-ghost { background-color: var(--type-ghost) }
+.type-grass { background-color: var(--type-grass) }
+.type-ground { background-color: var(--type-ground) }
+.type-ice { background-color: var(--type-ice) }
+.type-neutral { background-color: var(--type-neutral) }
+.type-poison { background-color: var(--type-poison) }
+.type-psychic { background-color: var(--type-psychic) }
+.type-rock { background-color: var(--type-rock) }
+.type-steel { background-color: var(--type-steel) }
 .type-water { background-color: var(--type-water) }
+.type-paper { background-color: var(--type-paper) }
+.type-plastic { background-color: var(--type-plastic) }
+.type-salt { background-color: var(--type-salt) }
+.type-rubber { background-color: var(--type-rubber) }
+.type-sugar { background-color: var(--type-sugar) }
 
 /* Search component styles */
 .search {

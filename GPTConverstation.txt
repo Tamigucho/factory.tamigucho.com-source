@@ -1,1 +1,1 @@
-Please append brand new types for Pokémons: Plastic, Salt, Rubber, Sugar.
+Please complete this, based in what's on the :root
