@@ -93,5 +93,25 @@
     "type": "Paper",
     "color": "#FFFFFF",
     "emoji": "📄"
+  },
+  {
+    "type": "Plastic",
+    "color": "#B5651D",
+    "emoji": "🥤"
+  },
+  {
+    "type": "Salt",
+    "color": "#FFFFFF",
+    "emoji": "🧂"
+  },
+  {
+    "type": "Rubber",
+    "color": "#808080",
+    "emoji": "🪀"
+  },
+  {
+    "type": "Sugar",
+    "color": "#FFFFFF",
+    "emoji": "🍬"
   }
 ]
