@@ -11,10 +11,15 @@ import './styles/theme.css';
 function App() {
   const [pokemons, setPokemons] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [pokemonCount, setPokemonCount] = useState(0); // New state for pokemonCount
 
   useEffect(() => {
-    // Assuming pokemonsData is the default export from pokemons.json
     setPokemons(pokemonsData);
+
+    // Fetch pokemonCount from public/api.json
+    fetch('/api.json')
+      .then(response => response.json())
+      .then(data => setPokemonCount(data.pokemonCount));
   }, []);
 
   const handleSearch = (term) => {
@@ -27,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header pokemonCount={filteredPokemons.length} />
+      <Header pokemonCount={pokemonCount} /> {/* Use the fetched pokemonCount */}
       <Search onSearch={handleSearch} />
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />

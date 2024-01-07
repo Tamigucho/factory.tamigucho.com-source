@@ -1,38 +1,150 @@
-CTRL+K:
-
-Fill this footer, using this model:
-<footer>
-<center>Last update in Sun Jan 07 05:41 2024 -0300.</center>
-<div class="social-icons">
-<a href="https://github.com/Tamigucho/factory.tamigucho.com/" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve Phonemon's site &amp; others in GitHub" alt="GitHub"></a></div>
-<div class="social-buttons"></div>
-<copyright><center><a href="https://aragon.plasmmer.com/#/tamigucho/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"></a><br>(c) 2010-2024 Phonemon by <a target="_blank" href="https://tamigucho.com/" style="opacity: unset;"><img height="16px" alt="The Tamigucho DAO" src="https://tamigucho.com/logotype-old.png" title="The Tamigucho DAO"></a> + <a target="_blank" href="https://gamlr.gg/" style="opacity: unset;"><img alt="Gamlr DAO" src="https://gamlr.gg/press/press-kit/img/logotype-plain_white.svg" title="Gamlr DAO" height="18px"></a> + <a target="_blank" href="https://plasmmer.com/" style="opacity: unset;"><img height="16px" alt="Plasmmer DAO" src="https://plasmmer.com/press/press-kit/img/logotype-plain_white.svg" title="Plasmmer DAO"></a>.</center></copyright>
-</footer>
-
-Remember, "Last update" should be dynamic, and follow that exact format shown in the model. Maybe register every time a React reload/re-preview/re-build of a page is triggered.
-
-----
-
-ERROR
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
-SyntaxError: /home/daniella/com-factory-tamigucho/src/components/Footer.js: Expected corresponding JSX closing tag for <img>. (19:8)
-
-----
-
-The above error occurred in the <a> component:
-
-a
-center
-copyright
-footer
-Footer@http://localhost:3000/static/js/bundle.js:172:86
-div
-App@http://localhost:3000/static/js/bundle.js:43:82
-Router@http://localhost:3000/static/js/bundle.js:41262:7
-BrowserRouter@http://localhost:3000/static/js/bundle.js:39239:7
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. 3 react-dom.development.js:18687
+Header logo badge's Pokémon count shouldn't be changed when you search; BTW it should never be dynamically changed when accessing the page; it should only count how many Pokémons are present in data/pokemons.json, and store in a brand new file sitting in public/api.json.
 
 
-Uncaught Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+
+
+
+
+
+
+To ensure the Pokémon count in the header logo badge remains constant and reflects the total number of Pokémon in data/pokemons.json, you need to modify the Header component and the App component.
+
+In the Header component, the pokemonCount prop should be replaced with a static value that represents the total number of Pokémon. This value should be fetched from a new file public/api.json which will store the count of Pokémon.
+
+First, create a new file public/api.json with the following content:
+
+{
+  "pokemonCount": TOTAL_POKEMON_COUNT
+}
+
+Replace TOTAL_POKEMON_COUNT with the actual count of Pokémon from data/pokemons.json.
+
+Next, modify the App component to fetch the Pokémon count from public/api.json instead of calculating it from the filtered Pokémon list.
+
+import React, { useState, useEffect } from 'react';
+// ... other imports ...
+
+function App() {
+  const [pokemons, setPokemons] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [pokemonCount, setPokemonCount] = useState(0); // New state for pokemonCount
+
+  useEffect(() => {
+    setPokemons(pokemonsData);
+
+    // Fetch pokemonCount from public/api.json
+    fetch('/api.json')
+      .then(response => response.json())
+      .then(data => setPokemonCount(data.pokemonCount));
+  }, []);
+
+  // ... other code ...
+
+  return (
+    <div className="App">
+      <Header pokemonCount={pokemonCount} /> {/* Use the fetched pokemonCount */}
+      {/* ... other components ... */}
+    </div>
+  );
+}
+
+This way, the Pokémon count in the header logo badge will always reflect the total number of Pokémon, regardless of the search filter.
+
+
+
+
+
+
+
+
+"Replace TOTAL_POKEMON_COUNT with the actual count of Pokémon from data/pokemons.json."
+
+I want a system that do automatically count the Pokémons in data/pokemons.json and update that number into public/api.json's pokemonCount key.
+
+
+
+
+
+
+
+
+
+
+
+
+To automatically count the Pokémons in data/pokemons.json and update the count in public/api.json, you can use the following Node.js script:
+
+Create a new file called updatePokemonCount.js and add the following code:
+
+const fs = require('fs');
+
+// Read the pokemons.json file
+const pokemonsData = JSON.parse(fs.readFileSync('data/pokemons.json'));
+
+// Get the total count of pokemons
+const totalPokemonCount = pokemonsData.length;
+
+// Create the object to be written to api.json
+const apiData = {
+  pokemonCount: totalPokemonCount
+};
+
+// Write the data to api.json
+fs.writeFileSync('public/api.json', JSON.stringify(apiData, null, 2));
+
+Then, you can run this script using Node.js to update the count in public/api.json whenever needed. For example, you can run it as a pre-build step in your build script.
+
+This script will automatically count the Pokémons in data/pokemons.json and update the count in public/api.json
+
+
+
+
+
+
+
+
+
+
+
+
+"Create a new file called updatePokemonCount.js" to where?
+
+
+
+
+
+
+
+
+
+You should create the updatePokemonCount.js file in the root directory of your project, alongside other configuration files like package.json and README.md. This file will contain the Node.js script to automatically count the Pokémons in data/pokemons.json and update the count in public/api.json
+
+
+
+
+
+
+
+
+
+No! Not a script, but part of the ReactJS project. Should update the number of Pokémons on every build.
+
+
+
+
+
+
+
+
+
+You can achieve automatic updating of the Pokémon count in public/api.json by adding a custom build step in your ReactJS project. Modify the package.json file to include a build script that runs the counting and updating script before the build process.
+
+In your package.json, add the following build script:
+
+{
+  "scripts": {
+    "build": "node updatePokemonCount.js && react-scripts build"
+  }
+}
+
+This will ensure that the updatePokemonCount.js script is executed before the build process, updating the Pokémon count in public/api.json with the latest count from data/pokemons.json every time you build the project.
