@@ -24,6 +24,10 @@
   --type-steel: #B8B8D0;
   --type-water: #6890F0;
   --type-paper: #FFFFFF;
+  --type-plastic: #B5651D;
+  --type-salt: #FFFFFF;
+  --type-rubber: #808080;
+  --type-sugar: #FFFFFF;
 }
 
 /* Header styles */
