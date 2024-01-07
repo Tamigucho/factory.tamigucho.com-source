@@ -1,0 +1,254 @@
+Let's make a basic ReactJS template site, that later will be iterated upon.
+
+It should use a theme (downloadable via Node's package.json) highly similar to Daemonite's Material, which uses Bootstrap rather than React.
+
+It should store some variables in a .JSON file, whose variables will be compilable normally to JS BUT ALSO should generate a publicly accessible .json file to directly access some variables.
+
+Each part of that site should be stored in a separate .js component.
+
+This site should support item lists, and one of these item list will be called "Pokémons", and their content will be searchable by a search component in the site.
+
+There will be a count of Pokémons added to this list, part of the variables that will be exported to a publicly accessible JSON file.
+The site's header should have a badge in the logotype, showing that count.
+
+Each Pokémon entry will contain:
+Photo, Instagram source link of that photo, Name, Type (18 known Pokémon types, ranging from Bug to Fairy etc) with a color and emoji assined to each type and each type will be clickable having its own page showing every Pokémon assined that type; and finally, each Pokémon will have their multi-line (<p></p>, then <p></p> again and so on) Description .JSON escapable.
+
+This are all the basic; we will iterate more soon!
+
+
+
+
+
+
+
+
+
+
+
+
+GENERATING PROJECT...
+Step 0
+Computing project structure
+To create a basic ReactJS template site with the described features, we need to consider the following components and files:
+1. **package.json**: This file is essential for managing the project's dependencies, scripts, and other configurations. It will include the theme similar to Daemonite's Material for Bootstrap.
+2. **public/index.html**: The main HTML file where our React application will be mounted. It will include the root div where our React components will be rendered.
+3. **src/index.js**: The entry point for the React application. It sets up the React DOM rendering and imports the main App component.
+4. **src/App.js**: The main App component that will serve as the container for the entire application.
+5. **src/components/Header.js**: This component will contain the site's header, including the badge showing the count of Pokémons.
+6. **src/components/Search.js**: A component for the search functionality to search through the Pokémon list.
+7. **src/components/PokemonList.js**: This component will display the list of Pokémons and handle the rendering of each Pokémon item.
+8. **src/components/PokemonItem.js**: A component for each Pokémon entry, displaying the photo, Instagram source link, name, type, and description.
+9. **src/components/TypePage.js**: A component for displaying all Pokémon of a certain type when that type is clicked.
+10. **src/data/pokemonTypes.json**: A JSON file containing the mapping of Pokémon types to their corresponding colors and emojis.
+11. **src/data/pokemons.json**: A JSON file to store the list of Pokémons with their details. This file will be used to generate the publicly accessible JSON file as well.
+12. **public/pokemons.json**: The publicly accessible JSON file that will be generated from `src/data/pokemons.json` and will include the count of Pokémons and other variables.
+13. **src/styles/theme.css**: A CSS file for the theme styles that will be applied to the site.
+14. **.gitignore**: To exclude node_modules and other non-essential files from version control.
+15. **README.md**: A markdown file for project documentation.
+The order of creation should start with the configuration and static files, followed by the main application structure, and then the components and data files. The public JSON file can be generated last, after the data structure is defined.
+Now, let's call the function with the filenames in the order that they should be created.{
+  "fileNames": [
+   "package.json",
+   "public/index.html",
+   "src/index.js",
+   "src/App.js",
+   "src/components/Header.js",
+   "src/components/Search.js",
+   "src/components/PokemonList.js",
+   "src/components/PokemonItem.js",
+   "src/components/TypePage.js",
+   "src/data/pokemonTypes.json",
+   "src/data/pokemons.json",
+   "public/pokemons.json",
+   "src/styles/theme.css",
+   ".gitignore",
+   "README.md"
+  ]
+}
+Step 1
+Finding related files for package.json
+{"dependencies":[]}
+Step 2
+Generating package.json
+Creating file...
+Thinking...
+Writing code...
+Step 3
+Finding related files for public/index.html
+{"dependencies":["package.json"]}
+Step 4
+Generating public/index.html
+Creating file...
+Thinking...
+Writing code...
+Step 5
+Finding related files for src/index.js
+{"dependencies":["package.json","public/index.html"]}
+Step 6
+Generating src/index.js
+Creating file...
+Thinking...
+Writing code...
+Step 7
+Finding related files for src/App.js
+{
+  "dependencies": [
+   "package.json",
+   "public/index.html",
+   "src/index.js"
+  ]
+}
+Step 8
+Generating src/App.js
+Creating file...
+Thinking...
+Writing code...
+Step 9
+Finding related files for src/components/Header.js
+{
+  "dependencies": [
+   "src/App.js"
+  ]
+}
+Step 10
+Generating src/components/Header.js
+Creating file...
+Thinking...
+Writing code...
+Step 11
+Finding related files for src/components/Search.js
+{
+  "dependencies": [
+   "src/App.js",
+   "src/components/Header.js"
+  ]
+}
+Step 12
+Generating src/components/Search.js
+Creating file...
+Thinking...
+Writing code...
+Step 13
+Finding related files for src/components/PokemonList.js
+{
+  "dependencies": [
+   "src/App.js",
+   "src/components/Header.js",
+   "src/components/Search.js"
+  ]
+}
+Step 14
+Generating src/components/PokemonList.js
+Creating file...
+Thinking...
+Writing code...
+Step 15
+Finding related files for src/components/PokemonItem.js
+{
+  "dependencies": [
+   "src/components/PokemonList.js",
+   "src/App.js"
+  ]
+}
+Step 16
+Generating src/components/PokemonItem.js
+Creating file...
+Thinking...
+Writing code...
+Step 17
+Finding related files for src/components/TypePage.js
+{
+  "dependencies": [
+   "src/App.js",
+   "src/components/PokemonItem.js",
+   "src/components/PokemonList.js"
+  ]
+}
+Step 18
+Generating src/components/TypePage.js
+Creating file...
+Thinking...
+Writing code...
+Step 19
+Finding related files for src/data/pokemonTypes.json
+{"dependencies":["src/components/PokemonItem.js","src/components/TypePage.js"]}
+Step 20
+Generating src/data/pokemonTypes.json
+Creating file...
+Thinking...
+Writing code...
+Step 21
+Finding related files for src/data/pokemons.json
+{
+  "dependencies": [
+   "src/components/PokemonList.js",
+   "src/components/PokemonItem.js",
+   "src/data/pokemonTypes.json"
+  ]
+}
+Step 22
+Generating src/data/pokemons.json
+Creating file...
+Thinking...
+Writing code...
+Step 23
+Finding related files for public/pokemons.json
+{
+  "dependencies": [
+   "src/data/pokemons.json"
+  ]
+}
+Step 24
+Generating public/pokemons.json
+Creating file...
+Thinking...
+Writing code...
+Step 25
+Finding related files for src/styles/theme.css
+{
+  "dependencies": [
+   "package.json"
+  ]
+}
+Step 26
+Generating src/styles/theme.css
+Creating file...
+Thinking...
+Writing code...
+Step 27
+Finding related files for .gitignore
+{"dependencies":[]}
+Step 28
+Generating .gitignore
+Creating file...
+Thinking...
+Writing code...
+Step 29
+Finding related files for README.md
+{
+  "dependencies": [
+   "package.json",
+   "public/index.html",
+   "src/index.js",
+   "src/App.js",
+   "src/components/Header.js",
+   "src/components/Search.js",
+   "src/components/PokemonList.js",
+   "src/components/PokemonItem.js",
+   "src/components/TypePage.js",
+   "src/data/pokemonTypes.json",
+   "src/data/pokemons.json",
+   "public/pokemons.json",
+   "src/styles/theme.css",
+   ".gitignore"
+  ]
+}
+Step 30
+Generating README.md
+Creating file...
+Thinking...
+Writing code...
+Step 31
+All done!
+

@@ -1,0 +1,35 @@
+{
+  "name": "react-material-pokemon-site",
+  "version": "1.0.0",
+  "description": "A basic ReactJS template site with a theme similar to Daemonite's Material, featuring a Pokémon list.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
+    "bootstrap-material-design": "^4.1.3", // Assuming this is the closest to Daemonite's Material for React
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.17.0",
+    "@babel/preset-react": "^7.17.0",
+    "babel-loader": "^8.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/react-material-pokemon-site.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/your-username/react-material-pokemon-site/issues"
+  },
+  "homepage": "https://github.com/your-username/react-material-pokemon-site#readme"
+}

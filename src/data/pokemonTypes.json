@@ -1,0 +1,92 @@
+[
+  {
+    "type": "Bug",
+    "color": "#A8B820",
+    "emoji": "🐛"
+  },
+  {
+    "type": "Dark",
+    "color": "#705848",
+    "emoji": "🌑"
+  },
+  {
+    "type": "Dragon",
+    "color": "#7038F8",
+    "emoji": "🐉"
+  },
+  {
+    "type": "Electric",
+    "color": "#F8D030",
+    "emoji": "⚡"
+  },
+  {
+    "type": "Fairy",
+    "color": "#EE99AC",
+    "emoji": "🧚"
+  },
+  {
+    "type": "Fighting",
+    "color": "#C03028",
+    "emoji": "🥊"
+  },
+  {
+    "type": "Fire",
+    "color": "#F08030",
+    "emoji": "🔥"
+  },
+  {
+    "type": "Flying",
+    "color": "#A890F0",
+    "emoji": "🕊️"
+  },
+  {
+    "type": "Ghost",
+    "color": "#705898",
+    "emoji": "👻"
+  },
+  {
+    "type": "Grass",
+    "color": "#78C850",
+    "emoji": "🌿"
+  },
+  {
+    "type": "Ground",
+    "color": "#E0C068",
+    "emoji": "🏜️"
+  },
+  {
+    "type": "Ice",
+    "color": "#98D8D8",
+    "emoji": "❄️"
+  },
+  {
+    "type": "Normal",
+    "color": "#A8A878",
+    "emoji": "🐾"
+  },
+  {
+    "type": "Poison",
+    "color": "#A040A0",
+    "emoji": "☠️"
+  },
+  {
+    "type": "Psychic",
+    "color": "#F85888",
+    "emoji": "🔮"
+  },
+  {
+    "type": "Rock",
+    "color": "#B8A038",
+    "emoji": "🪨"
+  },
+  {
+    "type": "Steel",
+    "color": "#B8B8D0",
+    "emoji": "🛡️"
+  },
+  {
+    "type": "Water",
+    "color": "#6890F0",
+    "emoji": "💧"
+  }
+]

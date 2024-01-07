@@ -1,0 +1,121 @@
+/* theme.css - Custom styles for the React Material Pokémon Site */
+
+/* Importing Bootstrap Material Design base styles */
+@import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
+
+/* Define colors for Pokémon types */
+:root {
+  --type-bug: #A8B820;
+  --type-dark: #705848;
+  --type-dragon: #7038F8;
+  --type-electric: #F8D030;
+  --type-fairy: #EE99AC;
+  --type-fighting: #C03028;
+  --type-fire: #F08030;
+  --type-flying: #A890F0;
+  --type-ghost: #705898;
+  --type-grass: #78C850;
+  --type-ground: #E0C068;
+  --type-ice: #98D8D8;
+  --type-normal: #A8A878;
+  --type-poison: #A040A0;
+  --type-psychic: #F85888;
+  --type-rock: #B8A038;
+  --type-steel: #B8B8D0;
+  --type-water: #6890F0;
+}
+
+/* Header styles */
+.header {
+  background-color: #2196F3; /* Blue color for the header */
+  color: white;
+  padding: 10px 0;
+}
+
+.header .badge {
+  background-color: #F44336; /* Red color for the badge */
+  border-radius: 50%;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 0.8em;
+}
+
+/* Pokémon list styles */
+.pokemon-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pokemon-item {
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+}
+
+.pokemon-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pokemon-item .type {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Dynamically assign background colors based on Pokémon type */
+.type-bug { background-color: var(--type-bug); }
+.type-dark { background-color: var(--type-dark); }
+/* ... Repeat for all 18 types ... */
+.type-water { background-color: var(--type-water); }
+
+/* Search component styles */
+.search {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search button {
+  padding: 10px;
+  background-color: #4CAF50; /* Green color for the search button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Type page styles */
+.type-page {
+  padding: 20px;
+}
+
+.type-page .pokemon-type-header {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Description styles */
+.pokemon-description p {
+  margin: 10px 0;
+}
+
+/* Add any additional custom styles below */

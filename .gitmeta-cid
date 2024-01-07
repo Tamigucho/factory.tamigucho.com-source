@@ -1,0 +1,17 @@
+Branch: HEAD
+.gitignore: QmaHpAhuSXJ2DPiAGPSycpSeYAyMFGcETt23wrmz1QNHdS
+InitialGPTConverstation.txt: QmagTXWQvMkSaDQjSXiecRD1pSQVj7C7QUWQz6SDbTQZpR
+README.md: QmQBQqEypo1e8tsHc4TPngtDz5Y36EJJvwB9HmGumMh6do
+package.json: QmPfYSFYkRY7UVPBjaaXa7dZx9L3bPtvYfWGQ2UFiQ6ULB
+public/index.html: QmU6MtAjL3U6GNeLC5jhaYX2v9BnR5NCFkBQ8HRCPqVrvV
+public/pokemons.json: QmTNpTMksZV5QG4r2DuiKV7DG81NAEDUvaZheLovLG1QBE
+src/App.js: QmTvamWd5t2HZ8DvdWoiuQeUXouRFjyskYhfVdmor59Sat
+src/components/Header.js: QmYQksk8evJF5oT7rukteEnFhNFQdqbPBVn9Tj2aprat5D
+src/components/PokemonItem.js: QmPB14xLxqfSaY3zhetyFKWCQpYzcYMenGtP2eKXGBToNU
+src/components/PokemonList.js: QmSrBn5eLv72acbdc3SEokpSRqj4zUJPevXDAaUw3auTd2
+src/components/Search.js: QmTALr7HwRv4trVN53v47P86uoTyBDfQzSpu4oMTE4LELv
+src/components/TypePage.js: QmYnh4wokNWgD9PDPaSkBiFkeAZkWzG9ghHxRA7n1FQouV
+src/data/pokemonTypes.json: QmPW5UHwMmAWjV3nb9WrdM7FsVpFcpe8LMt8Jv7qN9apt4
+src/data/pokemons.json: QmTNpTMksZV5QG4r2DuiKV7DG81NAEDUvaZheLovLG1QBE
+src/index.js: QmcjDVsu2y8jzEJh5VZxvHUTAvCByC3t7WMzvagBtez7NY
+src/styles/theme.css: QmdKyx49JwVVMgC8gAHhpanV4LmfuFfyHYwR7XD8QmSvaL
