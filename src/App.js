@@ -5,6 +5,7 @@ import Search from './components/Search';
 import PokemonList from './components/PokemonList';
 import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
+import Footer from './components/Footer';
 import './styles/theme.css';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/type/:typeName" element={<TypePage />} />
         {/* Add more routes as needed */}
       </Routes>
+      <Footer />
     </div>
   );
 }

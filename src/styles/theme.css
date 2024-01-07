@@ -156,4 +156,6 @@
   margin: 10px 0;
 }
 
-/* Add any additional custom styles below */
+.footer {
+  background-color: #2196F3!important; /* Blue color for the header */
+}
