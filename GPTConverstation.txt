@@ -1,1 +1,1 @@
-Please complete this, based in what's on the :root
+Unlike the expected, the Type badges aren't displaying the types' emojis that are present in data/pokemonTypes.json. Please change it!

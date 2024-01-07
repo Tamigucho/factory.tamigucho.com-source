@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import pokemonTypes from '../data/pokemonTypes.json'; // Import the Pokemon types data
 
 const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   // Function to render the description paragraphs
@@ -8,6 +9,12 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
     return description.map((paragraph, index) => (
       <p key={index}>{paragraph}</p>
     ));
+  };
+
+  // Function to get the emoji from the Pokemon type
+  const getTypeEmoji = (type) => {
+    const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
+    return typeData ? typeData.emoji : '';
   };
 
   return (
@@ -19,8 +26,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
         <h3>{name}</h3>
         <div className="pokemon-type">
           <Link to={`/type/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
-            {/* Assuming there is a function or mapping to get emoji from type */}
-            {type} {/* Placeholder for emoji */}
+            {getTypeEmoji(type)} {type} {/* Display the emoji before the type */}
           </Link>
         </div>
         <div className="pokemon-description">
