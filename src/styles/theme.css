@@ -79,8 +79,8 @@
   cursor: pointer;
 }
 
-.type-badge{border-radius:5px;border:1px solid;text-decoration:none;color:#FFFFFF}
-.type-badge:hover{text-decoration:none}
+.type-badge{border-radius:5px;padding:3px;border:1px solid;text-decoration:none;color:initial}
+.type-badge:hover{color:initial;text-decoration:none}
 
 /* Dynamically assign background colors based on Pokémon type */
 .type-bug { background-color: var(--type-bug) }
