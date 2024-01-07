@@ -23,13 +23,19 @@ const TypePage = () => {
       <div className="type-matchups">
   <h3>Weaknesses</h3>
   {typeData.weaknesses.map((weakness, index) => (
-    <Link key={index} to={`/type/${weakness}`}>{weakness}</Link>
-  ))}
+  <Link to={`/type/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
+    <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
+    <span>{weakness}</span>
+  </Link>
+))}
 
   <h3>Strengths</h3>
   {typeData.strengths.map((strength, index) => (
-    <Link key={index} to={`/type/${strength}`}>{strength}</Link>
-  ))}
+  <Link to={`/type/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
+    <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
+    <span>{strength}</span>
+  </Link>
+))}
 </div>
       <div className="pokemon-list">
         {pokemonsByType.map((pokemon, index) => (
@@ -47,3 +53,5 @@ TypePage.propTypes = {
 };
 
 export default TypePage;
+
+

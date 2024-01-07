@@ -1,8 +1,3 @@
 Branch: main
-GPTConverstation.txt: QmQARnBKMszVpQxhqYA87DaXqPwR4PrK8ZJqxV41LoaTJ5
-Tasks.txt: Qmeit1jA2X522wNenB34bUcugrYPEFBjdh1KAvJ3D1YHto
-package.json: QmdEUoDZwgFwhCf8DgJVdCG5TPSkKAPafeTSbSTCm4ZoYW
-public/api.json: QmbVRyohZDYr9mPNQ4vxRz36cu8WuLfvHaw1F2Vzpn9uvr
-public/img/social/github.svg: QmNj6BT1MUrLji2rs6ux71KAMKVjYTWUHqbMGTrCBcZJLe
-scripts/updatePokemonCount.js: QmXmpHKty19fMGbU318SA7YeeexAbfqqiAxHrkoNz6thZz
-src/App.js: QmWJcsi2SfGrbQzNbv5YaL15xFPfJWhxtDCcSxTAuit7jG
+GPTConverstation.txt: QmaqhpwkHJ7o6mRTmXYbQzLJLo2QFwKfdFiZvNNujoUe4c
+src/components/TypePage.js: QmV59Dwez5dbNPq15fBT6WpqDPyn5jjfkhrcS9Bp591tAr

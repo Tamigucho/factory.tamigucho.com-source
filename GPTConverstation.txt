@@ -1,4 +1,4 @@
-Header logo badge's Pokémon count shouldn't be changed when you search; BTW it should never be dynamically changed when accessing the page; it should only count how many Pokémons are present in data/pokemons.json, and store in a brand new file sitting in public/api.json.
+On TypePage.js' type matchups, unlike PokemonItem.js, isn't showing the types' design (badge) and their emojis. Please add.
 
 
 
@@ -7,48 +7,33 @@ Header logo badge's Pokémon count shouldn't be changed when you search; BTW it 
 
 
 
-To ensure the Pokémon count in the header logo badge remains constant and reflects the total number of Pokémon in data/pokemons.json, you need to modify the Header component and the App component.
+To display the types' design (badge) and their emojis on TypePage.js' type matchups, you can add the following code:
 
-In the Header component, the pokemonCount prop should be replaced with a static value that represents the total number of Pokémon. This value should be fetched from a new file public/api.json which will store the count of Pokémon.
+{typeData.weaknesses.map((weakness, index) => (
+  <div key={index} className="type-badge">
+    <span>{weakness}</span>
+    <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
+  </div>
+))}
 
-First, create a new file public/api.json with the following content:
+{typeData.strengths.map((strength, index) => (
+  <div key={index} className="type-badge">
+    <span>{strength}</span>
+    <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
+  </div>
+))}
 
-{
-  "pokemonCount": TOTAL_POKEMON_COUNT
-}
+This will create a badge for each type, displaying the type name and its associated emoji.
 
-Replace TOTAL_POKEMON_COUNT with the actual count of Pokémon from data/pokemons.json.
 
-Next, modify the App component to fetch the Pokémon count from public/api.json instead of calculating it from the filtered Pokémon list.
 
-import React, { useState, useEffect } from 'react';
-// ... other imports ...
 
-function App() {
-  const [pokemons, setPokemons] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [pokemonCount, setPokemonCount] = useState(0); // New state for pokemonCount
 
-  useEffect(() => {
-    setPokemons(pokemonsData);
 
-    // Fetch pokemonCount from public/api.json
-    fetch('/api.json')
-      .then(response => response.json())
-      .then(data => setPokemonCount(data.pokemonCount));
-  }, []);
 
-  // ... other code ...
 
-  return (
-    <div className="App">
-      <Header pokemonCount={pokemonCount} /> {/* Use the fetched pokemonCount */}
-      {/* ... other components ... */}
-    </div>
-  );
-}
+Emojis should come before, not after. Also, please add the CSS class of each type (example: type-grass, type-water, etc).
 
-This way, the Pokémon count in the header logo badge will always reflect the total number of Pokémon, regardless of the search filter.
 
 
 
@@ -57,11 +42,23 @@ This way, the Pokémon count in the header logo badge will always reflect the to
 
 
 
-"Replace TOTAL_POKEMON_COUNT with the actual count of Pokémon from data/pokemons.json."
+To display the emojis before the type names and add CSS classes for each type, you can modify the code as follows:
 
-I want a system that do automatically count the Pokémons in data/pokemons.json and update that number into public/api.json's pokemonCount key.
+{typeData.weaknesses.map((weakness, index) => (
+  <div key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
+    <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
+    <span>{weakness}</span>
+  </div>
+))}
 
+{typeData.strengths.map((strength, index) => (
+  <div key={index} className={`type-badge type-${strength.toLowerCase()}`}>
+    <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
+    <span>{strength}</span>
+  </div>
+))}
 
+This will add the CSS class type-{type} to each badge, where {type} is the lowercase name of the type, and display the emojis before the type names.
 
 
 
@@ -70,81 +67,30 @@ I want a system that do automatically count the Pokémons in data/pokemons.json 
 
 
 
+But these badges should be clickable, as it is true for PokemonItem.js' badges!
 
 
-To automatically count the Pokémons in data/pokemons.json and update the count in public/api.json, you can use the following Node.js script:
 
-Create a new file called updatePokemonCount.js and add the following code:
 
-const fs = require('fs');
 
-// Read the pokemons.json file
-const pokemonsData = JSON.parse(fs.readFileSync('data/pokemons.json'));
 
-// Get the total count of pokemons
-const totalPokemonCount = pokemonsData.length;
 
-// Create the object to be written to api.json
-const apiData = {
-  pokemonCount: totalPokemonCount
-};
 
-// Write the data to api.json
-fs.writeFileSync('public/api.json', JSON.stringify(apiData, null, 2));
 
-Then, you can run this script using Node.js to update the count in public/api.json whenever needed. For example, you can run it as a pre-build step in your build script.
+To make the badges clickable, you can wrap the div elements inside Link components from react-router-dom:
 
-This script will automatically count the Pokémons in data/pokemons.json and update the count in public/api.json
+{typeData.weaknesses.map((weakness, index) => (
+  <Link to={`/type/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
+    <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
+    <span>{weakness}</span>
+  </Link>
+))}
 
+{typeData.strengths.map((strength, index) => (
+  <Link to={`/type/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
+    <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
+    <span>{strength}</span>
+  </Link>
+))}
 
-
-
-
-
-
-
-
-
-
-
-"Create a new file called updatePokemonCount.js" to where?
-
-
-
-
-
-
-
-
-
-You should create the updatePokemonCount.js file in the root directory of your project, alongside other configuration files like package.json and README.md. This file will contain the Node.js script to automatically count the Pokémons in data/pokemons.json and update the count in public/api.json
-
-
-
-
-
-
-
-
-
-No! Not a script, but part of the ReactJS project. Should update the number of Pokémons on every build.
-
-
-
-
-
-
-
-
-
-You can achieve automatic updating of the Pokémon count in public/api.json by adding a custom build step in your ReactJS project. Modify the package.json file to include a build script that runs the counting and updating script before the build process.
-
-In your package.json, add the following build script:
-
-{
-  "scripts": {
-    "build": "node updatePokemonCount.js && react-scripts build"
-  }
-}
-
-This will ensure that the updatePokemonCount.js script is executed before the build process, updating the Pokémon count in public/api.json with the latest count from data/pokemons.json every time you build the project.
+This will make the badges clickable, linking to the corresponding type page.
