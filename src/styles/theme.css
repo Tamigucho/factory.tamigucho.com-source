@@ -74,11 +74,14 @@
   cursor: pointer;
 }
 
+.type-badge{border-radius:5px;border:1px solid;text-decoration:none}
+.type-badge:hover{text-decoration:none}
+
 /* Dynamically assign background colors based on Pokémon type */
-.type-bug { background-color: var(--type-bug); }
-.type-dark { background-color: var(--type-dark); }
+.type-bug { background-color: var(--type-bug) }
+.type-dark { background-color: var(--type-dark) }
 /* ... Repeat for all 18 types ... */
-.type-water { background-color: var(--type-water); }
+.type-water { background-color: var(--type-water) }
 
 /* Search component styles */
 .search {
