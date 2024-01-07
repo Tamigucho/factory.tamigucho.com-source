@@ -1,17 +1,17 @@
-commit QmbZhFEVF8uZAWDgWp33P5s54T4sZjeFU4SdqE2cHfSQi6
+commit QmP8xtYGmhPXRGrKNLP4nisZTeFqz2Cz7tGyHmTLqu2JJ9
 Branch: main
 
 ------------------------------
 
 chown -h 1000:1000 './.gitmeta'
 chmod 0664 './.gitmeta'
-/usr/bin/touch -hcmd "2024-01-07 20:44:04.6835800160 -0300" './.gitmeta'
-/usr/bin/touch -hcad "2024-01-07 20:42:53.4761994010 -0300" './.gitmeta'
+/usr/bin/touch -hcmd "2024-01-07 20:46:28.3451172150 -0300" './.gitmeta'
+/usr/bin/touch -hcad "2024-01-07 20:44:04.7155807090 -0300" './.gitmeta'
 chown -h 1000:1000 './.gitmeta-cid'
 chmod 0664 './.gitmeta-cid'
-/usr/bin/touch -hcmd "2024-01-07 20:44:04.6355789750 -0300" './.gitmeta-cid'
-/usr/bin/touch -hcad "2024-01-07 20:44:04.6755798420 -0300" './.gitmeta-cid'
-chown -h 1000:1000 './src/components/PokemonDetails.js'
-chmod 0664 './src/components/PokemonDetails.js'
-/usr/bin/touch -hcmd "2024-01-07 20:43:52.7033074590 -0300" './src/components/PokemonDetails.js'
-/usr/bin/touch -hcad "2024-01-07 20:43:52.7233079370 -0300" './src/components/PokemonDetails.js'
+/usr/bin/touch -hcmd "2024-01-07 20:46:28.2931171310 -0300" './.gitmeta-cid'
+/usr/bin/touch -hcad "2024-01-07 20:46:28.3371172020 -0300" './.gitmeta-cid'
+chown -h 1000:1000 './src/components/TypePage.js'
+chmod 0664 './src/components/TypePage.js'
+/usr/bin/touch -hcmd "2024-01-07 20:46:02.3930388800 -0300" './src/components/TypePage.js'
+/usr/bin/touch -hcad "2024-01-07 20:46:02.4890393080 -0300" './src/components/TypePage.js'
