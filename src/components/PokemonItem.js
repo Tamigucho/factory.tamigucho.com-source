@@ -17,6 +17,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
     return typeData ? typeData.emoji : '';
   };
 
+
   return (
     <div className="pokemon-item">
       <div className="pokemon-photo">
@@ -26,7 +27,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
         <h3>{name}</h3>
         <div className="pokemon-type">
           <Link to={`/type/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
-            {getTypeEmoji(type)} {type} {/* Display the emoji before the type */}
+            {getTypeEmoji(type)} {type}
           </Link>
         </div>
         <div className="pokemon-description">
@@ -34,6 +35,9 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
         </div>
         <div className="pokemon-instagram">
           <a href={instagram} target="_blank" rel="noopener noreferrer">Instagram Source</a>
+        </div>
+        <div className="more-details-link">
+          <Link to={`/${name}`}>More details</Link>
         </div>
       </div>
     </div>

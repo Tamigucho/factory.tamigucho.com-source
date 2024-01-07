@@ -6,6 +6,7 @@ import PokemonList from './components/PokemonList';
 import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
 import Footer from './components/Footer';
+import PokemonDetails from './components/PokemonDetails'; // Import the new component
 import './styles/theme.css';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
         <Route path="/type/:typeName" element={<TypePage />} />
+        <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />
