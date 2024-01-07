@@ -1,29 +1,17 @@
-commit QmcmdP2piyVYhaPQ42mTPrpsKsAthcWpmpXnZX14S9zDaf
+commit QmbZhFEVF8uZAWDgWp33P5s54T4sZjeFU4SdqE2cHfSQi6
 Branch: main
 
 ------------------------------
 
 chown -h 1000:1000 './.gitmeta'
 chmod 0664 './.gitmeta'
-/usr/bin/touch -hcmd "2024-01-07 20:42:53.4402011700 -0300" './.gitmeta'
-/usr/bin/touch -hcad "2024-01-07 20:02:38.9485097970 -0300" './.gitmeta'
+/usr/bin/touch -hcmd "2024-01-07 20:44:04.6835800160 -0300" './.gitmeta'
+/usr/bin/touch -hcad "2024-01-07 20:42:53.4761994010 -0300" './.gitmeta'
 chown -h 1000:1000 './.gitmeta-cid'
 chmod 0664 './.gitmeta-cid'
-/usr/bin/touch -hcmd "2024-01-07 20:42:53.3882037250 -0300" './.gitmeta-cid'
-/usr/bin/touch -hcad "2024-01-07 20:42:53.4322015640 -0300" './.gitmeta-cid'
-chown -h 1000:1000 './GPTConverstation.txt'
-chmod 0664 './GPTConverstation.txt'
-/usr/bin/touch -hcmd "2024-01-07 20:42:33.4932101960 -0300" './GPTConverstation.txt'
-/usr/bin/touch -hcad "2024-01-07 20:42:39.3969053290 -0300" './GPTConverstation.txt'
-chown -h 1000:1000 './src/App.js'
-chmod 0664 './src/App.js'
-/usr/bin/touch -hcmd "2024-01-07 20:17:35.8241944860 -0300" './src/App.js'
-/usr/bin/touch -hcad "2024-01-07 20:17:35.8882036890 -0300" './src/App.js'
+/usr/bin/touch -hcmd "2024-01-07 20:44:04.6355789750 -0300" './.gitmeta-cid'
+/usr/bin/touch -hcad "2024-01-07 20:44:04.6755798420 -0300" './.gitmeta-cid'
 chown -h 1000:1000 './src/components/PokemonDetails.js'
 chmod 0664 './src/components/PokemonDetails.js'
-/usr/bin/touch -hcmd "2024-01-07 20:32:57.2456467160 -0300" './src/components/PokemonDetails.js'
-/usr/bin/touch -hcad "2024-01-07 20:32:57.2696482580 -0300" './src/components/PokemonDetails.js'
-chown -h 1000:1000 './src/components/PokemonItem.js'
-chmod 0664 './src/components/PokemonItem.js'
-/usr/bin/touch -hcmd "2024-01-07 20:08:36.5886344310 -0300" './src/components/PokemonItem.js'
-/usr/bin/touch -hcad "2024-01-07 20:08:36.6006341690 -0300" './src/components/PokemonItem.js'
+/usr/bin/touch -hcmd "2024-01-07 20:43:52.7033074590 -0300" './src/components/PokemonDetails.js'
+/usr/bin/touch -hcad "2024-01-07 20:43:52.7233079370 -0300" './src/components/PokemonDetails.js'

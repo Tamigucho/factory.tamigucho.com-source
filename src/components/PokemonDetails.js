@@ -17,8 +17,7 @@ return (
   <div>
     <img src={pokemon.photo} alt={pokemon.name} />
     <h2>{pokemon.name}</h2>
-    <p>Type: 
-        <Link to={`/type/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
+    <p>Type: <Link to={`/type/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
           {getTypeEmoji(pokemon.type)} {pokemon.type}
         </Link>
     </p>
