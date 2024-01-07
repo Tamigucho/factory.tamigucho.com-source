@@ -103,6 +103,17 @@
 .type-rubber { background-color: var(--type-rubber) }
 .type-sugar { background-color: var(--type-sugar) }
 
+.type-matchups {
+  display: flex;
+  justify-content: space-between;
+}
+.type-matchups h3 {
+  margin-bottom: 10px;
+}
+.type-matchups a {
+  margin-right: 10px;
+}
+
 /* Search component styles */
 .search {
   margin: 20px;

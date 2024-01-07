@@ -17,7 +17,9 @@
   {
     "type": "Electric",
     "color": "#F8D030",
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "weaknesses": ["Ground"],
+    "strengths": ["Water", "Flying"]
   },
   {
     "type": "Fairy",
