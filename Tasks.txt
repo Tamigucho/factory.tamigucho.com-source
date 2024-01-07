@@ -1,4 +1,5 @@
-
+- Type page: count how much Pokémons are in that type!
+- Pokemon Details page: show type matchups of their types, mixing the results of all their types!
 
 
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet
