@@ -7,4 +7,6 @@
 <copyright><center><a href="https://aragon.plasmmer.com/#/tamigucho/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"></a><br>(c) 2010-2024 Phonemon by <a target="_blank" href="https://tamigucho.com/" style="opacity: unset;"><img height="16px" alt="The Tamigucho DAO" src="https://tamigucho.com/logotype-old.png" title="The Tamigucho DAO"></a> + <a target="_blank" href="https://gamlr.gg/" style="opacity: unset;"><img alt="Gamlr DAO" src="https://gamlr.gg/press/press-kit/img/logotype-plain_white.svg" title="Gamlr DAO" height="18px"></a> + <a target="_blank" href="https://plasmmer.com/" style="opacity: unset;"><img height="16px" alt="Plasmmer DAO" src="https://plasmmer.com/press/press-kit/img/logotype-plain_white.svg" title="Plasmmer DAO"></a>.</center></copyright>
 </footer>
 
+- Header logo badge's Pokémon count shouldn't be changed when you search; BTW it should never be dynamically changed when accessing the page; it should only count how many Pokémons are present in data/pokemons.json, and store in a brand new file sitting in public/api.json.
+
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet
