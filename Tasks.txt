@@ -1,1 +1,4 @@
+
+
+
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet

@@ -21,19 +21,19 @@ const TypePage = () => {
     <div className="type-page">
       <h2>{typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</h2>
       <div className="type-matchups">
-  <h3>Weaknesses</h3>
+  <h4>Weaknesses</h4>
   {typeData.weaknesses.map((weakness, index) => (
   <Link to={`/type/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
     <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
-    <span>{weakness}</span>
+    <span> {weakness}</span>
   </Link>
 ))}
 
-  <h3>Strengths</h3>
+  <h4>Strengths</h4>
   {typeData.strengths.map((strength, index) => (
   <Link to={`/type/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
     <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
-    <span>{strength}</span>
+    <span> {strength}</span>
   </Link>
 ))}
 </div>
