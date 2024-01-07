@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Pikachu",
     "type": "Electric",
-    "photo": "path/to/pikachu/photo.jpg",
+    "photo": "img/2024/25.svg",
     "instagram": "https://www.instagram.com/pikachu",
     "description": [
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Bulbasaur",
     "type": "Grass",
-    "photo": "path/to/bulbasaur/photo.jpg",
+    "photo": "img/2024/1.svg",
     "instagram": "https://www.instagram.com/bulbasaur",
     "description": [
       "Bulbasaur is a dual-type Grass/Poison Pokémon introduced in Generation I.",
@@ -25,7 +25,7 @@
     "id": 3,
     "name": "Charmander",
     "type": "Fire",
-    "photo": "path/to/charmander/photo.jpg",
+    "photo": "img/2024/4.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "Charmander is a Fire-type Pokémon introduced in Generation I.",
@@ -36,7 +36,7 @@
     "id": 4,
     "name": "Squirtle",
     "type": "Water",
-    "photo": "path/to/squirtle/photo.jpg",
+    "photo": "img/2024/7.svg",
     "instagram": "https://www.instagram.com/squirtle",
     "description": [
       "Squirtle is a Water-type Pokémon introduced in Generation I.",
