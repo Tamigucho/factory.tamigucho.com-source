@@ -1,1 +1,10 @@
+- Add a material footer, using this model:
+<footer><div class="footer-shadow"></div>
+<center>Last update in Sun Jan 07 05:41 2024 -0300.</center>
+<div class="social-icons">
+<a href="https://github.com/Tamigucho/factory.tamigucho.com/" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve Phonemon's site &amp; others in GitHub" alt="GitHub"></a></div>
+<div class="social-buttons"></div>
+<copyright><center><a href="https://aragon.plasmmer.com/#/tamigucho/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"></a><br>(c) 2010-2024 Phonemon by <a target="_blank" href="https://tamigucho.com/" style="opacity: unset;"><img height="16px" alt="The Tamigucho DAO" src="https://tamigucho.com/logotype-old.png" title="The Tamigucho DAO"></a> + <a target="_blank" href="https://gamlr.gg/" style="opacity: unset;"><img alt="Gamlr DAO" src="https://gamlr.gg/press/press-kit/img/logotype-plain_white.svg" title="Gamlr DAO" height="18px"></a> + <a target="_blank" href="https://plasmmer.com/" style="opacity: unset;"><img height="16px" alt="Plasmmer DAO" src="https://plasmmer.com/press/press-kit/img/logotype-plain_white.svg" title="Plasmmer DAO"></a>.</center></copyright>
+</footer>
+
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet
