@@ -1,4 +1,8 @@
-About Header.js: the header's currentYear variable should be modified by you now: instead of getting the current year via JS, it should get the last year that have a Pokémon filed, as seen in PokemonList.js and in data/pokemons.json.
+About App.js: I need changes in how const series and const options work for my ApexChart.
+
+Look at PokemonList.js.
+
+I need App.js' series/data and options/xaxis to reflect the Pokémon years (in options/xaxis) and Pokémon count for a year (series/data).
 
 
 
@@ -7,153 +11,50 @@ About Header.js: the header's currentYear variable should be modified by you now
 
 
 
-To modify the currentYear variable in Header.js to reflect the last year a Pokémon was added, you need to import the pokemons.json data and extract the maximum year.
 
-Here's how you can modify the Header.js file to achieve this:
+To reflect the Pokémon years and count in the ApexChart, you need to modify the series and options in App.js to use the data from PokemonList.js.
 
-import pokemons from '../data/pokemons.json';
+In PokemonList.js, the Pokémon data is grouped by year. You can use a similar approach in App.js to create the data for the chart.
 
-// ...
+First, import the Pokémon data at the top of App.js:
 
-const Header = ({ creatureCount }) => {
-  const currentYear = Math.max(...pokemons.map(pokemon => pokemon.year));
-  // ...
+import pokemonsData from './data/pokemons.json';
+
+Then, create a new function to group the Pokémon data by year and count the number of Pokémon for each year:
+
+const groupByYear = (data) => {
+  return data.reduce((groups, pokemon) => {
+    const year = pokemon.year;
+    if (!groups[year]) {
+      groups[year] = 0;
+    }
+    groups[year]++;
+    return groups;
+  }, {});
 };
 
-In this code, we're using the Math.max function along with the map function to find the maximum year in the pokemons.json data. This will ensure that currentYear always reflects the last year a Pokémon was added.
+Next, use this function to create the series and options:
 
-Please refer to the following code block for the full context:
+const pokemonsByYear = groupByYear(pokemonsData);
+const years = Object.keys(pokemonsByYear);
+const counts = Object.values(pokemonsByYear);
 
-import React from 'react';
-import { Link } from 'react-router-dom';
-import TypeList from './TypeList';
-import PropTypes from 'prop-types';
+const series = [{
+  name: 'New creatures',
+  data: counts
+}];
 
-const Header = ({ creatureCount }) => {
-  const currentYear = new Date().getFullYear();
-  const yearsPassed = currentYear - 2010;
-  const tooltip = `There are ~${creatureCount} Pokémons in existence from 2010 to ${currentYear} (${yearsPassed} years)`;
-  return (
-    <header className="header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            Pokémons <span className="badge bg-secondary" title={tooltip}>{creatureCount}</span>
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/types">Types</Link></li>
-              {/* Add more navigation items as needed */}
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-  );
+const options = {
+  chart: {
+    height: 350,
+    type: 'line',
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  xaxis: {
+    categories: years,
+  },
 };
 
-
-
-
-
-
-
-
-
-About Footer.js: I want to use the very same method for getting the last used year, so as Header.js does!
-
-
-
-
-
-
-
-
-
-To modify the Footer.js file to reflect the last year a Pokémon was added, similar to what we did in Header.js, you need to import the pokemons.json data and extract the maximum year.
-
-Here's how you can modify the Footer.js file to achieve this:
-
-import pokemons from '../data/pokemons.json';
-
-// ...
-
-const Footer = () => {
-  const lastUpdate = Math.max(...pokemons.map(pokemon => pokemon.year));
-  // ...
-};
-
-In this code, we're using the Math.max function along with the map function to find the maximum year in the pokemons.json data. This will ensure that lastUpdate always reflects the last year a Pokémon was added.
-
-Please refer to the following code block for the full context:
-
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
-
-const Footer
-
-
-
-
-
-
-
-
-I mean "(c) 2010-2024", not the lastupdate!
-
-
-
-
-
-
-
-
-
-To modify the copyright year range in Footer.js to reflect the last year a Pokémon was added, you need to import the pokemons.json data and extract the maximum year.
-
-Here's how you can modify the Footer.js file to achieve this:
-
-import pokemons from '../data/pokemons.json';
-
-// ...
-
-const Footer = () => {
-  const lastYear = Math.max(...pokemons.map(pokemon => pokemon.year));
-  // ...
-};
-
-In this code, we're using the Math.max function along with the map function to find the maximum year in the pokemons.json data. This will ensure that the copyright year range always ends with the last year a Pokémon was added.
-
-Please refer to the following code block for the full context:
-
-import React, { useEffect, useState } from 'react';
-import pokemons from '../data/pokemons.json';
-//import { Link } from 'react-router-dom';
-//import PropTypes from 'prop-types';
-
-You can then use the lastYear variable in your JSX like so:
-
-<center>
-  (c) 2010-{lastYear} Phonemon by 
-  // ...
-</center>
-
-This will dynamically update the copyright year range based on the last year a Pokémon was added.
+This will create a line chart where the x-axis represents the years and the y-axis represents the count of Pokémon for each year.

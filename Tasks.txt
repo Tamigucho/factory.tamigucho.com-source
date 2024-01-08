@@ -1,4 +1,6 @@
-- reflect years' pokemon count in apexchart!
+- HomePage.js: add Material alert-heading, then get code from factory.tamigucho.com
+- HomePage.js: from factory.tami: add that phonemon heading too, and updating year so as footer does
+- HomePage.js: add "Featured Phonemons"
 
 - components/TypeList.js: add a count of all existing types!
 

@@ -33,11 +33,30 @@ function App() {
     pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const groupByYear = (data) => {
+    return data.reduce((groups, pokemon) => {
+      const year = pokemon.year;
+      if (!groups[year]) {
+        groups[year] = 0;
+      }
+      groups[year]++;
+      return groups;
+    }, {});
+  };
+  
+  const pokemonsByYear = groupByYear(pokemonsData);
+  const years = Object.keys(pokemonsByYear);
+  const counts = Object.values(pokemonsByYear).map(count => count.toString());
+  
+//console.log(counts);
+
   const series = [{
     name: 'New creatures',
-    data: [2, 8, 7, 23, 6, 9, 10, 12, 12, 18, 2, 1, 39, 13, 10]
+    data: counts
   }];
 
+  //console.log(series);
+  
   const options = {
     chart: {
       height: 350,
@@ -47,7 +66,16 @@ function App() {
       enabled: true,
     },
     xaxis: {
-      categories: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+      categories: years,
+//      tickAmount: 6,
+//      decimalsInFloat: 0,
+//      labels: {
+        //formatter: (value) => Math.floor(value),
+        //formatter: function(val) {
+          //return val.toFixed(0) // from this kitty https://github.com/apexcharts/apexcharts.js/issues/779#issuecomment-513794658
+        //  return Math.floor(val) //from this kitty https://github.com/apexcharts/apexcharts.js/issues/798#issuecomment-576376743
+        //}
+//      }
     },
   };
 
