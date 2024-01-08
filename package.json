@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node scripts/updatePokemonCount.js && react-scripts start",
+    "count-all-creatures": "node scripts/updatePokemonCount.js",
     "build": "node scripts/updatePokemonCount.js && react-scripts build",
     "test": "node scripts/updatePokemonCount.js && react-scripts test",
     "eject": "react-scripts eject"
