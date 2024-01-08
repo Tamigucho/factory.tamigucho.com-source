@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Bulbasaur",
     "type": ["Grass", "Poison"],
-    "photo": "img/2024/1.svg",
+    "photo": "./img/2024/1.svg",
     "instagram": "https://www.instagram.com/bulbasaur",
     "description": [
       "Bulbasaur is a dual-type Grass/Poison Pokémon introduced in Generation I.",
@@ -14,7 +14,7 @@
     "id": 4,
     "name": "Charmander",
     "type": "Fire",
-    "photo": "img/2024/4.svg",
+    "photo": "./img/2024/4.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "Charmander is a Fire-type Pokémon introduced in Generation I.",
@@ -25,7 +25,7 @@
     "id": 7,
     "name": "Squirtle",
     "type": "Water",
-    "photo": "img/2024/7.svg",
+    "photo": "./img/2024/7.svg",
     "instagram": "https://www.instagram.com/squirtle",
     "description": [
       "Squirtle is a Water-type Pokémon introduced in Generation I.",
@@ -36,7 +36,7 @@
     "id": 10,
     "name": "Caterpie",
     "type": "Bug",
-    "photo": "img/2024/10.svg",
+    "photo": "./img/2024/10.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -47,7 +47,7 @@
     "id": 13,
     "name": "Weedle",
     "type": ["Bug", "Poison"],
-    "photo": "img/2024/13.svg",
+    "photo": "./img/2024/13.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -58,7 +58,7 @@
     "id": 16,
     "name": "Pidgey",
     "type": ["Neutral", "Flying"],
-    "photo": "img/2024/16.svg",
+    "photo": "./img/2024/16.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -69,7 +69,7 @@
     "id": 19,
     "name": "Rattata",
     "type": "Neutral",
-    "photo": "img/2024/19.svg",
+    "photo": "./img/2024/19.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -80,7 +80,7 @@
     "id": 21,
     "name": "Spearow",
     "type": ["Neutral", "Flying"],
-    "photo": "img/2024/21.svg",
+    "photo": "./img/2024/21.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -91,7 +91,7 @@
     "id": 23,
     "name": "Ekans",
     "type": "Poison",
-    "photo": "img/2024/23.svg",
+    "photo": "./img/2024/23.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -102,7 +102,7 @@
     "id": 25,
     "name": "Pikachu",
     "type": "Electric",
-    "photo": "img/2024/25.svg",
+    "photo": "./img/2024/25.svg",
     "instagram": "https://www.instagram.com/pikachu",
     "description": [
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
@@ -113,7 +113,7 @@
     "id": 56,
     "name": "Mankey",
     "type": "Fighting",
-    "photo": "img/2024/56.svg",
+    "photo": "./img/2024/56.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -124,7 +124,7 @@
     "id": 74,
     "name": "Geodude",
     "type": ["Rock", "Ground"],
-    "photo": "img/2024/74.svg",
+    "photo": "./img/2024/74.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -135,7 +135,7 @@
     "id": 92,
     "name": "Gastly",
     "type": ["Ghost", "Poison"],
-    "photo": "img/2024/92.svg",
+    "photo": "./img/2024/92.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -146,7 +146,7 @@
     "id": 122,
     "name": "Mr. Mime",
     "type": ["Psychic", "Fairy"],
-    "photo": "img/2024/122.svg",
+    "photo": "./img/2024/122.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -157,7 +157,7 @@
     "id": 137,
     "name": "Porygon",
     "type": ["Neutral", "Paper"],
-    "photo": "img/2024/137.svg",
+    "photo": "./img/2024/137.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -168,7 +168,7 @@
     "id": 144,
     "name": "Articuno",
     "type": ["Ice", "Flying"],
-    "photo": "img/2024/144.svg",
+    "photo": "./img/2024/144.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -179,7 +179,7 @@
     "id": 149,
     "name": "Dragonite",
     "type": ["Dragon", "Flying"],
-    "photo": "img/2024/149.svg",
+    "photo": "./img/2024/149.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -190,7 +190,7 @@
     "id": 198,
     "name": "Murkrow",
     "type": ["Dark", "Flying"],
-    "photo": "img/2024/198.svg",
+    "photo": "./img/2024/198.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -201,7 +201,7 @@
     "id": 208,
     "name": "Steelix",
     "type": ["Steel", "Ground"],
-    "photo": "img/2024/208.svg",
+    "photo": "./img/2024/208.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -212,7 +212,7 @@
     "id": 233,
     "name": "Porygon2",
     "type": ["Neutral", "Plastic"],
-    "photo": "img/2024/233.svg",
+    "photo": "./img/2024/233.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -223,7 +223,7 @@
     "id": 292,
     "name": "Shedinja",
     "type": ["Bug", "Ghost", "Paper"],
-    "photo": "img/2024/292.svg",
+    "photo": "./img/2024/292.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -234,7 +234,7 @@
     "id": 837,
     "name": "Rolycoly",
     "type": ["Rock", "Rubber"],
-    "photo": "img/2024/837.svg",
+    "photo": "./img/2024/837.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -245,7 +245,7 @@
     "id": 868,
     "name": "Milcery",
     "type": ["Fairy", "Sugar"],
-    "photo": "img/2024/868.svg",
+    "photo": "./img/2024/868.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -256,7 +256,7 @@
     "id": 932,
     "name": "Nacli",
     "type": ["Rock", "Salt"],
-    "photo": "img/2024/932.svg",
+    "photo": "./img/2024/932.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",

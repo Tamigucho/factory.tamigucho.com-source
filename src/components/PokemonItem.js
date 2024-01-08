@@ -25,7 +25,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   return (
     <div className="pokemon-item">
       <div className="pokemon-photo">
-        <img src={photo} alt={name} />
+        <img src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
       </div>
       <div className="pokemon-info">
         <h3>{name}</h3>

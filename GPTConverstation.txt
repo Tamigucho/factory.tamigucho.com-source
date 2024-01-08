@@ -1,25 +1,7 @@
-TypePage.js: count how many Pokémons are in a type!
+CTRL+K:
 
+Please make sure this will always load, for example img/2024/25.svg, from the base URL, and not from the current URL such as the "/type" URL of the TypePage.js.
 
+for example in /type/Electric pointing it is pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu for example); so please fix that so base URL will always be used.
 
-
-
-
-
-
-To count how many Pokémons are in a type, you can use the following code in the TypePage.js file:
-
-const TypePage = () => {
-  // ... (existing code)
-
-  const pokemonsCount = pokemonsByType.length;
-
-  return (
-    // ... (existing code)
-    <div>
-      <p>Total Pokémons in this type: {pokemonsCount}</p>
-    </div>
-  );
-};
-
-This code snippet adds a pokemonsCount variable to calculate the number of Pokémons in the specified type, and then displays it in the component's return statement.
+Using something like "%PUBLIC_URL%/" pointing directly to the base URL /{photo}
