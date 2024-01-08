@@ -2,11 +2,11 @@
   {
     "id": 1,
     "name": "Bulbasaur",
-    "type": ["Grass", "Poison"],
+    "type": ["Plant", "Poison"],
     "photo": "./img/2024/1.svg",
     "instagram": "https://www.instagram.com/bulbasaur",
     "description": [
-      "Bulbasaur is a dual-type Grass/Poison Pokémon introduced in Generation I.",
+      "Bulbasaur is a dual-type Plant/Poison Pokémon introduced in Generation I.",
       "It evolves into Ivysaur starting at level 16, which evolves into Venusaur starting at level 32."
     ]
   },
@@ -57,7 +57,7 @@
   {
     "id": 16,
     "name": "Pidgey",
-    "type": ["Neutral", "Flying"],
+    "type": ["Animal", "Flying"],
     "photo": "./img/2024/16.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
@@ -68,7 +68,7 @@
   {
     "id": 19,
     "name": "Rattata",
-    "type": "Neutral",
+    "type": "Animal",
     "photo": "./img/2024/19.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
@@ -79,7 +79,7 @@
   {
     "id": 21,
     "name": "Spearow",
-    "type": ["Neutral", "Flying"],
+    "type": ["Animal", "Flying"],
     "photo": "./img/2024/21.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
@@ -156,7 +156,7 @@
   {
     "id": 137,
     "name": "Porygon",
-    "type": ["Neutral", "Paper"],
+    "type": ["Animal", "Paper"],
     "photo": "./img/2024/137.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
@@ -211,7 +211,7 @@
   {
     "id": 233,
     "name": "Porygon2",
-    "type": ["Neutral", "Plastic"],
+    "type": ["Animal", "Plastic"],
     "photo": "./img/2024/233.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [

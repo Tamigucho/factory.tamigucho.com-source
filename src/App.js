@@ -14,15 +14,15 @@ import './styles/theme.css';
 function App() {
   const [pokemons, setPokemons] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [pokemonCount, setPokemonCount] = useState(0); // New state for pokemonCount
+  const [creatureCount, setCreatureCount] = useState(0); // New state for creatureCount
 
   useEffect(() => {
     setPokemons(pokemonsData);
 
-    // Fetch pokemonCount from public/api.json
+    // Fetch creatureCount from public/api.json
     fetch('/api.json')
       .then(response => response.json())
-      .then(data => setPokemonCount(data.pokemonCount));
+      .then(data => setCreatureCount(data.creatureCount));
   }, []);
 
   const handleSearch = (term) => {
@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header pokemonCount={pokemonCount} /> {/* Use the fetched pokemonCount */}
+      <Header creatureCount={creatureCount} /> {/* Use the fetched creatureCount */}
       <Search onSearch={handleSearch} />
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />

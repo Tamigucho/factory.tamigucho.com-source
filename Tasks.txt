@@ -1,3 +1,8 @@
+- /types: add pokemon count to each
+- /types: rank the 3 types with most mons, and the 3 with fewest
+
+- header: change navigation state according to the current page
+
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
 

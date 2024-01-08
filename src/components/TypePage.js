@@ -39,11 +39,11 @@ setPokemonsByType(filteredPokemons);
           </Link>
         ))}
 
-        <h4>Strengths</h4>
-        {typeData.strengths.map((strength, index) => (
-          <Link to={`/types/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
-            <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
-            <span> {strength}</span>
+        <h4>Resistance</h4>
+        {typeData.resistance.map((resistance, index) => (
+          <Link to={`/types/${resistance}`} key={index} className={`type-badge type-${resistance.toLowerCase()}`}>
+            <span>{pokemonTypes.find(type => type.type === resistance).emoji}</span>
+            <span> {resistance}</span>
           </Link>
         ))}
 
@@ -64,7 +64,7 @@ setPokemonsByType(filteredPokemons);
 TypePage.propTypes = {
   typeName: PropTypes.string,
   weaknesses: PropTypes.arrayOf(PropTypes.string),
-  strengths: PropTypes.arrayOf(PropTypes.string)
+  resistance: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default TypePage;

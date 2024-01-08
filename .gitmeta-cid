@@ -1,5 +1,12 @@
 Branch: main
-GPTConverstation.txt: QmQrkTy3j7PTLs9fGbytHHQNmcBFFyyTSJn9kknWZ1AJ1L
-Tasks.txt: QmZB43SdapTftDNS8gcTbAACnLTgJsGfpxHazvp4SN2ekN
-src/components/TypePage.js: QmUxkGF52dQ5QnWESf6DZ58rwURq2BY7suGMu94wTJK4QT
-src/data/pokemonTypes.json: Qmaz4bCmmFUo5juhbLgfQQyKGaKEemYJ7E1AQoePTbgNfb
+GPTConverstation.txt: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+Tasks.txt: QmWZeJin2aqfyJBt2H8oVBPRQ4yQponrJomBhmffVasWro
+package.json: QmT22bCRJcyFusZ7VfuduccsnqQaWszdznwCUVbETV2V9Q
+public/api.json: QmVjiZMZXoAqtJpqfrCd6Mtr6L1kPmpvDH9XygbokpVTnH
+scripts/updateCreatureCount.js: QmUzUFGTRKLugxpU8SWWj6LGUsATK5p6uS1dBNA2VJmLMx
+src/App.js: QmZnLtFYLn5vYV99C8S27j4ivHhEMjXYkocaCeZNqxirmh
+src/components/Header.js: QmZzAZBrbu89wK5Ktaoc7djhBxY67Wkc1vqSDkZCUVH6uz
+src/components/TypePage.js: QmTBBG2QQWUNT6FDV9MReDpDSdp9xVx8gr5NmpQ3hqN5MG
+src/data/pokemonTypes.json: QmWyQuy2ap6da4GZattFDN4Fxr8FuxZ75Ujnje6hk3MqsE
+src/data/pokemons.json: QmWnjYaWXCw98GQwE8fNEAvPnniqpN1yk185f91Dg7jJrA
+src/styles/theme.css: QmRUgDF2w9KhQXZgpJd9wEqtxL57GjLbH5TsM1Evjo1prK

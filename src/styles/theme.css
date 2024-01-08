@@ -14,7 +14,7 @@
   --type-fire: #F08030;
   --type-flying: #A890F0;
   --type-ghost: #705898;
-  --type-grass: #78C850;
+  --type-plant: #78C850;
   --type-ground: #E0C068;
   --type-ice: #98D8D8;
   --type-neutral: #A8A878;
@@ -93,7 +93,7 @@
 .type-fire { background-color: var(--type-fire) }
 .type-flying { background-color: var(--type-flying) }
 .type-ghost { background-color: var(--type-ghost) }
-.type-grass { background-color: var(--type-grass) }
+.type-plant { background-color: var(--type-plant) }
 .type-ground { background-color: var(--type-ground) }
 .type-ice { background-color: var(--type-ice) }
 .type-neutral { background-color: var(--type-neutral) }

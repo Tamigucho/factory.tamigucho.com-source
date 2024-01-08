@@ -4,7 +4,7 @@
   "description": "A basic ReactJS template site with a theme similar to Daemonite's Material, featuring a Pokémon list.",
   "main": "src/index.js",
   "scripts": {
-    "count-all-creatures": "node scripts/updatePokemonCount.js",
+    "count-all-creatures": "node scripts/updateCreatureCount.js",
     "start": "npm run count-all-creatures && react-scripts start",
     "build": "npm run count-all-creatures && react-scripts build",
     "test": "npm run count-all-creatures && react-scripts test",
