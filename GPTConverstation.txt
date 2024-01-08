@@ -1,0 +1,25 @@
+TypePage.js: count how many Pokémons are in a type!
+
+
+
+
+
+
+
+
+To count how many Pokémons are in a type, you can use the following code in the TypePage.js file:
+
+const TypePage = () => {
+  // ... (existing code)
+
+  const pokemonsCount = pokemonsByType.length;
+
+  return (
+    // ... (existing code)
+    <div>
+      <p>Total Pokémons in this type: {pokemonsCount}</p>
+    </div>
+  );
+};
+
+This code snippet adds a pokemonsCount variable to calculate the number of Pokémons in the specified type, and then displays it in the component's return statement.

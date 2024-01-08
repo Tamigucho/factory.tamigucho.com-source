@@ -19,9 +19,12 @@ const filteredPokemons = pokemonsData.filter(pokemon => {
 setPokemonsByType(filteredPokemons);
   }, [typeName, pokemonsData]);
 
+  const pokemonsCount = pokemonsByType.length;
+
   return (
     <div className="type-page">
       <h2>{typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</h2>
+      <div><p>Total Pokémons in this type: {pokemonsCount}</p></div>
       <div className="type-matchups">
         <h4>Weaknesses</h4>
         {typeData.weaknesses.map((weakness, index) => (
