@@ -4,6 +4,7 @@
 - Bug: can't open type/Fighting, where Mankey is
 - /type doesn't load; let's make it, showing all of the types! and link it in components/Header.js!
 - combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
+- add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
 - apexchart: add Home.js page, mv apexchart to that (not anymore appearing globally)
 - make photos clickable: their URL will open in another tab, kinda like zooming'em!
