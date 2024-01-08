@@ -33,8 +33,8 @@ function App() {
   );
 
   const series = [{
-    name: 'Sales',
-    data: [30, 40, 35, 50, 49, 60, 70, 91, 125]
+    name: 'New creatures',
+    data: [2, 8, 7, 23, 6, 9, 10, 12, 12, 18, 2, 1, 39, 13, 10]
   }];
 
   const options = {
@@ -42,8 +42,11 @@ function App() {
       height: 350,
       type: 'line',
     },
+    dataLabels: {
+      enabled: true,
+    },
     xaxis: {
-      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+      categories: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
     },
   };
 
