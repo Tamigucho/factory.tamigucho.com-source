@@ -1,5 +1,16 @@
-- make photos clickable: their URL will open in another tab, kinda like zooming'em!
 - example http://localhost:3000/Milcery: make photos smaller, sized 430px width
+
+- New type alongside Animal: Neutral (change it in Porygon/Porygon2)
+- Add Porygon-Z
+
+Learn more about new possibilities of matchups for the new types:
+https://www.google.com/search?channel=fs&client=ubuntu-sn&q=Pokemon+Salt+and+Sugar+types
+https://www.google.com/search?channel=fs&client=ubuntu-sn&q=Pokemon+Rubber+type
+https://www.google.com/search?channel=fs&client=ubuntu-sn&q=Pokemon+Plastic+type
+https://pokemonwack.fandom.com/wiki/Paper_(type)
+
+- add regitube! https://www.deviantart.com/nexusriles/art/Regitube-998006302 https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a82d8f3-2ede-4dcb-b7ad-e897364d1ef6/dgi6qla-8480feb5-7e03-4b0f-99ca-a3b317aec909.png/v1/fill/w_400,h_400/regitube_by_nexusriles_dgi6qla-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDAwIiwicGF0aCI6IlwvZlwvM2E4MmQ4ZjMtMmVkZS00ZGNiLWI3YWQtZTg5NzM2NGQxZWY2XC9kZ2k2cWxhLTg0ODBmZWI1LTdlMDMtNGIwZi05OWNhLWEzYjMxN2FlYzkwOS5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.EudD5U17pLb1qOtVTwmcjplwEwi_Wft44kQmxEE4qGo 
+- add regikraft!! https://www.google.com/search?q=origami+regi+pokemon&client=ubuntu-sn&hs=YGz&sca_esv=596620277&channel=fs&tbm=isch&sxsrf=AM9HkKm-X-OaEOoMEIPc_otYd2bct5wrMg:1704740517040&source=lnms&sa=X&ved=2ahUKEwiP686nvc6DAxVZlJUCHcfrD14Q_AUoAXoECAEQAw&biw=1366&bih=643&dpr=1#imgrc=iQwEc9FtdC0pPM https://i.ytimg.com/vi/D_0z6kD1HDE/maxresdefault.jpg
 
 - add evolutions! example: https://www.pokemon.com/br/pokedex/raichu, but list these evolutions in each page of that evolutionary line!
 

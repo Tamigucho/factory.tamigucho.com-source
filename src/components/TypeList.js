@@ -37,20 +37,22 @@ const TypeList = () => {
           </li>
         ))}
       </ul>
+  <h4>Types with the most creatures:</h4>
   {top3Types.map((type, index) => (
   <li key={index}>
     <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
     <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
-      {type.emoji} {type.type} ({type.pokemonCount})
-    </Link>
+      {type.emoji} {type.type}
+    </Link><span className="badge bg-secondary">({type.pokemonCount})</span>
   </li>
 ))}
+<h4>Types with the fewest creatures:</h4>
 {bottom3Types.map((type, index) => (
   <li key={index}>
     <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
     <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
-      {type.emoji} {type.type} ({type.pokemonCount})
-    </Link>
+      {type.emoji} {type.type}
+    </Link><span className="badge bg-secondary">({type.pokemonCount})</span>
   </li>
 ))}
     </div>

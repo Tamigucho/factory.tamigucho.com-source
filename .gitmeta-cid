@@ -1,4 +1,6 @@
 Branch: main
-GPTConverstation.txt: QmZCoEbPVS8Vb4a23ZUZcCSSoo3GTSLfr2cHaSdY5VFghq
-Tasks.txt: QmZAHJw5qjSyF5AESDwRvr5jtdSt2iMRNDNkdRMYYRL8LS
-src/components/TypeList.js: QmV4b9cQ9ALwMULmC8NoXtD8yxayoG3vgjitkzMi4aaHVA
+GPTConverstation.txt: QmeqPLLh7Pib3reMYpS8hjJDhYmpHrYk5p1PsqHwhyF69K
+Tasks.txt: QmUQWXAFUZGW9397KucuHKZkXgsKG2eb87cYhVY43Jkd2E
+src/components/PokemonDetails.js: QmTParU5Ak2PbuyGpamtzd5JVWmbuJoE2eAF9Hk8SxkgAf
+src/components/PokemonItem.js: QmVcpxV3JHzoMiE56KiWgFSk1xDJsHv8vaKdu2XJyjCVaW
+src/components/TypeList.js: Qme6PamfP9p1bvSPJkF1sHKvRQBnBPTLPg2ubtVGzpCM5P
