@@ -1,7 +1,11 @@
+- TypeList.js: display badge (CSS, emoji)
+
+- Beyond Weaknesses and Strenghts: add Effectiveness to types!
+
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
 
-- /type doesn't load; let's make it, showing all of the types! and link it in components/Header.js!
+- /type URL doesn't load; let's make it, showing all of the Pokémon types! and link /type (Types) in components/Header.js alongside Home!
 
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)

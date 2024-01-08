@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import TypeList from './TypeList';
 import PropTypes from 'prop-types';
 
 const Header = ({ pokemonCount }) => {
@@ -31,6 +32,8 @@ const Header = ({ pokemonCount }) => {
                   Home
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/type">Types</Link></li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>

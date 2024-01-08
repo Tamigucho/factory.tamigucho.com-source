@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Search from './components/Search';
 import PokemonList from './components/PokemonList';
+import TypeList from './components/TypeList';
 import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
 import Footer from './components/Footer';
@@ -56,6 +57,7 @@ function App() {
       <Search onSearch={handleSearch} />
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
+        <Route path="/type" element={<TypeList />} />
         <Route path="/type/:typeName" element={<TypePage />} />
         <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
         {/* Add more routes as needed */}

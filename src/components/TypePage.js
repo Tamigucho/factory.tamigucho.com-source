@@ -4,9 +4,11 @@ import PropTypes from 'prop-types';
 import PokemonItem from './PokemonItem';
 import pokemonsData from '../data/pokemons.json';
 import pokemonTypes from '../data/pokemonTypes.json';
+//import TypeList from './TypeList'; // Import the TypeList component
 
 const TypePage = () => {
   const { typeName } = useParams();
+  //const typeData = pokemonTypes.find(pokemonType => pokemonType.type === typeName);
   const typeData = pokemonTypes.find(pokemonType => pokemonType.type === typeName);
   const [pokemonsByType, setPokemonsByType] = useState([]);
 
