@@ -1,27 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import pokemonTypes from '../data/pokemonTypes.json'; // Import the Pokemon types data
 
-const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
+const PokemonDetails = ({ pokemons }) => {
+  const { name } = useParams();
+  const pokemon = pokemons.find(p => p.name === name);
+};
+
+const PokemonItem = ({ id, type, photo, instagram, description }) => {
+  // Function to get the emoji from the Pokemon type
+  const getTypeEmoji = (type) => {
+    const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
+    return typeData ? typeData.emoji : '';
+  };
+
   // Function to render the description paragraphs
   const renderDescription = () => {
     return description.map((paragraph, index) => (
       <p key={index}>{paragraph}</p>
     ));
-  };
-
-  // Function to get the emoji from the Pokemon type
-  const getTypeEmoji = (type) => {
-    if (Array.isArray(type)) {
-      return type.map(t => {
-        const typeData = pokemonTypes.find(pokemonType => pokemonType.type === t);
-        return typeData ? typeData.emoji : '';
-      }).join(' ');
-    } else {
-      const typeData = pokemonTypes.find(pokemonType => pokemonType.type === type);
-      return typeData ? typeData.emoji : '';
-    }
   };
 
   return (
@@ -32,14 +30,17 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
       <div className="pokemon-info">
         <h3>{name}</h3>
         <div className="pokemon-type">
-        <Link to={`/type/${type[0]}`} className={`type-badge type-${type[0].toLowerCase()}`}>
-  {getTypeEmoji(type[0])} {type[0]}
-</Link>
-{type.length > 1 && (
-  <Link to={`/type/${type[1]}`} className={`type-badge type-${type[1].toLowerCase()}`}>
-    {getTypeEmoji(type[1])} {type[1]}
-  </Link>
-)}
+          Type: {Array.isArray(type) ? (
+            type.map((t, index) => (
+              <Link to={`/type/${t}`} key={index} className={`type-badge type-${t.toLowerCase()}`}>
+                {getTypeEmoji(t)} {t}
+              </Link>
+            ))
+          ) : (
+            <Link to={`/type/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
+              {getTypeEmoji(type)} {type}
+            </Link>
+          )}
         </div>
         <div className="pokemon-description">
           {renderDescription()}
@@ -58,7 +59,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
 PokemonItem.propTypes = {
   id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
+  type: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]).isRequired,
   photo: PropTypes.string.isRequired,
   instagram: PropTypes.string.isRequired,
   description: PropTypes.arrayOf(PropTypes.string).isRequired,

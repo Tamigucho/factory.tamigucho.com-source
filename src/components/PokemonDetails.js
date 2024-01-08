@@ -1,5 +1,3 @@
-// src/components/PokemonDetails.js
-
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import pokemonTypes from '../data/pokemonTypes.json';
@@ -17,8 +15,7 @@ return (
   <div>
     <img src={pokemon.photo} alt={pokemon.name} />
     <h2>{pokemon.name}</h2>
-    <p>Type: 
-  {Array.isArray(pokemon.type) ? (
+    <p>Type: {Array.isArray(pokemon.type) ? (
     pokemon.type.map((type, index) => (
       <Link to={`/type/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
         {getTypeEmoji(type)} {type}
