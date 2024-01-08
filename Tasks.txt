@@ -1,6 +1,7 @@
-- Type page: count how much Pokémons are in that type!
-- Type page issue: Pokémon photo isn't being displayed, for example in /type/Electric pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu)
-- issue: can't open type/Fighting, where Mankey is
+- TypePage.js: count how many Pokémons are in a type!
+- TypePage.js issue: Pokémon photo isn't being displayed, for example in /type/Electric pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu for example)
+- TypePage.js issue:: can't open type/Fighting, where Mankey is. Error: "_data_pokemonTypes_json__WEBPACK_IMPORTED_MODULE_3__.find(...) is undefined
+./src/components/TypePage.js/TypePage/<.children<.children<@http://localhost:3000/static/js/bundle.js:1181:74". Why?! Because all of the other types are working normally!
 
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
