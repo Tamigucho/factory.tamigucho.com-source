@@ -1,0 +1,72 @@
+How to make PokemonDetails.js load when you directly do Enter on its URL (eg. /Pikachu), just like TypePage.js does (eg. going directly to the URL /types/Electric will load instead of blank, thankfully).
+
+
+
+
+
+
+
+
+To make PokemonDetails.js load when you directly enter its URL (e.g. /Pikachu), you need to use the useEffect hook to fetch the data for the specific Pokemon. You can achieve this by updating the PokemonDetails component as follows:
+
+import React, { useState, useEffect } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import pokemonTypes from '../data/pokemonTypes.json';
+import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
+
+const PokemonDetails = () => {
+  const { name } = useParams();
+  const [pokemon, setPokemon] = useState(null);
+
+  useEffect(() => {
+    const fetchPokemon = () => {
+      const foundPokemon = pokemonsData.find(p => p.name === name);
+      setPokemon(foundPokemon);
+    };
+
+    fetchPokemon();
+  }, [name]);
+
+  // ... rest of the component remains the same
+};
+
+By using the useEffect hook to fetch the specific Pokemon data based on the URL parameter, the PokemonDetails component will load when you directly enter its URL.
+
+
+
+
+
+
+
+
+
+
+ERROR
+pokemon is null
+PokemonDetails@http://localhost:3000/main.7c04f276c7ee369796ba.hot-update.js:51:7
+renderWithHooks@http://localhost:3000/static/js/bundle.js:44669:31
+
+
+
+
+
+
+
+
+
+
+
+The error "pokemon is null" is occurring because the pokemon state is initially set to null, and the component tries to render the pokemon data before it's fetched. To fix this, you can conditionally render the pokemon data only when it's available. Update the return statement in the PokemonDetails component as follows:
+
+return (
+  <div>
+    {pokemon && ( // Add this line to conditionally render the content when pokemon is available
+      <>
+        <img src={pokemon.photo} alt={pokemon.name} />
+        <h2>{pokemon.name}</h2>
+        {/* ... rest of the content ... */}
+      </>
+    )}
+  </div>
+);

@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import pokemonTypes from '../data/pokemonTypes.json';
+import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
 
-const PokemonDetails = ({ pokemons }) => {
+const PokemonDetails = () => {
   const { name } = useParams();
-  const pokemon = pokemons.find(p => p.name === name);
+  const [pokemon, setPokemon] = useState(null);
+
+  useEffect(() => {
+    const fetchPokemon = () => {
+      const foundPokemon = pokemonsData.find(p => p.name === name);
+      setPokemon(foundPokemon);
+    };
+
+    fetchPokemon();
+  }, [name]);
 
   const getTypeEmoji = (type) => {
     const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
@@ -13,6 +24,8 @@ const PokemonDetails = ({ pokemons }) => {
 
 return (
   <div>
+    {pokemon && ( // Add this line to conditionally render the content when pokemon is available
+    <>
     <img src={pokemon.photo} alt={pokemon.name} />
     <h2>{pokemon.name}</h2>
     <p>Type: {Array.isArray(pokemon.type) ? (
@@ -30,6 +43,8 @@ return (
     <p>Description: {pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
     <a href={pokemon.instagram} target="_blank" rel="noopener noreferrer">Instagram Source</a>
     {/* Add more details about the specific Pokemon */}
+    </>
+    )}
   </div>
 );
 };
