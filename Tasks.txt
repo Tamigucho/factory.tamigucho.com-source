@@ -1,4 +1,4 @@
-- TypeList.js: rank the 3 types that contain the most pokémons, and the 3 with fewest (using <ul><li>...)
+TypeList.js: rank the 3 types that contain the most pokémons, and the 3 with fewest (using <ul><li>...)
 
 - make photos clickable: their URL will open in another tab, kinda like zooming'em!
 - example http://localhost:3000/Milcery: make photos smaller, sized 430px width

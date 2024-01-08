@@ -1,100 +1,30 @@
-TypeList.js: To each type, add its Pokémon count (the count of Pokémon using a type). Please write the instructions and code necessary.
+TypeList.js: rank the 3 types that contain the most pokémons, and the 3 with fewest (using <ul><li>...)
+
+But place before each: a medal emoji to symbolize the 1th, 2nd and 3rd places!
 
 
 
 
 
-
-
-
-To add the Pokémon count to each type in the TypeList.js component, you can use the following code:
 
 // Add this code inside the TypeList component, after line 8
-const pokemonCountByType = pokemonTypes.reduce((count, type) => {
-  count[type.type] = pokemons.filter(pokemon => pokemon.type.includes(type.type)).length;
-  return count;
-}, {});
+const sortedPokemonTypes = pokemonTypes.sort((a, b) => b.pokemonCount - a.pokemonCount);
+const top3Types = sortedPokemonTypes.slice(0, 3);
+const bottom3Types = sortedPokemonTypes.slice(-3);
 
 // Add this code inside the map function at line 13
-{pokemonTypes.map((type, index) => (
+{top3Types.map((type, index) => (
   <li key={index}>
+    <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
     <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
-      {pokemonTypes.find(t => t.type === type.type).emoji} {type.type} ({pokemonCountByType[type.type]})
+      {type.emoji} {type.type} ({type.pokemonCount})
     </Link>
   </li>
 ))}
-
-This code will calculate the Pokémon count for each type and display it next to the type name in the TypeList component.
-
-
-
-
-
-
-
-Uncaught runtime errors:
-ERROR
-pokemons is not defined
-./src/components/TypeList.js/TypeList/pokemonCountByType<@http://localhost:3000/main.c1761ffb2927b756cd69.hot-update.js:38:5
-TypeList@http://localhost:3000/main.c1761ffb2927b756cd69.hot-update.js:37:83
-
-
-
-
-
-
-
-
-
-
-It looks like the pokemons array is not defined in the TypeList.js file. You need to make sure that pokemons is defined and accessible in the TypeList component. If pokemons is supposed to be a prop, make sure it's being passed to the TypeList component from its parent. If it's supposed to be fetched from an API or stored in a state, make sure it's being fetched or initialized correctly.
-
-
-
-
-
-
-
-
-
-There's no parent.
-
-
-
-
-
-
-
-
-
-It seems that the pokemons array is not defined in the TypeList component. You need to ensure that the pokemons array is passed as a prop to the TypeList component from its parent. If the pokemons array is fetched from an API or stored in a state, make sure it's being fetched or initialized correctly. Once the pokemons array is accessible in the TypeList component, the code I provided earlier for calculating and displaying the Pokémon count for each type should work without errors.
-
-
-
-
-
-
-
-
-
-Please add the pokemons array to TypeList.js, same way it is present in TypePage.js.
-
-
-
-
-
-
-
-
-
-// Add this code at the top of TypeList.js, after the imports
-import pokemonsData from '../data/pokemons.json';
-
-// Add this code inside the TypeList component, after line 8
-const pokemons = pokemonsData;
-
-// Add this code inside the TypeList component, after line 8
-const pokemonCountByType = pokemonTypes.reduce((count, type) => {
-  count[type.type] = pokemons.filter(pokemon => pokemon.type.includes(type.type)).length;
-  return count;
-}, {});
+{bottom3Types.map((type, index) => (
+  <li key={index}>
+    <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
+      {type.emoji} {type.type} ({type.pokemonCount})
+    </Link>
+  </li>
+))}
