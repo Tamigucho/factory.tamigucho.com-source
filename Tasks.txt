@@ -1,9 +1,7 @@
-
-- Type page issue: long spacing between pokemon items, unlike in the start page ; this happens in the start too, when there's an arrow/line with just two poke items
-- Type page issue: Pokémon photo isn't being displayed, for example in /type/Electric pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu)
 - Type page: count how much Pokémons are in that type!
-- Bug: can't open type/Fighting, where Mankey is
-- combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
+- Type page issue: Pokémon photo isn't being displayed, for example in /type/Electric pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu)
+- issue: can't open type/Fighting, where Mankey is
+
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
 
@@ -23,6 +21,9 @@
 
 - react hook for, on every reload, run "npm run count-all-creatures"
 
+- Type page issue: long spacing between pokemon items, unlike in the start page ; this happens in the start too, when there's an arrow/line with just two poke items
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet
 
 - insp https://www.ligapokemon.com.br/?view=pokedex/pokemon&id=932, https://www.ligapokemon.com.br/?view=pokedex/pokemon&id=869
+
+- combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
