@@ -57,8 +57,8 @@ function App() {
       <Search onSearch={handleSearch} />
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
-        <Route path="/type" element={<TypeList />} />
-        <Route path="/type/:typeName" element={<TypePage />} />
+        <Route path="/types" element={<TypeList />} />
+        <Route path="/types/:typeName" element={<TypePage />} />
         <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
         {/* Add more routes as needed */}
       </Routes>

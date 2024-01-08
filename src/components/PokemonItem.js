@@ -32,12 +32,12 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
         <div className="pokemon-type">
           Type: {Array.isArray(type) ? (
             type.map((t, index) => (
-              <Link to={`/type/${t}`} key={index} className={`type-badge type-${t.toLowerCase()}`}>
+              <Link to={`/types/${t}`} key={index} className={`type-badge type-${t.toLowerCase()}`}>
                 {getTypeEmoji(t)} {t}
               </Link>
             ))
           ) : (
-            <Link to={`/type/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
+            <Link to={`/types/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
               {getTypeEmoji(type)} {type}
             </Link>
           )}

@@ -17,12 +17,12 @@ return (
     <h2>{pokemon.name}</h2>
     <p>Type: {Array.isArray(pokemon.type) ? (
     pokemon.type.map((type, index) => (
-      <Link to={`/type/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
+      <Link to={`/types/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
         {getTypeEmoji(type)} {type}
       </Link>
     ))
   ) : (
-    <Link to={`/type/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
+    <Link to={`/types/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
       {getTypeEmoji(pokemon.type)} {pokemon.type}
     </Link>
   )}

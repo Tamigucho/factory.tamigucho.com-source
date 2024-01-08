@@ -30,7 +30,7 @@ setPokemonsByType(filteredPokemons);
       <div className="type-matchups">
         <h4>Weaknesses</h4>
         {typeData.weaknesses.map((weakness, index) => (
-          <Link to={`/type/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
+          <Link to={`/types/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
             <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
             <span> {weakness}</span>
           </Link>
@@ -38,7 +38,7 @@ setPokemonsByType(filteredPokemons);
 
         <h4>Strengths</h4>
         {typeData.strengths.map((strength, index) => (
-          <Link to={`/type/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
+          <Link to={`/types/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
             <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
             <span> {strength}</span>
           </Link>

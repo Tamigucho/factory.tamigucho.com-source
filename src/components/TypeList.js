@@ -12,7 +12,7 @@ const TypeList = () => {
       <ul>
         {pokemonTypes.map((type, index) => (
           <li key={index}>
-            <Link to={`/type/${type.type}`}>{type.type}</Link>
+            <Link to={`/types/${type.type}`}>{type.type}</Link>
           </li>
         ))}
       </ul>

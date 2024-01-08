@@ -33,7 +33,7 @@ const Header = ({ pokemonCount }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/type">Types</Link></li>
+                <Link className="nav-link" to="/types">Types</Link></li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>
