@@ -5,6 +5,7 @@
 - /type doesn't load; let's make it, showing all of the types! and link it in components/Header.js!
 - combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
 - include the multi-line descriptions in the search!
+- example http://localhost:3000/Milcery: make photos smaller, sized 430px width
 - Pokemon Details page: show type matchups of their types, mixing the results of all their types!
 
 - add evolutions! example: https://www.pokemon.com/br/pokedex/raichu, but list these evolutions in each page of that evolutionary line!
