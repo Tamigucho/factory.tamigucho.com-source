@@ -1,10 +1,10 @@
-- header: change navigation state according to the current page (currently Home is still active and Types inactive in the /types URL - which is TypeList.js page)
-
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
 
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
+
+- header: change navigation state according to the current page (currently Home is still active and Types inactive in the /types URL - which is TypeList.js page)
 
 - components/TypeList.js: add a count of all existing types!
 -
@@ -12,8 +12,9 @@
 
 - add "previous" and "next" to a pokémon page
 
-- divide Pokémons by year: Bulb/Char for 2010, Squirtle/Caterpie 2011, Weedle 2012, Pidgey/Rat 2013, Spearow/Ekans 2014, Pikachu 2015, Mankey+Geodude 2016, Gastly+Mr 2017, Porygon 2018, Articuno+Dragonite 2019, Murkrow+Steelix 2020, Porygon2 2021, Shedinja+Rolycoly 2022, Milcery 2023, Nacli 2024
+- divide Pokémons by year: Bulb/Char for 2010, Squirtle/Caterpie 2011, Weedle 2012, Pidgey/Rat 2013, Spearow/Ekans 2014, Pikachu 2015, Mankey+Geodude 2016, Gastly+Mr 2017, Porygon 2018, Articuno+Dragonite 2019, Murkrow+Steelix 2020, Porygon2 2021, Shedinja+Rolycoly 2022, Milcery 2023
 - pokemon count in every year
+- header logo badge: current year is the last year listed
 - reflect years' pokemon count in apexchart!
 
 - [non-AI] New type alongside Animal: Neutral (change it in Porygon/Porygon2)
