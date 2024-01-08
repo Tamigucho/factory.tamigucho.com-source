@@ -7,6 +7,7 @@ import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
 import Footer from './components/Footer';
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
+import Chart from 'react-apexcharts';
 import './styles/theme.css';
 
 function App() {
@@ -31,6 +32,21 @@ function App() {
     pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const series = [{
+    name: 'Sales',
+    data: [30, 40, 35, 50, 49, 60, 70, 91, 125]
+  }];
+
+  const options = {
+    chart: {
+      height: 350,
+      type: 'line',
+    },
+    xaxis: {
+      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+    },
+  };
+
   return (
     <div className="App">
       <Header pokemonCount={pokemonCount} /> {/* Use the fetched pokemonCount */}
@@ -41,6 +57,7 @@ function App() {
         <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
         {/* Add more routes as needed */}
       </Routes>
+      <Chart options={options} series={series} type="line" height={350} />
       <Footer />
     </div>
   );
