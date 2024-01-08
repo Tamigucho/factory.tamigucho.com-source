@@ -8,7 +8,7 @@ const PokemonDetails = ({ pokemons }) => {
   const pokemon = pokemons.find(p => p.name === name);
 };
 
-const PokemonItem = ({ id, type, photo, instagram, description }) => {
+const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   // Function to get the emoji from the Pokemon type
   const getTypeEmoji = (type) => {
     const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
