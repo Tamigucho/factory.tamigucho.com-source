@@ -10,6 +10,7 @@
 
 - add evolutions! example: https://www.pokemon.com/br/pokedex/raichu, but list these evolutions in each page of that evolutionary line!
 
+- react hook for, on every reload, run "npm run count-all-creatures"
 
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet
 
