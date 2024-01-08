@@ -1,5 +1,3 @@
-- [non-AI] example http://localhost:3000/Milcery: make photos smaller, sized 430px width
-
 - header: change navigation state according to the current page (currently Home is still active and Types inactive in the /types URL - which is TypeList.js page)
 
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!

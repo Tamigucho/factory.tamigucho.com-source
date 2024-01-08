@@ -27,7 +27,7 @@ return (
     {pokemon && ( // Add this line to conditionally render the content when pokemon is available
     <>
         <a href={pokemon.photo} target="_blank" rel="noopener noreferrer">
-          <img src={pokemon.photo} alt={pokemon.name} />
+          <img height="400px" src={pokemon.photo} alt={pokemon.name} />
         </a>
     <h2>{pokemon.name}</h2>
     <p>Type: {Array.isArray(pokemon.type) ? (
