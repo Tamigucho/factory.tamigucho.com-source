@@ -39,7 +39,7 @@
     "color": "#C03028",
     "emoji": "🥊",
     "weaknesses": ["Flying", "Psychic", "Fairy"],
-    "strengths": ["Normal", "Rock", "Steel", "Ice", "Dark"]
+    "strengths": ["Neutral", "Rock", "Steel", "Ice", "Dark"]
   },
   {
     "type": "Fire",

@@ -1,7 +1,30 @@
-CTRL+K:
+TypePage.js issue: can't open type/Fighting, where Mankey is. Error: "_data_pokemonTypes_json__WEBPACK_IMPORTED_MODULE_3__.find(...) is undefined
+./src/components/TypePage.js/TypePage/<.children<.children<@http://localhost:3000/static/js/bundle.js:1181:74". Why?! Because all of the other types are working normally!
 
-Please make sure this will always load, for example img/2024/25.svg, from the base URL, and not from the current URL such as the "/type" URL of the TypePage.js.
 
-for example in /type/Electric pointing it is pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu for example); so please fix that so base URL will always be used.
 
-Using something like "%PUBLIC_URL%/" pointing directly to the base URL /{photo}
+
+
+
+
+It seems that the issue with opening the "Fighting" type page is related to the "pokemonTypes" data. Ensure that the "pokemonTypes.json" file contains an entry for the "Fighting" type. Double-check the data to ensure it's correctly formatted and that the "Fighting" type is included.
+
+
+
+
+
+
+
+
+
+Issue found! I was referrencing to "Normal" type instead of "Neutral" type in "strenghts"!
+
+
+
+
+
+
+
+
+
+It seems that the issue is due to referencing "Normal" type instead of "Neutral" type in the "strengths" section. Update the "pokemonTypes.json" file to use "Neutral" instead of "Normal" in the "strengths" array for the "Fighting" type. This should resolve the issue.
