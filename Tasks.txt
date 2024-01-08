@@ -8,15 +8,11 @@
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
 
-<div class="message spoilers-container" dir="auto">React factory.tamigucho site:
 - components/TypeList.js: add a count of all existing types!
 -
-- divise gens (and their mons dex numbers) by: biyearly-gens and official-gens<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:21</span><div class="time-inner" title="8 January 2024, 05:21:23"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:21</span></div></span></div>
+- divise gens (and their mons dex numbers) by: biyearly-gens and official-gens
 
-<div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">React factory.tamigucho site:
-- components/TypeList.js: add a count of all existing types!
--
-- divis...</div></div></div>- add "previous" and "next" to a pokémon page<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:30</span><div class="time-inner" title="8 January 2024, 05:30:58"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:30</span></div></span></div>
+- add "previous" and "next" to a pokémon page
 
 - divide Pokémons by year: Bulb/Char for 2010, Squirtle/Caterpie 2011, Weedle 2012, Pidgey/Rat 2013, Spearow/Ekans 2014, Pikachu 2015, Mankey+Geodude 2016, Gastly+Mr 2017, Porygon 2018, Articuno+Dragonite 2019, Murkrow+Steelix 2020, Porygon2 2021, Shedinja+Rolycoly 2022, Milcery 2023, Nacli 2024
 - pokemon count in every year
