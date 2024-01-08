@@ -12,8 +12,11 @@ const TypePage = () => {
 
   useEffect(() => {
     // Filter pokemons by type
-    const filteredPokemons = pokemonsData.filter(pokemon => pokemon.type.toLowerCase() === typeName.toLowerCase());
-    setPokemonsByType(filteredPokemons);
+const filteredPokemons = pokemonsData.filter(pokemon => {
+  const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
+  return types.some(t => t.toLowerCase() === typeName.toLowerCase());
+});
+setPokemonsByType(filteredPokemons);
   }, [typeName, pokemonsData]);
 
   return (

@@ -1,14 +1,26 @@
-CTRL+K:
-
-Please fix this error:
-"pokemon.type.toLowerCase is not a function
-./src/components/TypePage.js/TypePage/</filteredPokemons<@http://localhost:3000/static/js/bundle.js:1101:110"
-
-Which is preventing this page from being loaded.
-
-----
-
-Please fix this error:
+components/TypePage.js is returning the following error:
 
 "pokemon.type.toLowerCase is not a function
 ./src/components/TypePage.js/TypePage/</filteredPokemons<@http://localhost:3000/static/js/bundle.js:1102:110"
+
+This began happening after the introduction of support to dual-type Pokémons, in other components; probably TypePage.js wasn't updated as well.
+
+
+
+
+
+
+
+
+It seems that the issue is related to the pokemon.type not being a string. To handle dual-type Pokémons, you need to update the TypePage.js to handle an array of types.
+
+In the TypePage.js, update the filtering logic to handle dual-type Pokémons:
+
+// Filter pokemons by type
+const filteredPokemons = pokemonsData.filter(pokemon => {
+  const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
+  return types.some(t => t.toLowerCase() === typeName.toLowerCase());
+});
+setPokemonsByType(filteredPokemons);
+
+This change will handle both single and dual-type Pokémons, ensuring that the pokemon.type is treated as an array when necessary.
