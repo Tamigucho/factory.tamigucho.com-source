@@ -1,12 +1,14 @@
-- /types: add pokemon count to each
-- /types: rank the 3 types with most mons, and the 3 with fewest
+- TypeList.js: rank the 3 types that contain the most pokémons, and the 3 with fewest (using <ul><li>...)
+
+- make photos clickable: their URL will open in another tab, kinda like zooming'em!
+- example http://localhost:3000/Milcery: make photos smaller, sized 430px width
+
+- add evolutions! example: https://www.pokemon.com/br/pokedex/raichu, but list these evolutions in each page of that evolutionary line!
 
 - header: change navigation state according to the current page
 
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
-
-- /type URL doesn't load; let's make it, showing all of the Pokémon types! and link /type (Types) in components/Header.js alongside Home!
 
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
@@ -14,11 +16,7 @@
 - pokemon count in every year
 - reflect years' pokemon count in apexchart!
 
-- make photos clickable: their URL will open in another tab, kinda like zooming'em!
-- example http://localhost:3000/Milcery: make photos smaller, sized 430px width
 - Pokemon Details page: show type matchups of their types, mixing the results of all their types!
-
-- add evolutions! example: https://www.pokemon.com/br/pokedex/raichu, but list these evolutions in each page of that evolutionary line!
 
 - react hook for, on every reload, run "npm run count-all-creatures"
 

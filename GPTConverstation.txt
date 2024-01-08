@@ -1,4 +1,4 @@
-How to make PokemonDetails.js load when you directly do Enter on its URL (eg. /Pikachu), just like TypePage.js does (eg. going directly to the URL /types/Electric will load instead of blank, thankfully).
+TypeList.js: To each type, add its Pokémon count (the count of Pokémon using a type). Please write the instructions and code necessary.
 
 
 
@@ -7,31 +7,24 @@ How to make PokemonDetails.js load when you directly do Enter on its URL (eg. /P
 
 
 
-To make PokemonDetails.js load when you directly enter its URL (e.g. /Pikachu), you need to use the useEffect hook to fetch the data for the specific Pokemon. You can achieve this by updating the PokemonDetails component as follows:
+To add the Pokémon count to each type in the TypeList.js component, you can use the following code:
 
-import React, { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import PropTypes from 'prop-types';
-import pokemonTypes from '../data/pokemonTypes.json';
-import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
+// Add this code inside the TypeList component, after line 8
+const pokemonCountByType = pokemonTypes.reduce((count, type) => {
+  count[type.type] = pokemons.filter(pokemon => pokemon.type.includes(type.type)).length;
+  return count;
+}, {});
 
-const PokemonDetails = () => {
-  const { name } = useParams();
-  const [pokemon, setPokemon] = useState(null);
+// Add this code inside the map function at line 13
+{pokemonTypes.map((type, index) => (
+  <li key={index}>
+    <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
+      {pokemonTypes.find(t => t.type === type.type).emoji} {type.type} ({pokemonCountByType[type.type]})
+    </Link>
+  </li>
+))}
 
-  useEffect(() => {
-    const fetchPokemon = () => {
-      const foundPokemon = pokemonsData.find(p => p.name === name);
-      setPokemon(foundPokemon);
-    };
-
-    fetchPokemon();
-  }, [name]);
-
-  // ... rest of the component remains the same
-};
-
-By using the useEffect hook to fetch the specific Pokemon data based on the URL parameter, the PokemonDetails component will load when you directly enter its URL.
+This code will calculate the Pokémon count for each type and display it next to the type name in the TypeList component.
 
 
 
@@ -39,13 +32,11 @@ By using the useEffect hook to fetch the specific Pokemon data based on the URL 
 
 
 
-
-
-
+Uncaught runtime errors:
 ERROR
-pokemon is null
-PokemonDetails@http://localhost:3000/main.7c04f276c7ee369796ba.hot-update.js:51:7
-renderWithHooks@http://localhost:3000/static/js/bundle.js:44669:31
+pokemons is not defined
+./src/components/TypeList.js/TypeList/pokemonCountByType<@http://localhost:3000/main.c1761ffb2927b756cd69.hot-update.js:38:5
+TypeList@http://localhost:3000/main.c1761ffb2927b756cd69.hot-update.js:37:83
 
 
 
@@ -56,17 +47,54 @@ renderWithHooks@http://localhost:3000/static/js/bundle.js:44669:31
 
 
 
+It looks like the pokemons array is not defined in the TypeList.js file. You need to make sure that pokemons is defined and accessible in the TypeList component. If pokemons is supposed to be a prop, make sure it's being passed to the TypeList component from its parent. If it's supposed to be fetched from an API or stored in a state, make sure it's being fetched or initialized correctly.
 
-The error "pokemon is null" is occurring because the pokemon state is initially set to null, and the component tries to render the pokemon data before it's fetched. To fix this, you can conditionally render the pokemon data only when it's available. Update the return statement in the PokemonDetails component as follows:
 
-return (
-  <div>
-    {pokemon && ( // Add this line to conditionally render the content when pokemon is available
-      <>
-        <img src={pokemon.photo} alt={pokemon.name} />
-        <h2>{pokemon.name}</h2>
-        {/* ... rest of the content ... */}
-      </>
-    )}
-  </div>
-);
+
+
+
+
+
+
+
+There's no parent.
+
+
+
+
+
+
+
+
+
+It seems that the pokemons array is not defined in the TypeList component. You need to ensure that the pokemons array is passed as a prop to the TypeList component from its parent. If the pokemons array is fetched from an API or stored in a state, make sure it's being fetched or initialized correctly. Once the pokemons array is accessible in the TypeList component, the code I provided earlier for calculating and displaying the Pokémon count for each type should work without errors.
+
+
+
+
+
+
+
+
+
+Please add the pokemons array to TypeList.js, same way it is present in TypePage.js.
+
+
+
+
+
+
+
+
+
+// Add this code at the top of TypeList.js, after the imports
+import pokemonsData from '../data/pokemons.json';
+
+// Add this code inside the TypeList component, after line 8
+const pokemons = pokemonsData;
+
+// Add this code inside the TypeList component, after line 8
+const pokemonCountByType = pokemonTypes.reduce((count, type) => {
+  count[type.type] = pokemons.filter(pokemon => pokemon.type.includes(type.type)).length;
+  return count;
+}, {});
