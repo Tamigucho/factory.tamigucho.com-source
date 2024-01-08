@@ -13,10 +13,16 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
 
   // Function to get the emoji from the Pokemon type
   const getTypeEmoji = (type) => {
-    const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
-    return typeData ? typeData.emoji : '';
+    if (Array.isArray(type)) {
+      return type.map(t => {
+        const typeData = pokemonTypes.find(pokemonType => pokemonType.type === t);
+        return typeData ? typeData.emoji : '';
+      }).join(' ');
+    } else {
+      const typeData = pokemonTypes.find(pokemonType => pokemonType.type === type);
+      return typeData ? typeData.emoji : '';
+    }
   };
-
 
   return (
     <div className="pokemon-item">
@@ -26,9 +32,14 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
       <div className="pokemon-info">
         <h3>{name}</h3>
         <div className="pokemon-type">
-          <Link to={`/type/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
-            {getTypeEmoji(type)} {type}
-          </Link>
+        <Link to={`/type/${type[0]}`} className={`type-badge type-${type[0].toLowerCase()}`}>
+  {getTypeEmoji(type[0])} {type[0]}
+</Link>
+{type.length > 1 && (
+  <Link to={`/type/${type[1]}`} className={`type-badge type-${type[1].toLowerCase()}`}>
+    {getTypeEmoji(type[1])} {type[1]}
+  </Link>
+)}
         </div>
         <div className="pokemon-description">
           {renderDescription()}

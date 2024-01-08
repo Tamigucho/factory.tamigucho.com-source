@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Bulbasaur",
-    "type": "Grass",
+    "type": ["Grass", "Poison"],
     "photo": "img/2024/1.svg",
     "instagram": "https://www.instagram.com/bulbasaur",
     "description": [

@@ -17,10 +17,19 @@ return (
   <div>
     <img src={pokemon.photo} alt={pokemon.name} />
     <h2>{pokemon.name}</h2>
-    <p>Type: <Link to={`/type/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
-          {getTypeEmoji(pokemon.type)} {pokemon.type}
-        </Link>
-    </p>
+    <p>Type: 
+  {Array.isArray(pokemon.type) ? (
+    pokemon.type.map((type, index) => (
+      <Link to={`/type/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
+        {getTypeEmoji(type)} {type}
+      </Link>
+    ))
+  ) : (
+    <Link to={`/type/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
+      {getTypeEmoji(pokemon.type)} {pokemon.type}
+    </Link>
+  )}
+</p>
     <p>Description: {pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
     <a href={pokemon.instagram} target="_blank" rel="noopener noreferrer">Instagram Source</a>
     {/* Add more details about the specific Pokemon */}

@@ -5,10 +5,10 @@ import PokemonItem from './PokemonItem';
 const PokemonList = ({ pokemons }) => {
   return (
     <div className="pokemon-list">
-      {pokemons.map((pokemon, index) => (
-        <PokemonItem key={index} {...pokemon} />
-      ))}
-    </div>
+  {pokemons.map((pokemon, index) => (
+    <PokemonItem key={index} {...pokemon} />
+  ))}
+</div>
   );
 };
 
