@@ -14,28 +14,28 @@ const TypePage = () => {
     // Filter pokemons by type
     const filteredPokemons = pokemonsData.filter(pokemon => pokemon.type.toLowerCase() === typeName.toLowerCase());
     setPokemonsByType(filteredPokemons);
-  }, [typeName]);
+  }, [typeName, pokemonsData]);
 
   return (
     <div className="type-page">
       <h2>{typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</h2>
       <div className="type-matchups">
-  <h4>Weaknesses</h4>
-  {typeData.weaknesses.map((weakness, index) => (
-  <Link to={`/type/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
-    <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
-    <span> {weakness}</span>
-  </Link>
-))}
+        <h4>Weaknesses</h4>
+        {typeData.weaknesses.map((weakness, index) => (
+          <Link to={`/type/${weakness}`} key={index} className={`type-badge type-${weakness.toLowerCase()}`}>
+            <span>{pokemonTypes.find(type => type.type === weakness).emoji}</span>
+            <span> {weakness}</span>
+          </Link>
+        ))}
 
-  <h4>Strengths</h4>
-  {typeData.strengths.map((strength, index) => (
-  <Link to={`/type/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
-    <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
-    <span> {strength}</span>
-  </Link>
-))}
-</div>
+        <h4>Strengths</h4>
+        {typeData.strengths.map((strength, index) => (
+          <Link to={`/type/${strength}`} key={index} className={`type-badge type-${strength.toLowerCase()}`}>
+            <span>{pokemonTypes.find(type => type.type === strength).emoji}</span>
+            <span> {strength}</span>
+          </Link>
+        ))}
+      </div>
       <div className="pokemon-list">
         {pokemonsByType.map((pokemon, index) => (
           <PokemonItem key={index} {...pokemon} />
@@ -52,5 +52,3 @@ TypePage.propTypes = {
 };
 
 export default TypePage;
-
-

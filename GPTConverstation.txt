@@ -1,12 +1,14 @@
 CTRL+K:
 
-What's wrong here, differently from PokemonDetails.js? I just want to display Pokémon Types (dual type or single type) the same way PokemonDetails.js do!
+Please fix this error:
+"pokemon.type.toLowerCase is not a function
+./src/components/TypePage.js/TypePage/</filteredPokemons<@http://localhost:3000/static/js/bundle.js:1101:110"
 
-But ensure "More details" doesn't get modified by your actions; please preserve it!
-
-And without these "pokemon is not defined" errors!
-
+Which is preventing this page from being loaded.
 
 ----
 
-Please fix the "More details" item, which isn't clickable anymore!
+Please fix this error:
+
+"pokemon.type.toLowerCase is not a function
+./src/components/TypePage.js/TypePage/</filteredPokemons<@http://localhost:3000/static/js/bundle.js:1102:110"
