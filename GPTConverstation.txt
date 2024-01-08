@@ -1,4 +1,4 @@
-PokemonList.js: divise by year (as seen in the "year" key in data/pokemons.json), showing a <h2> for every year and their pokemons
+About Header.js: the header's currentYear variable should be modified by you now: instead of getting the current year via JS, it should get the last year that have a Pokémon filed, as seen in PokemonList.js and in data/pokemons.json.
 
 
 
@@ -7,44 +7,68 @@ PokemonList.js: divise by year (as seen in the "year" key in data/pokemons.json)
 
 
 
-To divide the Pokemon list by year, you can first group the Pokemon data by the "year" key. Then, you can iterate over each group and display a <h2> for the year and the list of Pokemon for that year.
+To modify the currentYear variable in Header.js to reflect the last year a Pokémon was added, you need to import the pokemons.json data and extract the maximum year.
 
-Here's a simplified example of how you can achieve this in your PokemonList.js file:
+Here's how you can modify the Header.js file to achieve this:
+
+import pokemons from '../data/pokemons.json';
+
+// ...
+
+const Header = ({ creatureCount }) => {
+  const currentYear = Math.max(...pokemons.map(pokemon => pokemon.year));
+  // ...
+};
+
+In this code, we're using the Math.max function along with the map function to find the maximum year in the pokemons.json data. This will ensure that currentYear always reflects the last year a Pokémon was added.
+
+Please refer to the following code block for the full context:
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pokemons from '../data/pokemons.json';
+import TypeList from './TypeList';
+import PropTypes from 'prop-types';
 
-const PokemonList = () => {
-  // Group pokemons by year
-  const pokemonsByYear = pokemons.reduce((groups, pokemon) => {
-    const year = pokemon.year;
-    if (!groups[year]) {
-      groups[year] = [];
-    }
-    groups[year].push(pokemon);
-    return groups;
-  }, {});
-
+const Header = ({ creatureCount }) => {
+  const currentYear = new Date().getFullYear();
+  const yearsPassed = currentYear - 2010;
+  const tooltip = `There are ~${creatureCount} Pokémons in existence from 2010 to ${currentYear} (${yearsPassed} years)`;
   return (
-    <div className="pokemon-list">
-      {Object.entries(pokemonsByYear).map(([year, pokemons]) => (
-        <div key={year}>
-          <h2>{year}</h2>
-          {pokemons.map((pokemon) => (
-            <Link key={pokemon.id} to={`/pokemon/${pokemon.id}`}>
-              {pokemon.name}
-            </Link>
-          ))}
+    <header className="header">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
+            Pokémons <span className="badge bg-secondary" title={tooltip}>{creatureCount}</span>
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/types">Types</Link></li>
+              {/* Add more navigation items as needed */}
+            </ul>
+          </div>
         </div>
-      ))}
-    </div>
+      </nav>
+    </header>
   );
 };
 
-export default PokemonList;
-
-In this code, we're using the reduce function to group the Pokemon by year. Then, we're using Object.entries to iterate over each year and its corresponding Pokemon. For each year, we're rendering a <h2> with the year and a list of links to each Pokemon's detail page.
 
 
 
@@ -53,11 +77,7 @@ In this code, we're using the reduce function to group the Pokemon by year. Then
 
 
 
-
-
-
-
-Please don't use the /pokemon/{id} URL format, but keep the previous of /{Name}.
+About Footer.js: I want to use the very same method for getting the last used year, so as Header.js does!
 
 
 
@@ -67,76 +87,73 @@ Please don't use the /pokemon/{id} URL format, but keep the previous of /{Name}.
 
 
 
-Sure, you can use the Pokemon's name instead of the id in the URL. Here's how you can modify the PokemonList.js file to achieve this:
+To modify the Footer.js file to reflect the last year a Pokémon was added, similar to what we did in Header.js, you need to import the pokemons.json data and extract the maximum year.
 
-import React from 'react';
+Here's how you can modify the Footer.js file to achieve this:
+
+import pokemons from '../data/pokemons.json';
+
+// ...
+
+const Footer = () => {
+  const lastUpdate = Math.max(...pokemons.map(pokemon => pokemon.year));
+  // ...
+};
+
+In this code, we're using the Math.max function along with the map function to find the maximum year in the pokemons.json data. This will ensure that lastUpdate always reflects the last year a Pokémon was added.
+
+Please refer to the following code block for the full context:
+
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+
+const Footer
+
+
+
+
+
+
+
+
+I mean "(c) 2010-2024", not the lastupdate!
+
+
+
+
+
+
+
+
+
+To modify the copyright year range in Footer.js to reflect the last year a Pokémon was added, you need to import the pokemons.json data and extract the maximum year.
+
+Here's how you can modify the Footer.js file to achieve this:
+
 import pokemons from '../data/pokemons.json';
 
-const PokemonList = () => {
-  // Group pokemons by year
-  const pokemonsByYear = pokemons.reduce((groups, pokemon) => {
-    const year = pokemon.year;
-    if (!groups[year]) {
-      groups[year] = [];
-    }
-    groups[year].push(pokemon);
-    return groups;
-  }, {});
+// ...
 
-  return (
-    <div className="pokemon-list">
-      {Object.entries(pokemonsByYear).map(([year, pokemons]) => (
-        <div key={year}>
-          <h2>{year}</h2>
-          {pokemons.map((pokemon) => (
-            <Link key={pokemon.id} to={`/${pokemon.name}`}>
-              {pokemon.name}
-            </Link>
-          ))}
-        </div>
-      ))}
-    </div>
-  );
+const Footer = () => {
+  const lastYear = Math.max(...pokemons.map(pokemon => pokemon.year));
+  // ...
 };
 
-export default PokemonList;
+In this code, we're using the Math.max function along with the map function to find the maximum year in the pokemons.json data. This will ensure that the copyright year range always ends with the last year a Pokémon was added.
 
-In this code, the only change is in the Link component. Instead of using /pokemon/${pokemon.id}, we're now using /${pokemon.name}. This will generate URLs based on the Pokemon's name.
+Please refer to the following code block for the full context:
 
+import React, { useEffect, useState } from 'react';
+import pokemons from '../data/pokemons.json';
+//import { Link } from 'react-router-dom';
+//import PropTypes from 'prop-types';
 
+You can then use the lastYear variable in your JSX like so:
 
+<center>
+  (c) 2010-{lastYear} Phonemon by 
+  // ...
+</center>
 
-
-
-
-
-
-Now, please, I need every year to have a <span class="badge bg-secondary"></span> badge counting how many Pokémons are, in each year.
-
-
-
-
-
-
-
-
-
-To add a badge that counts the number of Pokemons in each year, you can simply add a <span> element inside the <h2> element for each year. You can use the length property of the array of Pokemons for each year to get the count. Here's how you can modify the PokemonList.js file to achieve this:
-
-// ...
-{Object.entries(pokemonsByYear).map(([year, pokemons]) => (
-  <div key={year}>
-    <h2>
-      {year} <span className="badge bg-secondary">{pokemons.length}</span>
-    </h2>
-    {pokemons.map((pokemon) => (
-      <Link key={pokemon.id} to={`/${pokemon.name}`}>
-        {pokemon.name}
-      </Link>
-    ))}
-  </div>
-))}
-// ...
-
-In this code, the only change is in the <h2> element. We've added a <span> element with the class "badge bg-secondary". The content of the <span> element is {pokemons.length}, which will display the number of Pokemons for the current year.
+This will dynamically update the copyright year range based on the last year a Pokémon was added.

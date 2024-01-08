@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import pokemons from '../data/pokemons.json';
+//import { Link } from 'react-router-dom';
+//import PropTypes from 'prop-types';
 
 const Footer = () => {
   const [lastUpdate, setLastUpdate] = useState('');
+  const lastYear = Math.max(...pokemons.map(pokemon => pokemon.year));
 
   useEffect(() => {
     const date = new Date();
@@ -25,8 +27,7 @@ const Footer = () => {
             <img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg" />
           </a>
           <br />
-          (c) 2010-2024 Phonemon by 
-          <a target="_blank" href="https://tamigucho.com/" style={{opacity: 'unset'}}>
+          (c) 2010-{lastYear} Phonemon by <a target="_blank" href="https://tamigucho.com/" style={{opacity: 'unset'}}>
             <img height="16px" alt="The Tamigucho DAO" src="https://tamigucho.com/logotype-old.png" title="The Tamigucho DAO" />
           </a> + 
           <a target="_blank" href="https://gamlr.gg/" style={{opacity: 'unset'}}>

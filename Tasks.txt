@@ -1,4 +1,3 @@
-- header logo badge: current year is the last year listed
 - reflect years' pokemon count in apexchart!
 
 - components/TypeList.js: add a count of all existing types!

@@ -22,8 +22,7 @@ const PokemonList = () => {
     </h2>
     {pokemons.map((pokemon) => (
       <Link key={pokemon.id} to={`/${pokemon.name}`}>
-        {pokemon.name}
-      </Link>
+        {pokemon.name} </Link>
     ))}
   </div>
 ))}

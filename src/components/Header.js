@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import TypeList from './TypeList';
 import PropTypes from 'prop-types';
+import pokemons from '../data/pokemons.json';
 
 const Header = ({ creatureCount }) => {
-  const currentYear = new Date().getFullYear();
+  const currentYear = Math.max(...pokemons.map(pokemon => pokemon.year));
   const yearsPassed = currentYear - 2010;
   const tooltip = `There are ~${creatureCount} Pokémons in existence from 2010 to ${currentYear} (${yearsPassed} years)`;
   return (
