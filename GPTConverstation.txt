@@ -1,49 +1,7 @@
-TypeList.js: display badge (CSS, emoji) as it does in other pages as well.
+CTRL+K:
 
+Here, please apply the badge (emoji, CSS) to the type in H2
 
+----
 
-
-
-
-
-
-...
-
-
-
-
-Apologies for the confusion. To display the badge (CSS, emoji) in the TypeList.js as it does in other pages, you can add the following JSX code to the TypeList.js file:
-
-{/* TypeList.js */}
-<li key={index}>
-  <Link to={`/types/${type.type}`} className="type-badge">{type.type}</Link>
-</li>
-
-
-
-
-
-
-
-
-
-Still missing the type class (example: type-electric, type-fire, etc) and the emoji!
-
-
-
-
-
-
-
-
-
-Apologies for the oversight. To display the type class and emoji in the TypeList.js, you can update the JSX code as follows:
-
-{/* TypeList.js */}
-<li key={index}>
-  <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
-    {pokemonTypes.find(t => t.type === type.type).emoji} {type.type}
-  </Link>
-</li>
-
-This will ensure that the type class (e.g., type-electric, type-fire) and the emoji are displayed in the TypeList.js component.
+Please also add the type CSS class according to type (example type-electric, type-grass, etc!)
