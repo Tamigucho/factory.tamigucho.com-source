@@ -33,6 +33,72 @@
     ]
   },
   {
+    "id": 10,
+    "name": "Caterpie",
+    "type": "Bug",
+    "photo": "img/2024/10.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "type": ["Bug", "Poison"],
+    "photo": "img/2024/13.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "type": ["Neutral", "Flying"],
+    "photo": "img/2024/16.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "type": "Neutral",
+    "photo": "img/2024/19.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "type": ["Neutral", "Flying"],
+    "photo": "img/2024/21.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "type": "Poison",
+    "photo": "img/2024/23.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
     "id": 25,
     "name": "Pikachu",
     "type": "Electric",
@@ -41,6 +107,160 @@
     "description": [
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
       "It evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone."
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "type": "Fighting",
+    "photo": "img/2024/56.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "type": ["Rock", "Ground"],
+    "photo": "img/2024/74.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "type": ["Ghost", "Poison"],
+    "photo": "img/2024/92.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "type": ["Psychic", "Fairy"],
+    "photo": "img/2024/122.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "type": ["Neutral", "Paper"],
+    "photo": "img/2024/137.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "type": ["Ice", "Flying"],
+    "photo": "img/2024/144.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "type": ["Dragon", "Flying"],
+    "photo": "img/2024/149.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Murkrow",
+    "type": ["Dark", "Flying"],
+    "photo": "img/2024/198.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Steelix",
+    "type": ["Steel", "Ground"],
+    "photo": "img/2024/208.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Porygon2",
+    "type": ["Neutral", "Plastic"],
+    "photo": "img/2024/233.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Shedinja",
+    "type": ["Bug", "Ghost", "Paper"],
+    "photo": "img/2024/292.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 837,
+    "name": "Rolycoly",
+    "type": ["Rock", "Rubber"],
+    "photo": "img/2024/837.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 868,
+    "name": "Milcery",
+    "type": ["Fairy", "Sugar"],
+    "photo": "img/2024/868.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ]
+  },
+  {
+    "id": 932,
+    "name": "Nacli",
+    "type": ["Rock", "Salt"],
+    "photo": "img/2024/932.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
     ]
   }
 ]

@@ -1,10 +1,15 @@
-- Noah: add a representing Pokémon of each type! Inalguring Bug: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10.svg, testing Bug+Poison dual-type: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg, Inalguring Neutral+Flying: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/16.svg, so repeat: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/21.svg, also continue Poison: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/23.svg, also continue Neutral: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/19.svg
-- Complete Noah: Inalgure Fighting: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/56.svg, Inalgure Psychic+Fary: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/122.svg, Inalgure Rock+Ground: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/74.svg, Inalgure Ice(+Flying) https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg, Inalgure Dragon(+Flying) https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/149.svg, Inalgure Ghost(+Poison) https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/92.svg, Inalgure Dark(+Flying) https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/198.svg, Inalgure Steel(+Ground) https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/208.svg
+- Type page issue: long spacing between pokemon items, unlike in the start page ; this happens in the start too, when there's an arrow/line with just two poke items
 - Type page issue: Pokémon photo isn't being displayed, for example in /type/Electric pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu)
 - Type page: count how much Pokémons are in that type!
+- Bug: can't open type/Fighting, where Mankey is
+- /type doesn't load; let's make it, showing all of the types! and link it in components/Header.js!
+- combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
+- include the multi-line descriptions in the search!
 - Pokemon Details page: show type matchups of their types, mixing the results of all their types!
 
 - add evolutions! example: https://www.pokemon.com/br/pokedex/raichu, but list these evolutions in each page of that evolutionary line!
 
 
 - Pokémon types' weaknesses/strenghts aren't accounting for Tamigucho's brand new types, yet
+
+- insp https://www.ligapokemon.com.br/?view=pokedex/pokemon&id=932, https://www.ligapokemon.com.br/?view=pokedex/pokemon&id=869
