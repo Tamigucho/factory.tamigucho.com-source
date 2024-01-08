@@ -46,6 +46,11 @@ setPokemonsByType(filteredPokemons);
             <span> {strength}</span>
           </Link>
         ))}
+
+<h4>Effectiveness</h4>
+{Object.entries(typeData.effectiveness).map(([type, value]) => (
+  <p key={type}>{value}X {type}</p>
+))}
       </div>
       <div className="pokemon-list">
         {pokemonsByType.map((pokemon, index) => (
