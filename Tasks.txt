@@ -1,15 +1,20 @@
-- divide Pokémons by year: Bulb/Char for 2010, Squirtle/Caterpie 2011, Weedle 2012, Pidgey/Rat 2013, Spearow/Ekans 2014, Pikachu 2015, Mankey+Geodude 2016, Gastly+Mr 2017, Porygon 2018, Articuno+Dragonite 2019, Murkrow+Steelix 2020, Porygon2 2021, Shedinja+Rolycoly 2022, Milcery 2023, Nacli 2024
-- pokemon count in every year
-- reflect years' pokemon count in apexchart!
+
 - Type page issue: long spacing between pokemon items, unlike in the start page ; this happens in the start too, when there's an arrow/line with just two poke items
 - Type page issue: Pokémon photo isn't being displayed, for example in /type/Electric pointing to http://localhost:3000/type/img/2024/25.svg instead of http://localhost:3000/img/2024/25.svg (for Pikachu)
 - Type page: count how much Pokémons are in that type!
 - Bug: can't open type/Fighting, where Mankey is
-- /type doesn't load; let's make it, showing all of the types! and link it in components/Header.js!
 - combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
-- apexchart: add Home.js page, mv apexchart to that (not anymore appearing globally)
+
+- /type doesn't load; let's make it, showing all of the types! and link it in components/Header.js!
+
+- add Home.js page, mv App.js' Pokemons to that
+- apexchart: mv apexchart to that Home.js (not anymore appearing globally)
+- divide Pokémons by year: Bulb/Char for 2010, Squirtle/Caterpie 2011, Weedle 2012, Pidgey/Rat 2013, Spearow/Ekans 2014, Pikachu 2015, Mankey+Geodude 2016, Gastly+Mr 2017, Porygon 2018, Articuno+Dragonite 2019, Murkrow+Steelix 2020, Porygon2 2021, Shedinja+Rolycoly 2022, Milcery 2023, Nacli 2024
+- pokemon count in every year
+- reflect years' pokemon count in apexchart!
+
 - make photos clickable: their URL will open in another tab, kinda like zooming'em!
 - example http://localhost:3000/Milcery: make photos smaller, sized 430px width
 - Pokemon Details page: show type matchups of their types, mixing the results of all their types!

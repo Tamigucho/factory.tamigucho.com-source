@@ -1,7 +1,0 @@
-CTRL+K:
-
-Please add this title/tooltip to the header's badge of {pokemonCount}:
-
-"There are ~{pokemonCount} Pokémons in existence from 2010 to 2024 (14 years)"
-
-Instead of 2024, show the current year, and instead of "14 years", calc from 2010 to current year how much years have passed!
