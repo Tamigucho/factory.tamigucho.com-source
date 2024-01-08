@@ -49,7 +49,8 @@
     "Ground": 0,
     "Rubber": 0,
     "Water": 2,
-    "Flying": 2
+    "Flying": 2,
+    "Steel": 2
   }
 },
 {
@@ -250,7 +251,7 @@
   "type": "Steel",
   "color": "#B8B8D0",
   "emoji": "🛡️",
-  "weaknesses": ["Fire", "Fighting", "Ground"],
+  "weaknesses": ["Fire", "Fighting", "Ground", "Electric"],
   "resistance": ["Ice", "Rock", "Fairy", "Paper"],
   "effectiveness": {
     "Fire": 0.5,
@@ -269,9 +270,9 @@
   "weaknesses": ["Electric", "Plant", "Salt", "Sugar", "Plastic"],
   "resistance": ["Fire", "Ground", "Rock"],
   "effectiveness": {
-    "Electric": 2,
-    "Plant": 2,
-    "Fire": 0.5,
+    "Fire": 2,
+    "Electric": 0.5,
+    "Plant": 0.5,
     "Ground": 0.5,
     "Rock": 0.5,
     "Salt": 2,
@@ -324,7 +325,9 @@
     "emoji": "🪀",
     "weaknesses": ["Fire"],
     "resistance": ["Electric"],
-    "effectiveness": {}
+    "effectiveness": {
+      "Electric": 2
+    }
   },
   {
     "type": "Sugar",

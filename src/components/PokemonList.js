@@ -1,28 +1,34 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import PokemonItem from './PokemonItem';
+import { Link } from 'react-router-dom';
+import pokemons from '../data/pokemons.json';
 
-const PokemonList = ({ pokemons }) => {
+const PokemonList = () => {
+  // Group pokemons by year
+  const pokemonsByYear = pokemons.reduce((groups, pokemon) => {
+    const year = pokemon.year;
+    if (!groups[year]) {
+      groups[year] = [];
+    }
+    groups[year].push(pokemon);
+    return groups;
+  }, {});
+
   return (
     <div className="pokemon-list">
-  {pokemons.map((pokemon, index) => (
-    <PokemonItem key={index} {...pokemon} />
-  ))}
-</div>
+ {Object.entries(pokemonsByYear).map(([year, pokemons]) => (
+  <div key={year}>
+    <h2>
+      {year} <span className="badge bg-secondary">{pokemons.length}</span>
+    </h2>
+    {pokemons.map((pokemon) => (
+      <Link key={pokemon.id} to={`/${pokemon.name}`}>
+        {pokemon.name}
+      </Link>
+    ))}
+  </div>
+))}
+    </div>
   );
-};
-
-PokemonList.propTypes = {
-  pokemons: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      type: PropTypes.string.isRequired,
-      photo: PropTypes.string.isRequired,
-      instagram: PropTypes.string.isRequired,
-      description: PropTypes.arrayOf(PropTypes.string).isRequired,
-    })
-  ).isRequired,
 };
 
 export default PokemonList;

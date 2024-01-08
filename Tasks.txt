@@ -1,6 +1,3 @@
-- divise gens (and their mons dex numbers) by: biyearly-gens and official-gens
-- divide Pokémons by year: Bulb/Char for 2010, Squirtle/Caterpie 2011, Weedle 2012, Pidgey/Rat 2013, Spearow/Ekans 2014, Pikachu 2015, Mankey+Geodude 2016, Gastly+Mr 2017, Porygon 2018, Articuno+Dragonite 2019, Murkrow+Steelix 2020, Porygon2 2021, Shedinja+Rolycoly 2022, Milcery 2023
-- pokemon count in every year
 - header logo badge: current year is the last year listed
 - reflect years' pokemon count in apexchart!
 
@@ -35,6 +32,8 @@ https://pokemonwack.fandom.com/wiki/Paper_(type)
 - Pokemon Details page: show type matchups of their types, mixing the results of all their types!
 
 - react hook for, on every reload, run "npm run count-all-creatures"
+
+- list gens (and their mons dex numbers) by: biyearly-gens and official-gens
 
 - Type page issue: long spacing between pokemon items, unlike in the start page ; this happens in the start too, when there's an arrow/line with just two poke items
 - complete type matchups in data/pokemonTypes.json

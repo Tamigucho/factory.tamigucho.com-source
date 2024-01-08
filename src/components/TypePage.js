@@ -26,7 +26,7 @@ setPokemonsByType(filteredPokemons);
   return (
     <div className="type-page">
       <h2 className={`type-${typeName.toLowerCase()}`}>
-        <span>{pokemonTypes.find(type => type.type === typeName).emoji}</span>
+        <span>{pokemonTypes.find(type => type.type === typeName).emoji} </span>
         <span>{typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</span>
       </h2>
       <div><p>Total Pokémons in this type: {pokemonsCount}</p></div>
