@@ -11,9 +11,11 @@ const TypeList = () => {
       <h2>Pokémon Types</h2>
       <ul>
         {pokemonTypes.map((type, index) => (
-          <li key={index}>
-            <Link to={`/types/${type.type}`}>{type.type}</Link>
-          </li>
+        <li key={index}>
+        <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
+          {pokemonTypes.find(t => t.type === type.type).emoji} {type.type}
+        </Link>
+        </li>
         ))}
       </ul>
     </div>

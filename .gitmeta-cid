@@ -1,7 +1,4 @@
 Branch: main
-src/App.js: QmUAVkvQCE94FN1CHEde1xpHLrHKDWG2PJ9wGpaCKgG8gb
-src/components/Header.js: Qmc8F881iNKRDoaGw8cE77igv4JPVpPqieWowr5z2QwUwY
-src/components/PokemonDetails.js: QmTu5AtQd52MUp4qGC3XxRiqN7dY7fpEfGZ1eHZnLVk4pV
-src/components/PokemonItem.js: QmZjL2JnBNnUtJM8JiKqZ9u8srW62su3kjpiLQ2A5RXWxJ
-src/components/TypeList.js: QmQdwSym5gRmWwEMTLkghqiqjFDjQsGYz3HY6Ea6JSDcUt
-src/components/TypePage.js: QmPiodbZEeoFpLJCRVcpcSNNVE6nWHjAdaRMuqwaRHw97D
+GPTConverstation.txt: QmRpD3RHxuCbySJNqUpKnnhSD32bRBPzobcDDqt1UAee8y
+Tasks.txt: QmXVSibSvJN3Pm6UChLSrfVBt7ucK75kQdCn6Zse7xWQbk
+src/components/TypeList.js: QmSy4pm19yAc9jH55fTbWfz3cgEHL9mS4qMF3gKmUxHCeb

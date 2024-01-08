@@ -1,5 +1,3 @@
-- TypeList.js: display badge (CSS, emoji)
-
 - Beyond Weaknesses and Strenghts: add Effectiveness to types!
 
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
