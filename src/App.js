@@ -48,14 +48,12 @@ function App() {
   const years = Object.keys(pokemonsByYear);
   const counts = Object.values(pokemonsByYear).map(count => count.toString());
   
-//console.log(counts);
+  const lastYear = Math.max(...pokemons.map(pokemon => pokemon.year));
 
   const series = [{
     name: 'New creatures',
     data: counts
   }];
-
-  //console.log(series);
   
   const options = {
     chart: {
@@ -98,7 +96,7 @@ function App() {
       </Routes>
       <div class="chartyears">
       <p>new tami creatures:</p>
-      <p>growth from 2010 to 2024</p>
+      <p>growth from 2010 to {lastYear}</p>
         <Chart options={options} series={series} type="line" height={350} />
         <ul class="nav nav-pills nav-fill mb-3">
           <li class="nav-item" role="presentation">

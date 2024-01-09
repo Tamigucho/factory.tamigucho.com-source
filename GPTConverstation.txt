@@ -1,0 +1,51 @@
+In App.js' apexchart, there are two <p> elements, and one of them: <p>growth from 2010 to 2024</p>
+
+Please replace "2024" with the last year that have a Pokémon.
+
+
+
+
+
+
+To replace "2024" with the last year that has a Pokémon, you need to find the maximum year from your data. You can do this by using the Math.max function on the years array which contains the years of all Pokémon.
+
+Here's how you can do it:
+
+const lastYear = Math.max(...years);
+
+Then, you can use this lastYear variable in your JSX:
+
+<p>growth from 2010 to {lastYear}</p>
+
+So, your updated code will look like this:
+
+import React, { useState, useEffect } from 'react';
+// ... other imports ...
+
+function App() {
+  // ... other states and effects ...
+
+  const pokemonsByYear = groupByYear(pokemonsData);
+  const years = Object.keys(pokemonsByYear);
+  const counts = Object.values(pokemonsByYear).map(count => count.toString());
+  
+  const lastYear = Math.max(...years);
+
+  // ... other code ...
+
+  return (
+    <div className="App">
+      {/* ... other components ... */}
+      <div class="chartyears">
+        <p>new tami creatures:</p>
+        <p>growth from 2010 to {lastYear}</p>
+        {/* ... other components ... */}
+      </div>
+      {/* ... other components ... */}
+    </div>
+  );
+}
+
+export default App;
+
+This will dynamically update the text to show the last year that has a Pokémon.
