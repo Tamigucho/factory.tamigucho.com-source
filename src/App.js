@@ -98,6 +98,8 @@ function App() {
 </div>
 </div></div>
 <div id="andlogo"></div></div>
+<center>
+<br/><br/><h5>Digital animals created since 2010 to {lastYear} by <a href="https://danimesq.github.io/" target="_blank">Daniella Mesquita</a>.</h5></center>
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
         <Route path="/types" element={<TypeList />} />
