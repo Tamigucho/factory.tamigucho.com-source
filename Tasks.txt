@@ -13,6 +13,8 @@
 - regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
 - gimmick dropdown: should also support gimmicks on regional forms! so, it will react to changes made by clicking an item in the regional forms dropdown!
 
+- add groups, for example: Kanto Legendary Trio (3), The Regis (8)
+
 
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
