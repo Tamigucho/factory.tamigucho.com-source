@@ -8,6 +8,7 @@ import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
 import YearsPage from './components/YearsPage'; // Import the new component
 import YearPage from './components/YearPage'; // Import the new component
+import CreaturesPage from './components/CreaturesPage'; // Import the new component
 import Footer from './components/Footer';
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
 import Chart from 'react-apexcharts';
@@ -104,6 +105,7 @@ function App() {
 <br/><br/><h5>Digital animals created since 2010 to {lastYear} by <a href="https://danimesq.github.io/" target="_blank">Daniella Mesquita</a>.</h5></center>
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
+        <Route path="/creatures" element={<CreaturesPage />} />
         <Route path="/types" element={<TypeList />} />
         <Route path="/types/:typeName" element={<TypePage />} />
         <Route path="/creatures/:name" element={<PokemonDetails pokemons={pokemons} />} />

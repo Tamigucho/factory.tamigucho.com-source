@@ -34,6 +34,9 @@ const Header = ({ creatureCount }) => {
                 Home</Link>
               </li>
               <li className="nav-item">
+              <Link className={`nav-link ${location.pathname.startsWith('/creatures') ? 'active' : ''}`} to="/creatures">
+                Creatures Dex</Link></li>
+              <li className="nav-item">
               <Link className={`nav-link ${location.pathname.startsWith('/types') ? 'active' : ''}`} to="/types">
                 Types</Link></li>
                 <li className="nav-item">

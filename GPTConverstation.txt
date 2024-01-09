@@ -1,4 +1,4 @@
-PokemonDetails.js: creatures URL won't anymore be for example /Charmander, but /creatures/Charmander
+Based in all of that, create the /creatures page, listing all of the Pokémons, as cards so as they are shown in for example /types/Electric and example /years/2010
 
 
 
@@ -7,33 +7,49 @@ PokemonDetails.js: creatures URL won't anymore be for example /Charmander, but /
 
 
 
-To change the URL structure for the Pokemon details, you need to modify the routing configuration in your application. This is typically done in the main routing file (e.g., App.js or routes.js), where you define all the routes for your application.
+To create a /creatures page that lists all the Pokémon as cards, you need to create a new component, let's call it CreaturesPage. This component will fetch all the Pokémon data and render them as cards.
 
-The exact code change will depend on the routing library you're using. If you're using react-router-dom, for example, you would change the Route for the Pokemon details from something like this:
+Here's a basic example of how you can create this component:
 
-<Route path="/:pokemonName" component={PokemonDetails} />
+import React from 'react';
+import { Link } from 'react-router-dom';
+import pokemonsData from '../data/pokemons.json';
+import PokemonItem from './PokemonItem';
 
-to this:
+const CreaturesPage = () => {
+  return (
+    <div className="creatures-page">
+      {pokemonsData.map((pokemon, index) => (
+        <PokemonItem key={index} {...pokemon} />
+      ))}
+    </div>
+  );
+};
 
-<Route path="/creatures/:pokemonName" component={PokemonDetails} />
+export default CreaturesPage;
 
-This change will make it so that the PokemonDetails component is shown when the URL matches /creatures/Charmander, instead of /Charmander.
+In this code, we're importing the pokemonsData and PokemonItem component. The PokemonItem component is used to render each Pokémon as a card.
 
-Remember to update all the links in your application that point to the Pokemon details page. For example, if you have a Link component that points to the Pokemon details page, you would change it from:
+Next, you need to add a route for this new page in your App.js file:
+
+import CreaturesPage from './components/CreaturesPage'; // Import the new component
+
+// Inside your Routes component
+<Route path="/creatures" element={<CreaturesPage />} />
+
+This will make it so that when you navigate to /creatures, the CreaturesPage component is rendered, showing a list of all Pokémon as cards.
+
+Remember to update all the links in your application that point to the Pokémon details page. For example, if you have a Link component that points to the Pokémon details page, you would change it from:
 
 <Link to={`/${pokemonName}`}>Details</Link>
 
 to:
 
 <Link to={`/creatures/${pokemonName}`}>Details</Link>
+
 
 This will ensure that when a user clicks on the link, they are taken to the correct URL.
 
-Also, in your PokemonDetails.js file, you'll need to update how you access the pokemonName from the URL. If you're using react-router-dom, you can access it from the match prop:
-
-const pokemonName = this.props.match.params.pokemonName;
-
-This pokemonName variable will contain the name of the Pokemon, which you can then use to fetch the correct data for the Pokemon details page.
 
 
 
@@ -41,8 +57,7 @@ This pokemonName variable will contain the name of the Pokemon, which you can th
 
 
 
-
-Have to update the Pokémon links in the years shown in App.js, too!
+Unconfortable detail: the creatures cards are shown line after line, instead of responsively as they are in /types/{Type} and /years/{Year}
 
 
 
@@ -52,20 +67,30 @@ Have to update the Pokémon links in the years shown in App.js, too!
 
 
 
-To update the Pokémon links in the years shown in App.js, you need to modify the Route components related to the years.
+The issue you're facing is likely due to CSS styling. The cards are displayed in a line because they don't have the correct CSS properties to wrap into a new line when the screen width is not enough.
 
-In the Routes component, you have a Route for /years/:year. This route probably renders a list of Pokémon for a specific year. If each Pokémon in this list is a link to the Pokémon's details page, you need to update these links to include /creatures/ in the URL.
+In your /types/{Type} and /years/{Year} pages, the Pokémon cards are probably wrapped in a container with CSS properties similar to these:
 
-Here's how you can do it:
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-If you're using a Link component to create the link to the Pokémon's details page, you would change it from:
+This CSS makes the cards display in a row 1, move to the next line when there's not enough space 2, and distribute the remaining space evenly 3.
 
-<Link to={`/${pokemonName}`}>Details</Link>
+To fix the issue in your /creatures page, you need to wrap the Pokémon cards in a container with the same CSS properties. Here's how you can do it:
 
-to:
+const CreaturesPage = () => {
+  return (
+    <div className="creatures-page">
+      <div className="pokemon-list">
+        {pokemonsData.map((pokemon, index) => (
+          <PokemonItem key={index} {...pokemon} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-<Link to={`/creatures/${pokemonName}`}>Details</Link>
-
-This change should be made in the component that renders the list of Pokémon for a specific year, which is likely YearPage or a similar component.
-
-Remember, the pokemonName variable should contain the name of the Pokémon, which you can use to create the correct URL for the Pokémon's details page.
+In this code, the pokemon-list class is added to the container that wraps the Pokémon cards. This class should have the necessary CSS properties to make the cards display responsively. If the pokemon-list class is not defined in your CSS, you need to add it with the properties mentioned above.

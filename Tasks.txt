@@ -1,3 +1,21 @@
+/creatures page (components/CreaturesPage.js): add a Material Bootstrap paginator, showing a max of 10 Pokémons per page!
+Example from Material Bootstrap React version:
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
 - pokemons.json: creatures URL now will have their own entry; eg Mr. Mime won't anymore be "/creatures/Mr. Mime" URL, but "/creatures/mr-mime" and "/creatures/Mime Jr." will be "/creatures/mime-jr"
 
 - add evolutions table to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line! the trick: in pokemons.json, add a "evolution" key with the name of the Pokémon to evolve to!
