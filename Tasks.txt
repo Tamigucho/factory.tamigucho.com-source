@@ -1,10 +1,9 @@
-add Metapod, Butterfree, Kakuna, Beedril, Pidgeotto, Pidgeot, Raticate
-Fearow, Arbok, Pichu, Raichu, Primeape, Anihilape
-Graveler, Golem, Haunter, Gengar, Mime Jr, Dratini, Dragonair
-Honchkrow, Onyx, Nincada, Carkol, Coalossal
-Alcremie, Naclstack, Garnacl
+add Honchkrow, Onyx, Nincada, Carkol, Coalossal
+add Alcremie, Naclstack, Garnacl
 
 - /years page: add badge of poke count to every year, so as they are in App.js!
+
+- pokemons.json: creatures URL now will have their own entry; eg Mr. Mime won't anymore be "/creatures/Mr. Mime" URL, but "/creatures/mr-mime" and "/creatures/Mime Jr." will be "/creatures/mime-jr"
 
 - add evolutions table to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line! the trick: in pokemons.json, add a "evolution" key with the name of the Pokémon to evolve to!
 
@@ -33,7 +32,7 @@ https://www.google.com/search?channel=fs&client=ubuntu-sn&q=Pokemon+Plastic+type
 https://pokemonwack.fandom.com/wiki/Paper_(type)
 Neutral type, too
 
-- Pokemon Details page: show type matchups of their types, mixing the results of all their types!
+- Pokemon Details page: show type matchups of their types, mixing the results of all their types! inspos: https://www.pokemon.com/br/pokedex/butterfree https://www.pokemon.com/br/pokedex/graveler (4x damage)
 
 - react hook for, on every reload, run "npm run count-all-creatures"
 

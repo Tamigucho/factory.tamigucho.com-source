@@ -437,7 +437,7 @@
   },
   {
     "id": 979,
-    "biyearly_id": 29,
+    "biyearly_id": 30,
     "name": "Annihilape",
     "type": ["Fighting", "Ghost"],
     "photo": "./img/2016/979.svg",
@@ -452,7 +452,7 @@
   },
   {
     "id": 74,
-    "biyearly_id": 12,
+    "biyearly_id": 31,
     "name": "Geodude",
     "type": ["Rock", "Ground"],
     "photo": "./img/2016/74.svg",
@@ -466,8 +466,38 @@
     "year": 2016
   },
   {
+    "id": 75,
+    "biyearly_id": 32,
+    "name": "Graveler",
+    "type": ["Rock", "Ground"],
+    "photo": "./img/2016/75.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 1,
+    "year": 2016
+  },
+  {
+    "id": 76,
+    "biyearly_id": 33,
+    "name": "Golem",
+    "type": ["Rock", "Ground"],
+    "photo": "./img/2016/76.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 1,
+    "year": 2016
+  },
+  {
     "id": 92,
-    "biyearly_id": 13,
+    "biyearly_id": 34,
     "name": "Gastly",
     "type": ["Ghost", "Poison"],
     "photo": "./img/2017/92.svg",
@@ -481,8 +511,53 @@
     "year": 2017
   },
   {
+    "id": 93,
+    "biyearly_id": 35,
+    "name": "Haunter",
+    "type": ["Ghost", "Poison"],
+    "photo": "./img/2017/93.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 1,
+    "year": 2017
+  },
+  {
+    "id": 94,
+    "biyearly_id": 36,
+    "name": "Gengar",
+    "type": ["Ghost", "Poison"],
+    "photo": "./img/2017/94.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 1,
+    "year": 2017
+  },
+  {
+    "id": 439,
+    "biyearly_id": 37,
+    "name": "Mime Jr.",
+    "type": ["Psychic", "Fairy"],
+    "photo": "./img/2017/439.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 4,
+    "year": 2017
+  },
+  {
     "id": 122,
-    "biyearly_id": 14,
+    "biyearly_id": 38,
     "name": "Mr. Mime",
     "type": ["Psychic", "Fairy"],
     "photo": "./img/2017/122.svg",
@@ -497,7 +572,7 @@
   },
   {
     "id": 137,
-    "biyearly_id": 15,
+    "biyearly_id": 39,
     "name": "Porygon",
     "type": ["Neutral", "Paper"],
     "photo": "./img/2018/137.svg",
@@ -512,7 +587,7 @@
   },
   {
     "id": 144,
-    "biyearly_id": 16,
+    "biyearly_id": 40,
     "name": "Articuno",
     "type": ["Ice", "Flying"],
     "photo": "./img/2019/144.svg",
@@ -526,8 +601,38 @@
     "year": 2019
   },
   {
+    "id": 147,
+    "biyearly_id": 41,
+    "name": "Dratini",
+    "type": "Dragon",
+    "photo": "./img/2019/147.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 5,
+    "official_gen": 1,
+    "year": 2019
+  },
+  {
+    "id": 148,
+    "biyearly_id": 42,
+    "name": "Dragonair",
+    "type": "Dragon",
+    "photo": "./img/2019/148.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 5,
+    "official_gen": 1,
+    "year": 2019
+  },
+  {
     "id": 149,
-    "biyearly_id": 17,
+    "biyearly_id": 43,
     "name": "Dragonite",
     "type": ["Dragon", "Flying"],
     "photo": "./img/2019/149.svg",
