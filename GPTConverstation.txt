@@ -1,114 +1,45 @@
-Please create a page components/YearsPage.js, routed in http://localhost:3000/years, containing all of the years (that are listed in App.js).
-List only the years in YearsPage.js, not the Pokémon in them.
-When clicking a year, it will open its own page (/years/{year} URL), and show a list of its Pokémons; not only Pokémon names, but their cards the same way they're shown in PokemonItem.js (not PokemonDetails.js, please, otherwise it would clutter too much).
+Header.js: change navigation state according to the current page (currently Home is still active and Types inactive in the /types URL - which is TypeList.js page - so as Years in /years URL - which is YearsPage.js)
 
 
 
 
 
 
-To create a new page that lists all the years and their corresponding Pokémon, you need to create a new component YearsPage.js and update the routing in App.js.
 
-First, create a new file src/components/YearsPage.js:
+
+To change the navigation state according to the current page, you can use the useLocation hook from react-router-dom to get the current path and then conditionally apply a CSS class to highlight the active link.
+
+Here's how you can do it:
+
+1. Import useLocation from react-router-dom in Header.js:
+
+import { Link, useLocation } from 'react-router-dom';
+
+
+2. Inside the Header component, call useLocation to get the current location object:
+
+const location = useLocation();
+
+3. For each navigation link in the Header component, conditionally apply a CSS class (e.g., active) based on the current path. For example:
+
+<Link className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} aria-current="page" to="/">Home</Link>
+<Link className={`nav-link ${location.pathname.startsWith('/types') ? 'active' : ''}`} to="/types">Types</Link>
+<Link className={`nav-link ${location.pathname.startsWith('/years') ? 'active' : ''}`} to="/years">Years</Link>
+
+In the above code, the active class is applied to a link if the current path matches the link's path. You can replace 'active' with any CSS class that styles the active link.
+
+Please note that you need to define the CSS class (e.g., active) in your CSS file to apply the desired styles to the active link.
+
+Refer to the following code blocks for the changes:
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pokemonsData from '../data/pokemons.json';
 
-const YearsPage = () => {
-  const years = [...new Set(pokemonsData.map(pokemon => pokemon.year))];
-
-  return (
-    <div className="years-page">
-      <h2>Years</h2>
-      <ul>
-        {years.map((year, index) => (
-          <li key={index}>
-            <Link to={`/years/${year}`}>{year}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
-export default YearsPage;
-
-Next, update src/App.js to include the new route:
-
-import YearsPage from './components/YearsPage'; // Import the new component
-
-// Add a new route in the Routes component
-<Route path="/years" element={<YearsPage />} />
-
-Then, create a new component src/components/YearPage.js to display the Pokémon for a specific year:
-
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import pokemonsData from '../data/pokemons.json';
-import PokemonItem from './PokemonItem';
-
-const YearPage = () => {
-  const { year } = useParams();
-  const pokemons = pokemonsData.filter(pokemon => pokemon.year === parseInt(year));
-
-  return (
-    <div className="year-page">
-      <h2>{year}</h2>
-      {pokemons.map((pokemon, index) => (
-        <PokemonItem key={index} {...pokemon} />
-      ))}
-    </div>
-  );
-};
-
-export default YearPage;
-
-
-Finally, add a new route in src/App.js for the YearPage component:
-
-import YearPage from './components/YearPage'; // Import the new component
-
-// Add a new route in the Routes component
-<Route path="/years/:year" element={<YearPage />} />
-
-Now, you can navigate to http://localhost:3000/years to see a list of all years. Clicking on a year will take you to a page that displays all Pokémon for that year.
-
-
-
-
-
-
-
-
-
-Uncomfortable detail: the Pokémon cards are being shown one line after another, rather than being responsive as they are in, for example, /types/Electric or /types/Water.
-
-
-
-
-
-
-
-
-
-The issue you're facing is likely due to missing CSS styles that make the Pokémon cards responsive. The styles for the Pokémon cards are defined in the .pokemon-list class in the src/styles/theme.css file.
-
-To make the Pokémon cards in the YearPage component responsive, you need to wrap the PokemonItem components in a div with the pokemon-list class:
-
-<div className="pokemon-list">
-  {pokemons.map((pokemon, index) => (
-    <PokemonItem key={index} {...pokemon} />
-  ))}
-</div>
-
-This will apply the following styles to the Pokémon cards:
-
-.pokemon-list {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-These styles make the Pokémon cards display in a flex container, which allows them to wrap onto the next line when there isn't enough space on the current line. This makes the Pokémon cards responsive to the size of the viewport.
+                <Link className="nav-link active" aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/types">Types</Link></li>
+                <li className="nav-item">
+                <Link className="nav-link" to="/years">Years</Link></li>

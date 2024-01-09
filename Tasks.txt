@@ -1,5 +1,3 @@
-- header: change navigation state according to the current page (currently Home is still active and Types inactive in the /types URL - which is TypeList.js page)
-
 - [non-AI] New type alongside Animal: Neutral (change it in Porygon/Porygon2)
 - [non-AI] 2024: Add Porygon-Z
 

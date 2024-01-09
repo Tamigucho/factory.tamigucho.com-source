@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import TypeList from './TypeList';
 import PropTypes from 'prop-types';
 import pokemons from '../data/pokemons.json';
 
 const Header = ({ creatureCount }) => {
+  const location = useLocation();
   const currentYear = Math.max(...pokemons.map(pokemon => pokemon.year));
   const yearsPassed = currentYear - 2010;
   const tooltip = `There are ~${creatureCount} Pokémons in existence from 2010 to ${currentYear} (${yearsPassed} years)`;
@@ -29,14 +30,15 @@ const Header = ({ creatureCount }) => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
-                  Home
-                </Link>
+              <Link className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} aria-current="page" to="/">
+                Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/types">Types</Link></li>
+              <Link className={`nav-link ${location.pathname.startsWith('/types') ? 'active' : ''}`} to="/types">
+                Types</Link></li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/years">Years</Link></li>
+                <Link className={`nav-link ${location.pathname.startsWith('/years') ? 'active' : ''}`} to="/years">
+                  Years</Link></li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>
