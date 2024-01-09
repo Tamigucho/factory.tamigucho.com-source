@@ -1,4 +1,4 @@
-/years page: add badge of poke count to every year, so as they are in App.js!
+PokemonDetails.js: creatures URL won't anymore be for example /Charmander, but /creatures/Charmander
 
 
 
@@ -7,64 +7,33 @@
 
 
 
-To add a badge of poke count to every year in the /years page, you need to modify the YearsPage.js component.
+To change the URL structure for the Pokemon details, you need to modify the routing configuration in your application. This is typically done in the main routing file (e.g., App.js or routes.js), where you define all the routes for your application.
 
-First, you need to calculate the count of pokemons for each year. You can do this by creating a new object pokemonsByYear that groups pokemons by their year. This can be done using the reduce function, similar to how it's done in PokemonList.js:
+The exact code change will depend on the routing library you're using. If you're using react-router-dom, for example, you would change the Route for the Pokemon details from something like this:
 
-const pokemonsByYear = pokemonsData.reduce((groups, pokemon) => {
-  const year = pokemon.year;
-  if (!groups[year]) {
-    groups[year] = [];
-  }
-  groups[year].push(pokemon);
-  return groups;
-}, {});
+<Route path="/:pokemonName" component={PokemonDetails} />
 
-Then, in the JSX returned by the YearsPage component, you can add a badge next to each year that displays the count of pokemons for that year:
+to this:
 
-{years.map((year, index) => (
-  <li key={index}>
-    <Link to={`/years/${year}`}>{year}</Link>
-    <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
-  </li>
-))}
+<Route path="/creatures/:pokemonName" component={PokemonDetails} />
 
-Here is the updated YearsPage.js:
+This change will make it so that the PokemonDetails component is shown when the URL matches /creatures/Charmander, instead of /Charmander.
 
-import React from 'react';
-import { Link } from 'react-router-dom';
-import pokemonsData from '../data/pokemons.json';
+Remember to update all the links in your application that point to the Pokemon details page. For example, if you have a Link component that points to the Pokemon details page, you would change it from:
 
-const YearsPage = () => {
-  const years = [...new Set(pokemonsData.map(pokemon => pokemon.year))];
+<Link to={`/${pokemonName}`}>Details</Link>
 
-  const pokemonsByYear = pokemonsData.reduce((groups, pokemon) => {
-    const year = pokemon.year;
-    if (!groups[year]) {
-      groups[year] = [];
-    }
-    groups[year].push(pokemon);
-    return groups;
-  }, {});
+to:
 
-  return (
-    <div className="years-page">
-      <h2>Years</h2>
-      <ul>
-        {years.map((year, index) => (
-          <li key={index}>
-            <Link to={`/years/${year}`}>{year}</Link>
-            <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+<Link to={`/creatures/${pokemonName}`}>Details</Link>
 
-export default YearsPage;
+This will ensure that when a user clicks on the link, they are taken to the correct URL.
 
-This will add a badge next to each year in the /years page, displaying the count of pokemons for that year.
+Also, in your PokemonDetails.js file, you'll need to update how you access the pokemonName from the URL. If you're using react-router-dom, you can access it from the match prop:
+
+const pokemonName = this.props.match.params.pokemonName;
+
+This pokemonName variable will contain the name of the Pokemon, which you can then use to fetch the correct data for the Pokemon details page.
 
 
 
@@ -72,7 +41,8 @@ This will add a badge next to each year in the /years page, displaying the count
 
 
 
-Each year page (as in YearPage.js) has a heading showing their name. Please add a badge next to that as well!
+
+Have to update the Pokémon links in the years shown in App.js, too!
 
 
 
@@ -82,24 +52,20 @@ Each year page (as in YearPage.js) has a heading showing their name. Please add 
 
 
 
-To add a badge next to the year heading in the YearPage.js component, you need to calculate the count of pokemons for the specific year. You can use the length property of the pokemons array that you've already filtered based on the year.
+To update the Pokémon links in the years shown in App.js, you need to modify the Route components related to the years.
 
-Here is the updated code snippet for the YearPage.js:
+In the Routes component, you have a Route for /years/:year. This route probably renders a list of Pokémon for a specific year. If each Pokémon in this list is a link to the Pokémon's details page, you need to update these links to include /creatures/ in the URL.
 
-const YearPage = () => {
-  const { year } = useParams();
-  const pokemons = pokemonsData.filter(pokemon => pokemon.year === parseInt(year));
+Here's how you can do it:
 
-  return (
-    <div className="year-page">
-      <h2>{year} <span className="badge bg-secondary">{pokemons.length}</span></h2>
-      <div className="pokemon-list">
-        {pokemons.map((pokemon, index) => (
-          <PokemonItem key={index} {...pokemon} />
-        ))}
-      </div>
-    </div>
-  );
-};
+If you're using a Link component to create the link to the Pokémon's details page, you would change it from:
 
-In the above code, {pokemons.length} will display the count of pokemons for the specific year as a badge next to the year heading.
+<Link to={`/${pokemonName}`}>Details</Link>
+
+to:
+
+<Link to={`/creatures/${pokemonName}`}>Details</Link>
+
+This change should be made in the component that renders the list of Pokémon for a specific year, which is likely YearPage or a similar component.
+
+Remember, the pokemonName variable should contain the name of the Pokémon, which you can use to create the correct URL for the Pokémon's details page.

@@ -21,7 +21,7 @@ const PokemonList = () => {
     {year} <span className="badge bg-secondary">{pokemons.length}</span>
   </h2>
   {pokemons.map((pokemon) => (
-    <Link key={pokemon.id} to={`/${pokemon.name}`}>
+    <Link key={pokemon.id} to={`/creatures/${pokemon.name}`}>
       {pokemon.name}</Link>
       ))}
 </div>

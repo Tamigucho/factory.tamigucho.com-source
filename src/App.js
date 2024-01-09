@@ -106,7 +106,7 @@ function App() {
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
         <Route path="/types" element={<TypeList />} />
         <Route path="/types/:typeName" element={<TypePage />} />
-        <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
+        <Route path="/creatures/:name" element={<PokemonDetails pokemons={pokemons} />} />
         <Route path="/years" element={<YearsPage />} />
         <Route path="/years/:year" element={<YearPage />} />
         {/* Add more routes as needed */}

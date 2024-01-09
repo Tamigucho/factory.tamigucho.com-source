@@ -42,13 +42,13 @@ return (
   <div>
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
-  <li class="nav-item prev-button"title={prevPokemon.name} onClick={() => navigate(`/${prevPokemon.name}`)}>
-    ← Previous <img src={prevPokemon.photo} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
+  <li class="nav-item prev-button"title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name}`)}>
+    ← Previous <img src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
   </li>
 )}
 {nextPokemon && (
-  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/${nextPokemon.name}`)}>
-     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img src={nextPokemon.photo} alt={nextPokemon.name} /> Next →
+  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name}`)}>
+     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img src={`${process.env.PUBLIC_URL}/${nextPokemon.photo}`} alt={nextPokemon.name} /> Next →
   </li>
 )}
 </ul>
@@ -60,8 +60,8 @@ return (
 <div class="container">
   <div class="row">
     <div class="col-md">
-    <a href={pokemon.photo} target="_blank" rel="noopener noreferrer">
-          <img height="400px" src={pokemon.photo} alt={pokemon.name} />
+    <a href={`${process.env.PUBLIC_URL}/${pokemon.photo}`} target="_blank" rel="noopener noreferrer">
+          <img height="400px" src={`${process.env.PUBLIC_URL}/${pokemon.photo}`} alt={pokemon.name} />
         </a> <a href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> Source</a>
     </div>
     <div class="col-md">
