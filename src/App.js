@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
 import Chart from 'react-apexcharts';
 import './styles/theme.css';
+import './styles/other/blogger2013.css'
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
@@ -87,6 +88,16 @@ function App() {
     <div className="App">
       <Header creatureCount={creatureCount} /> {/* Use the fetched creatureCount */}
       <Search onSearch={handleSearch} />
+      <div id="header-wrapper">
+<div id="adssection">
+<div class="adssection no-items section" id="adssection"></div>
+</div>
+<div class="section" id="header"><div class="widget Header" data-version="1" id="Header1">
+<div id="header-inner">
+<img alt="Phonemon" height="76px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`} width="307px"/>
+</div>
+</div></div>
+<div id="andlogo"></div></div>
       <Routes>
         <Route path="/" element={<PokemonList pokemons={filteredPokemons} />} />
         <Route path="/types" element={<TypeList />} />
@@ -99,20 +110,20 @@ function App() {
       <p>growth from 2010 to {lastYear}</p>
         <Chart options={options} series={series} type="line" height={350} />
         <ul class="nav nav-pills nav-fill mb-3">
-          <li class="nav-item" role="presentation">
+          <li class="nav-item" title="2011-2013">
             <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/bulball.png`}/>
 <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/logotype.png`}/>
           </li>
-<li class="nav-item" role="presentation">
+<li class="nav-item" title="2013-2015">
             <img alt="Phonemon" height="26px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`}/>
           </li>
-          <li class="nav-item" role="presentation">
+          <li class="nav-item" title="2015-2018">
             <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2015/logotype.png`}/>
           </li>
-          <li class="nav-item" role="presentation">
+          <li class="nav-item" title="2018-2023">
             <img alt="Phonemon" height="36px" src={`${process.env.PUBLIC_URL}/img/institutional/2018/logotype.png`}/>
           </li>
-<li class="nav-item" role="presentation">
+<li class="nav-item" title="2023-present">
             <img alt="Phonemon" height="36px" src="https://tamigucho.com/logotype.png"/>
           </li>
         </ul>  

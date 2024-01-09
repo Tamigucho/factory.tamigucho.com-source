@@ -1,0 +1,71 @@
+body {
+  background: #f9f9f9 url(./img/blogger2013/bg.png);
+  color: #555555;
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header-wrapper {
+  margin: 0px auto 0px;
+  height: 66px;
+  padding: 30px 0px 0px 0px;
+  overflow: hidden;
+}
+
+#container, #header, #main, #main-fullwidth, #footer, .clearfix {
+  display: block;
+}
+
+#header {
+  margin: 0;
+  border: 0 solid;
+  float: left;
+  width: 32%;
+  overflow: hidden;
+  float: left;
+  width: 468px;
+  height: 60px;
+  margin-top: -24px;
+  margin-left: 10px;
+}
+
+#header-inner {
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-inner img {
+  display:block;padding-left:0px;padding-top:0px
+}
+
+#adssection {
+  float: left;
+  width: 468px;
+  height: 60px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+#andlogo {
+  background: url(./img/blogger2013/resizedimage.svg);
+    background-repeat: repeat;
+  float: right;
+  width: 133px;
+  height: 80px;
+  margin-top: -12px;
+  margin-left: 800px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.menu-secondary-container {
+  position: relative;
+  height: 38px;
+  z-index: 300;
+  background: #3AA3CB;
+  margin-top: 2px;
+  height: 45px;
+}
