@@ -4,9 +4,14 @@ Graveler, Golem, Haunter, Gengar, Mime Jr, Dratini, Dragonair
 Honchkrow, Onyx, Nincada, Carkol, Coalossal
 Alcremie, Naclstack, Garnacl
 
-- add evolutions table to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line!
+- /years page: add badge of poke count to every year, so as they are in App.js!
 
-- add a dropdown menu (inspo in https://mdbootstrap.com/docs/standard/components/dropdowns/#mdb_3ffb8526899d6a1561eb5a5841c93de777ef10a9) containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth, Bravian Treearth), Super (Treearth) ; should also support gimmicks on regional forms!
+- add evolutions table to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line! the trick: in pokemons.json, add a "evolution" key with the name of the Pokémon to evolve to!
+
+- add a dropdown menu (inspo in https://mdbootstrap.com/docs/standard/components/dropdowns/#mdb_3ffb8526899d6a1561eb5a5841c93de777ef10a9) containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
+
+- regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
+- gimmick dropdown: should also support gimmicks on regional forms! so, it will react to changes made by clicking an item in the regional forms dropdown!
 
 
 - add Home.js page, mv App.js' Pokemons to that
