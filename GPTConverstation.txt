@@ -1,0 +1,105 @@
+/years page: add badge of poke count to every year, so as they are in App.js!
+
+
+
+
+
+
+
+
+To add a badge of poke count to every year in the /years page, you need to modify the YearsPage.js component.
+
+First, you need to calculate the count of pokemons for each year. You can do this by creating a new object pokemonsByYear that groups pokemons by their year. This can be done using the reduce function, similar to how it's done in PokemonList.js:
+
+const pokemonsByYear = pokemonsData.reduce((groups, pokemon) => {
+  const year = pokemon.year;
+  if (!groups[year]) {
+    groups[year] = [];
+  }
+  groups[year].push(pokemon);
+  return groups;
+}, {});
+
+Then, in the JSX returned by the YearsPage component, you can add a badge next to each year that displays the count of pokemons for that year:
+
+{years.map((year, index) => (
+  <li key={index}>
+    <Link to={`/years/${year}`}>{year}</Link>
+    <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
+  </li>
+))}
+
+Here is the updated YearsPage.js:
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import pokemonsData from '../data/pokemons.json';
+
+const YearsPage = () => {
+  const years = [...new Set(pokemonsData.map(pokemon => pokemon.year))];
+
+  const pokemonsByYear = pokemonsData.reduce((groups, pokemon) => {
+    const year = pokemon.year;
+    if (!groups[year]) {
+      groups[year] = [];
+    }
+    groups[year].push(pokemon);
+    return groups;
+  }, {});
+
+  return (
+    <div className="years-page">
+      <h2>Years</h2>
+      <ul>
+        {years.map((year, index) => (
+          <li key={index}>
+            <Link to={`/years/${year}`}>{year}</Link>
+            <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default YearsPage;
+
+This will add a badge next to each year in the /years page, displaying the count of pokemons for that year.
+
+
+
+
+
+
+
+Each year page (as in YearPage.js) has a heading showing their name. Please add a badge next to that as well!
+
+
+
+
+
+
+
+
+
+To add a badge next to the year heading in the YearPage.js component, you need to calculate the count of pokemons for the specific year. You can use the length property of the pokemons array that you've already filtered based on the year.
+
+Here is the updated code snippet for the YearPage.js:
+
+const YearPage = () => {
+  const { year } = useParams();
+  const pokemons = pokemonsData.filter(pokemon => pokemon.year === parseInt(year));
+
+  return (
+    <div className="year-page">
+      <h2>{year} <span className="badge bg-secondary">{pokemons.length}</span></h2>
+      <div className="pokemon-list">
+        {pokemons.map((pokemon, index) => (
+          <PokemonItem key={index} {...pokemon} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+In the above code, {pokemons.length} will display the count of pokemons for the specific year as a badge next to the year heading.

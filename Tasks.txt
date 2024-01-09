@@ -1,5 +1,3 @@
-- /years page: add badge of poke count to every year, so as they are in App.js!
-
 - pokemons.json: creatures URL now will have their own entry; eg Mr. Mime won't anymore be "/creatures/Mr. Mime" URL, but "/creatures/mr-mime" and "/creatures/Mime Jr." will be "/creatures/mime-jr"
 
 - add evolutions table to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line! the trick: in pokemons.json, add a "evolution" key with the name of the Pokémon to evolve to!
