@@ -1,4 +1,4 @@
-in the years display in App.js: <div> of the years' pokelist should have a CSS class, so they'll have round black borders to not be confused with one another
+components/TypeList.js: add a count of all existing types! in a heading.
 
 
 
@@ -7,67 +7,57 @@ in the years display in App.js: <div> of the years' pokelist should have a CSS c
 
 
 
-To add a CSS class to the <div> of the years' pokelist in App.js, you can modify the PokemonList.js component. This component is responsible for rendering the list of pokemons grouped by year.
+To add a count of all existing types in TypeList.js, you can use the length property of the pokemonTypes array.
 
-In the PokemonList.js file, you can add a new CSS class to the <div> that wraps each year's pokemons.
+Here's how you can do it:
 
-  <div key={year}>
-    <h2>
-      {year} <span className="badge bg-secondary">{pokemons.length}</span>
-    </h2>
-    {pokemons.map((pokemon) => (
-      <Link key={pokemon.id} to={`/${pokemon.name}`}>
-        {pokemon.name}</Link>
+In the TypeList component, after the <h2>Pokémon Types</h2> line, add a new line to display the count of all existing types.
+
+<h2>Pokémon Types ({pokemonTypes.length})</h2>
+
+This will display the total count of Pokémon types in the heading.
+
+The updated TypeList component will look like this:
+
+const TypeList = () => {
+  const { typeName } = useParams();
+  const typeData = pokemonTypes.find(pokemonType => pokemonType.type === typeName);
+  const pokemonCountByType = pokemonTypes.reduce((count, type) => {
+    count[type.type] = pokemons.filter(pokemon => pokemon.type.includes(type.type)).length;
+    return count;
+  }, {});
+  return (
+    <div className="type-list">
+      <h2>Pokémon Types</h2>
+      <ul>
+        {pokemonTypes.map((type, index) => (
+          <li key={index}>
+            <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
+              {pokemonTypes.find(t => t.type === type.type).emoji} {type.type}
+            </Link><span className="badge bg-secondary">({pokemonCountByType[type.type]})</span>
+          </li>
         ))}
-  </div>
-  
-You can define this new CSS class in the theme.css file. For example, you can add a class named .year-group with the desired styles:
-
-.year-group {
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+      </ul>
+  <h4>Types with the most creatures:</h4>
+  {top3Types.map((type, index) => (
+  <li key={index}>
+    <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
+    <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
+      {type.emoji} {type.type}
+    </Link><span className="badge bg-secondary">({type.pokemonCount})</span>
+  </li>
+))}
+<h4>Types with the fewest creatures:</h4>
+{bottom3Types.map((type, index) => (
+  <li key={index}>
+    <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
+    <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
+      {type.emoji} {type.type}
+    </Link><span className="badge bg-secondary">({type.pokemonCount})</span>
+  </li>
+))}
+    </div>
+  );
 }
 
-
-Remember to add this class to the theme.css file:
-
-
-/* Pokémon list styles */
-.pokemon-list {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.pokemon-item {
-  margin: 10px;
-  padding: 10px 10px 0 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 200px;
-  text-align: center;
-}
-
-.pokemon-item img {
-  width: 100%;
-  height: auto;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
-.pokemon-item .type {
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 5px;
-  border-radius: 4px;
-  color: white;
-  cursor: pointer;
-}
-
-.type-badge{border-radius:5px;padding:3px;border:1px solid;white-space:nowrap;margin-right:5px;text-decoration:none;color:initial}
-.type-badge:hover{color:initial;text-decoration:none}
-
-After these changes, each year's pokemons list will be wrapped in a <div> with a round black border, making it distinct from other years.
+Remember to test your application after making these changes to ensure everything works as expected.

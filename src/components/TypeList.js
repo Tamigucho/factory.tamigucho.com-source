@@ -27,7 +27,7 @@ const TypeList = () => {
   }, {});
   return (
     <div className="type-list">
-      <h2>Pokémon Types</h2>
+      <h2>Pokémon Types ({pokemonTypes.length})</h2>
       <ul>
         {pokemonTypes.map((type, index) => (
           <li key={index}>

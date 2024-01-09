@@ -1,5 +1,3 @@
-- components/TypeList.js: add a count of all existing types!
-
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 - include the multi-line descriptions in the search!
 
