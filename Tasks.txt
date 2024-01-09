@@ -1,5 +1,6 @@
-add Honchkrow, Onyx, Nincada, Carkol, Coalossal
-add Alcremie, Naclstack, Garnacl
+2020: Honchkrow, Onyx
+2022: Nincada, Carkol, Coalossal
+2023: Alcremie, Naclstack, Garnacl
 
 - /years page: add badge of poke count to every year, so as they are in App.js!
 
