@@ -136,7 +136,7 @@
   },
   {
     "id": 10,
-    "biyearly_id": 4,
+    "biyearly_id": 10,
     "name": "Caterpie",
     "type": "Bug",
     "photo": "./img/2011/10.svg",
@@ -151,7 +151,7 @@
   },
   {
     "id": 13,
-    "biyearly_id": 5,
+    "biyearly_id": 13,
     "name": "Weedle",
     "type": ["Bug", "Poison"],
     "photo": "./img/2012/13.svg",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "biyearly_id": 6,
+    "biyearly_id": 16,
     "name": "Pidgey",
     "type": ["Animal", "Flying"],
     "photo": "./img/2013/16.svg",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "biyearly_id": 7,
+    "biyearly_id": 19,
     "name": "Rattata",
     "type": "Animal",
     "photo": "./img/2013/19.svg",
@@ -196,7 +196,7 @@
   },
   {
     "id": 21,
-    "biyearly_id": 8,
+    "biyearly_id": 21,
     "name": "Spearow",
     "type": ["Animal", "Flying"],
     "photo": "./img/2014/21.svg",
@@ -211,7 +211,7 @@
   },
   {
     "id": 23,
-    "biyearly_id": 9,
+    "biyearly_id": 23,
     "name": "Ekans",
     "type": "Poison",
     "photo": "./img/2014/23.svg",
@@ -226,7 +226,7 @@
   },
   {
     "id": 25,
-    "biyearly_id": 10,
+    "biyearly_id": 25,
     "name": "Pikachu",
     "type": "Electric",
     "photo": "./img/2015/25.svg",
