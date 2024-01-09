@@ -15,8 +15,38 @@
     "year": 2010
   },
   {
-    "id": 4,
+    "id": 2,
     "biyearly_id": 2,
+    "name": "Ivysaur",
+    "type":  ["Plant", "Poison"],
+    "photo": "./img/2010/2.svg",
+    "instagram": "https://www.instagram.com/charmander",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2010
+  },
+  {
+    "id": 3,
+    "biyearly_id": 3,
+    "name": "Venusaur",
+    "type":  ["Plant", "Poison"],
+    "photo": "./img/2010/3.svg",
+    "instagram": "https://www.instagram.com/charmander",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2010
+  },
+  {
+    "id": 4,
+    "biyearly_id": 4,
     "name": "Charmander",
     "type": "Fire",
     "photo": "./img/2010/4.svg",
@@ -30,8 +60,38 @@
     "year": 2010
   },
   {
+    "id": 5,
+    "biyearly_id": 5,
+    "name": "Charmeleon",
+    "type":  "Fire",
+    "photo": "./img/2010/5.svg",
+    "instagram": "https://www.instagram.com/charmander",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2010
+  },
+  {
+    "id": 6,
+    "biyearly_id": 6,
+    "name": "Charizard",
+    "type":  "Fire",
+    "photo": "./img/2010/6.svg",
+    "instagram": "https://www.instagram.com/charmander",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2010
+  },
+  {
     "id": 7,
-    "biyearly_id": 3,
+    "biyearly_id": 7,
     "name": "Squirtle",
     "type": "Water",
     "photo": "./img/2011/7.svg",
@@ -39,6 +99,36 @@
     "description": [
       "Squirtle is a Water-type Pokémon introduced in Generation I.",
       "It evolves into Wartortle starting at level 16, which evolves into Blastoise starting at level 36."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2011
+  },
+  {
+    "id": 8,
+    "biyearly_id": 8,
+    "name": "Wartortle",
+    "type":  "Water",
+    "photo": "./img/2011/8.svg",
+    "instagram": "https://www.instagram.com/charmander",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2011
+  },
+  {
+    "id": 9,
+    "biyearly_id": 9,
+    "name": "Blastoise",
+    "type":  "Water",
+    "photo": "./img/2011/9.svg",
+    "instagram": "https://www.instagram.com/charmander",
+    "description": [
+      "to add;",
+      "and, too."
     ],
     "biyearly_gen": 1,
     "official_gen": 1,

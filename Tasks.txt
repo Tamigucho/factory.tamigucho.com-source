@@ -1,6 +1,10 @@
-- [non-AI] add Ivysaur, Venusaur, Charmeleon, Charizard, Wartortle, Blastoise, Metapod, Butterfree, Kakuna, Beedril, Pidgeotto, Pidgeot, Raticate, Fearow, Arbok, Pichu, Raichu, Primeape, Anihilape, Graveler, Golem, Haunter, Gengar, Mime Jr, Porygon Z, Dratini, Dragonair, Honchkrow, Onyx, Nincada, Carkol, Coalossal, Alcremie, Naclstack, Garnacl
+add Metapod, Butterfree, Kakuna, Beedril, Pidgeotto, Pidgeot, Raticate
+Fearow, Arbok, Pichu, Raichu, Primeape, Anihilape
+Graveler, Golem, Haunter, Gengar, Mime Jr, Dratini, Dragonair
+Honchkrow, Onyx, Nincada, Carkol, Coalossal
+Alcremie, Naclstack, Garnacl
 
-- add evolutions chart to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line!
+- add evolutions table to PokemonDetails.js! example: https://www.pokemon.com/br/pokedex/pikachu, but list these evolutions in each page of that evolutionary line!
 
 - add a dropdown menu (inspo in https://mdbootstrap.com/docs/standard/components/dropdowns/#mdb_3ffb8526899d6a1561eb5a5841c93de777ef10a9) containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth, Bravian Treearth), Super (Treearth) ; should also support gimmicks on regional forms!
 
