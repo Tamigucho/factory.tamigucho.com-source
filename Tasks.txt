@@ -1,7 +1,3 @@
-- from factory.tami: add that phonemon heading too, and updating year so as footer does
-
-- add "previous" and "next" to a pokémon page
-
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
 

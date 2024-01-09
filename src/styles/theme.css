@@ -32,7 +32,7 @@
 
 /* Header styles */
 .header .navbar {
-  background-color: #2196F3!important; /* Blue color for the header */
+  background-color: #3AA3CB!important; /* Blue color for the header */
 }
 
 .navbar-brand .badge {
@@ -180,5 +180,17 @@
 }
 
 .footer {
-  background-color: #2196F3!important; /* Blue color for the header */
+  background-color: #3AA3CB!important; /* Blue color for the header */
+}
+
+.prev-button img, .next-button img {
+  height: 100px;
+}
+
+.prev-button {
+  /* Add your CSS styles for the previous button here */
+}
+
+.next-button {
+  /* Add your CSS styles for the next button here */
 }
