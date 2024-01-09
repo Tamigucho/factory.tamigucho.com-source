@@ -41,23 +41,34 @@ const PokemonDetails = () => {
 return (
   <div>
 {prevPokemon && (
-  <button className="prev-button" onClick={() => navigate(`/${prevPokemon.name}`)}>
-    <img src={prevPokemon.photo} alt={prevPokemon.name} />
+  <button className="prev-button" title={prevPokemon.name} onClick={() => navigate(`/${prevPokemon.name}`)}>
     ← Previous
+    <img src={prevPokemon.photo} alt={prevPokemon.name} />
   </button>
 )}
 {nextPokemon && (
-  <button className="next-button" onClick={() => navigate(`/${nextPokemon.name}`)}>
+  <button className="next-button" title={nextPokemon.name} onClick={() => navigate(`/${nextPokemon.name}`)}>
     <img src={nextPokemon.photo} alt={nextPokemon.name} />
     Next →
   </button>
 )}
+<br/>
     {pokemon && ( // Add this line to conditionally render the content when pokemon is available
     <>
+        <h2>{pokemon.name}</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      One of three columns
+    </div>
+    <div class="col-md">
+      One of three columns
+    </div>
+  </div>
+</div>
         <a href={pokemon.photo} target="_blank" rel="noopener noreferrer">
           <img height="400px" src={pokemon.photo} alt={pokemon.name} />
         </a>
-    <h2>{pokemon.name}</h2>
     <p>Type: {Array.isArray(pokemon.type) ? (
     pokemon.type.map((type, index) => (
       <Link to={`/types/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
