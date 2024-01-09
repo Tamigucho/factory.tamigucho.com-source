@@ -1,6 +1,7 @@
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
 
+- make the search element appear only /types/{type}, /years/{year} and /creatures/{Name}, and ensure the search work
 - include the multi-line descriptions in the search!
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 
