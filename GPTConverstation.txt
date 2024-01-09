@@ -1,4 +1,20 @@
-Based in all of that, create the /creatures page, listing all of the Pokémons, as cards so as they are shown in for example /types/Electric and example /years/2010
+/creatures page (components/CreaturesPage.js): add a Material Bootstrap paginator, showing a max of 10 Pokémons per page!
+Example from Material Bootstrap React version:
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -6,91 +22,143 @@ Based in all of that, create the /creatures page, listing all of the Pokémons, 
 
 
 
+To add a Material Bootstrap paginator to the CreaturesPage component, you need to manage the state for the current page and the number of items per page. You also need to create a function to handle page changes.
 
-To create a /creatures page that lists all the Pokémon as cards, you need to create a new component, let's call it CreaturesPage. This component will fetch all the Pokémon data and render them as cards.
+First, add the following state variables to your CreaturesPage component:
 
-Here's a basic example of how you can create this component:
+const [currentPage, setCurrentPage] = useState(1);
+const [itemsPerPage, setItemsPerPage] = useState(10);
 
-import React from 'react';
-import { Link } from 'react-router-dom';
-import pokemonsData from '../data/pokemons.json';
-import PokemonItem from './PokemonItem';
 
-const CreaturesPage = () => {
-  return (
-    <div className="creatures-page">
-      {pokemonsData.map((pokemon, index) => (
-        <PokemonItem key={index} {...pokemon} />
-      ))}
-    </div>
-  );
+Next, create a function to handle page changes:
+
+const handlePageChange = (pageNumber) => {
+  setCurrentPage(pageNumber);
 };
 
-export default CreaturesPage;
+Then, in your render method, calculate the index of the first and last item on the current page, and use these indices to get the items for the current page:
 
-In this code, we're importing the pokemonsData and PokemonItem component. The PokemonItem component is used to render each Pokémon as a card.
+const indexOfLastItem = currentPage * itemsPerPage;
+const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+const currentItems = pokemonsData.slice(indexOfFirstItem, indexOfLastItem);
 
-Next, you need to add a route for this new page in your App.js file:
+Replace the pokemonsData in your map function with currentItems:
 
-import CreaturesPage from './components/CreaturesPage'; // Import the new component
-
-// Inside your Routes component
-<Route path="/creatures" element={<CreaturesPage />} />
-
-This will make it so that when you navigate to /creatures, the CreaturesPage component is rendered, showing a list of all Pokémon as cards.
-
-Remember to update all the links in your application that point to the Pokémon details page. For example, if you have a Link component that points to the Pokémon details page, you would change it from:
-
-<Link to={`/${pokemonName}`}>Details</Link>
-
-to:
-
-<Link to={`/creatures/${pokemonName}`}>Details</Link>
+{currentItems.map((pokemon, index) => (
+  <PokemonItem key={index} {...pokemon} />
+))}
 
 
-This will ensure that when a user clicks on the link, they are taken to the correct URL.
+Finally, add the pagination component to your render method. You need to calculate the total number of pages and create a button for each page:
 
+const totalPages = Math.ceil(pokemonsData.length / itemsPerPage);
 
+<nav aria-label="Page navigation">
+  <ul className="pagination">
+    <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+      <a className="page-link" onClick={() => handlePageChange(currentPage - 1)}>Previous</a>
+    </li>
+    {[...Array(totalPages)].map((e, i) => (
+      <li className={`page-item ${i + 1 === currentPage ? 'active' : ''}`} key={i}>
+        <a className="page-link" onClick={() => handlePageChange(i + 1)}>{i + 1}</a>
+      </li>
+    ))}
+    <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
+      <a className="page-link" onClick={() => handlePageChange(currentPage + 1)}>Next</a>
+    </li>
+  </ul>
+</nav>
 
-
-
-
-
-
-Unconfortable detail: the creatures cards are shown line after line, instead of responsively as they are in /types/{Type} and /years/{Year}
-
-
-
-
+In this code, we're creating a button for each page. The onClick handler for each button calls the handlePageChange function with the corresponding page number. The 'Previous' and 'Next' buttons decrease and increase the current page number, respectively. The 'disabled' class is added to these buttons when the current page is the first or last page, respectively.
 
 
 
 
 
-The issue you're facing is likely due to CSS styling. The cards are displayed in a line because they don't have the correct CSS properties to wrap into a new line when the screen width is not enough.
 
-In your /types/{Type} and /years/{Year} pages, the Pokémon cards are probably wrapped in a container with CSS properties similar to these:
 
-.pokemon-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. react.development.js:209
+    React 4
+    js CreaturesPage.js:6
+    factory react refresh:6
+    Webpack 11
+Uncaught TypeError: dispatcher is null
+    useState React
+    js CreaturesPage.js:6
+    factory react refresh:6
+    Webpack 11
+    
 
-This CSS makes the cards display in a row 1, move to the next line when there's not enough space 2, and distribute the remaining space evenly 3.
 
-To fix the issue in your /creatures page, you need to wrap the Pokémon cards in a container with the same CSS properties. Here's how you can do it:
+
+
+
+The error message you're seeing is related to the use of React Hooks. Hooks can only be called inside the body of a function component. They cannot be called outside a function component or inside regular JavaScript functions.
+
+In your CreaturesPage.js file, you're calling the useState hook outside of a function component:
+
+const [currentPage, setCurrentPage] = useState(1);
+const [itemsPerPage, setItemsPerPage] = useState(10);
+
+
+This is causing the error. To fix it, move these lines inside the CreaturesPage function:
 
 const CreaturesPage = () => {
-  return (
-    <div className="creatures-page">
-      <div className="pokemon-list">
-        {pokemonsData.map((pokemon, index) => (
-          <PokemonItem key={index} {...pokemon} />
-        ))}
-      </div>
-    </div>
-  );
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(10);
+  // rest of your code
 };
 
-In this code, the pokemon-list class is added to the container that wraps the Pokémon cards. This class should have the necessary CSS properties to make the cards display responsively. If the pokemon-list class is not defined in your CSS, you need to add it with the properties mentioned above.
+This ensures that the hooks are being called inside a function component, which is a requirement for using hooks in React.
+
+
+
+
+
+
+
+
+Please add a dropdown menu next to the pagination, where user can change how many Pokémons are displayed by default! Options:
+- 10
+- 20
+- 50
+- 100
+
+Default always 10, to save bandwidth and memory.
+
+
+
+
+
+
+
+
+To add a dropdown menu for changing the number of Pokémon displayed per page, you can use the select HTML element. You'll also need to add a new state variable to keep track of the selected value.
+
+First, add a new state variable in your CreaturesPage component:
+
+const [itemsPerPage, setItemsPerPage] = useState(10);
+
+Then, add a select element to your component with options for 10, 20, 50, and 100. The onChange event handler updates the itemsPerPage state variable with the selected value:
+
+<select value={itemsPerPage} onChange={(e) => setItemsPerPage(Number(e.target.value))}>
+  <option value="10">10</option>
+  <option value="20">20</option>
+  <option value="50">50</option>
+  <option value="100">100</option>
+</select>
+
+Place this select element next to your pagination component. When a user selects a new value from the dropdown, the itemsPerPage state variable will be updated, and the component will re-render with the new number of items per page.
+
+Remember to update the calculation of indexOfLastItem and totalPages to use the new itemsPerPage state variable:
+
+const indexOfLastItem = currentPage * itemsPerPage;
+const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+const currentItems = pokemonsData.slice(indexOfFirstItem, indexOfLastItem);
+const totalPages = Math.ceil(pokemonsData.length / itemsPerPage);
+
+This ensures that the correct number of Pokémon are displayed on each page, and the correct number of pages are shown in the pagination component.
