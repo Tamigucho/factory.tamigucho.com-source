@@ -150,11 +150,71 @@
     "year": 2011
   },
   {
+    "id": 11,
+    "biyearly_id": 11,
+    "name": "Metapod",
+    "type": "Bug",
+    "photo": "./img/2011/11.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2011
+  },
+  {
+    "id": 12,
+    "biyearly_id": 12,
+    "name": "Butterfree",
+    "type": ["Bug", "Flying"],
+    "photo": "./img/2011/12.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2011
+  },
+  {
     "id": 13,
     "biyearly_id": 13,
     "name": "Weedle",
     "type": ["Bug", "Poison"],
     "photo": "./img/2012/13.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 2,
+    "official_gen": 1,
+    "year": 2012
+  },
+  {
+    "id": 14,
+    "biyearly_id": 14,
+    "name": "Kakuna",
+    "type": ["Bug", "Poison"],
+    "photo": "./img/2012/14.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 2,
+    "official_gen": 1,
+    "year": 2012
+  },
+  {
+    "id": 15,
+    "biyearly_id": 15,
+    "name": "Beedrill",
+    "type": ["Bug", "Poison"],
+    "photo": "./img/2012/15.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -180,11 +240,56 @@
     "year": 2013
   },
   {
+    "id": 17,
+    "biyearly_id": 17,
+    "name": "Pidgeotto",
+    "type": ["Animal", "Flying"],
+    "photo": "./img/2013/17.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 2,
+    "official_gen": 1,
+    "year": 2013
+  },
+  {
+    "id": 18,
+    "biyearly_id": 18,
+    "name": "Pidgeot",
+    "type": ["Animal", "Flying"],
+    "photo": "./img/2013/18.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 2,
+    "official_gen": 1,
+    "year": 2013
+  },
+  {
     "id": 19,
     "biyearly_id": 19,
     "name": "Rattata",
     "type": "Animal",
     "photo": "./img/2013/19.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 2,
+    "official_gen": 1,
+    "year": 2013
+  },
+  {
+    "id": 20,
+    "biyearly_id": 20,
+    "name": "Raticate",
+    "type": "Animal",
+    "photo": "./img/2013/20.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
