@@ -6,6 +6,8 @@ import PokemonList from './components/PokemonList';
 import TypeList from './components/TypeList';
 import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
+import YearsPage from './components/YearsPage'; // Import the new component
+import YearPage from './components/YearPage'; // Import the new component
 import Footer from './components/Footer';
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
 import Chart from 'react-apexcharts';
@@ -105,6 +107,8 @@ function App() {
         <Route path="/types" element={<TypeList />} />
         <Route path="/types/:typeName" element={<TypePage />} />
         <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
+        <Route path="/years" element={<YearsPage />} />
+        <Route path="/years/:year" element={<YearPage />} />
         {/* Add more routes as needed */}
       </Routes>
       <div class="chartyears">

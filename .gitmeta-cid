@@ -1,5 +1,6 @@
 Branch: main
-src/components/PokemonDetails.js: QmW9y2zo81NiTw949eyiwNmPYzoxatVNSMfNwBNeM8yQLJ
-src/components/PokemonItem.js: QmcwB6yY96og8kWzFYDTTFjvRzniMno3nhSzBbtTDTauSC
-src/data/pokemons.json: QmfMBt5ymP7KExg3kZPg9P1bZ113DraS59DE1VkJz96e4d
-src/styles/theme.css: QmUvcLtzMAocrovgAoMsC3FqG9qNzMtTMV4pZs9ur7EZZK
+GPTConverstation.txt: QmcFv5MuF3Ba4ZGWRQxg4NHwVFfDpN1B843qGYo56f9omr
+src/App.js: QmXWH8tZp3D4d4w4y96FYEmzjT42rc43SMxrPMNAUWniuv
+src/components/Header.js: QmckQfiLnUNWVmYrcpPFaUuZbTm9dvcFJB8zAWQzGVh2vH
+src/components/YearPage.js: QmefM7w789rx36iAU5p23Dob3wTQG8y436dW9YVaE72QC2
+src/components/YearsPage.js: QmfJyJS24w2mYHCd8CtfNsZMLYbmsAAnGbEdx5oj3SKcD9

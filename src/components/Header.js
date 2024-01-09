@@ -35,6 +35,8 @@ const Header = ({ creatureCount }) => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/types">Types</Link></li>
+                <li className="nav-item">
+                <Link className="nav-link" to="/years">Years</Link></li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>
