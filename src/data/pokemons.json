@@ -373,5 +373,35 @@
     "biyearly_gen": 7,
     "official_gen": 9,
     "year": 2023
+  },
+  {
+    "id": 2019,
+    "biyearly_id": 1,
+    "name": "Regitube",
+    "type": ["Rubber", "Plastic"],
+    "photo": "./img/2025/2019.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2025
+  },
+  {
+    "id": 2020,
+    "biyearly_id": 2,
+    "name": "Regikraft",
+    "type": ["Paper"],
+    "photo": "./img/2025/2020.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2025
   }
 ]
