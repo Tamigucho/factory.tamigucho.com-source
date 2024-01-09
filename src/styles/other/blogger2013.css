@@ -1,5 +1,5 @@
 body {
-  background: #f9f9f9 url(./img/blogger2013/bg.png);
+  background: #f9f9f9 url(../../../public/img/blogger2013/bg.png);
   color: #555555;
   font-family: Arial, Helvetica, Sans-serif;
   font-size: 15px;
@@ -50,7 +50,7 @@ body {
 }
 
 #andlogo {
-  background: url(./img/blogger2013/resizedimage.svg);
+  background: url(../../../public/img/blogger2013/resizedimage.svg);
     background-repeat: repeat;
   float: right;
   width: 133px;
