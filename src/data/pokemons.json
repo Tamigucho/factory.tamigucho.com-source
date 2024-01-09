@@ -315,6 +315,21 @@
     "year": 2014
   },
   {
+    "id": 22,
+    "biyearly_id": 22,
+    "name": "Fearow",
+    "type": ["Animal", "Flying"],
+    "photo": "./img/2014/22.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 3,
+    "official_gen": 1,
+    "year": 2014
+  },
+  {
     "id": 23,
     "biyearly_id": 23,
     "name": "Ekans",
@@ -330,8 +345,39 @@
     "year": 2014
   },
   {
-    "id": 25,
+    "id": 24,
+    "biyearly_id": 24,
+    "name": "Arbok",
+    "type": "Poison",
+    "photo": "./img/2014/24.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 3,
+    "official_gen": 1,
+    "year": 2014
+  },
+
+  {
+    "id": 172,
     "biyearly_id": 25,
+    "name": "Pichu",
+    "type": "Electric",
+    "photo": "./img/2015/172.svg",
+    "instagram": "https://www.instagram.com/pikachu",
+    "description": [
+      "Pikachu is an Electric-type Pokémon introduced in Generation I.",
+      "It evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone."
+    ],
+    "biyearly_gen": 3,
+    "official_gen": 2,
+    "year": 2015
+  },
+  {
+    "id": 25,
+    "biyearly_id": 26,
     "name": "Pikachu",
     "type": "Electric",
     "photo": "./img/2015/25.svg",
@@ -345,8 +391,23 @@
     "year": 2015
   },
   {
+    "id": 26,
+    "biyearly_id": 27,
+    "name": "Raichu",
+    "type": "Electric",
+    "photo": "./img/2015/26.svg",
+    "instagram": "https://www.instagram.com/pikachu",
+    "description": [
+      "Pikachu is an Electric-type Pokémon introduced in Generation I.",
+      "It evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone."
+    ],
+    "biyearly_gen": 3,
+    "official_gen": 1,
+    "year": 2015
+  },
+  {
     "id": 56,
-    "biyearly_id": 11,
+    "biyearly_id": 28,
     "name": "Mankey",
     "type": "Fighting",
     "photo": "./img/2016/56.svg",
@@ -357,6 +418,36 @@
     ],
     "biyearly_gen": 4,
     "official_gen": 1,
+    "year": 2016
+  },
+  {
+    "id": 57,
+    "biyearly_id": 29,
+    "name": "Primeape",
+    "type": "Fighting",
+    "photo": "./img/2016/57.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 1,
+    "year": 2016
+  },
+  {
+    "id": 979,
+    "biyearly_id": 29,
+    "name": "Annihilape",
+    "type": ["Fighting", "Ghost"],
+    "photo": "./img/2016/979.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 4,
+    "official_gen": 9,
     "year": 2016
   },
   {
