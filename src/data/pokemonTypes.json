@@ -1,4 +1,26 @@
 [
+  {
+    "type": "Animal",
+    "color": "#A8A878",
+    "emoji": "🐾",
+    "weaknesses": ["Fighting", "Salt", "Sugar", "Psychic"],
+    "resistance": ["Ghost"],
+    "effectiveness": {
+      "Fighting": 2,
+      "Plastic": 2,
+      "Ghost": 0,
+      "Psychic": 0.5,
+      "Paper": 2
+    }
+  },
+  {
+    "type": "Neutral",
+    "color": "#808080",
+    "emoji": "🔘",
+    "weaknesses": [],
+    "resistance": [],
+    "effectiveness": {}
+  },
 {
   "type": "Bug",
   "color": "#A8B820",
@@ -184,20 +206,6 @@
     "Ground": 0.5,
     "Flying": 0.5,
     "Dragon": 2
-  }
-},
-{
-  "type": "Animal",
-  "color": "#A8A878",
-  "emoji": "🐾",
-  "weaknesses": ["Fighting", "Salt", "Sugar", "Psychic"],
-  "resistance": ["Ghost"],
-  "effectiveness": {
-    "Fighting": 2,
-    "Plastic": 2,
-    "Ghost": 0,
-    "Psychic": 0.5,
-    "Paper": 2
   }
 },
 {

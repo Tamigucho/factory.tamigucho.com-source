@@ -213,7 +213,7 @@
     "id": 137,
     "biyearly_id": 15,
     "name": "Porygon",
-    "type": ["Animal", "Paper"],
+    "type": ["Neutral", "Paper"],
     "photo": "./img/2018/137.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
@@ -288,7 +288,7 @@
     "id": 233,
     "biyearly_id": 20,
     "name": "Porygon2",
-    "type": ["Animal", "Plastic"],
+    "type": ["Neutral", "Plastic"],
     "photo": "./img/2021/233.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
