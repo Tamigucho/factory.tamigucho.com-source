@@ -186,11 +186,31 @@
 .prev-button img, .next-button img {
   height: 100px;
 }
+.prev-button, .next-button {
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color:#fff;
+}
+.prev-button:hover, .next-button:hover {
+  background-color:#3AA3CB;
+}
 
 .prev-button {
-  /* Add your CSS styles for the previous button here */
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-right: 1px dotted;
 }
 
 .next-button {
-  /* Add your CSS styles for the next button here */
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
+
+/* Have to change later, getting fa icons directly from bootstrap-material-design */
+.fa-instagram:before {
+  content:"\f16d"
+}
+.fa-instagram-square:before {
+  content:"\e055"
+}
+/* Have to change later, getting fa icons directly from bootstrap-material-design */

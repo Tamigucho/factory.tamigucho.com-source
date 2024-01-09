@@ -40,35 +40,32 @@ const PokemonDetails = () => {
 
 return (
   <div>
+    <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
-  <button className="prev-button" title={prevPokemon.name} onClick={() => navigate(`/${prevPokemon.name}`)}>
-    ← Previous
-    <img src={prevPokemon.photo} alt={prevPokemon.name} />
-  </button>
+  <li class="nav-item prev-button"title={prevPokemon.name} onClick={() => navigate(`/${prevPokemon.name}`)}>
+    ← Previous <img src={prevPokemon.photo} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
+  </li>
 )}
 {nextPokemon && (
-  <button className="next-button" title={nextPokemon.name} onClick={() => navigate(`/${nextPokemon.name}`)}>
-    <img src={nextPokemon.photo} alt={nextPokemon.name} />
-    Next →
-  </button>
+  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/${nextPokemon.name}`)}>
+     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img src={nextPokemon.photo} alt={nextPokemon.name} /> Next →
+  </li>
 )}
+</ul>
 <br/>
     {pokemon && ( // Add this line to conditionally render the content when pokemon is available
     <>
-        <h2>{pokemon.name}</h2>
+        <center><h2>{pokemon.name} <small>(Nºs {pokemon.id} / {pokemon.biyearly_id})</small></h2></center>
+        {/*<small>The {pokemon.biyearly_id}th Pokémon ever created.</small>*/}
 <div class="container">
   <div class="row">
     <div class="col-md">
-      One of three columns
+    <a href={pokemon.photo} target="_blank" rel="noopener noreferrer">
+          <img height="400px" src={pokemon.photo} alt={pokemon.name} />
+        </a> <a href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> Source</a>
     </div>
     <div class="col-md">
-      One of three columns
-    </div>
-  </div>
-</div>
-        <a href={pokemon.photo} target="_blank" rel="noopener noreferrer">
-          <img height="400px" src={pokemon.photo} alt={pokemon.name} />
-        </a>
+    <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
     <p>Type: {Array.isArray(pokemon.type) ? (
     pokemon.type.map((type, index) => (
       <Link to={`/types/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
@@ -81,8 +78,12 @@ return (
     </Link>
   )}
 </p>
-    <p>Description: {pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
-    <a href={pokemon.instagram} target="_blank" rel="noopener noreferrer">Instagram Source</a>
+<p>Official generation: {pokemon.official_gen}</p>
+<p>Biyearly generation: {pokemon.biyearly_gen}</p>
+<p>Created in: {pokemon.year}</p>
+    </div>
+  </div>
+</div>
     {/* Add more details about the specific Pokemon */}
     </>
     )}

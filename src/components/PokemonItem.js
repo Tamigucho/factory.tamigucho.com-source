@@ -28,6 +28,8 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
       <a href={`${process.env.PUBLIC_URL}/${photo}`} target="_blank" rel="noopener noreferrer">
         <img src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
       </a>
+      {/*Cursor CTRL+K: "How to comment HTML, but in JSX?": */}
+      {/*<a href={instagram} target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Source</a>*/}
     </div>
       <div className="pokemon-info">
         <h3>{name}</h3>
@@ -44,12 +46,9 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
             </Link>
           )}
         </div>
-        <div className="pokemon-description">
+        {/*<div className="pokemon-description">
           {renderDescription()}
-        </div>
-        <div className="pokemon-instagram">
-          <a href={instagram} target="_blank" rel="noopener noreferrer">Instagram Source</a>
-        </div>
+        </div>*/}
         <div className="more-details-link">
           <Link to={`/${name}`}>More details</Link>
         </div>

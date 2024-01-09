@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "biyearly-id": 1,
+    "biyearly_id": 1,
     "name": "Bulbasaur",
     "type": ["Plant", "Poison"],
     "photo": "./img/2010/1.svg",
@@ -10,13 +10,13 @@
       "Bulbasaur is a dual-type Plant/Poison Pokémon introduced in Generation I.",
       "It evolves into Ivysaur starting at level 16, which evolves into Venusaur starting at level 32."
     ],
-    "biyearly-gen": 1,
-    "official-gen": 1,
+    "biyearly_gen": 1,
+    "official_gen": 1,
     "year": 2010
   },
   {
     "id": 4,
-    "biyearly-id": 2,
+    "biyearly_id": 2,
     "name": "Charmander",
     "type": "Fire",
     "photo": "./img/2010/4.svg",
@@ -25,13 +25,13 @@
       "Charmander is a Fire-type Pokémon introduced in Generation I.",
       "It evolves into Charmeleon starting at level 16, which evolves into Charizard starting at level 36."
     ],
-    "biyearly-gen": 1,
-    "official-gen": 1,
+    "biyearly_gen": 1,
+    "official_gen": 1,
     "year": 2010
   },
   {
     "id": 7,
-    "biyearly-id": 3,
+    "biyearly_id": 3,
     "name": "Squirtle",
     "type": "Water",
     "photo": "./img/2011/7.svg",
@@ -40,13 +40,13 @@
       "Squirtle is a Water-type Pokémon introduced in Generation I.",
       "It evolves into Wartortle starting at level 16, which evolves into Blastoise starting at level 36."
     ],
-    "biyearly-gen": 1,
-    "official-gen": 1,
+    "biyearly_gen": 1,
+    "official_gen": 1,
     "year": 2011
   },
   {
     "id": 10,
-    "biyearly-id": 4,
+    "biyearly_id": 4,
     "name": "Caterpie",
     "type": "Bug",
     "photo": "./img/2011/10.svg",
@@ -55,13 +55,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 1,
-    "official-gen": 1,
+    "biyearly_gen": 1,
+    "official_gen": 1,
     "year": 2011
   },
   {
     "id": 13,
-    "biyearly-id": 5,
+    "biyearly_id": 5,
     "name": "Weedle",
     "type": ["Bug", "Poison"],
     "photo": "./img/2012/13.svg",
@@ -70,13 +70,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 2,
-    "official-gen": 1,
+    "biyearly_gen": 2,
+    "official_gen": 1,
     "year": 2012
   },
   {
     "id": 16,
-    "biyearly-id": 6,
+    "biyearly_id": 6,
     "name": "Pidgey",
     "type": ["Animal", "Flying"],
     "photo": "./img/2013/16.svg",
@@ -85,13 +85,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 2,
-    "official-gen": 1,
+    "biyearly_gen": 2,
+    "official_gen": 1,
     "year": 2013
   },
   {
     "id": 19,
-    "biyearly-id": 7,
+    "biyearly_id": 7,
     "name": "Rattata",
     "type": "Animal",
     "photo": "./img/2013/19.svg",
@@ -100,13 +100,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 2,
-    "official-gen": 1,
+    "biyearly_gen": 2,
+    "official_gen": 1,
     "year": 2013
   },
   {
     "id": 21,
-    "biyearly-id": 8,
+    "biyearly_id": 8,
     "name": "Spearow",
     "type": ["Animal", "Flying"],
     "photo": "./img/2014/21.svg",
@@ -115,13 +115,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 3,
-    "official-gen": 1,
+    "biyearly_gen": 3,
+    "official_gen": 1,
     "year": 2014
   },
   {
     "id": 23,
-    "biyearly-id": 9,
+    "biyearly_id": 9,
     "name": "Ekans",
     "type": "Poison",
     "photo": "./img/2014/23.svg",
@@ -130,13 +130,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 3,
-    "official-gen": 1,
+    "biyearly_gen": 3,
+    "official_gen": 1,
     "year": 2014
   },
   {
     "id": 25,
-    "biyearly-id": 10,
+    "biyearly_id": 10,
     "name": "Pikachu",
     "type": "Electric",
     "photo": "./img/2015/25.svg",
@@ -145,13 +145,13 @@
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
       "It evolves from Pichu when leveled up with high friendship and evolves into Raichu when exposed to a Thunder Stone."
     ],
-    "biyearly-gen": 3,
-    "official-gen": 1,
+    "biyearly_gen": 3,
+    "official_gen": 1,
     "year": 2015
   },
   {
     "id": 56,
-    "biyearly-id": 11,
+    "biyearly_id": 11,
     "name": "Mankey",
     "type": "Fighting",
     "photo": "./img/2016/56.svg",
@@ -160,13 +160,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 4,
-    "official-gen": 1,
+    "biyearly_gen": 4,
+    "official_gen": 1,
     "year": 2016
   },
   {
     "id": 74,
-    "biyearly-id": 12,
+    "biyearly_id": 12,
     "name": "Geodude",
     "type": ["Rock", "Ground"],
     "photo": "./img/2016/74.svg",
@@ -175,13 +175,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 4,
-    "official-gen": 1,
+    "biyearly_gen": 4,
+    "official_gen": 1,
     "year": 2016
   },
   {
     "id": 92,
-    "biyearly-id": 13,
+    "biyearly_id": 13,
     "name": "Gastly",
     "type": ["Ghost", "Poison"],
     "photo": "./img/2017/92.svg",
@@ -190,13 +190,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 4,
-    "official-gen": 1,
+    "biyearly_gen": 4,
+    "official_gen": 1,
     "year": 2017
   },
   {
     "id": 122,
-    "biyearly-id": 14,
+    "biyearly_id": 14,
     "name": "Mr. Mime",
     "type": ["Psychic", "Fairy"],
     "photo": "./img/2017/122.svg",
@@ -205,13 +205,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 4,
-    "official-gen": 1,
+    "biyearly_gen": 4,
+    "official_gen": 1,
     "year": 2017
   },
   {
     "id": 137,
-    "biyearly-id": 15,
+    "biyearly_id": 15,
     "name": "Porygon",
     "type": ["Animal", "Paper"],
     "photo": "./img/2018/137.svg",
@@ -220,13 +220,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 5,
-    "official-gen": 1,
+    "biyearly_gen": 5,
+    "official_gen": 1,
     "year": 2018
   },
   {
     "id": 144,
-    "biyearly-id": 16,
+    "biyearly_id": 16,
     "name": "Articuno",
     "type": ["Ice", "Flying"],
     "photo": "./img/2019/144.svg",
@@ -235,13 +235,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 5,
-    "official-gen": 1,
+    "biyearly_gen": 5,
+    "official_gen": 1,
     "year": 2019
   },
   {
     "id": 149,
-    "biyearly-id": 17,
+    "biyearly_id": 17,
     "name": "Dragonite",
     "type": ["Dragon", "Flying"],
     "photo": "./img/2019/149.svg",
@@ -250,13 +250,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 5,
-    "official-gen": 1,
+    "biyearly_gen": 5,
+    "official_gen": 1,
     "year": 2019
   },
   {
     "id": 198,
-    "biyearly-id": 18,
+    "biyearly_id": 18,
     "name": "Murkrow",
     "type": ["Dark", "Flying"],
     "photo": "./img/2020/198.svg",
@@ -265,13 +265,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 6,
-    "official-gen": 2,
+    "biyearly_gen": 6,
+    "official_gen": 2,
     "year": 2020
   },
   {
     "id": 208,
-    "biyearly-id": 19,
+    "biyearly_id": 19,
     "name": "Steelix",
     "type": ["Steel", "Ground"],
     "photo": "./img/2020/208.svg",
@@ -280,13 +280,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 6,
-    "official-gen": 2,
+    "biyearly_gen": 6,
+    "official_gen": 2,
     "year": 2020
   },
   {
     "id": 233,
-    "biyearly-id": 20,
+    "biyearly_id": 20,
     "name": "Porygon2",
     "type": ["Animal", "Plastic"],
     "photo": "./img/2021/233.svg",
@@ -295,13 +295,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 6,
-    "official-gen": 2,
+    "biyearly_gen": 6,
+    "official_gen": 2,
     "year": 2021
   },
   {
     "id": 292,
-    "biyearly-id": 21,
+    "biyearly_id": 21,
     "name": "Shedinja",
     "type": ["Bug", "Ghost", "Paper"],
     "photo": "./img/2022/292.svg",
@@ -310,13 +310,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 7,
-    "official-gen": 3,
+    "biyearly_gen": 7,
+    "official_gen": 3,
     "year": 2022
   },
   {
     "id": 837,
-    "biyearly-id": 22,
+    "biyearly_id": 22,
     "name": "Rolycoly",
     "type": ["Rock", "Rubber"],
     "photo": "./img/2022/837.svg",
@@ -325,13 +325,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 7,
-    "official-gen": 8,
+    "biyearly_gen": 7,
+    "official_gen": 8,
     "year": 2022
   },
   {
     "id": 868,
-    "biyearly-id": 23,
+    "biyearly_id": 23,
     "name": "Milcery",
     "type": ["Fairy", "Sugar"],
     "photo": "./img/2023/868.svg",
@@ -340,13 +340,13 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 7,
-    "official-gen": 8,
+    "biyearly_gen": 7,
+    "official_gen": 8,
     "year": 2023
   },
   {
     "id": 932,
-    "biyearly-id": 24,
+    "biyearly_id": 24,
     "name": "Nacli",
     "type": ["Rock", "Salt"],
     "photo": "./img/2023/932.svg",
@@ -355,8 +355,8 @@
       "to add;",
       "and, too."
     ],
-    "biyearly-gen": 7,
-    "official-gen": 9,
+    "biyearly_gen": 7,
+    "official_gen": 9,
     "year": 2023
   }
 ]
