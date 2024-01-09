@@ -16,15 +16,15 @@ const PokemonList = () => {
   return (
     <div className="pokemon-list">
  {Object.entries(pokemonsByYear).map(([year, pokemons]) => (
-  <div key={year}>
-    <h2>
-      {year} <span className="badge bg-secondary">{pokemons.length}</span>
-    </h2>
-    {pokemons.map((pokemon) => (
-      <Link key={pokemon.id} to={`/${pokemon.name}`}>
-        {pokemon.name}</Link>
-        ))}
-  </div>
+  <div key={year} class="year-group">
+  <h2>
+    {year} <span className="badge bg-secondary">{pokemons.length}</span>
+  </h2>
+  {pokemons.map((pokemon) => (
+    <Link key={pokemon.id} to={`/${pokemon.name}`}>
+      {pokemon.name}</Link>
+      ))}
+</div>
 ))}
     </div>
   );

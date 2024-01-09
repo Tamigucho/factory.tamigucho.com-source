@@ -1,4 +1,3 @@
-- in the years display in App.js: <div> of the years' pokelist should have a CSS class, so they'll have round black borders to not be confused with one another
 - components/TypeList.js: add a count of all existing types!
 
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!

@@ -1,19 +1,4 @@
-src/styles/blogger2013.css:
-ERROR
-Cannot find module './img/blogger2013/bg.png'
-
-
-
-
-
-
-The error message you're seeing indicates that the file bg.png in the directory ./img/blogger2013/ cannot be found. This file is likely being referenced in your blogger2013.css file.
-
-To resolve this issue, you need to ensure that the bg.png file exists in the correct location. If the file is missing, you should add it to the ./img/blogger2013/ directory. If the file is in a different location, you should update the path in your CSS file to point to the correct location.
-
-If you're sure that the file is in the correct location and you're still seeing this error, it could be a problem with the way your project is set up. Make sure that your project's configuration is set up to correctly handle image files. For example, if you're using a module bundler like Webpack, you might need to add or adjust a loader for image files.
-
-If you're still having trouble, please provide more information about your project setup and I'll be happy to help further.
+in the years display in App.js: <div> of the years' pokelist should have a CSS class, so they'll have round black borders to not be confused with one another
 
 
 
@@ -22,41 +7,67 @@ If you're still having trouble, please provide more information about your proje
 
 
 
-It is located in public/img/blogger2013/bg.png. How to declare it in src/styles/other/blogger2013.css?
+To add a CSS class to the <div> of the years' pokelist in App.js, you can modify the PokemonList.js component. This component is responsible for rendering the list of pokemons grouped by year.
 
+In the PokemonList.js file, you can add a new CSS class to the <div> that wraps each year's pokemons.
 
+  <div key={year}>
+    <h2>
+      {year} <span className="badge bg-secondary">{pokemons.length}</span>
+    </h2>
+    {pokemons.map((pokemon) => (
+      <Link key={pokemon.id} to={`/${pokemon.name}`}>
+        {pokemon.name}</Link>
+        ))}
+  </div>
+  
+You can define this new CSS class in the theme.css file. For example, you can add a class named .year-group with the desired styles:
 
-
-
-
-
-
-
-If your image is located in public/img/blogger2013/bg.png and you want to reference it in your CSS file located at src/styles/other/blogger2013.css, you need to use a relative path from the CSS file to the image file.
-
-Assuming your project structure is like this:
-
-projectRoot
-│
-├── public
-│   └── img
-│       └── blogger2013
-│           └── bg.png
-│
-└── src
-    └── styles
-        └── other
-            └── blogger2013.css
-            
-
-You would need to go up three directories (../../../) from blogger2013.css to reach the project root, then navigate to public/img/blogger2013/bg.png.
-
-So, in your CSS file, you would reference the image like this:
-
-body {
-    background-image: url('../../../public/img/blogger2013/bg.png');
+.year-group {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
-This tells the browser to start at the current directory (src/styles/other/), go up three levels to the project root, then navigate down into public/img/blogger2013/ to find bg.png.
 
-Please replace body with the actual CSS selector where you want to apply the background image.
+Remember to add this class to the theme.css file:
+
+
+/* Pokémon list styles */
+.pokemon-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pokemon-item {
+  margin: 10px;
+  padding: 10px 10px 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+}
+
+.pokemon-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pokemon-item .type {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.type-badge{border-radius:5px;padding:3px;border:1px solid;white-space:nowrap;margin-right:5px;text-decoration:none;color:initial}
+.type-badge:hover{color:initial;text-decoration:none}
+
+After these changes, each year's pokemons list will be wrapped in a <div> with a round black border, making it distinct from other years.
