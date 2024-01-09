@@ -1,7 +1,4 @@
-- HomePage.js: add Material alert-heading, then get code from factory.tamigucho.com
-- HomePage.js: from factory.tami: add that phonemon heading too, and updating year so as footer does
-- HomePage.js: add "Featured Phonemons"
-
+- in the years display in App.js: <div> of the years' pokelist should have a CSS class, so they'll have round black borders to not be confused with one another
 - components/TypeList.js: add a count of all existing types!
 
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
@@ -9,6 +6,10 @@
 
 - add Home.js page, mv App.js' Pokemons to that
 - apexchart: mv apexchart to that Home.js (not anymore appearing globally)
+
+- HomePage.js: add Material alert-heading, then get code from factory.tamigucho.com
+- HomePage.js: from factory.tami: add that phonemon heading too, and updating year so as footer does
+- HomePage.js: add "Featured Phonemons"
 
 - header: change navigation state according to the current page (currently Home is still active and Types inactive in the /types URL - which is TypeList.js page)
 

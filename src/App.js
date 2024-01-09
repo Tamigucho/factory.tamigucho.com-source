@@ -67,16 +67,22 @@ function App() {
     },
     xaxis: {
       categories: years,
-//      tickAmount: 6,
-//      decimalsInFloat: 0,
-//      labels: {
-        //formatter: (value) => Math.floor(value),
-        //formatter: function(val) {
-          //return val.toFixed(0) // from this kitty https://github.com/apexcharts/apexcharts.js/issues/779#issuecomment-513794658
-        //  return Math.floor(val) //from this kitty https://github.com/apexcharts/apexcharts.js/issues/798#issuecomment-576376743
-        //}
-//      }
     },
+    colors:['#ff5722'],
+    markers: {
+      colors: ['#ff5722']
+   },
+   fill: {
+    colors: ['#121435']
+  }
+//   dataLabels: {
+//    style: {
+//      colors: ['#ff5722']
+//    }
+//  },
+//  fill: {
+//    colors: ['#ff5722']
+//  }
   };
 
   return (
@@ -90,7 +96,29 @@ function App() {
         <Route path="/:name" element={<PokemonDetails pokemons={pokemons} />} />
         {/* Add more routes as needed */}
       </Routes>
-      <Chart options={options} series={series} type="line" height={350} />
+      <div class="chartyears">
+      <p>new tami creatures:</p>
+      <p>growth from 2010 to 2024</p>
+        <Chart options={options} series={series} type="line" height={350} />
+        <ul class="nav nav-pills nav-fill mb-3">
+          <li class="nav-item" role="presentation">
+            <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/bulball.png`}/>
+<img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/logotype.png`}/>
+          </li>
+<li class="nav-item" role="presentation">
+            <img alt="Phonemon" height="26px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`}/>
+          </li>
+          <li class="nav-item" role="presentation">
+            <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2015/logotype.png`}/>
+          </li>
+          <li class="nav-item" role="presentation">
+            <img alt="Phonemon" height="36px" src={`${process.env.PUBLIC_URL}/img/institutional/2018/logotype.png`}/>
+          </li>
+<li class="nav-item" role="presentation">
+            <img alt="Phonemon" height="36px" src="https://tamigucho.com/logotype.png"/>
+          </li>
+        </ul>  
+        </div>
       <Footer />
     </div>
   );
