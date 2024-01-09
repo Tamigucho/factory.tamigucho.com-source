@@ -647,7 +647,7 @@
   },
   {
     "id": 198,
-    "biyearly_id": 18,
+    "biyearly_id": 44,
     "name": "Murkrow",
     "type": ["Dark", "Flying"],
     "photo": "./img/2020/198.svg",
@@ -659,10 +659,39 @@
     "biyearly_gen": 6,
     "official_gen": 2,
     "year": 2020
+  },  {
+    "id": 430,
+    "biyearly_id": 45,
+    "name": "Honchkrow",
+    "type": ["Dark", "Flying"],
+    "photo": "./img/2020/430.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 6,
+    "official_gen": 4,
+    "year": 2020
+  },
+  {
+    "id": 95,
+    "biyearly_id": 46,
+    "name": "Onix",
+    "type": ["Rock", "Ground"],
+    "photo": "./img/2020/95.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 6,
+    "official_gen": 1,
+    "year": 2020
   },
   {
     "id": 208,
-    "biyearly_id": 19,
+    "biyearly_id": 47,
     "name": "Steelix",
     "type": ["Steel", "Ground"],
     "photo": "./img/2020/208.svg",
@@ -677,7 +706,7 @@
   },
   {
     "id": 233,
-    "biyearly_id": 20,
+    "biyearly_id": 48,
     "name": "Porygon2",
     "type": ["Neutral", "Plastic"],
     "photo": "./img/2021/233.svg",
@@ -691,8 +720,38 @@
     "year": 2021
   },
   {
+    "id": 290,
+    "biyearly_id": 49,
+    "name": "Nincada",
+    "type": ["Bug", "Ground"],
+    "photo": "./img/2022/290.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 3,
+    "year": 2022
+  },
+  {
+    "id": 291,
+    "biyearly_id": 50,
+    "name": "Ninjask",
+    "type": ["Bug", "Flying"],
+    "photo": "./img/2022/291.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 3,
+    "year": 2022
+  },
+  {
     "id": 292,
-    "biyearly_id": 21,
+    "biyearly_id": 51,
     "name": "Shedinja",
     "type": ["Bug", "Ghost", "Paper"],
     "photo": "./img/2022/292.svg",
@@ -707,7 +766,7 @@
   },
   {
     "id": 474,
-    "biyearly_id": 22,
+    "biyearly_id": 52,
     "name": "Porygon-Z",
     "type": ["Neutral", "Plastic"],
     "photo": "./img/2024/474.svg",
@@ -722,7 +781,7 @@
   },
   {
     "id": 837,
-    "biyearly_id": 23,
+    "biyearly_id": 53,
     "name": "Rolycoly",
     "type": ["Rock", "Rubber"],
     "photo": "./img/2022/837.svg",
@@ -736,8 +795,38 @@
     "year": 2022
   },
   {
+    "id": 838,
+    "biyearly_id": 54,
+    "name": "Carkol",
+    "type": ["Rock", "Fire", "Rubber"],
+    "photo": "./img/2022/838.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 8,
+    "year": 2022
+  },
+  {
+    "id": 839,
+    "biyearly_id": 55,
+    "name": "Coalossal",
+    "type": ["Rock", "Fire", "Rubber"],
+    "photo": "./img/2022/839.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 8,
+    "year": 2022
+  },
+  {
     "id": 868,
-    "biyearly_id": 24,
+    "biyearly_id": 56,
     "name": "Milcery",
     "type": ["Fairy", "Sugar"],
     "photo": "./img/2023/868.svg",
@@ -751,8 +840,23 @@
     "year": 2023
   },
   {
+    "id": 869,
+    "biyearly_id": 57,
+    "name": "Alcremie",
+    "type": ["Fairy", "Sugar"],
+    "photo": "./img/2023/869.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 8,
+    "year": 2023
+  },
+  {
     "id": 932,
-    "biyearly_id": 25,
+    "biyearly_id": 58,
     "name": "Nacli",
     "type": ["Rock", "Salt"],
     "photo": "./img/2023/932.svg",
@@ -766,8 +870,38 @@
     "year": 2023
   },
   {
+    "id": 933,
+    "biyearly_id": 59,
+    "name": "Naclstack",
+    "type": ["Rock", "Salt"],
+    "photo": "./img/2023/933.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 9,
+    "year": 2023
+  },
+  {
+    "id": 934,
+    "biyearly_id": 60,
+    "name": "Garganacl",
+    "type": ["Rock", "Salt"],
+    "photo": "./img/2023/934.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "biyearly_gen": 7,
+    "official_gen": 9,
+    "year": 2023
+  },
+  {
     "id": 2019,
-    "biyearly_id": 1,
+    "biyearly_id": 61,
     "name": "Regitube",
     "type": ["Rubber", "Plastic"],
     "photo": "./img/2025/2019.svg",
@@ -782,7 +916,7 @@
   },
   {
     "id": 2020,
-    "biyearly_id": 2,
+    "biyearly_id": 62,
     "name": "Regikraft",
     "type": ["Paper"],
     "photo": "./img/2025/2020.svg",
