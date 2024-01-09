@@ -1,12 +1,4 @@
 Branch: main
-Tasks.txt: QmYmJjyuAEfkbB1XepcT7SZ5Jk5fzywMVkiQ1qwh2DPTjW
-public/img/2020/430.svg: QmZ77ztJrTwq4h2QbmgnQ77tSbuozdgSWvuM3nD1nCjWz9
-public/img/2020/95.svg: QmSxr9UH1wYP93sgX365szn1HvXh3K1cQ2dey3sM2sPrUz
-public/img/2022/290.svg: QmQJmZzufEHJDDfhz2jqnb3agXVhX92Fo1od3U41ukFLFp
-public/img/2022/291.svg: Qmb6xAapXPF9oNygbhJvfddf2r3JMzBfPvk85ugGvqmaXY
-public/img/2022/838.svg: QmXezyqqwErzjJHd3bYAvfj93tfBPsuLPn5W2VTUhPAJRW
-public/img/2022/839.svg: QmeYNwM63SdPMRmi4ECeyKUHtwjEpmQLpSQcP6stDXTsZj
-public/img/2023/869.svg: QmXit9ekPtP659w3ipJXBgsfu9jGKVcPsXa5JLbJxcfwyA
-public/img/2023/933.svg: QmbQ3tVEU8nY1cpg7Nc5uneFnLm9MsYNUZkynrsoPdkDrw
-public/img/2023/934.svg: QmacHL236ipcfDWTgoGer4Zi6sinQb5wpyDFVccb5CuefL
-src/data/pokemons.json: QmSiSHD673197eqDUFkTp9AXkM1Ea542H7uBTD8AHJTPxC
+Tasks.txt: Qmd1HpVAevfpJ8E2o9eWwEM5sEEqA74NLCpVLguJyb2Qev
+src/components/PokemonDetails.js: QmVMXq8v2Svun7djYNHLNmUq4qw55WASx3THw9X8MPtjmp
+src/data/pokemons.json: QmWgUh1oXPvSwLYL3oSu9BVmKn8ezwKZYhdQQjxiwFSC6u

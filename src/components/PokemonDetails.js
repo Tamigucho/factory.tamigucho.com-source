@@ -78,6 +78,7 @@ return (
     </Link>
   )}
 </p>
+<p>Region: {pokemon.region}</p>
 <p>Official generation: {pokemon.official_gen}</p>
 <p>Biyearly generation: {pokemon.biyearly_gen}</p>
 <p>Created in: {pokemon.year}</p>
