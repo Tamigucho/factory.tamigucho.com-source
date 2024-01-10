@@ -1,6 +1,2 @@
 Branch: main
-GPTConverstation.txt: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
-src/components/CreaturesPage.js: QmRcBYHerYEQX1b2PcyVLz1fXw59BTC391rrZR6D6WzHei
-src/components/TypePage.js: QmeNt4XAwXtpVVchpK5CZJccByfu74eSkCxiLpRx79vN64
-src/components/YearsPage.js: QmRtqHNCZf3cwoLKGpwrjdqbbfpZJfFio6S2wMWGXQePCa
-src/styles/theme.css: QmckhQya58Rnd3JY6JEXa4rr74h4CwXrTY5SrSH3bBh6eq
+src/components/Header.js: QmW1LZeydoL52paWnFoLo3uPBrP4torcHuauGUKy9GLXB7

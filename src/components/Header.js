@@ -47,6 +47,27 @@ const Header = ({ creatureCount }) => {
           </div>
         </div>
       </nav>
+            {/*CTRL+K:"Whats wrong here?":*/}
+            <a 
+        title="Login with your Plasmmer account" 
+        href="https://accounts.plasmmer.com/login?redirectto=phonemons.github.io" 
+        className="btn btn-light btn-sm" 
+        style={{float: 'right'}}
+      >
+        <div 
+          style={{
+            background: 'url(https://web.archive.org/web/20230405192028/https://orgut.co/PF.Site/flavors/bootstrap/assets/logos/logo_default.png) no-repeat no-repeat 0px 0px',
+            width: '32px',
+            height: '32px',
+            backgroundSize: '168px',
+            padding: '0 0px 0px 0px',
+            verticalAlign: 'middle',
+            display: 'inline-block'
+          }}
+        >
+        </div> 
+        Sign-in
+      </a>
     </header>
   );
 };
