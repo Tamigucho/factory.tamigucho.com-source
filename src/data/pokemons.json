@@ -798,8 +798,91 @@
     "evolve": "Porygon-Z"
   },
   {
-    "id": 290,
+    "id": 265,
     "biyearly_id": 49,
+    "name": "Wurmple",
+    "type": "Bug",
+    "photo": "./img/2024/265.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Hoenn",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024,
+    "evolve": ["Silcoon", "Cascoon"]
+  },
+  {
+    "id": 266,
+    "biyearly_id": 50,
+    "name": "Silcoon",
+    "type": "Bug",
+    "photo": "./img/2024/266.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Hoenn",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024,
+    "evolve": "Beautifly"
+  },
+  {
+    "id": 267,
+    "biyearly_id": 51,
+    "name": "Beautifly",
+    "type": ["Bug", "Flying"],
+    "photo": "./img/2024/267.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Hoenn",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024
+  },
+  {
+    "id": 268,
+    "biyearly_id": 52,
+    "name": "Cascoon",
+    "type": "Bug",
+    "photo": "./img/2024/268.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Hoenn",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024,
+    "evolve": "Dustox"
+  },
+  {
+    "id": 269,
+    "biyearly_id": 53,
+    "name": "Dustox",
+    "type": ["Bug", "Poison"],
+    "photo": "./img/2024/269.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Hoenn",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024
+  },
+  {
+    "id": 290,
+    "biyearly_id": 54,
     "name": "Nincada",
     "type": ["Bug", "Ground"],
     "photo": "./img/2022/290.svg",
@@ -816,7 +899,7 @@
   },
   {
     "id": 291,
-    "biyearly_id": 50,
+    "biyearly_id": 55,
     "name": "Ninjask",
     "type": ["Bug", "Flying"],
     "photo": "./img/2022/291.svg",
@@ -832,7 +915,7 @@
   },
   {
     "id": 292,
-    "biyearly_id": 51,
+    "biyearly_id": 56,
     "name": "Shedinja",
     "type": ["Bug", "Ghost", "Paper"],
     "photo": "./img/2022/292.svg",
@@ -848,7 +931,7 @@
   },
   {
     "id": 474,
-    "biyearly_id": 52,
+    "biyearly_id": 57,
     "name": "Porygon-Z",
     "type": ["Neutral", "Plastic"],
     "photo": "./img/2024/474.svg",
@@ -864,7 +947,7 @@
   },
   {
     "id": 837,
-    "biyearly_id": 53,
+    "biyearly_id": 58,
     "name": "Rolycoly",
     "type": ["Rock", "Rubber"],
     "photo": "./img/2022/837.svg",
@@ -881,7 +964,7 @@
   },
   {
     "id": 838,
-    "biyearly_id": 54,
+    "biyearly_id": 59,
     "name": "Carkol",
     "type": ["Rock", "Fire", "Rubber"],
     "photo": "./img/2022/838.svg",
@@ -898,7 +981,7 @@
   },
   {
     "id": 839,
-    "biyearly_id": 55,
+    "biyearly_id": 60,
     "name": "Coalossal",
     "type": ["Rock", "Fire", "Rubber"],
     "photo": "./img/2022/839.svg",
@@ -914,7 +997,7 @@
   },
   {
     "id": 868,
-    "biyearly_id": 56,
+    "biyearly_id": 61,
     "name": "Milcery",
     "type": ["Fairy", "Sugar"],
     "photo": "./img/2023/868.svg",
@@ -931,7 +1014,7 @@
   },
   {
     "id": 869,
-    "biyearly_id": 57,
+    "biyearly_id": 62,
     "name": "Alcremie",
     "type": ["Fairy", "Sugar"],
     "photo": "./img/2023/869.svg",
@@ -947,7 +1030,7 @@
   },
   {
     "id": 932,
-    "biyearly_id": 58,
+    "biyearly_id": 63,
     "name": "Nacli",
     "type": ["Rock", "Salt"],
     "photo": "./img/2023/932.svg",
@@ -964,7 +1047,7 @@
   },
   {
     "id": 933,
-    "biyearly_id": 59,
+    "biyearly_id": 64,
     "name": "Naclstack",
     "type": ["Rock", "Salt"],
     "photo": "./img/2023/933.svg",
@@ -981,7 +1064,7 @@
   },
   {
     "id": 934,
-    "biyearly_id": 60,
+    "biyearly_id": 65,
     "name": "Garganacl",
     "type": ["Rock", "Salt"],
     "photo": "./img/2023/934.svg",
@@ -997,7 +1080,7 @@
   },
   {
     "id": 2019,
-    "biyearly_id": 61,
+    "biyearly_id": 66,
     "name": "Regitube",
     "type": ["Rubber", "Plastic"],
     "photo": "./img/2025/2019.svg",
@@ -1013,7 +1096,7 @@
   },
   {
     "id": 2020,
-    "biyearly_id": 62,
+    "biyearly_id": 67,
     "name": "Regikraft",
     "type": ["Paper"],
     "photo": "./img/2025/2020.svg",
