@@ -33,7 +33,7 @@ const TypeList = () => {
           <li key={index}>
             <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
               {pokemonTypes.find(t => t.type === type.type).emoji} {type.type}
-            </Link><span className="badge bg-secondary">{pokemonCountByType[type.type]}</span>
+            </Link><span className="badge bg-secondary" title={`Creatures that have the [${pokemonTypes.find(t => t.type === type.type).emoji} ${type.type}] type: ${pokemonCountByType[type.type]}`}>{pokemonCountByType[type.type]}</span>
           </li>
         ))}
       </ul>
@@ -43,7 +43,7 @@ const TypeList = () => {
     <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
     <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
       {type.emoji} {type.type}
-    </Link><span className="badge bg-secondary">{type.pokemonCount}</span>
+    </Link><span className="badge bg-secondary" title={`Creatures that have the [${pokemonTypes.find(t => t.type === type.type).emoji} ${type.type}] type: ${pokemonCountByType[type.type]}`}>{type.pokemonCount}</span>
   </li>
 ))}
 <h4>Types with the fewest creatures:</h4>
@@ -52,7 +52,7 @@ const TypeList = () => {
     <span role="img" aria-label="medal">{index === 0 ? "🥇" : index === 1 ? "🥈" : "🥉"}</span>
     <Link to={`/types/${type.type}`} className={`type-badge type-${type.type.toLowerCase()}`}>
       {type.emoji} {type.type}
-    </Link><span className="badge bg-secondary">{type.pokemonCount}</span>
+    </Link><span className="badge bg-secondary" title={`Creatures that have the [${pokemonTypes.find(t => t.type === type.type).emoji} ${type.type}] type: ${pokemonCountByType[type.type]}`}>{type.pokemonCount}</span>
   </li>
 ))}
     </div>

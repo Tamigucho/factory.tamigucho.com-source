@@ -124,7 +124,7 @@ return (
 <p>Region: <Link to={`/regions/${pokemon.region}`}>{pokemon.region}</Link></p>
 <p>Official generation: {pokemon.official_gen}</p>
 <p>Biyearly generation: {pokemon.biyearly_gen}</p>
-<p>Created in: {pokemon.year}</p>
+<p>Created in: <Link to={`/years/${pokemon.year}`}>{pokemon.year}</Link></p>
     </div>
   </div>
 </div>
@@ -134,27 +134,16 @@ return (
     <h2>Evolutions</h2>
     <ul>
       {evolutions.map((evolution, index) => (
-        <li key={index}>
-          {evolution === pokemon.name ? <mark>{evolution}</mark> : <Link to={`/creatures/${evolution}`}>{evolution}</Link>}
+        <li key={index} class="evolution-item">
+          {evolution === pokemon.name ? <mark><img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolution.photo}`} />
+                <h3>{evolution}</h3></mark> : <Link to={`/creatures/${evolution}`.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}><img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolution.photo}`} />
+                <h3>{evolution}</h3></Link>}
           {index < evolutions.length - 1 && ' > '}
         </li>
       ))}
     </ul>
   </div>
 </section>
-        {/*<section className="pokedex-pokemon-evolution section">
-      <div className="column-12 dog-ear-bl push-1"><ul className="evolution-five evolution-profile match-height-tablet">
-          {evolutions.map((evolution, index) => (
-            <li key={index} className={index === 0 ? 'first' : index === evolutions.length - 1 ? 'last' : 'middle'}>
-              <Link to={`/creatures/${evolution}`}>
-                <img alt={evolution} src={`./img/${pokemon.year}/${pokemon.id}.svg`} />
-                <h3>{evolution}</h3>
-              </Link>
-            </li>
-          ))}
-          </ul>
-      </div>
-    </section>*/}
     {/* Add more details about the specific Pokemon */}
     </>
     )}

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 //import { Link } from 'react-router-dom';
 import pokemonsData from '../data/pokemons.json';
 import PokemonItem from './PokemonItem';
+import pokemons from '../data/pokemons.json';
 //import { Dropdown } from 'bootstrap-material-design';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
@@ -36,9 +37,12 @@ const CreaturesPage = () => {
       const totalPages = Math.ceil(pokemonsData.length / itemsPerPage);
       const [dropdownOpen, setDropdownOpen] = useState(false);
       const toggle = () => setDropdownOpen(prevState => !prevState);
+      const currentYear = Math.max(...pokemons.map(pokemon => pokemon.year));
+      const yearsPassed = currentYear - 2010;
+      const tooltip = `There are ~${pokemonsData.length} Pokémons in existence from 2010 to ${currentYear} (${yearsPassed} years)`;
     return (
       <div className="creatures-page">
-        <h2>Creatures Dex <span className="badge bg-secondary">{pokemonsData.length}</span></h2>
+        <h2>Creatures Dex <span className="badge bg-secondary" title={tooltip}>{pokemonsData.length}</span></h2>
         <div className="pokemon-list">
         {currentItems.map((pokemon, index) => (
   <PokemonItem key={index} {...pokemon} />

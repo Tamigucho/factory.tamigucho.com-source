@@ -20,7 +20,7 @@ const YearsPage = () => {
       <ul>
         {years.map((year, index) => (
           <li key={index}>
-            <Link to={`/years/${year}`}>{year}</Link> <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
+            <Link to={`/years/${year}`}>{year}</Link> <span className="badge bg-secondary" title={`Made in ${year}: ${pokemonsByYear[year].length} creatures`}>{pokemonsByYear[year].length}</span>
           </li>
         ))}
       </ul>

@@ -9,7 +9,7 @@ const RegionPage = () => {
   return (
     <div>
       <h2>{region.name}</h2>
-      <h3>Games</h3>
+      <h3>Games <span className="badge bg-secondary" title={`Set in the ${region.name} region: ${region.games.length} games`}>{region.games.length}</span></h3>
       <ul>
         {region.games.map(game => <li key={game}>{game}</li>)}
       </ul>

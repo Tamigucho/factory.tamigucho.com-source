@@ -44,6 +44,7 @@
   border-radius: 3px !important;
   font-size: 12px !important;
   color: #000000de !important;
+  font-weight: unset;
   border: 1px solid #000000de;
   display: unset;
   margin-left: 12px;
@@ -60,11 +61,38 @@
   font-size: 0.8em;
 }
 
+/* Search component styles */
+.search {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search button {
+  padding: 10px;
+  background-color: #4CAF50; /* Green color for the search button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .year-group {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
+}
+
+.year-group a {
+  margin-right: 5px;
 }
 
 /* Pokémon list styles */
@@ -147,27 +175,8 @@
   margin-right: 10px;
 }
 
-/* Search component styles */
-.search {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.search input {
-  padding: 10px;
-  margin-right: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.search button {
-  padding: 10px;
-  background-color: #4CAF50; /* Green color for the search button */
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.evolution-item {
+  user-select: none;
 }
 
 /* Type page styles */
@@ -188,27 +197,6 @@
 /* Description styles */
 .pokemon-description p {
   margin: 10px 0;
-}
-
-.chartyears {
-  user-select: none;
-  background: #121435;
-}
-.chartyears p {
-  color: #ff5722;
-  font-family: Arvo Bold;
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 0;
-  padding-bottom: 25px;
-  position: relative;
-  top: 33px;
-  left: 15px;
-}
-
-.footer {
-  user-select: none;
-  background-color: #3AA3CB!important; /* Blue color for the header */
 }
 
 .prev-button img, .next-button img {
@@ -236,11 +224,23 @@
   border-bottom-right-radius: 50%;
 }
 
-/* Have to change later, getting fa icons directly from bootstrap-material-design */
-.fa-instagram:before {
-  content:"\f16d"
+.chartyears {
+  user-select: none;
+  background: #121435;
 }
-.fa-instagram-square:before {
-  content:"\e055"
+.chartyears p {
+  color: #ff5722;
+  font-family: Arvo Bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 0;
+  padding-bottom: 25px;
+  position: relative;
+  top: 33px;
+  left: 15px;
 }
-/* Have to change later, getting fa icons directly from bootstrap-material-design */
+
+.footer {
+  user-select: none;
+  background-color: #3AA3CB!important; /* Blue color for the header */
+}

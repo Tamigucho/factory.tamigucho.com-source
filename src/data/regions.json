@@ -1,6 +1,38 @@
 [
     {
       "name": "Kanto",
-      "games": ["Pokémon Green", "Pokémon Red & Blue", "Pokémon Yellow", "Pokémon Let's Go Pikachu & Pokémon Let's Go Eevee"]
+      "games": ["Pokémon Green", "Pokémon Red & Blue", "Pokémon Yellow", "Pokémon Let's Go Pikachu & Let's Go Eevee"]
+    },
+    {
+      "name": "Johto",
+      "games": ["Pokémon Gold & Silver", "Pokémon Crystal", "Pokémon HeartGold & SoulSilver"]
+    },
+    {
+      "name": "Hoenn",
+      "games": ["Pokémon Ruby & Sapphire", "Pokémon Emerald", "Pokémon OmegaRuby & AlphaSapphire"]
+    },
+    {
+      "name": "Sinnoh",
+      "games": ["Pokémon Diamond & Pearl", "Pokémon Platinum", "Pokémon BrilliantDiamond & ShiningPearl"]
+    },
+    {
+      "name": "Unova",
+      "games": ["Pokémon Black & White", "Pokémon Black2 & White2"]
+    },
+    {
+      "name": "Kalos",
+      "games": "Pokémon X & Y"
+    },
+    {
+      "name": "Alola",
+      "games": ["Pokémon Sun & Moon", "Pokémon UltraSun & UltraMoon"]
+    },
+    {
+      "name": "Galar",
+      "games": "Pokémon Sword & Shield"
+    },
+    {
+      "name": "Paldea",
+      "games": "Pokémon Scarlet & Violet"
     }
   ]

@@ -1,3 +1,14 @@
 Branch: main
-GPTConverstation.txt: QmWHamkYepHivuje2w6VRruB2cQ2XcAV1BZ22jhd7o5zZc
-src/components/RegionsList.js: QmeZFtck6WZ6DckoJrURGop6znmfboiX7i5qsggeng5dTz
+public/index.html: QmQr9tDdFnjJNbpBqCNfLK4uZ8wi2j9hW8if7YhPvKJiq5
+src/components/CreaturesPage.js: QmTziTD2hdNiNhKTFXaRRL1K7zXGDVVBVpgKKieHKFPteY
+src/components/Footer.js: QmQoeQMzneKSjyAA36BnLyAMcCcEKoPFm1KA2WYG4uZLg9
+src/components/PokemonDetails.js: QmWkE4YCq3frT4yZurPguy5fYYjS14QcAmqseVsF5w7fvk
+src/components/PokemonList.js: QmaA5AADWEK5bwdNsYqLdeUBi2eKnZuEVLuVUGsDY8JuFq
+src/components/RegionPage.js: QmRqeVcj4i2Ld4Qcg1ZbGPMw7gHLDuEsAMYMemBDg5VEZN
+src/components/RegionsList.js: QmRxhHgiJbLAHa3mQhRc3JDK4YS9sT6az897daUqXxUSQW
+src/components/TypeList.js: QmX8RT8Qdtv6C1d7zouPN51wpz3aofnaRTUGY67v1P22u7
+src/components/YearPage.js: QmPN88UXybqB8hxcML4o2XYDpzTMySSZBBa6y9dyBWG8Ad
+src/components/YearsPage.js: Qmcw2kRdmMQsRH56RGwCDqp6SgMyfhRiE4nNSeVrHM3f2Y
+src/data/regions.json: QmetnSdLGvtJueZXfatwf9wgBkqsK65Q5Tg6AHzengGXg8
+src/styles/other/blogger2013.css: QmSJFPLUxBRrTX4BVKHhHW37iR6peYK3QNvmcphTvjnP29
+src/styles/theme.css: QmapzT7sGX8XmyQhtnGJGMGUzsh7T3grSu53yjmBDQQ7R8

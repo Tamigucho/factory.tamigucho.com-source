@@ -39,9 +39,8 @@ const RegionsList = () => {
       <ul>
       {regionsData.map(region => (
   <li key={region.name}>
-    <Link to={`/regions/${region.name}`}>{region.name}</Link>
-    <span className="badge bg-secondary">{regionCounts[region.name]?.pokemonCount || 0}</span>
-    <span className="badge bg-secondary">{regionCounts[region.name]?.gameCount || 0}</span>
+    <Link to={`/regions/${region.name}`}>{region.name}</Link> <span className="badge bg-secondary" title="Number of creatures set in this region">🐾 {regionCounts[region.name]?.pokemonCount || 0}</span>
+    <span className="badge bg-secondary" title="Number of games set in this region">🎮 {regionCounts[region.name]?.gameCount || 0}</span>
   </li>
 ))}
       </ul>

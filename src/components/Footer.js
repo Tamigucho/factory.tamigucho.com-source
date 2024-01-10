@@ -17,14 +17,14 @@ const Footer = () => {
       <center>Last update in {lastUpdate}.</center>
       <div className="social-icons">
         <a href="https://github.com/Tamigucho/factory.tamigucho.com/" target="blank">
-          <img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve Phonemon's site &amp; others in GitHub" alt="GitHub" />
+          <img src={`${process.env.PUBLIC_URL}/img/social/github.svg`} width="40px" height="40px" title="See first the news and improve Phonemon's site &amp; others in GitHub" alt="GitHub" />
         </a>
       </div>
       <div className="social-buttons"></div>
       <copyright>
         <center>
           <a href="https://aragon.plasmmer.com/#/tamigucho/" target="_blank">
-            <img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg" />
+            <img width="350px"  src={`${process.env.PUBLIC_URL}/img/5d30129fbe8118efde2a8a25_Badge Dark.svg`} />
           </a>
           <br />
           (c) 2010-{lastYear} Phonemon by <a target="_blank" href="https://tamigucho.com/" style={{opacity: 'unset'}}>

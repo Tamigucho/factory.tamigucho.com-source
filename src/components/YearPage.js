@@ -9,7 +9,7 @@ const YearPage = () => {
   
     return (
       <div className="year-page">
-        <h2>{year} <span className="badge bg-secondary">{pokemons.length}</span></h2>
+        <h2>{year} <span className="badge bg-secondary" title="Creatures made in this year">{pokemons.length}</span></h2>
         <div className="pokemon-list">
           {pokemons.map((pokemon, index) => (
             <PokemonItem key={index} {...pokemon} />
