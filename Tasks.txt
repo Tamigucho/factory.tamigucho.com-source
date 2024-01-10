@@ -1,4 +1,4 @@
-- /regions/{region} page, reading from a brand new file data/regions.json, containing region name and data so as there are data/pokemonTypes.json (as in their "region" JSON key. Make regions clickable in PokemonDetails.js page. Also list regions in /regions, and link it in components/Header.js.
+/regions and /regions/{region} pages!
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 
@@ -20,6 +20,10 @@
 
 - HomePage.js: mv that blogger heading (not anymore cluttering globally)
 - HomePage.js: add "Featured Phonemons"
+
+- add small-icon next to photo
+
+- add shinies (radio, pinkan, darkan, shiny, etc)
 
 
 
