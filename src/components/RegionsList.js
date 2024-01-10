@@ -5,7 +5,7 @@ import regionsData from '../data/regions.json';
 const RegionsList = () => {
   return (
     <div>
-      <h2>Regions</h2>
+      <h2>Regions <span className="badge bg-secondary">{regionsData.length}</span></h2>
       <ul>
         {regionsData.map(region => (
           <li key={region.name}>
