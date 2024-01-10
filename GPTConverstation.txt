@@ -1,0 +1,94 @@
+Let's build: /regions/{region} page, reading from a brand new file data/regions.json, containing region name and data so as there are data/pokemonTypes.json (as in their "region" JSON key. Make regions clickable in PokemonDetails.js page. Also list regions in /regions, and link it in components/Header.js.
+About data/regions.json: let's add the following entries/keys: "name" - eg. "Kanto", "games" - eg. ["Pokémon Green", "Pokémon Red & Blue", "Pokémon Yellow", "Pokémon Let's Go Pikachu & Pokémon Let's Go Eevee"]
+
+
+
+
+
+
+
+To implement the /regions/{region} page, you need to create a new component, RegionPage.js, and a new JSON file, regions.json.
+
+The regions.json file should contain an array of region objects, each with a name and games property. Here's an example of how it might look:
+
+[
+  {
+    "name": "Kanto",
+    "games": ["Pokémon Green", "Pokémon Red & Blue", "Pokémon Yellow", "Pokémon Let's Go Pikachu & Pokémon Let's Go Eevee"]
+  },
+  ...
+]
+
+In RegionPage.js, you'll use the useParams hook from react-router-dom to get the region name from the URL. Then, you'll find the corresponding region in regions.json and display its information.
+
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import regionsData from '../data/regions.json';
+
+const RegionPage = () => {
+  const { regionName } = useParams();
+  const region = regionsData.find(region => region.name === regionName);
+
+  return (
+    <div>
+      <h2>{region.name}</h2>
+      <h3>Games</h3>
+      <ul>
+        {region.games.map(game => <li key={game}>{game}</li>)}
+      </ul>
+    </div>
+  );
+};
+
+export default RegionPage;
+
+Next, you'll need to add a route for /regions/{region} in App.js:
+
+import RegionPage from './components/RegionPage'; // Import the new component
+
+// Inside the Routes component
+<Route path="/regions/:regionName" element={<RegionPage />} />
+
+To make regions clickable in PokemonDetails.js, you'll add a Link component around the region name:
+
+import { Link } from 'react-router-dom';
+
+// Inside the PokemonDetails component
+<p>Region: <Link to={`/regions/${pokemon.region}`}>{pokemon.region}</Link></p>
+
+To list regions in /regions and link it in Header.js, you'll create a RegionsList.js component and add a link to it in Header.js:
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import regionsData from '../data/regions.json';
+
+const RegionsList = () => {
+  return (
+    <div>
+      <h2>Regions</h2>
+      <ul>
+        {regionsData.map(region => (
+          <li key={region.name}>
+            <Link to={`/regions/${region.name}`}>{region.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default RegionsList;
+
+
+In Header.js:
+
+// Inside the Header component
+<Link to="/regions">Regions</Link>
+
+
+Finally, don't forget to add a route for /regions in App.js:
+
+import RegionsList from './components/RegionsList'; // Import the new component
+
+// Inside the Routes component
+<Route path="/regions" element={<RegionsList />} />

@@ -5,14 +5,16 @@ window.mdb = mdb;
 import Header from './components/Header';
 import Search from './components/Search';
 import PokemonList from './components/PokemonList';
+import Footer from './components/Footer';
 import TypeList from './components/TypeList';
 import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
 import YearsPage from './components/YearsPage'; // Import the new component
 import YearPage from './components/YearPage'; // Import the new component
 import CreaturesPage from './components/CreaturesPage'; // Import the new component
-import Footer from './components/Footer';
+import RegionPage from './components/RegionPage'; // Import the new component
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
+import RegionsList from './components/RegionsList'; // Import the new component
 import Chart from 'react-apexcharts';
 import './styles/theme.css';
 import './styles/other/blogger2013.css'
@@ -112,6 +114,8 @@ function App() {
         <Route path="/types" element={<TypeList />} />
         <Route path="/types/:typeName" element={<TypePage />} />
         <Route path={`/creatures/:name`} element={<PokemonDetails pokemons={pokemons} />} />
+        <Route path="/regions" element={<RegionsList />} />
+        <Route path="/regions/:regionName" element={<RegionPage />} />
         <Route path="/years" element={<YearsPage />} />
         <Route path="/years/:year" element={<YearPage />} />
         {/* Add more routes as needed */}
