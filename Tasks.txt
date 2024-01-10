@@ -1,3 +1,22 @@
+recover phonemon.blogspot.com: redirect it
+
+- Make the Private version of the factory repo! Store imgs on CloudDrives as bkp, make them accompained of .md5, .sha256 and .cid files for each!
+Proof of blockchain registration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - add "Fit in gaming generation: " on each tami (example: Torchnid: starter of Gen3)
 
 - add link to Petalrock in Bouldegg's morph ; add link to Bouldegg in Petalrock (same for Beanbie->Beaneck)
@@ -14,8 +33,3 @@
 - mv infos from 2018-2019 to /history page (tamigucho.com)
 - Tables for the 2018-2019 tamis (and types)
 - Descriptions of 2018-2019 as Collapsibles
-
-recover phonemon.blogspot.com: redirect it
-
-- Make the Private version of the factory repo! Store imgs on CloudDrives as bkp, make them accompained of .md5, .sha256 and .cid files for each!
-Proof of blockchain registration.
