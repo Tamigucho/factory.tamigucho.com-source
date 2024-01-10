@@ -1,11 +1,3 @@
 Branch: main
-GPTConverstation.txt: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
-package-lock.json: QmdGDvWMxNaCipyNz1bg3Ka5RBzogdLs9Errc3P676K6bi
-package.json: QmQF7J449epC25dtfQ413P6AznBydvqLL9G9K7ZUZwUfBb
-public/index.html: QmQHs2JjSif2SxjcpZGuAHsDsfPDtxxQey5ZWjAXygQg2K
-src/App.js: QmWHEeJ3RgHp3vkfsRynQD62aqfqB8u3SStTsCCStgrJCX
-src/components/Header.js: QmaJaV8XhUYXYnjif5MXKoWhS4EA9nUqKCfjjyfcQ5UXNc
-src/components/PokemonDetails.js: QmU9ks8DSgvHXHiT2TLSWXBkAy24AXhsetn5BdrjnTpBXj
-src/components/PokemonItem.js: QmZZw4rHy6GGMbpvjP7BxemH9asPBC1M2NBtLVLBFojRVA
-src/styles/other/blogger2013.css: QmWSMXTggoHAS4BD1o1kKihbi3ixWgoAVQPHJoLHop5xk4
-src/styles/theme.css: QmbXdaDjYLXWr6AJKDQeVRf6wsuJfsKTdrcZNdRjuXNCuu
+Tasks.txt: QmSBrbSqHxrEvxUF1cDJj59qCCgQXrcDoNEaDVGCtYiuu6
+src/data/pokemons.json: QmW71mBHDz3ufsLeVs4UF2vukXsEjrgunDy2CC4QJwUfym
