@@ -25,11 +25,10 @@ setPokemonsByType(filteredPokemons);
 
   return (
     <div className="type-page">
-      <h2 className={`type-${typeName.toLowerCase()}`}>
-        <span>{pokemonTypes.find(type => type.type === typeName).emoji} </span>
-        <span>{typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</span>
+      <h2>
+        <span className={`type-header type-${typeName.toLowerCase()}`}>{pokemonTypes.find(type => type.type === typeName).emoji} {typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</span>
+        <span className="badge bg-secondary" title={`Total Pokémons in this type: ${pokemonsCount}`}>{pokemonsCount}</span>
       </h2>
-      <div><p>Total Pokémons in this type: {pokemonsCount}</p></div>
       <div className="type-matchups">
         <h4>Weaknesses</h4>
         {typeData.weaknesses.map((weakness, index) => (

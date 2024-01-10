@@ -37,9 +37,18 @@
 
 .navbar-brand .badge {
   background: #ff9800 !important;
-  color: #000000de !important;
-  border: 1px solid;
   border-radius: 3px !important;
+  font-size: 12px !important;
+  color: #000000de !important;
+  border: 1px solid #000000de;
+  display: unset;
+  margin-left: 12px;
+  font-weight: 500;
+  line-height: inherit;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+  padding: 4px 4px 4px 4px !important;
 }
 
 .header .badge {
@@ -154,9 +163,14 @@
   padding: 20px;
 }
 
-.type-page .pokemon-type-header {
+/*.type-header {
   font-size: 2em;
   margin-bottom: 20px;
+}*/
+
+.type-header {
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
 }
 
 /* Description styles */

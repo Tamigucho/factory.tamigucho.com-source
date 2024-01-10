@@ -58,8 +58,7 @@ const CreaturesPage = () => {
       <a className="page-link" onClick={() => handlePageChange(currentPage + 1)}>Next</a>
     </li>
   </ul>
-</nav>
-<Dropdown isOpen={dropdownOpen} toggle={toggle}>
+</nav> <Dropdown isOpen={dropdownOpen} toggle={toggle}>
   <DropdownToggle caret>
     Items per page
   </DropdownToggle>

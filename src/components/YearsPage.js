@@ -16,12 +16,11 @@ const YearsPage = () => {
 
   return (
     <div className="years-page">
-      <h2>Years</h2>
+      <h2>Years <span className="badge bg-secondary">{years.length}</span></h2>
       <ul>
         {years.map((year, index) => (
           <li key={index}>
-            <Link to={`/years/${year}`}>{year}</Link>
-            <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
+            <Link to={`/years/${year}`}>{year}</Link> <span className="badge bg-secondary">{pokemonsByYear[year].length}</span>
           </li>
         ))}
       </ul>
