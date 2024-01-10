@@ -1,11 +1,11 @@
+- /regions/{region} page, reading from a brand new file data/regions.json, containing region name and data so as there are data/pokemonTypes.json (as in their "region" JSON key. Make regions clickable in PokemonDetails.js page. Also list regions in /regions, and link it in components/Header.js.
+
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 
 - regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
 - gimmick dropdown: should also support gimmicks on regional forms! so, it will react to changes made by clicking an item in the regional forms dropdown!
 
-- /regions page, reading from a brand new file data/regions.json, containing region name and data so as there are data/pokemonTypes.json.
-- make regions clickable in PokemonDetails.js page.
-
+- 2019: add Zapdos, Moltres ; 2025: add regirock, registeel, regice, regigigas, regielec, regidrago
 - add groups, for example: Kanto Legendary Trio (3), The Regis (8)
 
 - list of type combos (such as Carkol/Coalossal's Rock+Fire+Rubber), and the Pokémons using them
