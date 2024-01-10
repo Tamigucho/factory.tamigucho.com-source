@@ -46,3 +46,5 @@ Neutral type, too
 - insp https://www.ligapokemon.com.br/?view=pokedex/pokemon&id=932, https://www.ligapokemon.com.br/?view=pokedex/pokemon&id=869
 
 - combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
+
+- improve Plasmmer Accounts login button, make it identify logged-in cookie active/valid or not and load user Photo+Name!
