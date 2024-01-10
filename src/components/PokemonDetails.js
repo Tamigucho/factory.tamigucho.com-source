@@ -14,10 +14,12 @@ const PokemonDetails = ({ pokemons }) => {
 
   const [loading, setLoading] = useState(true);
 
+  const [evolutions, setEvolutions] = useState([]);
+
   useEffect(() => {
     if (pokemons && pokemons.length > 0) {
       const originalName = name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-      
+
       const foundPokemon = pokemons.find(pokemon => {
         const pokemonNameWithPeriods = pokemon.name.replace(/[\s.]/g, '-').toLowerCase();
         const pokemonNameWithoutPeriods = pokemon.name.replace(/[\s.]/g, '-').replace(/\./g, '').toLowerCase();
@@ -29,6 +31,23 @@ const PokemonDetails = ({ pokemons }) => {
       console.log('originalName:', originalName);
       if (foundPokemon) {
         setPokemon(foundPokemon);
+        // Move these lines inside useEffect, after pokemon has been set
+      // Find pre-evolutions
+      const preEvolutions = pokemons.filter(p => Array.isArray(p.evolve) ? p.evolve.includes(foundPokemon.name) : p.evolve === foundPokemon.name);
+
+      // Find evolutions
+      let evolutions = Array.isArray(foundPokemon.evolve) ? foundPokemon.evolve : [foundPokemon.evolve];
+
+      // Find evolutions of evolutions
+      evolutions = evolutions.map(evo => {
+        const evoPokemon = pokemons.find(p => p.name === evo);
+        return evoPokemon && evoPokemon.evolve ? [...evolutions, evoPokemon.evolve] : evolutions;
+      });
+
+      // Combine pre-evolutions, current Pokemon, and evolutions
+      const fullEvolutions = [...preEvolutions.map(p => p.name), foundPokemon.name, ...evolutions];
+
+      setEvolutions(fullEvolutions);
         setLoading(false);
       }
   
@@ -109,6 +128,33 @@ return (
     </div>
   </div>
 </div>
+
+<section className="pokedex-pokemon-evolution section">
+  <div className="column-12 dog-ear-bl push-1">
+    <h2>Evolutions</h2>
+    <ul>
+      {evolutions.map((evolution, index) => (
+        <li key={index}>
+          {evolution === pokemon.name ? <mark>{evolution}</mark> : <Link to={`/creatures/${evolution}`}>{evolution}</Link>}
+          {index < evolutions.length - 1 && ' > '}
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+        {/*<section className="pokedex-pokemon-evolution section">
+      <div className="column-12 dog-ear-bl push-1"><ul className="evolution-five evolution-profile match-height-tablet">
+          {evolutions.map((evolution, index) => (
+            <li key={index} className={index === 0 ? 'first' : index === evolutions.length - 1 ? 'last' : 'middle'}>
+              <Link to={`/creatures/${evolution}`}>
+                <img alt={evolution} src={`./img/${pokemon.year}/${pokemon.id}.svg`} />
+                <h3>{evolution}</h3>
+              </Link>
+            </li>
+          ))}
+          </ul>
+      </div>
+    </section>*/}
     {/* Add more details about the specific Pokemon */}
     </>
     )}

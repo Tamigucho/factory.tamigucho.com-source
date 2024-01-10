@@ -1,7 +1,4 @@
 Branch: main
-public/img/2024/265.svg: QmNyyDfVjj8U6cx1ugUvcLor2XGEfNiWxdJMrezeYxcb5Q
-public/img/2024/266.svg: QmdgNgbgWyKY1RNgvyGrBbCQbHdzmcxmuVipoLLTg8NP5s
-public/img/2024/267.svg: Qmc9FqpjcqrSXvALAEC2qRyeiW4seA18uhdgAduPA3ijBH
-public/img/2024/268.svg: QmcFaNwu6kmk16Yev5JULdMWz6kHC3YD5aBByxQJ7WLMNY
-public/img/2024/269.svg: Qmf3zev1mrJoCnxWHr6RbG3izoge3WHuuWboPBzfmTFABM
-src/data/pokemons.json: QmaXeFd4oS26ZhTdJ4NxugEJoPTWTar8YMjqZpnXM9tfpk
+GPTConverstation.txt: QmVeKcbwdkRf5MdbHYLNi4yyfJM8nwsnSP81nH85JZxDRt
+public/api.json: QmRju4JrGpFtQ1btsiK96q7g8TRPSg4hz2NiVFSVBfme7r
+src/components/PokemonDetails.js: QmYZ8KkY5EFmcYqeKh65E5n4KJLiJAGw5DCgMYkkukqec5
