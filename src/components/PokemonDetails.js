@@ -68,12 +68,12 @@ return (
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
   <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name}`)}>
-    ← Previous <img src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
+    ← Previous <img draggable="false" src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
   </li>
 )}
 {nextPokemon && (
   <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name}`)}>
-     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img src={`${process.env.PUBLIC_URL}/${nextPokemon.photo}`} alt={nextPokemon.name} /> Next →
+     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img draggable="false" src={`${process.env.PUBLIC_URL}/${nextPokemon.photo}`} alt={nextPokemon.name} /> Next →
   </li>
 )}
 </ul>
@@ -85,9 +85,8 @@ return (
 <div class="container">
   <div class="row">
     <div class="col-md">
-    <a href={`${process.env.PUBLIC_URL}/${pokemon.photo}`} target="_blank" rel="noopener noreferrer">
-          <img height="400px" src={`${process.env.PUBLIC_URL}/${pokemon.photo}`} alt={pokemon.name} />
-        </a> <a href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> Source</a>
+          <img draggable="false" height="400px" src={`${process.env.PUBLIC_URL}/${pokemon.photo}`} alt={pokemon.name} />
+          <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/${pokemon.photo}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
     </div>
     <div class="col-md">
     <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>

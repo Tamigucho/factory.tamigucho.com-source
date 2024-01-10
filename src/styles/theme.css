@@ -30,6 +30,10 @@
   --type-sugar: #FFFFFF;
 }
 
+.header {
+  user-select: none;
+}
+
 /* Header styles */
 .header .navbar {
   background-color: #3AA3CB!important; /* Blue color for the header */
@@ -71,7 +75,14 @@
   justify-content: space-around;
 }
 
+.pokemon-list > a, .pokemon-list > a:hover {
+  text-decoration: none;
+  font-weight: inherit;
+  color: inherit;
+}
+
 .pokemon-item {
+  user-select: none;
   margin: 10px;
   padding: 10px 10px 0 10px;
   border: 1px solid #ddd;
@@ -81,6 +92,7 @@
 }
 
 .pokemon-item img {
+  user-select: none;
   width: 100%;
   height: auto;
   border-top-left-radius: 4px;
@@ -179,6 +191,7 @@
 }
 
 .chartyears {
+  user-select: none;
   background: #121435;
 }
 .chartyears p {
@@ -194,13 +207,16 @@
 }
 
 .footer {
+  user-select: none;
   background-color: #3AA3CB!important; /* Blue color for the header */
 }
 
 .prev-button img, .next-button img {
   height: 100px;
 }
+
 .prev-button, .next-button {
+  user-select: none;
   cursor: pointer;
   transition: background-color 0.3s;
   background-color:#fff;

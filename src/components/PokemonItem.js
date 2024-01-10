@@ -23,11 +23,11 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   };
 
   return (
-    <div className="pokemon-item">
+    <Link to={`/creatures/${name.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}`}><div className="pokemon-item">
     <div className="pokemon-photo">
-      <a href={`${process.env.PUBLIC_URL}/${photo}`} target="_blank" rel="noopener noreferrer">
-        <img src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
-      </a>
+      
+        <img draggable="false" src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
+      
       {/*Cursor CTRL+K: "How to comment HTML, but in JSX?": */}
       {/*<a href={instagram} target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Source</a>*/}
     </div>
@@ -49,11 +49,8 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
         {/*<div className="pokemon-description">
           {renderDescription()}
         </div>*/}
-        <div className="more-details-link">
-          <Link to={`/creatures/${name.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}`}>More details</Link>
-        </div>
       </div>
-    </div>
+    </div></Link>
   );
 };
 

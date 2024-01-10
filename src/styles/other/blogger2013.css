@@ -8,6 +8,7 @@ body {
 }
 
 #header-wrapper {
+  user-select: none;
   margin: 0px auto 0px;
   height: 66px;
   padding: 30px 0px 0px 0px;

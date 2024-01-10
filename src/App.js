@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useParams } from 'react-router-dom';
+import * as mdb from 'mdb-ui-kit'; // lib
+window.mdb = mdb;
 import Header from './components/Header';
 import Search from './components/Search';
 import PokemonList from './components/PokemonList';
@@ -98,7 +100,7 @@ function App() {
 </div>
 <div class="section" id="header"><div class="widget Header" data-version="1" id="Header1">
 <div id="header-inner">
-<img alt="Phonemon" height="76px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`} width="307px"/>
+<img draggable="false" alt="Phonemon" height="76px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`} width="307px"/>
 </div>
 </div></div>
 <div id="andlogo"></div></div>
@@ -120,20 +122,20 @@ function App() {
         <Chart options={options} series={series} type="line" height={350} />
         <ul class="nav nav-pills nav-fill mb-3">
           <li class="nav-item" title="2011-2013">
-            <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/bulball.png`}/>
-<img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/logotype.png`}/>
+            <img draggable="false" alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/bulball.png`}/>
+<img draggable="false" alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/logotype.png`}/>
           </li>
 <li class="nav-item" title="2013-2015">
-            <img alt="Phonemon" height="26px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`}/>
+            <img draggable="false" alt="Phonemon" height="26px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`}/>
           </li>
           <li class="nav-item" title="2015-2018">
-            <img alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2015/logotype.png`}/>
+            <img draggable="false" alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2015/logotype.png`}/>
           </li>
           <li class="nav-item" title="2018-2023">
-            <img alt="Phonemon" height="36px" src={`${process.env.PUBLIC_URL}/img/institutional/2018/logotype.png`}/>
+            <img draggable="false" alt="Phonemon" height="36px" src={`${process.env.PUBLIC_URL}/img/institutional/2018/logotype.png`}/>
           </li>
 <li class="nav-item" title="2023-present">
-            <img alt="Phonemon" height="36px" src="https://tamigucho.com/logotype.png"/>
+            <img draggable="false" alt="Phonemon" height="36px" src="https://tamigucho.com/logotype.png"/>
           </li>
         </ul>  
         </div>

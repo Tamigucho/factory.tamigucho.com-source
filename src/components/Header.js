@@ -48,11 +48,16 @@ const Header = ({ creatureCount }) => {
         </div>
       </nav>
             {/*CTRL+K:"Whats wrong here?":*/}
+            {/*CTRL+K:"Whats wrong here?":*/}
             <a 
         title="Login with your Plasmmer account" 
         href="https://accounts.plasmmer.com/login?redirectto=phonemons.github.io" 
         className="btn btn-light btn-sm" 
-        style={{float: 'right'}}
+        style={{
+        float: 'right',
+        top: '-50px',
+        zIndex: 1
+      }}
       >
         <div 
           style={{
@@ -65,8 +70,7 @@ const Header = ({ creatureCount }) => {
             display: 'inline-block'
           }}
         >
-        </div> 
-        Sign-in
+        </div> Sign-in
       </a>
     </header>
   );
