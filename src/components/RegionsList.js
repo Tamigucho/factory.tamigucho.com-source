@@ -15,20 +15,26 @@ const RegionsList = () => {
   useEffect(() => {
     const counts = {};
     pokemonsData.forEach(pokemon => {
-        let region = pokemon.region;
-        if (!counts[region]) {
-          counts[region] = { pokemonCount: 0, gameCount: 0 };
-        }
-        counts[region].pokemonCount++;
-      });
+      let region = pokemon.region;
+      if (!counts[region]) {
+        counts[region] = { pokemonCount: 0, gameCount: 0 };
+      }
+      counts[region].pokemonCount++;
+    });
     let pokemons = require('../data/pokemons.json');
     let regions = require('../data/regions.json');
     regions.forEach(region => {
       let pokemonCount = pokemons.filter(pokemon => pokemon.region === region.name).length;
-      let gameCount = region.games.length;
-      if (counts[region.name]) {
-        counts[region.name].gameCount = region.games.length;
+      
+      // Ensure region.games is always an array
+      let games = Array.isArray(region.games) ? region.games : [region.games];
+      let gameCount = games.length;
+      
+      // Ensure counts[region.name] object exists before setting gameCount
+      if (!counts[region.name]) {
+        counts[region.name] = { pokemonCount: 0, gameCount: 0 };
       }
+      counts[region.name].gameCount = gameCount;
     });
     setRegionCounts(counts);
   }, []);

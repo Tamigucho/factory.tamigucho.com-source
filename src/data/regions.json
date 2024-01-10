@@ -21,7 +21,7 @@
     },
     {
       "name": "Kalos",
-      "games": "Pokémon X & Y"
+      "games": ["Pokémon X & Y"]
     },
     {
       "name": "Alola",
@@ -29,10 +29,10 @@
     },
     {
       "name": "Galar",
-      "games": "Pokémon Sword & Shield"
+      "games": ["Pokémon Sword & Shield"]
     },
     {
       "name": "Paldea",
-      "games": "Pokémon Scarlet & Violet"
+      "games": ["Pokémon Scarlet & Violet"]
     }
   ]
