@@ -50,7 +50,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
           {renderDescription()}
         </div>*/}
         <div className="more-details-link">
-          <Link to={`/creatures/${name}`}>More details</Link>
+          <Link to={`/creatures/${name.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}`}>More details</Link>
         </div>
       </div>
     </div>

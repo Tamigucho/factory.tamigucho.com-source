@@ -4,21 +4,38 @@ import PropTypes from 'prop-types';
 import pokemonTypes from '../data/pokemonTypes.json';
 import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
 
-const PokemonDetails = () => {
+const PokemonDetails = ({ pokemons }) => {
+  const [pokemon, setPokemon] = useState(null);
+  const { name } = useParams();
+
   const navigate = useNavigate();
   const [prevPokemon, setPrevPokemon] = useState(null);
   const [nextPokemon, setNextPokemon] = useState(null);
 
-  const { name } = useParams();
-  const [pokemon, setPokemon] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchPokemon = () => {
-      const foundPokemon = pokemonsData.find(p => p.name === name);
-      setPokemon(foundPokemon);
+    if (pokemons && pokemons.length > 0) {
+      const originalName = name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+      
+      const foundPokemon = pokemons.find(pokemon => {
+        const pokemonNameWithPeriods = pokemon.name.replace(/[\s.]/g, '-').toLowerCase();
+        const pokemonNameWithoutPeriods = pokemon.name.replace(/[\s.]/g, '-').replace(/\./g, '').toLowerCase();
+        return pokemonNameWithPeriods === originalName.toLowerCase() || pokemonNameWithoutPeriods === originalName.toLowerCase();
+      });
+
+      console.log('pokemons:', pokemons);
+      console.log('name:', name);
+      console.log('originalName:', originalName);
+      if (foundPokemon) {
+        setPokemon(foundPokemon);
+        setLoading(false);
+      }
   
-      const sortedPokemons = [...pokemonsData].sort((a, b) => a.id - b.id);
-      const currentIndex = sortedPokemons.findIndex(p => p.id === foundPokemon.id);
+      const fetchPokemon = () => {
+        if (foundPokemon) {
+          const sortedPokemons = [...pokemonsData].sort((a, b) => a.id - b.id);
+          const currentIndex = sortedPokemons.findIndex(p => p.id === foundPokemon.id);
   
       const prevPokemon = sortedPokemons[currentIndex - 1] || null;
       setPrevPokemon(prevPokemon);
@@ -28,10 +45,18 @@ const PokemonDetails = () => {
   
       console.log("Previous Poké: ", prevPokemon);
       console.log("Next Poké: ", nextPokemon);
-    };
-  
+    }
+  };
+
     fetchPokemon();
-  }, [name]);
+  }
+}, [name, pokemons]);
+
+if (loading) {
+  return <div>Loading...</div>;
+}
+
+console.log('Pokemon name: ', pokemon.name);
 
   const getTypeEmoji = (type) => {
     const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
@@ -42,7 +67,7 @@ return (
   <div>
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
-  <li class="nav-item prev-button"title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name}`)}>
+  <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name}`)}>
     ← Previous <img src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
   </li>
 )}

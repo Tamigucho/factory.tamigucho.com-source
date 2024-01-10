@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useParams } from 'react-router-dom';
 import Header from './components/Header';
 import Search from './components/Search';
 import PokemonList from './components/PokemonList';
@@ -16,6 +16,7 @@ import './styles/theme.css';
 import './styles/other/blogger2013.css'
 
 function App() {
+
   const [pokemons, setPokemons] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [creatureCount, setCreatureCount] = useState(0); // New state for creatureCount
@@ -108,7 +109,7 @@ function App() {
         <Route path="/creatures" element={<CreaturesPage />} />
         <Route path="/types" element={<TypeList />} />
         <Route path="/types/:typeName" element={<TypePage />} />
-        <Route path="/creatures/:name" element={<PokemonDetails pokemons={pokemons} />} />
+        <Route path={`/creatures/:name`} element={<PokemonDetails pokemons={pokemons} />} />
         <Route path="/years" element={<YearsPage />} />
         <Route path="/years/:year" element={<YearPage />} />
         {/* Add more routes as needed */}
