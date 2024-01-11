@@ -40,7 +40,9 @@
 - HomePage.js: mv that blogger heading (not anymore cluttering globally)
 - HomePage.js: add "Featured Phonemons"
 
--? add SV small-icon next to photo/artwork
+- add SV small-icon next to photo/artwork (icon-artwork)
+- add icon-pixel
+
 - PokemonDetails.js: tab menu (have to think how to organize items, such as drafts of a creature and other JSX data read from components/creatures/{creature}.js)
 
 - add Sparking (radio, glowy, darkan, pinkan, albino, etc) variations to change between; but be able to handle unavailable data!
@@ -71,5 +73,6 @@ Neutral type, too
 - lowercase /creatures/{creature} URLs should redirect normally instead of being errored
 
 - add a 404 error page
+- support for redirects
 
 - improve Plasmmer Accounts login button, make it identify logged-in cookie active/valid or not and load user Photo+Name!
