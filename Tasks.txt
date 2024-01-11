@@ -1,4 +1,4 @@
-- begin adding some tamigucho data after regitube/regikraft! but first add an emptie entry for regimeal!
+- begin adding some tamigucho data after regitube/regikraft(also adding regimeal)! ; add Tamigucho Pink&Dark to games!
 
 - games now have their year of launch!
 - games now have a link to their site!
@@ -6,10 +6,23 @@
 
 - display games as cards
 
+- region page: add the champion (and create /characters, /characters/{that-champion}) ; characters will have description
+- region page: add the rival (and add to /characters/{that-rival})
+- region page: add the players (and add to /characters/{that-character})
+- region page: tell the legendary duo and trio this region features
+- region page: tell the real-world region this region is based-off
+
+- games: list Tamigucho Bono & Shimp (Affrah), Sunny & Rainny (Brava), A & B (Munnah), Carbon & Oxygen (Merca), CO2, Mercury & Ethanol (Valorium), Tamigucho ? & ? (mexico-based), Tamigucho Salt & Sugar (Karis) ("?" placeholder cover)
+
+- add popocanth; display Male/Female switch in photo IF, ONLY IF, "photo-female" key exist for a creature
+- merge the current factory.tamigucho.com site into: /media/daniella/B/git/Tamigucho/Repos/creatures (annotate task to update gh/lab accordingly as branch changed)
+
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 
 - regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
 - gimmick dropdown: should also support gimmicks on regional forms! so, it will react to changes made by clicking an item in the regional forms dropdown!
+
+- list gens (and their mons dex numbers) by: biyearly-gens and official-gens
 
 - 2019: add Zapdos, Moltres ; 2025: add regirock, registeel, regice, regigigas, regielec, regidrago
 - add groups, for example: Kanto Legendary Trio (3), The Regis (8)
@@ -46,8 +59,6 @@ Neutral type, too
 - Pokemon Details page: show type matchups of their types, mixing the results of all their types! inspos: https://www.pokemon.com/br/pokedex/butterfree https://www.pokemon.com/br/pokedex/graveler (4x damage)
 
 - react hook for, on every reload, run "npm run count-all-creatures"
-
-- list gens (and their mons dex numbers) by: biyearly-gens and official-gens
 
 - Type page issue: long spacing between pokemon items, unlike in the start page ; this happens in the start too, when there's an arrow/line with just two poke items
 - complete type matchups in data/pokemonTypes.json
