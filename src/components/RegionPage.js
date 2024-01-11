@@ -51,7 +51,7 @@ useEffect(() => {
         <h2>{region.name}</h2>
         <h3>Games <span className="badge bg-secondary" title={`Set in the ${region.name} region: ${games.length} games`}>{games.length}</span></h3>
         <ul>{games.map(game => <li key={game}>{game}</li>)}</ul>
-        <h3>Pokémons</h3>
+        <h3>Pokémons  <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByRegion.length}`}>{pokemonsByRegion.length}</span></h3>
         <div className="pokemon-list">
   {currentItems.map((pokemon, index) => (
     <PokemonItem key={index} {...pokemon} />
