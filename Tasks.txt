@@ -1,7 +1,8 @@
-- begin adding some tamigucho data after regitube/regikraft! but first add an entry for regimeal
+- begin adding some tamigucho data after regitube/regikraft! but first add an emptie entry for regimeal!
 
+- games now have their year of launch!
 - games now have a link to their site!
-- games now have multi-line description (so as pokemons) and their year of launch
+- games now have multi-line description (so as pokemons)
 
 - display games as cards
 
