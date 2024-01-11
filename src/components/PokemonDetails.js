@@ -109,6 +109,10 @@ return (
     </div>
     <div class="col-md">
     <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
+    <p>Genre: <Link to={`/genres/${pokemon['genre-species'][0]}`} className={`genre-badge genre-${pokemon['genre-species'][0].toLowerCase()}`}>
+    {pokemon['genre-species'][0]}
+  </Link> {pokemon['genre-species'][1]}
+</p>
     <p>Type: {Array.isArray(pokemon.type) ? (
     pokemon.type.map((type, index) => (
       <Link to={`/types/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
@@ -128,13 +132,6 @@ return (
     </div>
   </div>
 </div>
-
-<p>Genre: 
-  <Link to={`/genres/${pokemon['genre-species'][0]}`} className={`genre-badge genre-${pokemon['genre-species'][0].toLowerCase()}`}>
-    {pokemon['genre-species'][0]}
-  </Link> 
-  {pokemon['genre-species'][1]}
-</p>
 
 <section className="pokedex-pokemon-evolution section">
   <div className="column-12 dog-ear-bl push-1">
