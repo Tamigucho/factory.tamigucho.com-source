@@ -1,10 +1,9 @@
-general improvements map:
-nemo explorer go to /home/daniella/com-factory-tamigucho/public/img/games
-download covers from LGPikachu&LGEevee until Scarlet&Violet
-see if all games are filled in http://localhost:3000/games
--? margin between the 2 badges in: http://localhost:3000/regions
+- begin adding some tamigucho data after regitube/regikraft! but first add an entry for regimeal
 
+- games now have a link to their site!
 - games now have multi-line description (so as pokemons) and their year of launch
+
+- display games as cards
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 

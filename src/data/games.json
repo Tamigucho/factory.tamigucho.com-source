@@ -17,86 +17,91 @@
     {
       "name": "Pokémon Let's Go Pikachu & Let's Go Eevee",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonLet'sGoPikachuLet'sGoEevee/large.pikavee.png.d7bf0a83bc6ff9577002fdd2d8d5d68c.png"
     },
     {
       "name": "Pokémon Gold & Silver",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonGoldSilver/covers.png"
     },
     {
       "name": "Pokémon Crystal",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonCrystal/covers.png"
     },
     {
       "name": "Pokémon HeartGold & SoulSilver",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonHeartGoldSoulSilver/pokemon-heartgold-soulsilver-box.jpg.72288437277ff2aa05b9b82971213edb.jpg"
     },
     {
       "name": "Pokémon Ruby & Sapphire",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonRubySapphire/covers.png"
     },
     {
       "name": "Pokémon Emerald",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonEmerald/cover.png"
+    },
+    {
+      "name": "Pokémon FireRed & LeafGreen",
+      "description": "",
+      "photo": "./img/games/PokémonFireRedLeafGreen/covers.png"
     },
     {
       "name": "Pokémon OmegaRuby & AlphaSapphire",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonOmegaRubyAlphaSapphire/Pokemon-oras-box-art.png.png"
     },
     {
       "name": "Pokémon Diamond & Pearl",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonDiamondPearl/PokemonDiamondPearlBoxArt.jpeg"
     },
     {
-      "name": "Pokémon Platinum",
-      "description": "",
-      "photo": ""
-    },
+        "name": "Pokémon Platinum",
+        "description": "",
+        "photo": "./img/games/PokémonPlatinum/Pokémon_Platinum_cover.png"
+      },
     {
       "name": "Pokémon BrilliantDiamond & ShiningPearl",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonBrilliantDiamondShiningPearl/dfzuzu3-e640a9c8-6f46-49e4-bf35-7ccc13c4714f.png"
     },
     {
       "name": "Pokémon Black & White",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonBlackWhite/Pokémon_Black_and_White_covers.png"
     },
     {
       "name": "Pokémon Black2 & White2",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonBlack2White2/Pokemon-Black-and-White-2-Japanese-Cover-Art1.png"
     },
     {
       "name": "Pokémon X & Y",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonXY/Pokemon_xy_box_art.webp"
     },
     {
       "name": "Pokémon Sun & Moon",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonSunMoon/654-pokemon-sun-and-moon30ff196fb49e629c8704ff0000daffed.jpg"
     },
     {
       "name": "Pokémon UltraSun & UltraMoon",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonUltraSunUltraMoon/20992736_708311192694227_4067019587529043957_n.png"
     },
     {
       "name": "Pokémon Sword & Shield",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonSwordShield/large.swordnshield.png.051ae8b21788af441c7493b55ff8ad85.png"
     },
     {
       "name": "Pokémon Scarlet & Violet",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonScarletViolet/scarvi-32b9.webp"
     }
   ]

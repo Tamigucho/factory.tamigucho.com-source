@@ -10,7 +10,7 @@ const GamePage = () => {
 
   return (
     <div class="game-details">
-        <h2>{game.name}</h2>
+        <center><h2>{game.name}</h2></center>
         <div class="container">
   <div class="row">
   <div class="col-md">
