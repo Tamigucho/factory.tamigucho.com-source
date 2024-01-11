@@ -27,9 +27,12 @@ see if all games are filled in http://localhost:3000/games
 - HomePage.js: mv that blogger heading (not anymore cluttering globally)
 - HomePage.js: add "Featured Phonemons"
 
-- add small-icon next to photo
+-? add SV small-icon next to photo/artwork
+- PokemonDetails.js: tab menu (have to think how to organize items, such as drafts of a creature and other JSX data read from components/creatures/{creature}.js)
 
-- add shinies (radio, pinkan, darkan, shiny, etc)
+- add Sparking (radio, glowy, darkan, pinkan, albino, etc) variations to change between; but be able to handle unavailable data!
+
+- add frameworkJS!
 
 
 
