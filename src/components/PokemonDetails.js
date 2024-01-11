@@ -129,6 +129,13 @@ return (
   </div>
 </div>
 
+<p>Genre: 
+  <Link to={`/genres/${pokemon['genre-species'][0]}`} className={`genre-badge genre-${pokemon['genre-species'][0].toLowerCase()}`}>
+    {pokemon['genre-species'][0]}
+  </Link> 
+  {pokemon['genre-species'][1]}
+</p>
+
 <section className="pokedex-pokemon-evolution section">
   <div className="column-12 dog-ear-bl push-1">
     <h2>Evolutions</h2>

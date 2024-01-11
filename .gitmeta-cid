@@ -1,3 +1,7 @@
 Branch: main
-src/data/pokemons.json: QmTDhiKKFkTx4C4LGM7briVw5mhMTY7AvR1kDQLc1vgrec
-src/data/regions.json: QmNTRfgq2yPjtDCz9JFHdM4SEbKHwo5SzgwLbL7Qs3hz4K
+GPTConverstation.txt: QmNoj2a7ik7neQSQpgELedLvdvbSZq53SMdoveX3QhWtmQ
+src/App.js: QmYrzSssBeGAkdKiXzbTUdP8eunZ5QWD2zTh8fwvLUTkEo
+src/components/GenrePage.js: QmTDds8ofXxfPAbw8npF61jXmNEEwB4N6dY99AWuVxMmCV
+src/components/Genres.js: QmZmnQPUjyj79y4wi3GPrirtQ4DKPbTE26JvkH3fsrjacL
+src/components/Header.js: QmSnD3wAEfnLpVeqV4tEc576rGkSs8XHXABtE9ZJzX3tcm
+src/components/PokemonDetails.js: QmbAvwpgmJT738MthNc6o5BFVj5kXGK2CosJrKYwa3jtHi

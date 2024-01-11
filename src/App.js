@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import TypeList from './components/TypeList';
 import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
+import Genres from './components/Genres';
+import GenrePage from './components/GenrePage';
 import YearsPage from './components/YearsPage'; // Import the new component
 import YearPage from './components/YearPage'; // Import the new component
 import CreaturesPage from './components/CreaturesPage'; // Import the new component
@@ -116,6 +118,8 @@ function App() {
         <Route path={`/creatures/:name`} element={<PokemonDetails pokemons={pokemons} />} />
         <Route path="/regions" element={<RegionsList />} />
         <Route path="/regions/:regionName" element={<RegionPage />} />
+        <Route path="/genres" element={<Genres />} />
+        <Route path="/genres/:genre" element={<GenrePage />} />
         <Route path="/years" element={<YearsPage />} />
         <Route path="/years/:year" element={<YearPage />} />
         {/* Add more routes as needed */}
