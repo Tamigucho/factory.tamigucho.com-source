@@ -2,17 +2,17 @@
     {
       "name": "Pokémon Green",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonGreen/pokemon_green_version__game_boy__hq_fake_box_art_by_jadelune_d9tkray-fullview.jpg"
     },
     {
       "name": "Pokémon Red & Blue",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonRedBlue/covers.png"
     },
     {
       "name": "Pokémon Yellow",
       "description": "",
-      "photo": ""
+      "photo": "./img/games/PokémonYellow/pokemon_yellow_version__game_boy__hq_box_art_by_jadelune_d9tkrb7-fullview.jpg"
     },
     {
       "name": "Pokémon Let's Go Pikachu & Let's Go Eevee",

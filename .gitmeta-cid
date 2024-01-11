@@ -1,3 +1,10 @@
 Branch: main
-Tasks.txt: QmRfSxXbzu4qd1quQLycPkevakUP1rGoJW593T9RmcfhEd
+.gitmeta: Qmb7kgC29soZzBiR5hkjaiqMFwR2GeR46GoKdUwMFUSRPo
+.gitmeta-cid: QmeuujmfV3bRCNWygX34Y6iuxbvK1Qd8usaTph2UTyrYct
+src/components/GamePage.js: QmUwVNudQzekjecWz5oM4LFbjN2MPG8WGC81ncGXpvFD3z
+src/components/GamesPage.js: Qmd4b1JyFQmnc5CwtzKtBq8oewR8ZxL79oTeiwC66D2fEb
+src/components/Header.js: QmP7mY7CNUBxQ1dj6MLNpe2mQYCr9PQcs2X2kH7Fqo7pR9
+src/components/PokemonDetails.js: QmXoa7GqQv4dgjcHnzo4ZXKo8zwAkUpGzL8PhzLxKmzZWN
 src/components/PokemonItem.js: QmNUz8Md4rCJGbw6V9v2WkfnojVKUUmJsa51dZSkYufAo2
+src/data/games.json: QmPZUbD5PmDPFjz6qqUN6xD8aqgcNzeFXfnP8DFouSNpgq
+src/styles/theme.css: Qmc3QJZU3XBpebNLxyAdkWMAwaEf5YYKfHffZwh2Skofnq

@@ -84,12 +84,12 @@ return (
   <div>
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
-  <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name}`)}>
+  <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name.replace(/\.|-|\s/g, '')}`)}>
     ← Previous <img draggable="false" src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
   </li>
 )}
 {nextPokemon && (
-  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name}`)}>
+  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name.replace(/\.|-|\s/g, '')}`)}>
      <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img draggable="false" src={`${process.env.PUBLIC_URL}/${nextPokemon.photo}`} alt={nextPokemon.name} /> Next →
   </li>
 )}
@@ -134,7 +134,7 @@ return (
 <section className="pokedex-pokemon-evolution section">
   <div className="column-12 dog-ear-bl push-1">
     <h2>Evolutions</h2>
-    <ul>
+    <ul class="evolutions-graph">
     {evolutions.map((evolution, index) => {
   const evolutionName = typeof evolution === 'string' ? evolution : (evolution && evolution.name ? evolution.name : '');
   console.log('evolutionName:', evolutionName);
@@ -149,7 +149,7 @@ return (
             <h3>{evolution}</h3>
           </mark> 
           : 
-            <Link to={`/creatures/${evolution}`.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}>
+            <Link to={`/creatures/${evolution}`.replace(/\.|-|\s/g, '')}>
             <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
             <h3>{evolution}</h3>
           </Link>

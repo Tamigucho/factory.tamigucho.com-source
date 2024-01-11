@@ -8,7 +8,7 @@ const GamesPage = () => {
 
   return (
     <div>
-      <h2>Games</h2>
+      <h2>Games <span className="badge bg-secondary">{games.length}</span></h2>
       <ul>
         {games.map(game => (
           <li key={game}>

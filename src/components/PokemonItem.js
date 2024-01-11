@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useParams } from 'react-router-dom';
+import pokemons from '../data/pokemons.json';
 import pokemonTypes from '../data/pokemonTypes.json'; // Import the Pokemon types data
 
 const PokemonDetails = ({ pokemons }) => {
@@ -23,7 +24,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   };
 
   return (
-    <Link to={`/creatures/${name.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}`}><div className="pokemon-item">
+    <Link to={`/creatures/${name.replace(/\.|-|\s/g, '')}`}><div className="pokemon-item">
     <div className="pokemon-photo">
       
         <img draggable="false" src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />

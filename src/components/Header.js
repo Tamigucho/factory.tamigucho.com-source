@@ -39,13 +39,16 @@ const Header = ({ creatureCount }) => {
               <li className="nav-item">
               <Link className={`nav-link ${location.pathname.startsWith('/types') ? 'active' : ''}`} to="/types">
                 Types</Link></li>
-                <li className="nav-item"><Link className={`nav-link ${location.pathname.startsWith('/regions') ? 'active' : ''}`}  to="/regions">Regions</Link></li>
                 <li className="nav-item">
-                <Link className={`nav-link ${location.pathname.startsWith('/years') ? 'active' : ''}`} to="/years">
-                  Years</Link></li>
-                  <li className="nav-item">
   <Link className={`nav-link ${location.pathname.startsWith('/genres') ? 'active' : ''}`} to="/genres">
     Genres
+  </Link></li>
+  <li className="nav-item">
+                <Link className={`nav-link ${location.pathname.startsWith('/years') ? 'active' : ''}`} to="/years">
+                  Years</Link></li>
+                <li className="nav-item"><Link className={`nav-link ${location.pathname.startsWith('/regions') ? 'active' : ''}`}  to="/regions">Regions</Link></li>
+  <li className="nav-item"><Link className={`nav-link ${location.pathname.startsWith('/games') ? 'active' : ''}`} to="/games">
+    Games
   </Link>
 </li>
               {/* Add more navigation items as needed */}
