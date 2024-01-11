@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useParams } from 'react-router-dom';
-import pokemons from '../data/pokemons.json';
 import pokemonTypes from '../data/pokemonTypes.json'; // Import the Pokemon types data
 
 const PokemonDetails = ({ pokemons }) => {
@@ -24,11 +23,13 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   };
 
   return (
-      <div>
-      {pokemons.map((pokemon) => (
-    <Link to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}><div className="pokemon-item">
+    <Link to={`/creatures/${name.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}`}><div className="pokemon-item">
     <div className="pokemon-photo">
+      
         <img draggable="false" src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
+      
+      {/*Cursor CTRL+K: "How to comment HTML, but in JSX?": */}
+      {/*<a href={instagram} target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Source</a>*/}
     </div>
       <div className="pokemon-info">
         <h3>{name}</h3>
@@ -45,8 +46,11 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
             </Link>
           )}
         </div>
+        {/*<div className="pokemon-description">
+          {renderDescription()}
+        </div>*/}
       </div>
-    </div></Link>))}</div>
+    </div></Link>
   );
 };
 
