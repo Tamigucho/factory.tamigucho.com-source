@@ -14,7 +14,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "evolve": "Ivysaur"
+    "evolve": "Ivysaur",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "evolve": "Venusaur"
+    "evolve": "Venusaur",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 3,
@@ -47,7 +49,8 @@
     "region": "Kanto",
     "biyearly_gen": 1,
     "official_gen": 1,
-    "year": 2010
+    "year": 2010,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 4,
@@ -64,7 +67,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "evolve": "Charmeleon"
+    "evolve": "Charmeleon",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 5,
@@ -81,7 +85,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "evolve": "Charizard"
+    "evolve": "Charizard",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 6,
@@ -97,7 +102,8 @@
     "region": "Kanto",
     "biyearly_gen": 1,
     "official_gen": 1,
-    "year": 2010
+    "year": 2010,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 7,
@@ -114,7 +120,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "evolve": "Wartortle"
+    "evolve": "Wartortle",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 8,
@@ -131,7 +138,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "evolve": "Blastoise"
+    "evolve": "Blastoise",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 9,
@@ -147,7 +155,8 @@
     "region": "Kanto",
     "biyearly_gen": 1,
     "official_gen": 1,
-    "year": 2011
+    "year": 2011,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 10,
@@ -164,7 +173,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "evolve": "Metapod"
+    "evolve": "Metapod",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 11,
@@ -181,7 +191,8 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "evolve": "Butterfree"
+    "evolve": "Butterfree",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 12,
@@ -197,7 +208,8 @@
     "region": "Kanto",
     "biyearly_gen": 1,
     "official_gen": 1,
-    "year": 2011
+    "year": 2011,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 13,
@@ -214,7 +226,8 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2012,
-    "evolve": "Kakuna"
+    "evolve": "Kakuna",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 14,
@@ -231,7 +244,8 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2012,
-    "evolve": "Beedrill"
+    "evolve": "Beedrill",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 15,
@@ -247,7 +261,8 @@
     "region": "Kanto",
     "biyearly_gen": 2,
     "official_gen": 1,
-    "year": 2012
+    "year": 2012,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 16,
@@ -264,7 +279,8 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "evolve": "Pidgeotto"
+    "evolve": "Pidgeotto",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 17,
@@ -281,7 +297,8 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "evolve": "Pidgeot"
+    "evolve": "Pidgeot",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 18,
@@ -297,7 +314,8 @@
     "region": "Kanto",
     "biyearly_gen": 2,
     "official_gen": 1,
-    "year": 2013
+    "year": 2013,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 19,
@@ -314,7 +332,8 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "evolve": "Raticate"
+    "evolve": "Raticate",
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 20,
@@ -330,7 +349,8 @@
     "region": "Kanto",
     "biyearly_gen": 2,
     "official_gen": 1,
-    "year": 2013
+    "year": 2013,
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 21,
@@ -347,7 +367,8 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "evolve": "Fearow"
+    "evolve": "Fearow",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 22,
@@ -363,7 +384,8 @@
     "region": "Kanto",
     "biyearly_gen": 3,
     "official_gen": 1,
-    "year": 2014
+    "year": 2014,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 23,
@@ -380,7 +402,8 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "evolve": "Arbok"
+    "evolve": "Arbok",
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 24,
@@ -396,7 +419,8 @@
     "region": "Kanto",
     "biyearly_gen": 3,
     "official_gen": 1,
-    "year": 2014
+    "year": 2014,
+    "genre-species": ["Felis", "Catus"]
   },
 
   {
@@ -414,7 +438,8 @@
     "biyearly_gen": 3,
     "official_gen": 2,
     "year": 2015,
-    "evolve": "Pikachu"
+    "evolve": "Pikachu",
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 25,
@@ -431,7 +456,8 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2015,
-    "evolve": "Raichu"
+    "evolve": "Raichu",
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 26,
@@ -447,7 +473,8 @@
     "region": "Kanto",
     "biyearly_gen": 3,
     "official_gen": 1,
-    "year": 2015
+    "year": 2015,
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 56,
@@ -464,7 +491,8 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2016,
-    "evolve": "Primeape"
+    "evolve": "Primeape",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 57,
@@ -481,7 +509,8 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2016,
-    "evolve": "Annihilape"
+    "evolve": "Annihilape",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 979,
@@ -497,7 +526,8 @@
     "region": "Paldea",
     "biyearly_gen": 4,
     "official_gen": 9,
-    "year": 2016
+    "year": 2016,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 74,
@@ -514,7 +544,8 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2016,
-    "evolve": "Graveler"
+    "evolve": "Graveler",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 75,
@@ -531,7 +562,8 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2016,
-    "evolve": "Golem"
+    "evolve": "Golem",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 76,
@@ -547,7 +579,8 @@
     "region": "Kanto",
     "biyearly_gen": 4,
     "official_gen": 1,
-    "year": 2016
+    "year": 2016,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 92,
@@ -564,7 +597,8 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2017,
-    "evolve": "Haunter"
+    "evolve": "Haunter",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 93,
@@ -581,7 +615,8 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2017,
-    "evolve": "Gengar"
+    "evolve": "Gengar",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 94,
@@ -597,7 +632,8 @@
     "region": "Kanto",
     "biyearly_gen": 4,
     "official_gen": 1,
-    "year": 2017
+    "year": 2017,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 439,
@@ -614,7 +650,8 @@
     "biyearly_gen": 4,
     "official_gen": 4,
     "year": 2017,
-    "evolve": "Mr. Mime"
+    "evolve": "Mr. Mime",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 122,
@@ -630,7 +667,8 @@
     "region": "Kanto",
     "biyearly_gen": 4,
     "official_gen": 1,
-    "year": 2017
+    "year": 2017,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 137,
@@ -647,7 +685,8 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2018,
-    "evolve": "Porygon2"
+    "evolve": "Porygon2",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 144,
@@ -663,7 +702,8 @@
     "region": "Kanto",
     "biyearly_gen": 5,
     "official_gen": 1,
-    "year": 2019
+    "year": 2019,
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 147,
@@ -680,7 +720,8 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "evolve": "Dragonair"
+    "evolve": "Dragonair",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 148,
@@ -697,7 +738,8 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "evolve": "Dragonite"
+    "evolve": "Dragonite",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 149,
@@ -713,7 +755,8 @@
     "region": "Kanto",
     "biyearly_gen": 5,
     "official_gen": 1,
-    "year": 2019
+    "year": 2019,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 198,
@@ -730,7 +773,8 @@
     "biyearly_gen": 6,
     "official_gen": 2,
     "year": 2020,
-    "evolve": "Honchkrow"
+    "evolve": "Honchkrow",
+    "genre-species": ["Felis", "Catus"]
   },  {
     "id": 430,
     "biyearly_id": 45,
@@ -745,7 +789,8 @@
     "region": "Sinnoh",
     "biyearly_gen": 6,
     "official_gen": 4,
-    "year": 2020
+    "year": 2020,
+    "genre-species": ["Felis", "Catus"]
   },
   {
     "id": 95,
@@ -762,7 +807,8 @@
     "biyearly_gen": 6,
     "official_gen": 1,
     "year": 2020,
-    "evolve": "Steelix"
+    "evolve": "Steelix",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 208,
@@ -778,7 +824,8 @@
     "region": "Johto",
     "biyearly_gen": 6,
     "official_gen": 2,
-    "year": 2020
+    "year": 2020,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 233,
@@ -795,7 +842,8 @@
     "biyearly_gen": 6,
     "official_gen": 2,
     "year": 2021,
-    "evolve": "Porygon-Z"
+    "evolve": "Porygon-Z",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 265,
@@ -812,7 +860,8 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "evolve": ["Silcoon", "Cascoon"]
+    "evolve": ["Silcoon", "Cascoon"],
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 266,
@@ -829,7 +878,8 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "evolve": "Beautifly"
+    "evolve": "Beautifly",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 267,
@@ -845,7 +895,8 @@
     "region": "Hoenn",
     "biyearly_gen": 8,
     "official_gen": 3,
-    "year": 2024
+    "year": 2024,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 268,
@@ -862,7 +913,8 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "evolve": "Dustox"
+    "evolve": "Dustox",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 269,
@@ -878,7 +930,8 @@
     "region": "Hoenn",
     "biyearly_gen": 8,
     "official_gen": 3,
-    "year": 2024
+    "year": 2024,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 290,
@@ -895,7 +948,8 @@
     "biyearly_gen": 7,
     "official_gen": 3,
     "year": 2022,
-    "evolve": ["Ninjask", "Shedinja"]
+    "evolve": ["Ninjask", "Shedinja"],
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 291,
@@ -911,7 +965,8 @@
     "region": "Hoenn",
     "biyearly_gen": 7,
     "official_gen": 3,
-    "year": 2022
+    "year": 2022,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 292,
@@ -927,7 +982,8 @@
     "region": "Hoenn",
     "biyearly_gen": 7,
     "official_gen": 3,
-    "year": 2022
+    "year": 2022,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 474,
@@ -943,7 +999,8 @@
     "region": "Sinnoh",
     "biyearly_gen": 8,
     "official_gen": 4,
-    "year": 2024
+    "year": 2024,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 837,
@@ -960,7 +1017,8 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2022,
-    "evolve": "Carkol"
+    "evolve": "Carkol",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 838,
@@ -977,7 +1035,8 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2022,
-    "evolve": "Coalossal"
+    "evolve": "Coalossal",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 839,
@@ -993,7 +1052,8 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2022
+    "year": 2022,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 868,
@@ -1010,7 +1070,8 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2023,
-    "evolve": "Alcremie"
+    "evolve": "Alcremie",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 869,
@@ -1026,7 +1087,8 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2023
+    "year": 2023,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 932,
@@ -1043,7 +1105,8 @@
     "biyearly_gen": 7,
     "official_gen": 9,
     "year": 2023,
-    "evolve": "Naclstack"
+    "evolve": "Naclstack",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 933,
@@ -1060,7 +1123,8 @@
     "biyearly_gen": 7,
     "official_gen": 9,
     "year": 2023,
-    "evolve": "Garnacl"
+    "evolve": "Garnacl",
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 934,
@@ -1076,7 +1140,8 @@
     "region": "Paldea",
     "biyearly_gen": 7,
     "official_gen": 9,
-    "year": 2023
+    "year": 2023,
+    "genre-species": ["Canis", "Familiaris"]
   },
   {
     "id": 2019,
@@ -1092,7 +1157,8 @@
     "region": "Voidea",
     "biyearly_gen": 8,
     "official_gen": 0,
-    "year": 2025
+    "year": 2025,
+    "genre-species": ["Tubis", "Regiliaris"]
   },
   {
     "id": 2020,
@@ -1108,6 +1174,7 @@
     "region": "Voidea",
     "biyearly_gen": 8,
     "official_gen": 0,
-    "year": 2025
+    "year": 2025,
+    "genre-species": ["Krafelis", "Kraftus"]
   }
 ]

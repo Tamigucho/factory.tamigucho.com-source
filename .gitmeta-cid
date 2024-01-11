@@ -1,5 +1,3 @@
 Branch: main
-GPTConverstation.txt: QmWsv5eXhFbp4CvfdZmvYfTJi5Wm2DJF6mmBA57EkjzWXK
-src/components/RegionPage.js: QmR4FQ6tK8MaDjzsmWRLzm2JGh9QCMSWCXHRCKMUF1iuSw
-src/components/RegionsList.js: QmVZ3spaBRfo6R4oPbbwGAUsygCrdvDo5wWzJsPXvGsPvX
-src/data/regions.json: QmfYiR1XRcVv8sch8K29LShr5dv8jFWBEauaUcUrCo2dkS
+src/data/pokemons.json: QmTDhiKKFkTx4C4LGM7briVw5mhMTY7AvR1kDQLc1vgrec
+src/data/regions.json: QmNTRfgq2yPjtDCz9JFHdM4SEbKHwo5SzgwLbL7Qs3hz4K
