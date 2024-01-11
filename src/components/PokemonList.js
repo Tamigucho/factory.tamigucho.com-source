@@ -18,7 +18,7 @@ const PokemonList = () => {
  {Object.entries(pokemonsByYear).map(([year, pokemons]) => (
   <div key={year} class="year-group">
   <h2>
-    {year} <span className="badge bg-secondary" title="Number of creatures made in this year">{pokemons.length}</span>
+    {year} <span className="badge bg-secondary" title={`Number of creatures made in this year: ${pokemons.length}`}>{pokemons.length}</span>
   </h2>
   {pokemons.map((pokemon) => (
     <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>

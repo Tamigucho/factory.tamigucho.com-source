@@ -103,7 +103,7 @@
   justify-content: space-around;
 }
 
-.pokemon-list > a, .pokemon-list > a:hover {
+.pokemon-list > div > a, .pokemon-list > div > a:hover {
   text-decoration: none;
   font-weight: inherit;
   color: inherit;

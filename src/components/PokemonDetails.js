@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import pokemons from '../data/pokemons.json';
 import pokemonTypes from '../data/pokemonTypes.json';
 import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
 
@@ -141,14 +142,14 @@ return (
     const evolutionData = pokemons.find(pokemon => pokemon.name.replace(/\.|\s|-|&/g, '') === evolutionName.replace(/\.|\s|-|&/g, ''));
     console.log('evolutionData:', evolutionData);
     return (
-      <li key={index} class="evolution-item">
-        {evolution === pokemon.name ? 
+        <li key={index} class="evolution-item">
+    {evolution === pokemon.name ? 
           <mark>
             <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
             <h3>{evolution}</h3>
           </mark> 
           : 
-          <Link to={`/creatures/${evolution}`.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}>
+            <Link to={`/creatures/${evolution}`.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}>
             <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
             <h3>{evolution}</h3>
           </Link>

@@ -1,10 +1,6 @@
 Branch: main
-GPTConverstation.txt: QmcrhBwNeLgDpwkUmzr33c3nNPHjL5rWhDHif1o2hewBRA
-Tasks.txt: QmVDg9VY3FUofLVTHoPqaA3k43CtEjX8kkLphMWnnzEZBm
-src/App.js: QmNYeP5MBfSMnBDC2PhQQBVd5HH6crkWbkuyGzP5sYY4sb
-src/components/GamePage.js: QmXFd1Vjz5mHTBCf5RAVEHp2fnMWoo1KS5xmSRbQVhRUQd
-src/components/GamesPage.js: QmY5ctAsQu8RShXMJjGWsSLanMdNmfW4TbkLDqn9pztyiy
-src/components/PokemonDetails.js: QmWGwKTtpZfh7v9gkGTbmnyszZBHZS85DR4KysDFmHa5hN
-src/components/PokemonList.js: QmYGZyYr29ehSoMyWbXWNx6hXXMo4hm68qwQRdBoxoZAVo
-src/components/RegionPage.js: QmYzYjijANkT4QeNnpFXzo2tHBKoiMVCsfB4zrEUk1SbNv
-src/data/games.json: QmcHUKkGioDpxj1cg4heUCF3xcG28UEDyMuih1f5EtPrpS
+GPTConverstation.txt: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+src/components/PokemonDetails.js: QmV3sPAtCVQKyz1Mh4cnaTfnmvgRYfBqzdWwQ3ZrBeJFxX
+src/components/PokemonItem.js: Qma5tvq52UgU7PQHEVRk4axEPc8Aa7YY7dhqMVvBjPqEtr
+src/components/PokemonList.js: QmRyZiPUWoJdwVGDV66hugVq69B6r5d2MDZRTG8v6hoaSW
+src/styles/theme.css: QmTXSNS94PeEQXWDtfXGWDGv2hDRoWCuqxJmFWEJN863Jr
