@@ -21,7 +21,7 @@ const PokemonList = () => {
     {year} <span className="badge bg-secondary" title="Number of creatures made in this year">{pokemons.length}</span>
   </h2>
   {pokemons.map((pokemon) => (
-    <Link key={pokemon.id} to={`/creatures/${pokemon.name.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}`}>
+    <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>
     {pokemon.name}</Link>
       ))}
 </div>

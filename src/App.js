@@ -17,6 +17,8 @@ import CreaturesPage from './components/CreaturesPage'; // Import the new compon
 import RegionPage from './components/RegionPage'; // Import the new component
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
 import RegionsList from './components/RegionsList'; // Import the new component
+import GamesPage from './components/GamesPage';
+import GamePage from './components/GamePage';
 import Chart from 'react-apexcharts';
 import './styles/theme.css';
 import './styles/other/blogger2013.css'
@@ -118,6 +120,8 @@ function App() {
         <Route path={`/creatures/:name`} element={<PokemonDetails pokemons={pokemons} />} />
         <Route path="/regions" element={<RegionsList />} />
         <Route path="/regions/:regionName" element={<RegionPage />} />
+        <Route path="/games" element={<GamesPage />} />
+        <Route path="/games/:gameName" element={<GamePage />} />
         <Route path="/genres" element={<Genres />} />
         <Route path="/genres/:genre" element={<GenrePage />} />
         <Route path="/years" element={<YearsPage />} />

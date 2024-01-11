@@ -20,11 +20,8 @@ const PokemonDetails = ({ pokemons }) => {
     if (pokemons && pokemons.length > 0) {
       const originalName = name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
-      const foundPokemon = pokemons.find(pokemon => {
-        const pokemonNameWithPeriods = pokemon.name.replace(/[\s.]/g, '-').toLowerCase();
-        const pokemonNameWithoutPeriods = pokemon.name.replace(/[\s.]/g, '-').replace(/\./g, '').toLowerCase();
-        return pokemonNameWithPeriods === originalName.toLowerCase() || pokemonNameWithoutPeriods === originalName.toLowerCase();
-      });
+      //const foundPokemon = pokemons.find(pokemon => pokemon.name.replace(/\.|\s|&/g, '') === name);
+      const foundPokemon = pokemons.find(pokemon => pokemon.name.replace(/\.|\s|-|&/g, '') === name);
 
       console.log('pokemons:', pokemons);
       console.log('name:', name);
@@ -137,14 +134,30 @@ return (
   <div className="column-12 dog-ear-bl push-1">
     <h2>Evolutions</h2>
     <ul>
-      {evolutions.map((evolution, index) => (
-        <li key={index} class="evolution-item">
-          {evolution === pokemon.name ? <mark><img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolution.photo}`} />
-                <h3>{evolution}</h3></mark> : <Link to={`/creatures/${evolution}`.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}><img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolution.photo}`} />
-                <h3>{evolution}</h3></Link>}
-          {index < evolutions.length - 1 && ' > '}
-        </li>
-      ))}
+    {evolutions.map((evolution, index) => {
+  const evolutionName = typeof evolution === 'string' ? evolution : (evolution && evolution.name ? evolution.name : '');
+  console.log('evolutionName:', evolutionName);
+  if (evolutionName) {
+    const evolutionData = pokemons.find(pokemon => pokemon.name.replace(/\.|\s|-|&/g, '') === evolutionName.replace(/\.|\s|-|&/g, ''));
+    console.log('evolutionData:', evolutionData);
+    return (
+      <li key={index} class="evolution-item">
+        {evolution === pokemon.name ? 
+          <mark>
+            <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
+            <h3>{evolution}</h3>
+          </mark> 
+          : 
+          <Link to={`/creatures/${evolution}`.toLowerCase().replace(/ /g, "-").replace(/\./g, "")}>
+            <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
+            <h3>{evolution}</h3>
+          </Link>
+        }
+        {index < evolutions.length - 1 && ' > '}
+      </li>
+    );
+  }
+})}
     </ul>
   </div>
 </section>

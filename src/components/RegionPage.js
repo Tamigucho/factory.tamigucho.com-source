@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import regionsData from '../data/regions.json';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import pokemonsData from '../data/pokemons.json';
@@ -50,7 +50,7 @@ useEffect(() => {
       <div>
         <h2>{region.name}</h2>
         <h3>Games <span className="badge bg-secondary" title={`Set in the ${region.name} region: ${games.length} games`}>{games.length}</span></h3>
-        <ul>{games.map(game => <li key={game}>{game}</li>)}</ul>
+        <ul>{games.map(game => <li key={game}><Link to={`/games/${game.replace(/&|\s/g, '')}`}>{game}</Link></li>)}</ul>
         <h3>Pokémons  <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByRegion.length}`}>{pokemonsByRegion.length}</span></h3>
         <div className="pokemon-list">
   {currentItems.map((pokemon, index) => (

@@ -1,3 +1,10 @@
 Branch: main
-Tasks.txt: QmUd7wennntLiiskftoCrUgcMzMSrSPoEEeHut5HpFgefr
-src/components/RegionPage.js: QmaM6RUJDa5foZXgf7GQgYE2DjttHvnT2Z6owNUe4QjMhy
+GPTConverstation.txt: QmcrhBwNeLgDpwkUmzr33c3nNPHjL5rWhDHif1o2hewBRA
+Tasks.txt: QmVDg9VY3FUofLVTHoPqaA3k43CtEjX8kkLphMWnnzEZBm
+src/App.js: QmNYeP5MBfSMnBDC2PhQQBVd5HH6crkWbkuyGzP5sYY4sb
+src/components/GamePage.js: QmXFd1Vjz5mHTBCf5RAVEHp2fnMWoo1KS5xmSRbQVhRUQd
+src/components/GamesPage.js: QmY5ctAsQu8RShXMJjGWsSLanMdNmfW4TbkLDqn9pztyiy
+src/components/PokemonDetails.js: QmWGwKTtpZfh7v9gkGTbmnyszZBHZS85DR4KysDFmHa5hN
+src/components/PokemonList.js: QmYGZyYr29ehSoMyWbXWNx6hXXMo4hm68qwQRdBoxoZAVo
+src/components/RegionPage.js: QmYzYjijANkT4QeNnpFXzo2tHBKoiMVCsfB4zrEUk1SbNv
+src/data/games.json: QmcHUKkGioDpxj1cg4heUCF3xcG28UEDyMuih1f5EtPrpS

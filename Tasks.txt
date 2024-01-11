@@ -1,5 +1,3 @@
-- add a /games page, listing the games linked by data/regions.json; but: remove "&", spaces and similar characteres so get a filtered URL-friendly formatted URL
-
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 
 - regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
@@ -47,7 +45,9 @@ Neutral type, too
 
 - combo icon next to a multi-type, so show a page of the mix of strenght/weaknesses of that combo!
 
-- fix issue with Mr. Mime and Mime Jr. stuck at "Loading..."
 - fix evolutions/morphs chart
+- lowercase /creatures/{creature} URLs should redirect normally instead of being errored
+
+- add a 404 error page
 
 - improve Plasmmer Accounts login button, make it identify logged-in cookie active/valid or not and load user Photo+Name!
