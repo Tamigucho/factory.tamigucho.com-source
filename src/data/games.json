@@ -103,5 +103,10 @@
       "name": "Pokémon Scarlet & Violet",
       "description": "",
       "photo": "./img/games/PokémonScarletViolet/scarvi-32b9.webp"
+    },
+    {
+      "name": "Tamigucho Pink & Dark",
+      "description": "",
+      "photo": "./img/games/TamiguchoPinkDark/covers.png"
     }
   ]

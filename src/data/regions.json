@@ -38,5 +38,37 @@
     {
       "name": "Voidea",
       "games": []
+    },
+    {
+      "name": "Kairo",
+      "games": ["Tamigucho Pink & Dark"]
+    },
+    {
+      "name": "Affrah",
+      "games": ["Tamigucho Bono & Chimp"]
+    },
+    {
+      "name": "Brava",
+      "games": ["Tamigucho Sunny & Rainny"]
+    },
+    {
+      "name": "Munnah",
+      "games": ["Tamigucho A & B"]
+    },
+    {
+      "name": "Merca",
+      "games": ["Tamigucho Carbon & Oxygen", "Tamigucho CO2"]
+    },
+    {
+      "name": "Valorium",
+      "games": ["Tamigucho Mercury & Ethanol"]
+    },
+    {
+        "name": "Exteca",
+        "games": []
+    },
+    {
+      "name": "Karis",
+      "games": ["Tamigucho Salt & Sugar"]
     }
   ]

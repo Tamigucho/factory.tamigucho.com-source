@@ -29,11 +29,9 @@ const Footer = () => {
           <br />
           (c) 2010-{lastYear} Phonemon by <a target="_blank" href="https://tamigucho.com/" style={{opacity: 'unset'}}>
             <img height="16px" alt="The Tamigucho DAO" src="https://tamigucho.com/logotype-old.png" title="The Tamigucho DAO" />
-          </a> + 
-          <a target="_blank" href="https://gamlr.gg/" style={{opacity: 'unset'}}>
+          </a> + <a target="_blank" href="https://gamlr.gg/" style={{opacity: 'unset'}}>
             <img alt="Gamlr DAO" src="https://gamlr.gg/press/press-kit/img/logotype-plain_white.svg" title="Gamlr DAO" height="18px" />
-          </a> + 
-          <a target="_blank" href="https://plasmmer.com/" style={{opacity: 'unset'}}>
+          </a> + <a target="_blank" href="https://plasmmer.com/" style={{opacity: 'unset'}}>
             <img height="16px" alt="Plasmmer DAO" src="https://plasmmer.com/press/press-kit/img/logotype-plain_white.svg" title="Plasmmer DAO" />
           </a>.
         </center>

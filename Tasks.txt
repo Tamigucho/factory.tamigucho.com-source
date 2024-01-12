@@ -1,5 +1,3 @@
-- begin adding some tamigucho data after regitube/regikraft(also adding regimeal)! ; add Tamigucho Pink&Dark to games!
-
 - games now have their year of launch!
 - games now have a link to their site!
 - games now have multi-line description (so as pokemons)
@@ -11,6 +9,9 @@
 - region page: add the players (and add to /characters/{that-character})
 - region page: tell the legendary duo and trio this region features
 - region page: tell the real-world region this region is based-off
+
+- new entry: real-life species a creature has been inspired on!
+- don't show instagram icon if instagram field empty!
 
 - games: list Tamigucho Bono & Shimp (Affrah), Sunny & Rainny (Brava), A & B (Munnah), Carbon & Oxygen (Merca), CO2, Mercury & Ethanol (Valorium), Tamigucho ? & ? (mexico-based), Tamigucho Salt & Sugar (Karis) ("?" placeholder cover)
 

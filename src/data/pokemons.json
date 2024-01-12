@@ -1154,27 +1154,44 @@
       "to add;",
       "and, too."
     ],
-    "region": "Voidea",
+    "region": "Brava",
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2025,
-    "genre-species": ["Tubis", "Regiliaris"]
+    "genre-species": ["Regius", "Tubiliaris"]
   },
   {
     "id": 2020,
     "biyearly_id": 67,
     "name": "Regikraft",
     "type": ["Paper"],
-    "photo": "./img/2025/2020.svg",
+    "photo": "./img/2024/2020.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
       "and, too."
     ],
-    "region": "Voidea",
+    "region": "Brava",
     "biyearly_gen": 8,
     "official_gen": 0,
-    "year": 2025,
-    "genre-species": ["Krafelis", "Kraftus"]
+    "year": 2024,
+    "genre-species": ["Regius", "Kraftus"]
+  },
+  {
+    "id": 2021,
+    "biyearly_id": 68,
+    "name": "Regimeal",
+    "type": ["Salt", "Sugar"],
+    "photo": "./img/2024/2021.svg",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "genre-species": ["Regius", "Mealiaris"]
   }
 ]
