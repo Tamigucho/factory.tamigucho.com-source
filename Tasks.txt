@@ -2,7 +2,13 @@
 - games now have a link to their site!
 - games now have multi-line description (so as pokemons)
 
+- regions now will have their own photo
+
 - display games as cards
+- display regions as cards
+
+- 2019: add Zapdos, Moltres ; 2025: add regirock, registeel, regice, regigigas, regielec, regidrago
+- add groups, for example: Kanto Legendary Trio (3), The Regis (8), Kanto starter trio (3), etc.
 
 - region page: add the champion (and create /characters, /characters/{that-champion}) ; characters will have description
 - region page: add the rival (and add to /characters/{that-rival})
@@ -24,9 +30,6 @@
 - gimmick dropdown: should also support gimmicks on regional forms! so, it will react to changes made by clicking an item in the regional forms dropdown!
 
 - list gens (and their mons dex numbers) by: biyearly-gens and official-gens
-
-- 2019: add Zapdos, Moltres ; 2025: add regirock, registeel, regice, regigigas, regielec, regidrago
-- add groups, for example: Kanto Legendary Trio (3), The Regis (8)
 
 - list of type combos (such as Carkol/Coalossal's Rock+Fire+Rubber), and the Pokémons using them
 
