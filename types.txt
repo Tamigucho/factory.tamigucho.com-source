@@ -1,7 +1,7 @@
 <h5>Type: </h5>
 <span style="background:#1ea5dc;color:#fff;padding:5px;border-radius:5px">💧 Water</span>
 <span style="background:#2ecc71;color:#fff;padding:5px;border-radius:5px">🕸️ Bug</span>
-<span style="background:#34495e;color:#fff;padding:5px;border-radius:5px">🌘 Dark</span>
+<span style="background:#34495e;color:#fff;padding:5px;border-radius:5px">🌘 Night</span>
 <span style="background:#e74c3c;color:#fff;padding:5px;border-radius:5px">🔥 Fire</span>
 <span style="background:#f1c40f;color:#222;padding:5px;border-radius:5px">⚡ Electric</span>
 <span style="background:#186a3b;color:#fff;padding:5px;border-radius:5px">🌱 Plant</span>
