@@ -9,8 +9,8 @@ import Footer from './components/Footer';
 import TypeList from './components/Pages/Types/TypeList';
 import TypePage from './components/Pages/Types/TypePage';
 import pokemonsData from './data/pokemons.json';
-import Genres from './components/Genres';
-import GenrePage from './components/GenrePage';
+import Genres from './components/Pages/Genres/Genres';
+import GenrePage from './components/Pages/Genres/GenrePage';
 import YearsPage from './components/Pages/Years/YearsPage'; // Import the new component
 import YearPage from './components/Pages/Years/YearPage'; // Import the new component
 import CreaturesPage from './components/CreaturesPage'; // Import the new component
