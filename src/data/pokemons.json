@@ -4,7 +4,7 @@
     "biyearly_id": 1,
     "name": "Bulbasaur",
     "type": ["Plant", "Poison"],
-    "photo": "./img/2010/1.svg",
+    "photo": "./img/creatures/2010/1.svg",
     "instagram": "https://www.instagram.com/bulbasaur",
     "description": [
       "Bulbasaur is a dual-type Plant/Poison Pokémon introduced in Generation I.",
@@ -26,7 +26,7 @@
     "biyearly_id": 2,
     "name": "Ivysaur",
     "type":  ["Plant", "Poison"],
-    "photo": "./img/2010/2.svg",
+    "photo": "./img/creatures/2010/2.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "to add;",
@@ -48,7 +48,7 @@
     "biyearly_id": 3,
     "name": "Venusaur",
     "type":  ["Plant", "Poison"],
-    "photo": "./img/2010/3.svg",
+    "photo": "./img/creatures/2010/3.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "to add;",
@@ -69,7 +69,7 @@
     "biyearly_id": 4,
     "name": "Charmander",
     "type": "Fire",
-    "photo": "./img/2010/4.svg",
+    "photo": "./img/creatures/2010/4.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "Charmander is a Fire-type Pokémon introduced in Generation I.",
@@ -91,7 +91,7 @@
     "biyearly_id": 5,
     "name": "Charmeleon",
     "type":  "Fire",
-    "photo": "./img/2010/5.svg",
+    "photo": "./img/creatures/2010/5.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "to add;",
@@ -113,7 +113,7 @@
     "biyearly_id": 6,
     "name": "Charizard",
     "type":  "Fire",
-    "photo": "./img/2010/6.svg",
+    "photo": "./img/creatures/2010/6.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "to add;",
@@ -134,7 +134,7 @@
     "biyearly_id": 7,
     "name": "Squirtle",
     "type": "Water",
-    "photo": "./img/2011/7.svg",
+    "photo": "./img/creatures/2011/7.svg",
     "instagram": "https://www.instagram.com/squirtle",
     "description": [
       "Squirtle is a Water-type Pokémon introduced in Generation I.",
@@ -156,7 +156,7 @@
     "biyearly_id": 8,
     "name": "Wartortle",
     "type":  "Water",
-    "photo": "./img/2011/8.svg",
+    "photo": "./img/creatures/2011/8.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "to add;",
@@ -178,7 +178,7 @@
     "biyearly_id": 9,
     "name": "Blastoise",
     "type":  "Water",
-    "photo": "./img/2011/9.svg",
+    "photo": "./img/creatures/2011/9.svg",
     "instagram": "https://www.instagram.com/charmander",
     "description": [
       "to add;",
@@ -199,7 +199,7 @@
     "biyearly_id": 10,
     "name": "Caterpie",
     "type": "Bug",
-    "photo": "./img/2011/10.svg",
+    "photo": "./img/creatures/2011/10.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -221,7 +221,7 @@
     "biyearly_id": 11,
     "name": "Metapod",
     "type": "Bug",
-    "photo": "./img/2011/11.svg",
+    "photo": "./img/creatures/2011/11.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -243,7 +243,7 @@
     "biyearly_id": 12,
     "name": "Butterfree",
     "type": ["Bug", "Flying"],
-    "photo": "./img/2011/12.svg",
+    "photo": "./img/creatures/2011/12.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -264,7 +264,7 @@
     "biyearly_id": 13,
     "name": "Weedle",
     "type": ["Bug", "Poison"],
-    "photo": "./img/2012/13.svg",
+    "photo": "./img/creatures/2012/13.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -286,7 +286,7 @@
     "biyearly_id": 14,
     "name": "Kakuna",
     "type": ["Bug", "Poison"],
-    "photo": "./img/2012/14.svg",
+    "photo": "./img/creatures/2012/14.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -308,7 +308,7 @@
     "biyearly_id": 15,
     "name": "Beedrill",
     "type": ["Bug", "Poison"],
-    "photo": "./img/2012/15.svg",
+    "photo": "./img/creatures/2012/15.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -329,7 +329,7 @@
     "biyearly_id": 16,
     "name": "Pidgey",
     "type": ["Animal", "Flying"],
-    "photo": "./img/2013/16.svg",
+    "photo": "./img/creatures/2013/16.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -351,7 +351,7 @@
     "biyearly_id": 17,
     "name": "Pidgeotto",
     "type": ["Animal", "Flying"],
-    "photo": "./img/2013/17.svg",
+    "photo": "./img/creatures/2013/17.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -373,7 +373,7 @@
     "biyearly_id": 18,
     "name": "Pidgeot",
     "type": ["Animal", "Flying"],
-    "photo": "./img/2013/18.svg",
+    "photo": "./img/creatures/2013/18.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -394,7 +394,7 @@
     "biyearly_id": 19,
     "name": "Rattata",
     "type": "Animal",
-    "photo": "./img/2013/19.svg",
+    "photo": "./img/creatures/2013/19.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -416,7 +416,7 @@
     "biyearly_id": 20,
     "name": "Raticate",
     "type": "Animal",
-    "photo": "./img/2013/20.svg",
+    "photo": "./img/creatures/2013/20.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -437,7 +437,7 @@
     "biyearly_id": 21,
     "name": "Spearow",
     "type": ["Animal", "Flying"],
-    "photo": "./img/2014/21.svg",
+    "photo": "./img/creatures/2014/21.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -459,7 +459,7 @@
     "biyearly_id": 22,
     "name": "Fearow",
     "type": ["Animal", "Flying"],
-    "photo": "./img/2014/22.svg",
+    "photo": "./img/creatures/2014/22.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -480,7 +480,7 @@
     "biyearly_id": 23,
     "name": "Ekans",
     "type": "Poison",
-    "photo": "./img/2014/23.svg",
+    "photo": "./img/creatures/2014/23.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -502,7 +502,7 @@
     "biyearly_id": 24,
     "name": "Arbok",
     "type": "Poison",
-    "photo": "./img/2014/24.svg",
+    "photo": "./img/creatures/2014/24.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -524,7 +524,7 @@
     "biyearly_id": 25,
     "name": "Pichu",
     "type": "Electric",
-    "photo": "./img/2015/172.svg",
+    "photo": "./img/creatures/2015/172.svg",
     "instagram": "https://www.instagram.com/pikachu",
     "description": [
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
@@ -546,7 +546,7 @@
     "biyearly_id": 26,
     "name": "Pikachu",
     "type": "Electric",
-    "photo": "./img/2015/25.svg",
+    "photo": "./img/creatures/2015/25.svg",
     "instagram": "https://www.instagram.com/pikachu",
     "description": [
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
@@ -568,7 +568,7 @@
     "biyearly_id": 27,
     "name": "Raichu",
     "type": "Electric",
-    "photo": "./img/2015/26.svg",
+    "photo": "./img/creatures/2015/26.svg",
     "instagram": "https://www.instagram.com/pikachu",
     "description": [
       "Pikachu is an Electric-type Pokémon introduced in Generation I.",
@@ -589,7 +589,7 @@
     "biyearly_id": 28,
     "name": "Mankey",
     "type": "Fighting",
-    "photo": "./img/2016/56.svg",
+    "photo": "./img/creatures/2016/56.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -611,7 +611,7 @@
     "biyearly_id": 29,
     "name": "Primeape",
     "type": "Fighting",
-    "photo": "./img/2016/57.svg",
+    "photo": "./img/creatures/2016/57.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -633,7 +633,7 @@
     "biyearly_id": 30,
     "name": "Annihilape",
     "type": ["Fighting", "Ghost"],
-    "photo": "./img/2016/979.svg",
+    "photo": "./img/creatures/2016/979.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -654,7 +654,7 @@
     "biyearly_id": 31,
     "name": "Geodude",
     "type": ["Rock", "Ground"],
-    "photo": "./img/2016/74.svg",
+    "photo": "./img/creatures/2016/74.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -676,7 +676,7 @@
     "biyearly_id": 32,
     "name": "Graveler",
     "type": ["Rock", "Ground"],
-    "photo": "./img/2016/75.svg",
+    "photo": "./img/creatures/2016/75.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -698,7 +698,7 @@
     "biyearly_id": 33,
     "name": "Golem",
     "type": ["Rock", "Ground"],
-    "photo": "./img/2016/76.svg",
+    "photo": "./img/creatures/2016/76.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -719,7 +719,7 @@
     "biyearly_id": 34,
     "name": "Gastly",
     "type": ["Ghost", "Poison"],
-    "photo": "./img/2017/92.svg",
+    "photo": "./img/creatures/2017/92.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -741,7 +741,7 @@
     "biyearly_id": 35,
     "name": "Haunter",
     "type": ["Ghost", "Poison"],
-    "photo": "./img/2017/93.svg",
+    "photo": "./img/creatures/2017/93.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -763,7 +763,7 @@
     "biyearly_id": 36,
     "name": "Gengar",
     "type": ["Ghost", "Poison"],
-    "photo": "./img/2017/94.svg",
+    "photo": "./img/creatures/2017/94.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -784,7 +784,7 @@
     "biyearly_id": 37,
     "name": "Mime Jr.",
     "type": ["Psychic", "Fairy"],
-    "photo": "./img/2017/439.svg",
+    "photo": "./img/creatures/2017/439.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -806,7 +806,7 @@
     "biyearly_id": 38,
     "name": "Mr. Mime",
     "type": ["Psychic", "Fairy"],
-    "photo": "./img/2017/122.svg",
+    "photo": "./img/creatures/2017/122.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -827,7 +827,7 @@
     "biyearly_id": 39,
     "name": "Porygon",
     "type": ["Neutral", "Paper"],
-    "photo": "./img/2018/137.svg",
+    "photo": "./img/creatures/2018/137.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -849,7 +849,7 @@
     "biyearly_id": 40,
     "name": "Articuno",
     "type": ["Ice", "Flying"],
-    "photo": "./img/2019/144.svg",
+    "photo": "./img/creatures/2019/144.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -870,7 +870,7 @@
     "biyearly_id": 41,
     "name": "Dratini",
     "type": "Dragon",
-    "photo": "./img/2019/147.svg",
+    "photo": "./img/creatures/2019/147.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -892,7 +892,7 @@
     "biyearly_id": 42,
     "name": "Dragonair",
     "type": "Dragon",
-    "photo": "./img/2019/148.svg",
+    "photo": "./img/creatures/2019/148.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -914,7 +914,7 @@
     "biyearly_id": 43,
     "name": "Dragonite",
     "type": ["Dragon", "Flying"],
-    "photo": "./img/2019/149.svg",
+    "photo": "./img/creatures/2019/149.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -935,7 +935,7 @@
     "biyearly_id": 44,
     "name": "Murkrow",
     "type": ["Dark", "Flying"],
-    "photo": "./img/2020/198.svg",
+    "photo": "./img/creatures/2020/198.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -956,7 +956,7 @@
     "biyearly_id": 45,
     "name": "Honchkrow",
     "type": ["Dark", "Flying"],
-    "photo": "./img/2020/430.svg",
+    "photo": "./img/creatures/2020/430.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -977,7 +977,7 @@
     "biyearly_id": 46,
     "name": "Onix",
     "type": ["Rock", "Ground"],
-    "photo": "./img/2020/95.svg",
+    "photo": "./img/creatures/2020/95.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -999,7 +999,7 @@
     "biyearly_id": 47,
     "name": "Steelix",
     "type": ["Steel", "Ground"],
-    "photo": "./img/2020/208.svg",
+    "photo": "./img/creatures/2020/208.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1020,7 +1020,7 @@
     "biyearly_id": 48,
     "name": "Porygon2",
     "type": ["Neutral", "Plastic"],
-    "photo": "./img/2021/233.svg",
+    "photo": "./img/creatures/2021/233.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1042,7 +1042,7 @@
     "biyearly_id": 49,
     "name": "Wurmple",
     "type": "Bug",
-    "photo": "./img/2024/265.svg",
+    "photo": "./img/creatures/2024/265.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1064,7 +1064,7 @@
     "biyearly_id": 50,
     "name": "Silcoon",
     "type": "Bug",
-    "photo": "./img/2024/266.svg",
+    "photo": "./img/creatures/2024/266.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1086,7 +1086,7 @@
     "biyearly_id": 51,
     "name": "Beautifly",
     "type": ["Bug", "Flying"],
-    "photo": "./img/2024/267.svg",
+    "photo": "./img/creatures/2024/267.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1107,7 +1107,7 @@
     "biyearly_id": 52,
     "name": "Cascoon",
     "type": "Bug",
-    "photo": "./img/2024/268.svg",
+    "photo": "./img/creatures/2024/268.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1129,7 +1129,7 @@
     "biyearly_id": 53,
     "name": "Dustox",
     "type": ["Bug", "Poison"],
-    "photo": "./img/2024/269.svg",
+    "photo": "./img/creatures/2024/269.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1150,7 +1150,7 @@
     "biyearly_id": 54,
     "name": "Nincada",
     "type": ["Bug", "Ground"],
-    "photo": "./img/2022/290.svg",
+    "photo": "./img/creatures/2022/290.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1172,7 +1172,7 @@
     "biyearly_id": 55,
     "name": "Ninjask",
     "type": ["Bug", "Flying"],
-    "photo": "./img/2022/291.svg",
+    "photo": "./img/creatures/2022/291.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1193,7 +1193,7 @@
     "biyearly_id": 56,
     "name": "Shedinja",
     "type": ["Bug", "Ghost", "Paper"],
-    "photo": "./img/2022/292.svg",
+    "photo": "./img/creatures/2022/292.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1214,7 +1214,7 @@
     "biyearly_id": 57,
     "name": "Porygon-Z",
     "type": ["Neutral", "Plastic"],
-    "photo": "./img/2024/474.svg",
+    "photo": "./img/creatures/2024/474.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1235,7 +1235,7 @@
     "biyearly_id": 58,
     "name": "Rolycoly",
     "type": ["Rock", "Rubber"],
-    "photo": "./img/2022/837.svg",
+    "photo": "./img/creatures/2022/837.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1257,7 +1257,7 @@
     "biyearly_id": 59,
     "name": "Carkol",
     "type": ["Rock", "Fire", "Rubber"],
-    "photo": "./img/2022/838.svg",
+    "photo": "./img/creatures/2022/838.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1279,7 +1279,7 @@
     "biyearly_id": 60,
     "name": "Coalossal",
     "type": ["Rock", "Fire", "Rubber"],
-    "photo": "./img/2022/839.svg",
+    "photo": "./img/creatures/2022/839.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1300,7 +1300,7 @@
     "biyearly_id": 61,
     "name": "Milcery",
     "type": ["Fairy", "Sugar"],
-    "photo": "./img/2023/868.svg",
+    "photo": "./img/creatures/2023/868.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1322,7 +1322,7 @@
     "biyearly_id": 62,
     "name": "Alcremie",
     "type": ["Fairy", "Sugar"],
-    "photo": "./img/2023/869.svg",
+    "photo": "./img/creatures/2023/869.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1343,7 +1343,7 @@
     "biyearly_id": 63,
     "name": "Nacli",
     "type": ["Rock", "Salt"],
-    "photo": "./img/2023/932.svg",
+    "photo": "./img/creatures/2023/932.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1365,7 +1365,7 @@
     "biyearly_id": 64,
     "name": "Naclstack",
     "type": ["Rock", "Salt"],
-    "photo": "./img/2023/933.svg",
+    "photo": "./img/creatures/2023/933.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1387,7 +1387,7 @@
     "biyearly_id": 65,
     "name": "Garganacl",
     "type": ["Rock", "Salt"],
-    "photo": "./img/2023/934.svg",
+    "photo": "./img/creatures/2023/934.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1408,7 +1408,7 @@
     "biyearly_id": 66,
     "name": "Regitube",
     "type": ["Rubber", "Plastic"],
-    "photo": "./img/2025/2019.svg",
+    "photo": "./img/creatures/2025/2019.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1429,7 +1429,7 @@
     "biyearly_id": 67,
     "name": "Regikraft",
     "type": ["Paper"],
-    "photo": "./img/2024/2020.svg",
+    "photo": "./img/creatures/2024/2020.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1450,7 +1450,7 @@
     "biyearly_id": 68,
     "name": "Regimeal",
     "type": ["Salt", "Sugar"],
-    "photo": "./img/2024/2021.svg",
+    "photo": "./img/creatures/2024/2021.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1467,3 +1467,4 @@
     ]
   }
 ]
+
