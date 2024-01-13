@@ -42,14 +42,21 @@ const RegionsList = () => {
   return (
     <div>
       <h2>Regions <span className="badge bg-secondary">{regionsData.length}</span></h2>
-      <ul>
+      <div className="region-list">
       {regionsData.map(region => (
-  <li key={region.name}>
-    <Link to={`/regions/${region.name}`}>{region.name}</Link> <span className="badge bg-secondary" title="Number of creatures set in this region">🐾 {regionCounts[region.name]?.pokemonCount || 0}</span>
+  <Link to={`/regions/${region.name}`}><div className="region-item">
+
+<div className="region-photo">
+            <img draggable="false" src={`${process.env.PUBLIC_URL}/${region.photo}`} alt={region.name} />
+        </div>
+        <div className="region-info">
+            <h3>{region.name}</h3>
+            <span className="badge bg-secondary" title="Number of creatures set in this region">🐾 {regionCounts[region.name]?.pokemonCount || 0}</span>
     <span className="badge bg-secondary" title="Number of games set in this region">🎮 {regionCounts[region.name]?.gameCount || 0}</span>
-  </li>
+        </div>
+  </div></Link>
 ))}
-      </ul>
+      </div>
     </div>
   );
 };

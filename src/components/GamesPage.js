@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import regionsData from '../data/regions.json';
+//import regionsData from '../data/regions.json';
 import gamesData from '../data/games.json';
 
 const GamesPage = () => {
