@@ -24,7 +24,7 @@ const Footer = () => {
       <copyright>
         <center>
           <a href="https://aragon.plasmmer.com/#/tamigucho/" target="_blank">
-            <img width="350px"  src={`${process.env.PUBLIC_URL}/img/5d30129fbe8118efde2a8a25_Badge Dark.svg`} />
+            <img width="350px"  src={`${process.env.PUBLIC_URL}/img/institutional/DAO/5d30129fbe8118efde2a8a25_Badge Dark.svg`} />
           </a>
           <br />
           (c) 2010-{lastYear} Phonemon by <a target="_blank" href="https://tamigucho.com/" style={{opacity: 'unset'}}>
