@@ -127,6 +127,8 @@ return (
 <p>Official generation: {pokemon.official_gen}</p>
 <p>Biyearly generation: {pokemon.biyearly_gen}</p>
 <p>Created in: <Link to={`/years/${pokemon.year}`}>{pokemon.year}</Link></p>
+{/* CTRL+K: "I need to refer to a JSON array from @pokemons.json": */}
+<p>Real-life inspiration: <Link to={`${pokemon['reallife_inspo'][0]['link']}`}>{pokemon['reallife_inspo'][0]['name']}</Link></p>
     </div>
   </div>
 </div>

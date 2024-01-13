@@ -1,4 +1,3 @@
-- new entry: real-life species a creature has been inspired on!
 - /games: display games as cards
 - /regions: display regions as cards
 

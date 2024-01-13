@@ -15,7 +15,11 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Ivysaur",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Frog",
+      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    ]
   },
   {
     "id": 2,
@@ -33,7 +37,11 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Venusaur",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Frog",
+      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    ]
   },
   {
     "id": 3,
@@ -50,7 +58,11 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Frog",
+      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    ]
   },
   {
     "id": 4,
@@ -68,7 +80,11 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Charmeleon",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Salamander",
+      "link": "https://en.wikipedia.org/wiki/Salamander"}
+    ]
   },
   {
     "id": 5,
@@ -86,7 +102,11 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Charizard",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Salamander",
+      "link": "https://en.wikipedia.org/wiki/Salamander"}
+    ]
   },
   {
     "id": 6,
@@ -103,7 +123,11 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "European Dragon",
+      "link": "https://en.wikipedia.org/wiki/European_dragon"}
+    ]
   },
   {
     "id": 7,
@@ -121,7 +145,11 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Wartortle",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Aquatic Turtle",
+      "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"}
+    ]
   },
   {
     "id": 8,
@@ -139,7 +167,11 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Blastoise",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Aquatic Turtle",
+      "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"}
+    ]
   },
   {
     "id": 9,
@@ -156,7 +188,11 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Gamera",
+      "link": "https://en.wikipedia.org/wiki/Gamera"}
+    ]
   },
   {
     "id": 10,
@@ -174,7 +210,11 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Metapod",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Eastern Tiger Swallowtail Caterpillar",
+      "link": "https://en.wikipedia.org/wiki/Papilio_glaucus"}
+    ]
   },
   {
     "id": 11,
@@ -192,7 +232,11 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Butterfree",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Cabbage White Butterfly Pupa",
+      "link": "https://en.wikipedia.org/wiki/Pieris_rapae"}
+    ]
   },
   {
     "id": 12,
@@ -209,7 +253,11 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Cabbage White Butterfly",
+      "link": "https://en.wikipedia.org/wiki/Pieris_rapae"}
+    ]
   },
   {
     "id": 13,
@@ -227,7 +275,11 @@
     "official_gen": 1,
     "year": 2012,
     "evolve": "Kakuna",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Cabbage White Butterfly",
+      "link": "https://en.wikipedia.org/wiki/Pieris_rapae"}
+    ]
   },
   {
     "id": 14,
