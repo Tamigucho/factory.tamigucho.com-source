@@ -19,6 +19,7 @@ const GamePage = () => {
     </div>
     <div class="col-md">
     <h3>Region: <Link to={`/regions/${region.name.replace(/&|\s/g, '')}`}>{region.name}</Link></h3>
+    <h3>Launched in: <Link to={`/years/${game.launch_year}`}>{game.launch_year}</Link></h3>
     <p>{game.description}</p>
     </div>
   </div>

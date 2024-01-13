@@ -2,111 +2,133 @@
     {
       "name": "Pokémon Green",
       "description": "",
-      "photo": "./img/games/PokémonGreen/pokemon_green_version__game_boy__hq_fake_box_art_by_jadelune_d9tkray-fullview.jpg"
+      "photo": "./img/games/PokémonGreen/pokemon_green_version__game_boy__hq_fake_box_art_by_jadelune_d9tkray-fullview.jpg",
+      "launch_year": "1996"
     },
     {
       "name": "Pokémon Red & Blue",
       "description": "",
-      "photo": "./img/games/PokémonRedBlue/covers.png"
+      "photo": "./img/games/PokémonRedBlue/covers.png",
+      "launch_year": "1998"
     },
     {
       "name": "Pokémon Yellow",
       "description": "",
-      "photo": "./img/games/PokémonYellow/pokemon_yellow_version__game_boy__hq_box_art_by_jadelune_d9tkrb7-fullview.jpg"
+      "photo": "./img/games/PokémonYellow/pokemon_yellow_version__game_boy__hq_box_art_by_jadelune_d9tkrb7-fullview.jpg",
+      "launch_year": "1998"
     },
     {
       "name": "Pokémon Let's Go Pikachu & Let's Go Eevee",
       "description": "",
-      "photo": "./img/games/PokémonLet'sGoPikachuLet'sGoEevee/large.pikavee.png.d7bf0a83bc6ff9577002fdd2d8d5d68c.png"
+      "photo": "./img/games/PokémonLet'sGoPikachuLet'sGoEevee/large.pikavee.png.d7bf0a83bc6ff9577002fdd2d8d5d68c.png",
+      "launch_year": "2018"
     },
     {
       "name": "Pokémon Gold & Silver",
       "description": "",
-      "photo": "./img/games/PokémonGoldSilver/covers.png"
+      "photo": "./img/games/PokémonGoldSilver/covers.png",
+      "launch_year": "1999"
     },
     {
       "name": "Pokémon Crystal",
       "description": "",
-      "photo": "./img/games/PokémonCrystal/covers.png"
+      "photo": "./img/games/PokémonCrystal/covers.png",
+      "launch_year": "2000"
     },
     {
       "name": "Pokémon HeartGold & SoulSilver",
       "description": "",
-      "photo": "./img/games/PokémonHeartGoldSoulSilver/pokemon-heartgold-soulsilver-box.jpg.72288437277ff2aa05b9b82971213edb.jpg"
+      "photo": "./img/games/PokémonHeartGoldSoulSilver/pokemon-heartgold-soulsilver-box.jpg.72288437277ff2aa05b9b82971213edb.jpg",
+      "launch_year": "2009"
     },
     {
       "name": "Pokémon Ruby & Sapphire",
       "description": "",
-      "photo": "./img/games/PokémonRubySapphire/covers.png"
+      "photo": "./img/games/PokémonRubySapphire/covers.png",
+      "launch_year": "2002"
     },
     {
       "name": "Pokémon Emerald",
       "description": "",
-      "photo": "./img/games/PokémonEmerald/cover.png"
+      "photo": "./img/games/PokémonEmerald/cover.png",
+      "launch_year": "2004"
     },
     {
       "name": "Pokémon FireRed & LeafGreen",
       "description": "",
-      "photo": "./img/games/PokémonFireRedLeafGreen/covers.png"
+      "photo": "./img/games/PokémonFireRedLeafGreen/covers.png",
+      "launch_year": "2004"
     },
     {
       "name": "Pokémon OmegaRuby & AlphaSapphire",
       "description": "",
-      "photo": "./img/games/PokémonOmegaRubyAlphaSapphire/Pokemon-oras-box-art.png.png"
+      "photo": "./img/games/PokémonOmegaRubyAlphaSapphire/Pokemon-oras-box-art.png.png",
+      "launch_year": "2014"
     },
     {
       "name": "Pokémon Diamond & Pearl",
       "description": "",
-      "photo": "./img/games/PokémonDiamondPearl/PokemonDiamondPearlBoxArt.jpeg"
+      "photo": "./img/games/PokémonDiamondPearl/PokemonDiamondPearlBoxArt.jpeg",
+      "launch_year": "2006"
     },
     {
         "name": "Pokémon Platinum",
         "description": "",
-        "photo": "./img/games/PokémonPlatinum/Pokémon_Platinum_cover.png"
+        "photo": "./img/games/PokémonPlatinum/Pokémon_Platinum_cover.png",
+        "launch_year": "2008"
       },
     {
       "name": "Pokémon BrilliantDiamond & ShiningPearl",
       "description": "",
-      "photo": "./img/games/PokémonBrilliantDiamondShiningPearl/dfzuzu3-e640a9c8-6f46-49e4-bf35-7ccc13c4714f.png"
+      "photo": "./img/games/PokémonBrilliantDiamondShiningPearl/dfzuzu3-e640a9c8-6f46-49e4-bf35-7ccc13c4714f.png",
+      "launch_year": "2021"
     },
     {
       "name": "Pokémon Black & White",
       "description": "",
-      "photo": "./img/games/PokémonBlackWhite/Pokémon_Black_and_White_covers.png"
+      "photo": "./img/games/PokémonBlackWhite/Pokémon_Black_and_White_covers.png",
+      "launch_year": "2010"
     },
     {
       "name": "Pokémon Black2 & White2",
       "description": "",
-      "photo": "./img/games/PokémonBlack2White2/Pokemon-Black-and-White-2-Japanese-Cover-Art1.png"
+      "photo": "./img/games/PokémonBlack2White2/Pokemon-Black-and-White-2-Japanese-Cover-Art1.png",
+      "launch_year": "2012"
     },
     {
       "name": "Pokémon X & Y",
       "description": "",
-      "photo": "./img/games/PokémonXY/Pokemon_xy_box_art.webp"
+      "photo": "./img/games/PokémonXY/Pokemon_xy_box_art.webp",
+      "launch_year": "2013"
     },
     {
       "name": "Pokémon Sun & Moon",
       "description": "",
-      "photo": "./img/games/PokémonSunMoon/654-pokemon-sun-and-moon30ff196fb49e629c8704ff0000daffed.jpg"
+      "photo": "./img/games/PokémonSunMoon/654-pokemon-sun-and-moon30ff196fb49e629c8704ff0000daffed.jpg",
+      "launch_year": "2016"
     },
     {
       "name": "Pokémon UltraSun & UltraMoon",
       "description": "",
-      "photo": "./img/games/PokémonUltraSunUltraMoon/20992736_708311192694227_4067019587529043957_n.png"
+      "photo": "./img/games/PokémonUltraSunUltraMoon/20992736_708311192694227_4067019587529043957_n.png",
+      "launch_year": "2017"
     },
     {
       "name": "Pokémon Sword & Shield",
       "description": "",
-      "photo": "./img/games/PokémonSwordShield/large.swordnshield.png.051ae8b21788af441c7493b55ff8ad85.png"
+      "photo": "./img/games/PokémonSwordShield/large.swordnshield.png.051ae8b21788af441c7493b55ff8ad85.png",
+      "launch_year": "2019"
     },
     {
       "name": "Pokémon Scarlet & Violet",
       "description": "",
-      "photo": "./img/games/PokémonScarletViolet/scarvi-32b9.webp"
+      "photo": "./img/games/PokémonScarletViolet/scarvi-32b9.webp",
+      "launch_year": "2022"
     },
     {
       "name": "Tamigucho Pink & Dark",
       "description": "",
-      "photo": "./img/games/TamiguchoPinkDark/covers.png"
+      "photo": "./img/games/TamiguchoPinkDark/covers.png",
+      "launch_year": "2027"
     }
   ]
