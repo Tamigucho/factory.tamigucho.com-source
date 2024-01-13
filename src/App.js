@@ -14,9 +14,9 @@ import GenrePage from './components/GenrePage';
 import YearsPage from './components/Pages/Years/YearsPage'; // Import the new component
 import YearPage from './components/Pages/Years/YearPage'; // Import the new component
 import CreaturesPage from './components/CreaturesPage'; // Import the new component
-import RegionPage from './components/RegionPage'; // Import the new component
+import RegionPage from './components/Pages/Regions/RegionPage'; // Import the new component
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
-import RegionsList from './components/RegionsList'; // Import the new component
+import RegionsList from './components/Pages/Regions/RegionsList'; // Import the new component
 import GamesPage from './components/GamesPage';
 import GamePage from './components/GamePage';
 import Chart from 'react-apexcharts';

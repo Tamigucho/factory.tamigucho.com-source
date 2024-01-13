@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import regionsData from '../data/regions.json';
+import regionsData from '../../../data/regions.json';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import pokemonsData from '../data/pokemons.json';
-import PokemonItem from './PokemonItem';
+import pokemonsData from '../../../data/pokemons.json';
+import PokemonItem from '../../PokemonItem';
 
 //const PokemonItem = ({ id, name, type, photo }) => (
 //    <div>

@@ -1,5 +1,4 @@
 Branch: main
-src/App.js: QmTHCExeLwSYLbEf4QrQTRs5ZkcsRyeEE3WrfnJddbd9Dn
-src/components/Header.js: QmcpDmGFLzFGqiQassEXFaVmFB5zwWERyTcuaePiRoiv3Q
-src/components/Pages/Types/TypeList.js: QmZNT8d7nXAo6V31nnAL7SYc8g3TCw9Z15vNVQMFzoebgK
-src/components/Pages/Types/TypePage.js: QmW6rDHeiPMWPQucJc2tsXr4w1Kf9j7mNbNycvmSe16b8y
+src/App.js: QmeS869fNrrpQ5vnPfUGUr5FVAzUy7fqmkLFDguTgQihCQ
+src/components/Pages/Regions/RegionPage.js: QmZjyh8mB4xxbkCyWynE4fvznS5TnqEzVnPbWxmXCYk9Ea
+src/components/Pages/Regions/RegionsList.js: QmTBbZVLHnsMRMCY73xb8g999XtqHzfbV7tcCUsMtmRp96

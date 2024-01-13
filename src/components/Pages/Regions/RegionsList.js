@@ -6,8 +6,8 @@ pokemon.regions is undefined
 ./src/components/RegionsList.js/RegionsList/</<@http://localhost:3000/main.f09cf88c650161f950a5.hot-update.js:36:7": */}
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import regionsData from '../data/regions.json';
-import pokemonsData from '../data/pokemons.json';
+import regionsData from '../../../data/regions.json';
+import pokemonsData from '../../../data/pokemons.json';
 
 const RegionsList = () => {
   const [regionCounts, setRegionCounts] = useState({});
@@ -21,8 +21,8 @@ const RegionsList = () => {
       }
       counts[region].pokemonCount++;
     });
-    let pokemons = require('../data/pokemons.json');
-    let regions = require('../data/regions.json');
+    let pokemons = require('../../../data/pokemons.json');
+    let regions = require('../../../data/regions.json');
     regions.forEach(region => {
       let pokemonCount = pokemons.filter(pokemon => pokemon.region === region.name).length;
       
