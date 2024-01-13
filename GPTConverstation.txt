@@ -1,0 +1,40 @@
+About components/GamesPage.js: I need to change game to game.name and make game.photo work!
+
+Files of interest:
+@GamesPage.js and @games.json 
+
+
+
+
+
+The issue you're facing is due to the fact that you're trying to access properties of game as if it's an object, but in your current implementation, game is just a string (the name of the game).
+
+To fix this, you need to modify your GamesPage component to fetch the game data from games.json instead of regions.json.
+
+Here's how you can do it:
+
+1. Import gamesData from games.json:
+
+import gamesData from '../data/games.json';
+
+
+2. Replace the games constant with gamesData:
+
+const games = gamesData;
+
+
+3. Now, you can access the properties of each game object in your map function:
+
+<div className="game-list">{games.map(game => (
+    <Link to={`/games/${game.name.replace(/&|\s/g, '')}`}><div className="game-item">
+        <div className="game-photo">
+            <img draggable="false" src={`${process.env.PUBLIC_URL}/${game.photo}`} alt={game.name} />
+        </div>
+        <div className="game-info">
+            <h3>{game.name}</h3>
+        </div>
+    </div></Link>
+))}
+
+
+This way, you're correctly accessing the name and photo properties of each game object.

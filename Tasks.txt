@@ -1,5 +1,7 @@
 - /regions: display regions as cards
 
+- mv /home/daniella/com-factory-tamigucho/public/img/5d30129fbe8118efde2a8a25_Badge Dark.svg to /institutional
+
 - games now have multi-line description (so as pokemons)
 
 - /years/{year} page: display the games launched in that year
