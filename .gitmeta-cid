@@ -1,3 +1,5 @@
 Branch: main
-src/components/PokemonDetails.js: QmQGhX9ZLb9iEguck7y8ToDWwZUzjWoYy2VZZVuJBpXLkL
-src/data/pokemons.json: QmTtcybwFCZeZmYUrMDHwxYxpZWQw7mkiBJXwVEF294x5A
+Tasks.txt: QmeQ9155ReTZ4hc9gPSVNxwn9Fvr4bDg4xrGbv1exwZpjn
+src/components/GamesPage.js: QmTFMQPpUiqLLgKT5QLmYgbzUn7pweQwsBzGkX4wCy21bs
+src/components/PokemonItem.js: QmVAqvPh8YtdNwrron6z75dm1EL4q4cp3Snacg4QqBLV2c
+src/styles/theme.css: QmdDMqerZ3BavKTow5F1zABs9CjYgs15kpMA8rQvgm5RQm

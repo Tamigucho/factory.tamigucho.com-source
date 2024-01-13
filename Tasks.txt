@@ -1,4 +1,3 @@
-- /games: display games as cards
 - /regions: display regions as cards
 
 - games now have multi-line description (so as pokemons)

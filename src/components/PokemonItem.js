@@ -26,11 +26,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   return (
     <Link to={`/creatures/${name.replace(/\.|-|\s/g, '')}`}><div className="pokemon-item">
     <div className="pokemon-photo">
-      
         <img draggable="false" src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
-      
-      {/*Cursor CTRL+K: "How to comment HTML, but in JSX?": */}
-      {/*<a href={instagram} target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Source</a>*/}
     </div>
       <div className="pokemon-info">
         <h3>{name}</h3>
@@ -47,9 +43,6 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
             </Link>
           )}
         </div>
-        {/*<div className="pokemon-description">
-          {renderDescription()}
-        </div>*/}
       </div>
     </div></Link>
   );
