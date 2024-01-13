@@ -277,8 +277,8 @@
     "evolve": "Kakuna",
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
-      {"name": "Cabbage White Butterfly",
-      "link": "https://en.wikipedia.org/wiki/Pieris_rapae"}
+      {"name": "",
+      "link": ""}
     ]
   },
   {
@@ -297,7 +297,11 @@
     "official_gen": 1,
     "year": 2012,
     "evolve": "Beedrill",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 15,
@@ -314,7 +318,11 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2012,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 16,
@@ -332,7 +340,11 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Pidgeotto",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 17,
@@ -350,7 +362,11 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Pidgeot",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 18,
@@ -367,7 +383,11 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 19,
@@ -385,7 +405,11 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Raticate",
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 20,
@@ -402,7 +426,11 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 21,
@@ -420,7 +448,11 @@
     "official_gen": 1,
     "year": 2014,
     "evolve": "Fearow",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 22,
@@ -437,7 +469,11 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 23,
@@ -455,7 +491,11 @@
     "official_gen": 1,
     "year": 2014,
     "evolve": "Arbok",
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 24,
@@ -472,7 +512,11 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
 
   {
@@ -491,7 +535,11 @@
     "official_gen": 2,
     "year": 2015,
     "evolve": "Pikachu",
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 25,
@@ -509,7 +557,11 @@
     "official_gen": 1,
     "year": 2015,
     "evolve": "Raichu",
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 26,
@@ -526,7 +578,11 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2015,
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 56,
@@ -544,7 +600,11 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Primeape",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 57,
@@ -562,7 +622,11 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Annihilape",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 979,
@@ -579,7 +643,11 @@
     "biyearly_gen": 4,
     "official_gen": 9,
     "year": 2016,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 74,
@@ -597,7 +665,11 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Graveler",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 75,
@@ -615,7 +687,11 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Golem",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 76,
@@ -632,7 +708,11 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2016,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 92,
@@ -650,7 +730,11 @@
     "official_gen": 1,
     "year": 2017,
     "evolve": "Haunter",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 93,
@@ -668,7 +752,11 @@
     "official_gen": 1,
     "year": 2017,
     "evolve": "Gengar",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 94,
@@ -685,7 +773,11 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2017,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 439,
@@ -703,7 +795,11 @@
     "official_gen": 4,
     "year": 2017,
     "evolve": "Mr. Mime",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 122,
@@ -720,7 +816,11 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2017,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 137,
@@ -738,7 +838,11 @@
     "official_gen": 1,
     "year": 2018,
     "evolve": "Porygon2",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 144,
@@ -755,7 +859,11 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 147,
@@ -773,7 +881,11 @@
     "official_gen": 1,
     "year": 2019,
     "evolve": "Dragonair",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 148,
@@ -791,7 +903,11 @@
     "official_gen": 1,
     "year": 2019,
     "evolve": "Dragonite",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 149,
@@ -808,7 +924,11 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 198,
@@ -826,7 +946,11 @@
     "official_gen": 2,
     "year": 2020,
     "evolve": "Honchkrow",
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },  {
     "id": 430,
     "biyearly_id": 45,
@@ -842,7 +966,11 @@
     "biyearly_gen": 6,
     "official_gen": 4,
     "year": 2020,
-    "genre-species": ["Felis", "Catus"]
+    "genre-species": ["Felis", "Catus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 95,
@@ -860,7 +988,11 @@
     "official_gen": 1,
     "year": 2020,
     "evolve": "Steelix",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 208,
@@ -877,7 +1009,11 @@
     "biyearly_gen": 6,
     "official_gen": 2,
     "year": 2020,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 233,
@@ -895,7 +1031,11 @@
     "official_gen": 2,
     "year": 2021,
     "evolve": "Porygon-Z",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 265,
@@ -913,7 +1053,11 @@
     "official_gen": 3,
     "year": 2024,
     "evolve": ["Silcoon", "Cascoon"],
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 266,
@@ -931,7 +1075,11 @@
     "official_gen": 3,
     "year": 2024,
     "evolve": "Beautifly",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 267,
@@ -948,7 +1096,11 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 268,
@@ -966,7 +1118,11 @@
     "official_gen": 3,
     "year": 2024,
     "evolve": "Dustox",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 269,
@@ -983,7 +1139,11 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 290,
@@ -1001,7 +1161,11 @@
     "official_gen": 3,
     "year": 2022,
     "evolve": ["Ninjask", "Shedinja"],
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 291,
@@ -1018,7 +1182,11 @@
     "biyearly_gen": 7,
     "official_gen": 3,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 292,
@@ -1035,7 +1203,11 @@
     "biyearly_gen": 7,
     "official_gen": 3,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 474,
@@ -1052,7 +1224,11 @@
     "biyearly_gen": 8,
     "official_gen": 4,
     "year": 2024,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 837,
@@ -1070,7 +1246,11 @@
     "official_gen": 8,
     "year": 2022,
     "evolve": "Carkol",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 838,
@@ -1088,7 +1268,11 @@
     "official_gen": 8,
     "year": 2022,
     "evolve": "Coalossal",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 839,
@@ -1105,7 +1289,11 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 868,
@@ -1123,7 +1311,11 @@
     "official_gen": 8,
     "year": 2023,
     "evolve": "Alcremie",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 869,
@@ -1140,7 +1332,11 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2023,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 932,
@@ -1158,7 +1354,11 @@
     "official_gen": 9,
     "year": 2023,
     "evolve": "Naclstack",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 933,
@@ -1176,7 +1376,11 @@
     "official_gen": 9,
     "year": 2023,
     "evolve": "Garnacl",
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 934,
@@ -1193,7 +1397,11 @@
     "biyearly_gen": 7,
     "official_gen": 9,
     "year": 2023,
-    "genre-species": ["Canis", "Familiaris"]
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 2019,
@@ -1210,7 +1418,11 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2025,
-    "genre-species": ["Regius", "Tubiliaris"]
+    "genre-species": ["Regius", "Tubiliaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 2020,
@@ -1227,7 +1439,11 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Regius", "Kraftus"]
+    "genre-species": ["Regius", "Kraftus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   },
   {
     "id": 2021,
@@ -1244,6 +1460,10 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Regius", "Mealiaris"]
+    "genre-species": ["Regius", "Mealiaris"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
   }
 ]
