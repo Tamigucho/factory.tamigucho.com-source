@@ -4,8 +4,6 @@
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!
 
-Tamigucho Factory React site:
-- type matchup update: Sugar is 2x effective against Fairy
 - PokemonDetails.js: list attacks learnable and abilities
 - /attacks page; list the first attack: "Grass Crunch"
 - /abilities page

@@ -80,14 +80,15 @@
   "type": "Fairy",
   "color": "#EE99AC",
   "emoji": "🧚",
-  "weaknesses": ["Poison", "Steel", "Salt"],
+  "weaknesses": ["Poison", "Steel", "Salt", "Sugar"],
   "resistance": ["Fighting", "Dragon", "Dark"],
   "effectiveness": {
     "Fighting": 0.5,
     "Dragon": 2,
     "Dark": 2,
     "Poison": 0.5,
-    "Steel": 0.5
+    "Steel": 0.5,
+    "Sugar": 2
   }
 },
 {
@@ -342,12 +343,13 @@
     "type": "Sugar",
     "color": "#FFFFFF",
     "emoji": "🍬",
-    "weaknesses": ["Water", "Poison"],
+    "weaknesses": ["Water", "Poison", "Fairy"],
     "resistance": ["Fire"],
     "effectiveness": {
       "Animal": 2,
       "Water": 2,
-      "Ghost": 0
+      "Ghost": 0,
+      "Fairy": 1.5
       }
   }
 ]
