@@ -11,8 +11,8 @@ import TypePage from './components/TypePage';
 import pokemonsData from './data/pokemons.json';
 import Genres from './components/Genres';
 import GenrePage from './components/GenrePage';
-import YearsPage from './components/Pages/YearsPage'; // Import the new component
-import YearPage from './components/Pages/YearPage'; // Import the new component
+import YearsPage from './components/Pages/Years/YearsPage'; // Import the new component
+import YearPage from './components/Pages/Years/YearPage'; // Import the new component
 import CreaturesPage from './components/CreaturesPage'; // Import the new component
 import RegionPage from './components/RegionPage'; // Import the new component
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
