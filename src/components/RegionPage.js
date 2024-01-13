@@ -48,7 +48,9 @@ useEffect(() => {
   
     return (
       <div>
-        <h2>{region.name}</h2>
+        <center><h2>{region.name}</h2><img height="250px" src={`${process.env.PUBLIC_URL}/${region.photo}`}/>
+         <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/${region.photo}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a>
+        </center>
         <h3>Games <span className="badge bg-secondary" title={`Set in the ${region.name} region: ${games.length} games`}>{games.length}</span></h3>
         <ul>{games.map(game => <li key={game}><Link to={`/games/${game.replace(/&|\s/g, '')}`}>{game}</Link></li>)}</ul>
         <h3>Pokémons  <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByRegion.length}`}>{pokemonsByRegion.length}</span></h3>

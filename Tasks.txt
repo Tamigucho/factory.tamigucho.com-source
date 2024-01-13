@@ -4,8 +4,6 @@
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!
 
-- regions now will have their own photo
-
 - display games as cards
 - display regions as cards
 
@@ -22,6 +20,8 @@ yes, use a table. a evolution of a evolution mean a new column!
 - add groups, for example: Kanto Legendary Trio (3), The Regis (8), Kanto starter trio (3), etc.
 
 - region page: add the champion (and create /characters, /characters/{that-champion}) ; characters will have description
+- region page: add the professor
+- region page: add the villainous team
 - region page: add the rival (and add to /characters/{that-rival})
 - region page: add the players (and add to /characters/{that-character})
 - region page: tell the legendary duo and trio this region features
@@ -63,6 +63,8 @@ yes, use a table. a evolution of a evolution mean a new column!
 - add Sparking (radio, glowy, darkan, pinkan, albino, etc) variations to change between; but be able to handle unavailable data!
 
 - add frameworkJS!
+
+- regions' map photo: use FMWK cover!
 
 
 
