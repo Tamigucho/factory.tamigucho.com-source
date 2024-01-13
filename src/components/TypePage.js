@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import PokemonItem from './PokemonItem';
 import pokemonsData from '../data/pokemons.json';
-import pokemonTypes from '../data/pokemonTypes.json';
+import pokemonTypes from '../data/types.json';
 //import TypeList from './TypeList'; // Import the TypeList component
 
 const TypePage = () => {

@@ -49,7 +49,7 @@ The project is structured as follows:
   - `PokemonItem.js`: Component for rendering an individual Pokémon entry.
   - `TypePage.js`: Component for rendering the page for a specific Pokémon type.
 - `src/data/`: Directory containing JSON data.
-  - `pokemonTypes.json`: JSON file with Pokémon type data.
+  - `types.json`: JSON file with Pokémon type data.
   - `pokemons.json`: JSON file with Pokémon data used in the app.
 - `public/pokemons.json`: Publicly accessible JSON file with Pokémon data.
 - `src/styles/theme.css`: Custom theme styles for the site.
