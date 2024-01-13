@@ -7,6 +7,15 @@
 - display games as cards
 - display regions as cards
 
+<div class="message spoilers-container" dir="auto">Tamigucho Factory React site:
+- type matchup update: Sugar is 2x effective against Fairy
+- PokemonDetails.js: list attacks learnable and abilities
+- /attacks page; list the first attack: "Grass Crunch"
+- /abilities page<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">03:38</span><div class="time-inner" title="13 January 2024, 03:38:21"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">03:38</span></div></span></div>
+
+inspo evolution table: https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)
+yes, use a table. a evolution of a evolution mean a new column!
+
 - 2019: add Zapdos, Moltres ; 2025: add regirock, registeel, regice, regigigas, regielec, regidrago
 - add groups, for example: Kanto Legendary Trio (3), The Regis (8), Kanto starter trio (3), etc.
 
