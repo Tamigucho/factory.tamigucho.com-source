@@ -17,8 +17,8 @@ import CreaturesPage from './components/CreaturesPage'; // Import the new compon
 import RegionPage from './components/Pages/Regions/RegionPage'; // Import the new component
 import PokemonDetails from './components/PokemonDetails'; // Import the new component
 import RegionsList from './components/Pages/Regions/RegionsList'; // Import the new component
-import GamesPage from './components/GamesPage';
-import GamePage from './components/GamePage';
+import GamesPage from './components/Pages/Games/GamesPage';
+import GamePage from './components/Pages/Games/GamePage';
 import Chart from 'react-apexcharts';
 import './styles/theme.css';
 import './styles/other/blogger2013.css'

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import gamesData from '../data/games.json';
-import regionsData from '../data/regions.json';
+import gamesData from '../../../data/games.json';
+import regionsData from '../../../data/regions.json';
 
 const GamePage = () => {
   const { gameName } = useParams();
