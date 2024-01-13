@@ -20,6 +20,7 @@ const GamePage = () => {
     <div class="col-md">
     <h3>Region: <Link to={`/regions/${region.name.replace(/&|\s/g, '')}`}>{region.name}</Link></h3>
     <h3>Launched in: <Link to={`/years/${game.launch_year}`}>{game.launch_year}</Link></h3>
+    <Link target="_blank" to={`${game.site}`}><button type="button" class="btn btn-primary" data-mdb-ripple-init><img src={`https://www.google.com/s2/favicons?domain=${game.site}&sz=32`} /> Site</button></Link>
     <p>{game.description}</p>
     </div>
   </div>

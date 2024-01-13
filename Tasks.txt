@@ -1,6 +1,8 @@
-- games now have their year of launch!
-- games now have a link to their site!
 - games now have multi-line description (so as pokemons)
+
+- /years/{year} page: display the games launched in that year
+- years/{year}: separate Pokes and Games as a tab menu!
+- /regions/{region}: separate Pokes and Games as a tab menu!
 
 - regions now will have their own photo
 
