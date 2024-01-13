@@ -1,10 +1,4 @@
 Branch: main
-.gitmeta: QmXmGDTuMzv3ev8gNpM8cVX5g6iMgYEbpBz5vgMWfdw62c
-.gitmeta-cid: QmUthGL2qdKcZYAs8gUM5mF89XYUM7eFxXcnDiMpGptjC7
-Legacy/InitialGPTConverstation.txt: QmNP8QcWBgfDGa5ADi8agYYSkr7dRgL2RYmivfoQEyEzsT
-README.md: QmP6Bfa4RB2rTn4tBDuShevGoiUw5uYTPk9NHkWifR1rmu
-src/components/PokemonDetails.js: QmUENCDJumNnRjKqkUybEz3qBMFkHgEPMRkah79fV64Xmg
-src/components/PokemonItem.js: QmfJJt7AywWqvax53NyRV31ubVUivB98g5k6tAtijqaMtJ
-src/components/TypeList.js: QmfJcHUuHy9yEpvHCnnsAYfHDnSisVeUZBM4Ep1tKw5ExP
-src/components/TypePage.js: QmbseFZVkcwgeJUAFoDr2xTWX7Rk3mb4zsH6MjyCA4gxzG
-src/data/types.json: QmU9gS6LBCNTkgx7uT7QzQxvQSx3QS5WnZGJntFzuXXFDS
+src/App.js: QmaqoKHEyTeWKj8TL789PoEtL3jwDDEuvm5Dq1mL6uVkqo
+src/components/Pages/YearPage.js: QmdQgHbJCQki4msmdQWKZbpRh8rEyCn1d1Vfviny836ZW8
+src/components/Pages/YearsPage.js: QmQW1VaXYoDUxTUnkEYo5xcdWeYvi5JFvj7FQS1hmsmrx2
