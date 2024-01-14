@@ -140,6 +140,13 @@
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-brilliant-diamond-and-pokemon-shining-pearl"
     },
     {
+      "name": "Pokémon Legends Arceus",
+      "description": "",
+      "photo": "./img/games/PokémonLegendsArceus/71bhNf8QiOS._AC_SY741_.jpg",
+      "launch_year": "2022",
+      "site": "https://legends.pokemon.com/en-us/"
+    },
+    {
       "name": "Pokémon Scarlet & Violet",
       "description": "",
       "photo": "./img/games/PokémonScarletViolet/scarvi-32b9.webp",

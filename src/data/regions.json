@@ -40,6 +40,11 @@
       "photo": "./img/regions/Galar_artwork.png"
     },
     {
+      "name": "Hisui",
+      "games": ["Pokémon Legends Arceus"],
+      "photo": "./img/regions/Legends_Arceus_Hisui.png"
+    },
+    {
       "name": "Paldea",
       "games": ["Pokémon Scarlet & Violet"],
       "photo": "./img/regions/Paldea_artwork.png"
