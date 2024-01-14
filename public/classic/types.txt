@@ -1,0 +1,19 @@
+<h5>Type: </h5>
+<span style="background:#1ea5dc;color:#fff;padding:5px;border-radius:5px">💧 Water</span>
+<span style="background:#2ecc71;color:#fff;padding:5px;border-radius:5px">🕸️ Bug</span>
+<span style="background:#34495e;color:#fff;padding:5px;border-radius:5px">🌘 Night</span>
+<span style="background:#e74c3c;color:#fff;padding:5px;border-radius:5px">🔥 Fire</span>
+<span style="background:#f1c40f;color:#222;padding:5px;border-radius:5px">⚡ Electric</span>
+<span style="background:#186a3b;color:#fff;padding:5px;border-radius:5px">🌱 Plant</span>
+<span style="background:#d35400;color:#fff;padding:5px;border-radius:5px">🥊 Fighting</span>
+<span style="background:#aab7b8;color:#686c6c;padding:5px;border-radius:5px">⚙️ Steel</span>
+<span style="background:#1d29e3;color:#fff;padding:5px;border-radius:5px">🥤 Plastic</span>
+<span style="background:#da48b3;color:#fff;padding:5px;border-radius:5px">🔮 Psychic</span>
+<span style="background:#f176d0;color:#fff;padding:5px;border-radius:5px">🧚‍♀️ Fairy</span>
+<span style="background:#efb767;color:#222;padding:5px;border-radius:5px">⛱️ Ground</span>
+<span style="background:#686c6c;color:#fff;padding:5px;border-radius:5px">🪨 Rock</span>
+<span style="background:#5dade2;color:#fff;padding:5px;border-radius:5px">🪽 Flying</span>
+<span style="background:gray;color:#000;border:1px solid #000;padding:5px;border-radius:5px">🔘 Neutral</span>
+<span style="background:#fff;color:#000;border:1px solid #000;padding:5px;border-radius:5px">📄 Paper</span>
+<span style="background:purple;color:#fff;padding:5px;border-radius:5px">👻 Ghost</span>
+<span style="background:purple;color:#fff;padding:5px;border-radius:5px">☠️ Poison</span>
