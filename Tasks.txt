@@ -1,6 +1,17 @@
+<div class="message spoilers-container" dir="auto">React Tami Factory site:
+- Show how many gimmicks a given creature have
+- /gimmicks page, listing all of the gimmicks and their tamis
+- .json: {pokemon-name}_{gimmick-name}* should support any suffix, looping into all variations of a gimmick for a given Pokémon (example Mega Charizard X, Mega Charizard Y)<span class="time"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:17</span><div class="time-inner" title="9 January 2024, 05:17:27"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:17</span></div></span></div>
+
 <div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">React Tami Factory site:
 - Show how many gimmicks a given creature have
 - /gimmicks page, listing al...</div></div></div>- /gimmicks/{gimmick}: tell the official generation it will appear and the games name<span class="time"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:47</span><div class="time-inner" title="10 January 2024, 05:47:47"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:47</span></div></span></div>
+
+<div class="message spoilers-container" dir="auto">new-tami-creator bash script:
+- get year, get latest creature ID to increment
+- open json gedit, ask for confirming changes before writing
+- automagically git pish
+- bulk option: put a number, run a loop on that number (so can git push once instead of laboriously repeating)<span class="time"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:15</span><div class="time-inner" title="9 January 2024, 05:15:12"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:15</span></div></span></div>
 
 - games now have multi-line description (so as pokemons)
 
