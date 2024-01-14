@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-display: swap;
+  src: local('Arvo'), local('Arvo-Regular'), url(Arvo-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Arvo Bold';
+  font-style: bold;
+  font-display: swap;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url(Arvo-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Arvo Italic';
+  font-style: bold;
+  font-display: swap;
+  src: local('Arvo Italic'), local('Arvo-Italic'), url(Arvo-Italic.woff2) format('woff2');
+}

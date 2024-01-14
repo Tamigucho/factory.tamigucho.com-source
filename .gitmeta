@@ -1,0 +1,21 @@
+commit QmYP2crNXJXiwD5Bc9DAaYpw1rG6Jsqsf7Zgq9PnGgUnAR
+Branch: main
+
+------------------------------
+
+chown -h 1000:1000 './.gitmeta'
+chmod 0664 './.gitmeta'
+/usr/bin/touch -hcmd "2024-01-14 17:23:38.5622450880 -0300" './.gitmeta'
+/usr/bin/touch -hcad "2024-01-14 16:03:19.8836562190 -0300" './.gitmeta'
+chown -h 1000:1000 './.gitmeta-cid'
+chmod 0664 './.gitmeta-cid'
+/usr/bin/touch -hcmd "2024-01-14 17:23:38.5102475420 -0300" './.gitmeta-cid'
+/usr/bin/touch -hcad "2024-01-14 17:23:38.5542454650 -0300" './.gitmeta-cid'
+chown -h 1000:1000 './Tasks.txt'
+chmod 0664 './Tasks.txt'
+/usr/bin/touch -hcmd "2024-01-14 17:23:32.5265326800 -0300" './Tasks.txt'
+/usr/bin/touch -hcad "2024-01-14 17:23:38.4142520740 -0300" './Tasks.txt'
+chown -h 1000:1000 './src/data/regions.json'
+chmod 0664 './src/data/regions.json'
+/usr/bin/touch -hcmd "2024-01-14 16:39:10.4927395160 -0300" './src/data/regions.json'
+/usr/bin/touch -hcad "2024-01-14 16:39:10.7007549330 -0300" './src/data/regions.json'

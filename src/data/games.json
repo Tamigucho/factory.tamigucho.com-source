@@ -1,0 +1,212 @@
+[
+    {
+      "name": "Pokémon Green",
+      "description": "",
+      "photo": "./img/games/PokémonGreen/pokemon_green_version__game_boy__hq_fake_box_art_by_jadelune_d9tkray-fullview.jpg",
+      "launch_year": "1996",
+      "site": "https://www.pokemon.co.jp/game/other/gb-rg/"
+    },
+    {
+      "name": "Pokémon Red & Blue",
+      "description": "",
+      "photo": "./img/games/PokémonRedBlue/covers.png",
+      "launch_year": "1998",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version"
+    },
+    {
+      "name": "Pokémon Yellow",
+      "description": "",
+      "photo": "./img/games/PokémonYellow/pokemon_yellow_version__game_boy__hq_box_art_by_jadelune_d9tkrb7-fullview.jpg",
+      "launch_year": "1998",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-yellow-special-pikachu-edition"
+    },
+    {
+      "name": "Pokémon Gold & Silver",
+      "description": "",
+      "photo": "./img/games/PokémonGoldSilver/covers.png",
+      "launch_year": "1999",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-gold-version-and-pokemon-silver-version"
+    },
+    {
+      "name": "Pokémon Crystal",
+      "description": "",
+      "photo": "./img/games/PokémonCrystal/covers.png",
+      "launch_year": "2000",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-crystal-version"
+    },
+    {
+      "name": "Pokémon Ruby & Sapphire",
+      "description": "",
+      "photo": "./img/games/PokémonRubySapphire/covers.png",
+      "launch_year": "2002",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-ruby-version-and-pokemon-sapphire-version"
+    },
+    {
+      "name": "Pokémon Emerald",
+      "description": "",
+      "photo": "./img/games/PokémonEmerald/cover.png",
+      "launch_year": "2004",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-emerald-version"
+    },
+    {
+      "name": "Pokémon FireRed & LeafGreen",
+      "description": "",
+      "photo": "./img/games/PokémonFireRedLeafGreen/covers.png",
+      "launch_year": "2004",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-firered-version-and-pokemon-leafgreen-version"
+    },
+    {
+      "name": "Pokémon Diamond & Pearl",
+      "description": "",
+      "photo": "./img/games/PokémonDiamondPearl/PokemonDiamondPearlBoxArt.jpeg",
+      "launch_year": "2006",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-diamond-version-and-pokemon-pearl-version"
+    },
+    {
+        "name": "Pokémon Platinum",
+        "description": "",
+        "photo": "./img/games/PokémonPlatinum/Pokémon_Platinum_cover.png",
+        "launch_year": "2008",
+        "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-platinum-version"
+      },
+    {
+      "name": "Pokémon HeartGold & SoulSilver",
+      "description": "",
+      "photo": "./img/games/PokémonHeartGoldSoulSilver/pokemon-heartgold-soulsilver-box.jpg.72288437277ff2aa05b9b82971213edb.jpg",
+      "launch_year": "2009",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-heartgold-and-soulsilver-versions"
+    },
+    {
+      "name": "Pokémon Black & White",
+      "description": "",
+      "photo": "./img/games/PokémonBlackWhite/Pokémon_Black_and_White_covers.png",
+      "launch_year": "2010",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-black-version-and-pokemon-white-version"
+    },
+    {
+      "name": "Pokémon Black2 & White2",
+      "description": "",
+      "photo": "./img/games/PokémonBlack2White2/Pokemon-Black-and-White-2-Japanese-Cover-Art1.png",
+      "launch_year": "2012",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-black-version-2-and-pokemon-white-version-2"
+    },
+    {
+      "name": "Pokémon X & Y",
+      "description": "",
+      "photo": "./img/games/PokémonXY/Pokemon_xy_box_art.webp",
+      "launch_year": "2013",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-x-and-pokemon-y"
+    },
+    {
+      "name": "Pokémon OmegaRuby & AlphaSapphire",
+      "description": "",
+      "photo": "./img/games/PokémonOmegaRubyAlphaSapphire/Pokemon-oras-box-art.png.png",
+      "launch_year": "2014",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-omega-ruby-and-pokemon-alpha-sapphire"
+    },
+    {
+      "name": "Pokémon Sun & Moon",
+      "description": "",
+      "photo": "./img/games/PokémonSunMoon/654-pokemon-sun-and-moon30ff196fb49e629c8704ff0000daffed.jpg",
+      "launch_year": "2016",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-sun-and-pokemon-moon"
+    },
+    {
+      "name": "Pokémon UltraSun & UltraMoon",
+      "description": "",
+      "photo": "./img/games/PokémonUltraSunUltraMoon/20992736_708311192694227_4067019587529043957_n.png",
+      "launch_year": "2017",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-ultra-sun-and-pokemon-ultra-moon"
+    },
+    {
+      "name": "Pokémon Let's Go Pikachu & Let's Go Eevee",
+      "description": "",
+      "photo": "./img/games/PokémonLet'sGoPikachuLet'sGoEevee/large.pikavee.png.d7bf0a83bc6ff9577002fdd2d8d5d68c.png",
+      "launch_year": "2018",
+      "site": "https://pokemonletsgo.pokemon.com/pt-pt/"
+    },
+    {
+      "name": "Pokémon Sword & Shield",
+      "description": "",
+      "photo": "./img/games/PokémonSwordShield/large.swordnshield.png.051ae8b21788af441c7493b55ff8ad85.png",
+      "launch_year": "2019",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-sword-and-pokemon-shield"
+    },
+    {
+      "name": "Pokémon BrilliantDiamond & ShiningPearl",
+      "description": "",
+      "photo": "./img/games/PokémonBrilliantDiamondShiningPearl/dfzuzu3-e640a9c8-6f46-49e4-bf35-7ccc13c4714f.png",
+      "launch_year": "2021",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-brilliant-diamond-and-pokemon-shining-pearl"
+    },
+    {
+      "name": "Pokémon Legends Arceus",
+      "description": "",
+      "photo": "./img/games/PokémonLegendsArceus/71bhNf8QiOS._AC_SY741_.jpg",
+      "launch_year": "2022",
+      "site": "https://legends.pokemon.com/en-us/"
+    },
+    {
+      "name": "Pokémon Scarlet & Violet",
+      "description": "",
+      "photo": "./img/games/PokémonScarletViolet/scarvi-32b9.webp",
+      "launch_year": "2022",
+      "site": "https://scarletviolet.pokemon.com/en-us/"
+    },
+    {
+      "name": "Tamigucho Pink & Dark",
+      "description": "",
+      "photo": "./img/games/TamiguchoPinkDark/covers.png",
+      "launch_year": "2027",
+      "site": "https://pinkdark.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho Bono & Chimp",
+      "description": "",
+      "photo": "./img/games/TamiguchoBonoChimp/covers.png",
+      "launch_year": "2030",
+      "site": "https://bonochimp.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho Sunny & Rainny",
+      "description": "",
+      "photo": "./img/games/TamiguchoSunnyRainny/",
+      "launch_year": "2033",
+      "site": "https://sunnyrainny.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho A & B",
+      "description": "",
+      "photo": "./img/games/TamiguchoAB/covers.png",
+      "launch_year": "2036",
+      "site": "https://ab.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho Carbon & Oxygen",
+      "description": "",
+      "photo": "./img/games/TamiguchoCarbonOxygen/",
+      "launch_year": "2039",
+      "site": "https://carbonoxygen.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho CO2",
+      "description": "",
+      "photo": "./img/games/TamiguchoCO2/",
+      "launch_year": "2041",
+      "site": "https://carbonoxygen.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho Mercury & Ethanol",
+      "description": "",
+      "photo": "./img/games/TamiguchoMercuryEthanol/covers.png",
+      "launch_year": "2042",
+      "site": "https://mercuryethanol.tamigucho.com/"
+    },
+    {
+      "name": "Tamigucho Salt & Sugar",
+      "description": "",
+      "photo": "./img/games/TamiguchoSaltSugar/",
+      "launch_year": "2045",
+      "site": "https://saltsugar.tamigucho.com/"
+    }
+  ]

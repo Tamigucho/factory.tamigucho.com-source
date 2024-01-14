@@ -1,0 +1,97 @@
+[
+    {
+      "name": "Kanto",
+      "games": ["Pokémon Green", "Pokémon Red & Blue", "Pokémon Yellow", "Pokémon FireRed & LeafGreen", "Pokémon Let's Go Pikachu & Let's Go Eevee"],
+      "photo": "./img/regions/LGPE_Kanto_Map.png"
+    },
+    {
+      "name": "Johto",
+      "games": ["Pokémon Gold & Silver", "Pokémon Crystal", "Pokémon HeartGold & SoulSilver"],
+      "photo": "./img/regions/JohtoMap.png"
+    },
+    {
+      "name": "Hoenn",
+      "games": ["Pokémon Ruby & Sapphire", "Pokémon Emerald", "Pokémon OmegaRuby & AlphaSapphire"],
+      "photo": "./img/regions/Hoenn_ORAS.png"
+    },
+    {
+      "name": "Sinnoh",
+      "games": ["Pokémon Diamond & Pearl", "Pokémon Platinum", "Pokémon BrilliantDiamond & ShiningPearl"],
+      "photo": "./img/regions/Sinnoh_BDSP_artwork.png"
+    },
+    {
+      "name": "Unova",
+      "games": ["Pokémon Black & White", "Pokémon Black2 & White2"],
+      "photo": "./img/regions/Unova_B2W2_alt.png"
+    },
+    {
+      "name": "Kalos",
+      "games": ["Pokémon X & Y"],
+      "photo": "./img/regions/Kalos_alt.png"
+    },
+    {
+      "name": "Alola",
+      "games": ["Pokémon Sun & Moon", "Pokémon UltraSun & UltraMoon"],
+      "photo": "./img/regions/Alola_USUM_artwork.png"
+    },
+    {
+      "name": "Galar",
+      "games": ["Pokémon Sword & Shield"],
+      "photo": "./img/regions/Galar_artwork.png"
+    },
+    {
+      "name": "Hisui",
+      "games": ["Pokémon Legends Arceus"],
+      "photo": "./img/regions/Legends_Arceus_Hisui.png"
+    },
+    {
+      "name": "Paldea",
+      "games": ["Pokémon Scarlet & Violet"],
+      "photo": "./img/regions/Paldea_artwork.png"
+    },
+    {
+      "name": "Voidea",
+      "games": [],
+      "photo": "./img/regions/"
+    },
+    {
+      "name": "Kairo",
+      "games": ["Tamigucho Pink & Dark"],
+      "photo": "./img/regions/"
+    },
+    {
+      "name": "Affrah",
+      "games": ["Tamigucho Bono & Chimp"],
+      "photo": "./img/regions/"
+    },
+    {
+      "name": "Brava",
+      "games": ["Tamigucho Sunny & Rainny"],
+      "photo": "./img/regions/"
+    },
+    {
+      "name": "Munnah",
+      "games": ["Tamigucho A & B"],
+      "photo": "./img/regions/"
+    },
+    {
+      "name": "Merca",
+      "games": ["Tamigucho Carbon & Oxygen", "Tamigucho CO2"],
+      "photo": "./img/regions/"
+    },
+    {
+      "name": "Valorium",
+      "games": ["Tamigucho Mercury & Ethanol"],
+      "photo": "./img/regions/"
+    },
+    {
+        "name": "Exteca",
+        "games": [],
+        "photo": "./img/regions/"
+    },
+    {
+      "name": "Karis",
+      "games": ["Tamigucho Salt & Sugar"],
+      "photo": "./img/regions/"
+    }
+  ]
