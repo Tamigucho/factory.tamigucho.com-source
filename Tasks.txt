@@ -1,3 +1,5 @@
+- add sample Hisuian Pokemon
+
 - games now have multi-line description (so as pokemons)
 
 - /years/{year} page: display the games launched in that year
