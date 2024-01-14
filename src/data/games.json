@@ -157,49 +157,49 @@
       "name": "Tamigucho Bono & Chimp",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2030",
+      "site": "https://bonochimp.tamigucho.com/"
     },
     {
       "name": "Tamigucho Sunny & Rainny",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2033",
+      "site": "https://sunnyrainny.tamigucho.com/"
     },
     {
       "name": "Tamigucho A & B",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2036",
+      "site": "https://ab.tamigucho.com/"
     },
     {
       "name": "Tamigucho Carbon & Oxygen",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2039",
+      "site": "https://carbonoxygen.tamigucho.com/"
     },
     {
       "name": "Tamigucho CO2",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2041",
+      "site": "https://carbonoxygen.tamigucho.com/"
     },
     {
       "name": "Tamigucho Mercury & Ethanol",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2042",
+      "site": "https://mercuryethanol.tamigucho.com/"
     },
     {
       "name": "Tamigucho Salt & Sugar",
       "description": "",
       "photo": "./img/games/",
-      "launch_year": "TBA",
-      "site": "https://tamigucho.com/"
+      "launch_year": "2045",
+      "site": "https://saltsugar.tamigucho.com/"
     }
   ]
