@@ -32,6 +32,12 @@ yes, use a table. a evolution of a evolution mean a new column!
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 
+<a href="https://factory.tamigucho.com/gimmicks/SuperMorph" target="_blank">
+<a href="https://factory.tamigucho.com/gimmicks/XAttacks" target="_blank">
+<a href="https://factory.tamigucho.com/gimmicks/Ultratype" target="_blank">
+<a href="https://factory.tamigucho.com/gimmicks/Kyusion" target="_blank">
+<a href="https://factory.tamigucho.com/gimmicks/Timeform" target="_blank">
+
 - /regions/{region} and /games/{game}: add the gimmicks associated
 
 - regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
