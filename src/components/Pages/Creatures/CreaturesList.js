@@ -18,7 +18,7 @@ const CreaturesList = () => {
  {Object.entries(creaturesByYear).map(([year, creatures]) => (
   <div key={year} class="year-group">
   <h2>
-    {year} <span className="badge bg-secondary" title={`Number of creatures made in this year: ${creatures.length}`}>{creatures.length}</span>
+  🗓️ {year} <span className="badge bg-secondary" title={`Number of creatures made in this year: ${creatures.length}`}>{creatures.length}</span>
   </h2>
   {creatures.map((creatures) => (
     <Link key={creature.id} to={`/creatures/${creature.name.replace(/\.|-|\s/g, '')}`}>
