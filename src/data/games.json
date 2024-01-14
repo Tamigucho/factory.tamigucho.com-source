@@ -21,13 +21,6 @@
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-yellow-special-pikachu-edition"
     },
     {
-      "name": "Pokémon Let's Go Pikachu & Let's Go Eevee",
-      "description": "",
-      "photo": "./img/games/PokémonLet'sGoPikachuLet'sGoEevee/large.pikavee.png.d7bf0a83bc6ff9577002fdd2d8d5d68c.png",
-      "launch_year": "2018",
-      "site": "https://pokemonletsgo.pokemon.com/pt-pt/"
-    },
-    {
       "name": "Pokémon Gold & Silver",
       "description": "",
       "photo": "./img/games/PokémonGoldSilver/covers.png",
@@ -40,13 +33,6 @@
       "photo": "./img/games/PokémonCrystal/covers.png",
       "launch_year": "2000",
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-crystal-version"
-    },
-    {
-      "name": "Pokémon HeartGold & SoulSilver",
-      "description": "",
-      "photo": "./img/games/PokémonHeartGoldSoulSilver/pokemon-heartgold-soulsilver-box.jpg.72288437277ff2aa05b9b82971213edb.jpg",
-      "launch_year": "2009",
-      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-heartgold-and-soulsilver-versions"
     },
     {
       "name": "Pokémon Ruby & Sapphire",
@@ -70,13 +56,6 @@
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-firered-version-and-pokemon-leafgreen-version"
     },
     {
-      "name": "Pokémon OmegaRuby & AlphaSapphire",
-      "description": "",
-      "photo": "./img/games/PokémonOmegaRubyAlphaSapphire/Pokemon-oras-box-art.png.png",
-      "launch_year": "2014",
-      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-omega-ruby-and-pokemon-alpha-sapphire"
-    },
-    {
       "name": "Pokémon Diamond & Pearl",
       "description": "",
       "photo": "./img/games/PokémonDiamondPearl/PokemonDiamondPearlBoxArt.jpeg",
@@ -91,11 +70,11 @@
         "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-platinum-version"
       },
     {
-      "name": "Pokémon BrilliantDiamond & ShiningPearl",
+      "name": "Pokémon HeartGold & SoulSilver",
       "description": "",
-      "photo": "./img/games/PokémonBrilliantDiamondShiningPearl/dfzuzu3-e640a9c8-6f46-49e4-bf35-7ccc13c4714f.png",
-      "launch_year": "2021",
-      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-brilliant-diamond-and-pokemon-shining-pearl"
+      "photo": "./img/games/PokémonHeartGoldSoulSilver/pokemon-heartgold-soulsilver-box.jpg.72288437277ff2aa05b9b82971213edb.jpg",
+      "launch_year": "2009",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-heartgold-and-soulsilver-versions"
     },
     {
       "name": "Pokémon Black & White",
@@ -119,6 +98,13 @@
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-x-and-pokemon-y"
     },
     {
+      "name": "Pokémon OmegaRuby & AlphaSapphire",
+      "description": "",
+      "photo": "./img/games/PokémonOmegaRubyAlphaSapphire/Pokemon-oras-box-art.png.png",
+      "launch_year": "2014",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-omega-ruby-and-pokemon-alpha-sapphire"
+    },
+    {
       "name": "Pokémon Sun & Moon",
       "description": "",
       "photo": "./img/games/PokémonSunMoon/654-pokemon-sun-and-moon30ff196fb49e629c8704ff0000daffed.jpg",
@@ -133,11 +119,25 @@
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-ultra-sun-and-pokemon-ultra-moon"
     },
     {
+      "name": "Pokémon Let's Go Pikachu & Let's Go Eevee",
+      "description": "",
+      "photo": "./img/games/PokémonLet'sGoPikachuLet'sGoEevee/large.pikavee.png.d7bf0a83bc6ff9577002fdd2d8d5d68c.png",
+      "launch_year": "2018",
+      "site": "https://pokemonletsgo.pokemon.com/pt-pt/"
+    },
+    {
       "name": "Pokémon Sword & Shield",
       "description": "",
       "photo": "./img/games/PokémonSwordShield/large.swordnshield.png.051ae8b21788af441c7493b55ff8ad85.png",
       "launch_year": "2019",
       "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-sword-and-pokemon-shield"
+    },
+    {
+      "name": "Pokémon BrilliantDiamond & ShiningPearl",
+      "description": "",
+      "photo": "./img/games/PokémonBrilliantDiamondShiningPearl/dfzuzu3-e640a9c8-6f46-49e4-bf35-7ccc13c4714f.png",
+      "launch_year": "2021",
+      "site": "https://www.pokemon.com/us/pokemon-video-games/pokemon-brilliant-diamond-and-pokemon-shining-pearl"
     },
     {
       "name": "Pokémon Scarlet & Violet",
@@ -156,49 +156,49 @@
     {
       "name": "Tamigucho Bono & Chimp",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoBonoChimp/covers.png",
       "launch_year": "2030",
       "site": "https://bonochimp.tamigucho.com/"
     },
     {
       "name": "Tamigucho Sunny & Rainny",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoSunnyRainny/",
       "launch_year": "2033",
       "site": "https://sunnyrainny.tamigucho.com/"
     },
     {
       "name": "Tamigucho A & B",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoAB/covers.png",
       "launch_year": "2036",
       "site": "https://ab.tamigucho.com/"
     },
     {
       "name": "Tamigucho Carbon & Oxygen",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoCarbonOxygen/",
       "launch_year": "2039",
       "site": "https://carbonoxygen.tamigucho.com/"
     },
     {
       "name": "Tamigucho CO2",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoCO2/",
       "launch_year": "2041",
       "site": "https://carbonoxygen.tamigucho.com/"
     },
     {
       "name": "Tamigucho Mercury & Ethanol",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoMercuryEthanol/covers.png",
       "launch_year": "2042",
       "site": "https://mercuryethanol.tamigucho.com/"
     },
     {
       "name": "Tamigucho Salt & Sugar",
       "description": "",
-      "photo": "./img/games/",
+      "photo": "./img/games/TamiguchoSaltSugar/",
       "launch_year": "2045",
       "site": "https://saltsugar.tamigucho.com/"
     }
