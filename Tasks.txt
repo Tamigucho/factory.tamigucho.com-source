@@ -1,3 +1,7 @@
+<div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">React Tami Factory site:
+- Show how many gimmicks a given creature have
+- /gimmicks page, listing al...</div></div></div>- /gimmicks/{gimmick}: tell the official generation it will appear and the games name<span class="time"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:47</span><div class="time-inner" title="10 January 2024, 05:47:47"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">05:47</span></div></span></div>
+
 - games now have multi-line description (so as pokemons)
 
 - /years/{year} page: display the games launched in that year
@@ -31,6 +35,8 @@ yes, use a table. a evolution of a evolution mean a new column!
 - merge the current factory.tamigucho.com site into: /media/daniella/B/git/Tamigucho/Repos/creatures (annotate task to update gh/lab accordingly as branch changed)
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
+
+draw tami examples for its gimmicks; task annotated in: '/media/daniella/B/git/Tamigucho/&meta/Private/creaturesNew/queue/Tamiguchos/New Tamiguchos'
 
 <a href="https://factory.tamigucho.com/gimmicks/SuperMorph" target="_blank">
 <a href="https://factory.tamigucho.com/gimmicks/XAttacks" target="_blank">
