@@ -2,6 +2,7 @@
 
 /* Importing Bootstrap Material Design base styles */
 @import 'bootstrap-material-design/dist/css/bootstrap-material-design.min.css';
+@import './other/blogger2013.css';
 
 /* Define colors for Pokémon types */
 :root {
@@ -63,6 +64,10 @@ logo .badge {
 }
 
 /*page-common.css:*/
+body {
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  line-height: inherit !important;
+}
 logo, .logo, .breaditem {
   position: relative;
   min-width: 47px;
@@ -70,6 +75,33 @@ logo, .logo, .breaditem {
   color: #fff !important;
   border-radius: 10px;
   padding: 0px 0px 8px 3px;
+}
+.footer, footer {
+  background: #00A185;
+  width: 100%;
+  color: #efefef;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.footer-shadow {
+  width: calc(100% + 40px);
+  height: 24px;
+  border-bottom: 1px solid #333;
+  box-shadow: 0px 16px 16px -8px black;
+  z-index: 1000;
+  position: relative;
+  top: -34px;
+  left: -20px;
+}
+footer a {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+footer a:hover {
+  opacity: 1;
+}
+.social-icons {
+  float: right;
 }
 
 /*page-custom.css:*/
@@ -86,6 +118,10 @@ logo, .logo, .breaditem {
   color: #333 !important;
   display: inline-block;
   border-radius: 0px !important;
+}
+.footer, footer {
+  background: #3AA3CB;
+  color: #fff;
 }
 
 /* React Bootstrap Material exclusive:*/

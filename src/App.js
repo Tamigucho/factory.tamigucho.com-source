@@ -21,7 +21,6 @@ import RegionsList from './components/Pages/Regions/RegionsList'; // Import the 
 import GamesPage from './components/Pages/Games/GamesPage';
 import GamePage from './components/Pages/Games/GamePage';
 import './styles/theme.css';
-import './styles/other/blogger2013.css'
 
 function App() {
   const [pokemons, setPokemons] = useState([]);

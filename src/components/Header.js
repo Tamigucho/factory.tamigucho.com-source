@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import TypeList from './Pages/Types/TypeList';
 import PropTypes from 'prop-types';
 import pokemons from '../data/pokemons.json';
 
