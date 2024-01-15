@@ -74,6 +74,7 @@ function Home() {
     <div id="andlogo"></div></div>
     <center>
     <br/><br/><h5>Digital animals created since 2010 to {lastYear} by <a href="https://danimesq.github.io/" target="_blank">Daniella Mesquita</a>.</h5></center>
+    <PokemonList pokemons={filteredPokemons} />
     <div class="chartyears">
       <p>new tami creatures:</p>
       <p>growth from 2010 to {lastYear}</p>
@@ -97,7 +98,6 @@ function Home() {
           </li>
         </ul>  
         </div>
-        <PokemonList pokemons={filteredPokemons} />
     </div>
   );
 }
