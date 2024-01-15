@@ -6,9 +6,19 @@ import PokemonList from './PokemonList';
 function Home() {
     const [pokemons, setPokemons] = useState([]);
 
+    useEffect(() => {
+      setPokemons(pokemonsData); // Set pokemons to pokemonsData
+    }, []); // Empty dependency array means this effect runs once on mount.
+
+    const [searchTerm, setSearchTerm] = useState('');
+
     const filteredPokemons = pokemons.filter(pokemon =>
         pokemon.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
+
+      const handleSearch = (term) => {
+        setSearchTerm(term);
+      };
 
   const groupByYear = (data) => {
     return data.reduce((groups, pokemon) => {

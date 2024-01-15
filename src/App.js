@@ -25,18 +25,14 @@ import './styles/other/blogger2013.css'
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const [creatureCount, setCreatureCount] = useState(0); // New state for creatureCount
 
   useEffect(() => {
-    setPokemons(pokemonsData);
+    setPokemons(pokemonsData); // Set pokemons to pokemonsData
+  }, []); // Empty dependency array means this effect runs once on mount.
 
-    // Fetch creatureCount from public/api.json
-    fetch('/api.json')
-      .then(response => response.json())
-      .then(data => setCreatureCount(data.creatureCount));
-  }, []);
+  const creatureCount = pokemons.length;
+
+  const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearch = (term) => {
     setSearchTerm(term);
