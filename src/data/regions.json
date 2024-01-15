@@ -50,11 +50,6 @@
       "photo": "./img/regions/Paldea_artwork.png"
     },
     {
-      "name": "Voidea",
-      "games": [],
-      "photo": "./img/regions/"
-    },
-    {
       "name": "Kairo",
       "games": ["Tamigucho Pink & Dark"],
       "photo": "./img/regions/"

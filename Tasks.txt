@@ -1,6 +1,4 @@
-- merge the current factory.tamigucho.com site into: /media/daniella/B/git/Tamigucho/Repos/creatures (annotate task to update gh/lab accordingly as branch changed)
-
-- add sample Hisuian Pokemon
+- like Types, Categories: "InfraTitans", "Legendaries", "Mythicals", "Starters", "Kairo Starters", etc.
 
 - games now have multi-line description (so as pokemons)
 

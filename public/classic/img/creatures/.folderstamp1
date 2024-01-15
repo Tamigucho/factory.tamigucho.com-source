@@ -1,0 +1,192 @@
+This folder: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/creatures-2017-site
+
+  File: ./2011
+  Size: 0         	Blocks: 0          IO Block: 4096   directory
+Device: 8,20	Inode: 3048390     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.727566800 -0300
+Modify: 2024-01-14 22:14:27.820045300 -0300
+Change: 2024-01-14 22:14:27.820045300 -0300
+ Birth: 2023-06-18 17:47:48.733881300 -0300
+IPFS hash: 
+------------------------------
+  File: ./2012
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 3048377     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.742566100 -0300
+Modify: 2023-08-07 23:59:50.343987900 -0300
+Change: 2024-01-14 17:33:35.236635100 -0300
+ Birth: 2023-06-18 17:47:48.726902000 -0300
+IPFS hash: 
+------------------------------
+  File: ./2013
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 3048306     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.763569200 -0300
+Modify: 2023-08-07 23:59:50.632460400 -0300
+Change: 2024-01-14 17:33:35.240635200 -0300
+ Birth: 2023-06-18 17:47:48.719914400 -0300
+IPFS hash: 
+------------------------------
+  File: ./2014
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 3048200     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.774570800 -0300
+Modify: 2023-08-07 23:59:50.661217800 -0300
+Change: 2024-01-14 17:33:35.244635200 -0300
+ Birth: 2023-06-18 17:47:48.712882900 -0300
+IPFS hash: 
+------------------------------
+  File: ./2015
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 3048188     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.792572700 -0300
+Modify: 2023-08-07 23:59:50.700376100 -0300
+Change: 2024-01-14 17:33:35.244635200 -0300
+ Birth: 2023-06-18 17:47:48.705890800 -0300
+IPFS hash: 
+------------------------------
+  File: ./2016
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 3048182     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.809587300 -0300
+Modify: 2023-08-07 23:59:50.746617500 -0300
+Change: 2024-01-14 17:33:35.248635200 -0300
+ Birth: 2023-06-18 17:47:48.698767500 -0300
+IPFS hash: 
+------------------------------
+  File: ./2017
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 3047989     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.829124900 -0300
+Modify: 2023-08-07 23:59:51.060522100 -0300
+Change: 2024-01-14 17:33:35.252635200 -0300
+ Birth: 2023-06-18 17:47:48.457724200 -0300
+IPFS hash: 
+------------------------------
+  File: ./Craboll.png
+  Size: 745733    	Blocks: 1464       IO Block: 4096   regular file
+Device: 8,20	Inode: 3094430     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:48.568706600 -0300
+Modify: 2022-06-27 15:52:27.000000000 -0300
+Change: 2024-01-14 17:33:35.260635300 -0300
+ Birth: 2023-06-18 17:48:43.371955700 -0300
+IPFS hash: QmSZYwKRQGzZYDPKSfzjxsVgfMdX9sKLrmSGRmx6rHerRL
+------------------------------
+  File: ./Craboll.svg
+  Size: 89810     	Blocks: 176        IO Block: 4096   regular file
+Device: 8,20	Inode: 2581141     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:48.700707300 -0300
+Modify: 2024-01-11 18:37:01.934236500 -0300
+Change: 2024-01-14 17:33:35.260635300 -0300
+ Birth: 2024-01-11 18:37:01.886242700 -0300
+IPFS hash: QmW3S7bsYmatyf4XznRqd6yWdrwZrgk8TABPdnFiE4P5Sf
+------------------------------
+  File: ./pending
+  Size: 0         	Blocks: 0          IO Block: 4096   directory
+Device: 8,20	Inode: 4178280     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.837124700 -0300
+Modify: 2023-08-08 00:16:36.238487800 -0300
+Change: 2024-01-14 17:33:35.256635200 -0300
+ Birth: 2023-08-08 00:16:28.480910200 -0300
+IPFS hash: 
+------------------------------
+  File: ./Poltoilleist.png
+  Size: 1097580   	Blocks: 2144       IO Block: 4096   regular file
+Device: 8,20	Inode: 3094433     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:48.864708200 -0300
+Modify: 2022-08-13 13:36:13.000000000 -0300
+Change: 2024-01-14 17:33:35.264635300 -0300
+ Birth: 2023-06-18 17:48:43.495668100 -0300
+IPFS hash: Qmci1UPimzc3dHtDjXk9eFKnq35ZTgfqvwnwmXgC99oamA
+------------------------------
+  File: ./Poltoilleist.svg
+  Size: 324546    	Blocks: 640        IO Block: 4096   regular file
+Device: 8,20	Inode: 2495057     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:48.940708700 -0300
+Modify: 2024-01-11 18:42:41.755816800 -0300
+Change: 2024-01-14 17:33:35.268635300 -0300
+ Birth: 2024-01-11 18:42:41.659824300 -0300
+IPFS hash: QmV3248vwuJkTUhqckoSo4ZgQY6SVGtNB4rGKVXsPeao2o
+------------------------------
+  File: ./Popcanth(F).png
+  Size: 1228179   	Blocks: 2400       IO Block: 4096   regular file
+Device: 8,20	Inode: 3094437     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:49.260710500 -0300
+Modify: 2022-08-13 13:36:21.000000000 -0300
+Change: 2024-01-14 17:33:35.584636900 -0300
+ Birth: 2023-06-18 17:48:43.671868700 -0300
+IPFS hash: QmdaChhrjZuuDfJRJJiFRC4ButffKj58GPHdqcnJSNr3VY
+------------------------------
+  File: ./Popcanth(F).svg
+  Size: 442917    	Blocks: 872        IO Block: 4096   regular file
+Device: 8,20	Inode: 2705451     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:49.340710900 -0300
+Modify: 2024-01-11 18:49:09.048240300 -0300
+Change: 2024-01-14 17:33:35.588636900 -0300
+ Birth: 2024-01-11 18:49:08.612261100 -0300
+IPFS hash: QmWvgfGD4JTAF4R7jU93eaCf7VgCnf9TpEhS9MiTYJV8Tr
+------------------------------
+  File: ./Popcanth.png
+  Size: 1329150   	Blocks: 2600       IO Block: 4096   regular file
+Device: 8,20	Inode: 3094436     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:49.844713800 -0300
+Modify: 2022-08-13 13:36:24.000000000 -0300
+Change: 2024-01-14 17:33:35.272635300 -0300
+ Birth: 2023-06-18 17:48:43.633651500 -0300
+IPFS hash: QmTdqq7f4GU6e5tSULUKFkqyTeDnK7cJyeSgoRKUZjQ4F4
+------------------------------
+  File: ./Popcanth.svg
+  Size: 554542    	Blocks: 1088       IO Block: 4096   regular file
+Device: 8,20	Inode: 2581143     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:49.952714400 -0300
+Modify: 2024-01-11 18:46:43.763785800 -0300
+Change: 2024-01-14 17:33:35.580636900 -0300
+ Birth: 2024-01-11 18:46:43.539798500 -0300
+IPFS hash: QmZ1kq4mvvmVVgykmFbjuBhiM1HfWd9oM98GmYvbvHuhN5
+------------------------------
+  File: ./register.txt
+  Size: 409       	Blocks: 0          IO Block: 4096   regular file
+Device: 8,20	Inode: 2991461     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:52.308728000 -0300
+Modify: 2017-06-16 16:22:06.000000000 -0300
+Change: 2024-01-14 17:33:35.592636900 -0300
+ Birth: 2023-06-18 17:47:47.245028100 -0300
+IPFS hash: QmPL1hTLxWRDjjxvZAi7og5wSJ8hRG4Dj5EaMhDywjniGp
+------------------------------
+  File: ./TamiScans
+  Size: 0         	Blocks: 0          IO Block: 4096   directory
+Device: 8,20	Inode: 4171917     Links: 1
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2023-08-13 21:36:08.865126500 -0300
+Modify: 2023-07-15 21:45:17.172090300 -0300
+Change: 2024-01-14 17:33:35.256635200 -0300
+ Birth: 2023-07-15 21:42:05.709442100 -0300
+IPFS hash: 
+------------------------------
+  File: ./Tasks.txt
+  Size: 12        	Blocks: 0          IO Block: 4096   regular file
+Device: 8,20	Inode: 4178308     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:33:52.256727700 -0300
+Modify: 2023-08-08 00:23:23.357993300 -0300
+Change: 2024-01-14 17:33:35.596637000 -0300
+ Birth: 2023-08-08 00:23:23.350508100 -0300
+IPFS hash: Qmaz5ZRnfmGRMCQocpZbRdW3eNmJoXeJaFmBWH2Wqj2t59
+------------------------------

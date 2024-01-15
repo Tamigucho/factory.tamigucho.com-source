@@ -1,0 +1,72 @@
+This folder: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public
+
+  File: ./api.json
+  Size: 25        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 58467       Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:53:58.506874000 -0300
+Modify: 2024-01-14 17:53:38.879365700 -0300
+Change: 2024-01-14 17:53:38.879365700 -0300
+ Birth: 2024-01-14 17:50:25.626218000 -0300
+IPFS hash: QmR5XKuuKKSvgwiyGYdFrATFpmXEZD1sjooQB7h9qMTLU6
+------------------------------
+  File: ./classic
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 22811       Links: 1
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:13:17.330571300 -0300
+Modify: 2024-01-14 22:47:25.525567800 -0300
+Change: 2024-01-14 22:47:25.525567800 -0300
+ Birth: 2024-01-14 17:13:17.330571300 -0300
+IPFS hash: 
+------------------------------
+  File: ./CNAME
+  Size: 22        	Blocks: 0          IO Block: 4096   regular file
+Device: 8,20	Inode: 4189536     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:21:04.175492300 -0300
+Modify: 2023-08-14 01:03:23.462664000 -0300
+Change: 2024-01-14 17:18:48.987494000 -0300
+ Birth: 2023-08-14 01:03:23.453873700 -0300
+IPFS hash: QmbMvhUsdbZbBTHqWLhFp5Mow2tP11SHj9Kochq9U2TgCV
+------------------------------
+  File: ./favicon.ico
+  Size: 1150      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 3587255     Links: 1
+Access: (0600/-rw-------)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:52:01.278334500 -0300
+Modify: 2023-08-23 21:59:02.729630600 -0300
+Change: 2024-01-14 17:50:26.250189100 -0300
+ Birth: 2024-01-14 17:50:26.182192300 -0300
+IPFS hash: QmPiaAbxPRPMTxdM8tGgxsCgqSV46s8MRo5ht5Yz6TfdSY
+------------------------------
+  File: ./fonts
+  Size: 0         	Blocks: 0          IO Block: 4096   directory
+Device: 8,20	Inode: 23377       Links: 1
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:48:52.467117200 -0300
+Modify: 2024-01-14 17:48:52.467117200 -0300
+Change: 2024-01-14 17:48:52.467117200 -0300
+ Birth: 2024-01-14 17:48:52.467117200 -0300
+IPFS hash: 
+------------------------------
+  File: ./img
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,20	Inode: 23387       Links: 1
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:48:52.467117200 -0300
+Modify: 2024-01-14 21:55:38.081423700 -0300
+Change: 2024-01-14 21:55:38.081423700 -0300
+ Birth: 2024-01-14 17:48:52.467117200 -0300
+IPFS hash: 
+------------------------------
+  File: ./index.html
+  Size: 1005      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,20	Inode: 58468       Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-01-14 17:52:01.618322500 -0300
+Modify: 2024-01-11 05:58:59.415177800 -0300
+Change: 2024-01-14 17:50:26.410181700 -0300
+ Birth: 2024-01-14 17:50:26.266188400 -0300
+IPFS hash: QmVdmdRSyhSRxY5VkYHMEbRysQHdjUKTsgk4KstzCFxLkV
+------------------------------

@@ -13,9 +13,8 @@ const Header = ({ creatureCount }) => {
     <header className="header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            Pokémons <span className="badge bg-secondary" title={tooltip}>{creatureCount}</span>
-          </Link>
+        <logo alt="Phonemon" title="Phonemon">
+          <span className="badge bg-secondary" title={tooltip}>{creatureCount}</span></logo>
           <button
             className="navbar-toggler"
             type="button"

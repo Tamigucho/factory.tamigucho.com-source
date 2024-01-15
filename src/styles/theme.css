@@ -39,7 +39,8 @@
   background-color: #3AA3CB!important; /* Blue color for the header */
 }
 
-.navbar-brand .badge {
+/* FRAMEWORK.JS LATER MERGE WITH ----> */
+logo .badge {
   background: #ff9800 !important;
   border-radius: 3px !important;
   font-size: 12px !important;
@@ -60,6 +61,40 @@
   padding: 5px 10px;
   font-size: 0.8em;
 }
+
+/*page-common.css:*/
+logo, .logo, .breaditem {
+  position: relative;
+  min-width: 47px;
+  font-size: 30px;
+  color: #fff !important;
+  border-radius: 10px;
+  padding: 0px 0px 8px 3px;
+}
+
+/*page-custom.css:*/
+.logo, logo {
+  width: 140px !important;
+  height: 38px !important;
+  background: url(../../public/img/institutional/2018/logotype.png) no-repeat no-repeat 0px 0px !important;
+    background-size: auto;
+  background-size: auto !important;
+  background-size: 140px !important;
+  padding: 0 0px 45px 120px !important;
+  line-height: 41px !important;
+  top: 3px !important;
+  color: #333 !important;
+  display: inline-block;
+  border-radius: 0px !important;
+}
+
+/* React Bootstrap Material exclusive:*/
+.logo, logo {
+  line-height: 20px !important;
+  top: -2px !important;
+  left: -15px;
+}
+/* <---- FRAMEWORK.JS LATER MERGE WITH */
 
 /* Search component styles */
 .search {
