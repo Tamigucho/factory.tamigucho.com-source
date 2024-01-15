@@ -56,15 +56,10 @@ draw tami examples for its gimmicks; task annotated in: '/media/daniella/B/git/T
 
 - list of type combos (such as Carkol/Coalossal's Rock+Fire+Rubber), and the Pokémons using them
 
-
-- add Home.js page, mv App.js' Pokemons to that
-- apexchart: mv apexchart to that Home.js (not anymore appearing globally)
-
 - make the search element appear only /types/{type}, /years/{year} and /creatures/{Name}, and ensure the search work
 - include the multi-line descriptions in the search!
 - add tags (such as bulb for both bulball and boolb) and make'em searchable!
 
-- HomePage.js: mv that blogger heading (not anymore cluttering globally)
 - HomePage.js: add "Featured Phonemons"
 
 - add SV small-icon next to photo/artwork (icon-artwork)
