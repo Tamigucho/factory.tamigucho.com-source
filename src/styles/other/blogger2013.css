@@ -53,6 +53,7 @@ body {
 #andlogo {
   background: url(../../../public/img/blogger2013/resizedimage.svg);
     background-repeat: repeat;
+  background-size: 78px;
   float: right;
   width: 133px;
   height: 102px;

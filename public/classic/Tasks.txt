@@ -1,3 +1,5 @@
+- Scan Beanbie, Beaneck, Rainzo, Solbrightina, Vampanin, Boolb, Capnccino, Bananova, Bananextday, Cargamelo (these are nicely cropped but still from their Instagram versions)
+
 recover phonemon.blogspot.com: redirect it
 
 - Make the Private version of the factory repo! Store imgs on CloudDrives as bkp, make them accompained of .md5, .sha256 and .cid files for each!
