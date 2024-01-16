@@ -6,8 +6,8 @@
     "type": ["Plant", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0001_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_001_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/1.png"
     }
     ],
     "photo": "./img/creatures/2010/1.svg",
@@ -34,8 +34,8 @@
     "type":  ["Plant", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0002_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_002_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/2.png"
     }
     ],
     "photo": "./img/creatures/2010/2.svg",
@@ -62,8 +62,8 @@
     "type":  ["Plant", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0003_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_003_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/3.png"
     }
     ],
     "photo": "./img/creatures/2010/3.svg",
@@ -89,8 +89,8 @@
     "type": "Fire",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0004_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_004_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/4.png"
     }
     ],
     "photo": "./img/creatures/2010/4.svg",
@@ -117,8 +117,8 @@
     "type":  "Fire",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0005_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_005_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/5.png"
     }
     ],
     "photo": "./img/creatures/2010/5.svg",
@@ -145,8 +145,8 @@
     "type":  "Fire",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0006_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_006_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/6.png"
     }
     ],
     "photo": "./img/creatures/2010/6.svg",
@@ -172,8 +172,8 @@
     "type": "Water",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0007_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_007_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/7.png"
     }
     ],
     "photo": "./img/creatures/2011/7.svg",
@@ -200,8 +200,8 @@
     "type":  "Water",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0008_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_008_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/8.png"
     }
     ],
     "photo": "./img/creatures/2011/8.svg",
@@ -228,8 +228,8 @@
     "type":  "Water",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0009_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_009_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/9.png"
     }
     ],
     "photo": "./img/creatures/2011/9.svg",
@@ -256,7 +256,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_010_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/10.png"
     }
     ],
     "photo": "./img/creatures/2011/10.svg",
@@ -284,7 +284,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_011_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/11.png"
     }
     ],
     "photo": "./img/creatures/2011/11.svg",
@@ -312,7 +312,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_012_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/12.png"
     }
     ],
     "photo": "./img/creatures/2011/12.svg",
@@ -339,7 +339,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_013_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/13.png"
     }
     ],
     "photo": "./img/creatures/2012/13.svg",
@@ -367,7 +367,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_014_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/14.png"
     }
     ],
     "photo": "./img/creatures/2012/14.svg",
@@ -395,7 +395,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_015_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/15.png"
     }
     ],
     "photo": "./img/creatures/2012/15.svg",
@@ -422,7 +422,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_016_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/16.png"
     }
     ],
     "photo": "./img/creatures/2013/16.svg",
@@ -450,7 +450,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_017_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/17.png"
     }
     ],
     "photo": "./img/creatures/2013/17.svg",
@@ -478,7 +478,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_018_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/18.png"
     }
     ],
     "photo": "./img/creatures/2013/18.svg",
@@ -505,7 +505,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_019_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/19.png"
     }
     ],
     "photo": "./img/creatures/2013/19.svg",
@@ -533,7 +533,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_020_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/20.png"
     }
     ],
     "photo": "./img/creatures/2013/20.svg",
@@ -560,7 +560,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_021_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/21.png"
     }
     ],
     "photo": "./img/creatures/2014/21.svg",
@@ -588,7 +588,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_022_1.png"
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/22.png"
     }
     ],
     "photo": "./img/creatures/2014/22.svg",
@@ -614,8 +614,8 @@
     "type": "Poison",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0023_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_023_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/23.png"
     }
     ],
     "photo": "./img/creatures/2014/23.svg",
@@ -642,8 +642,8 @@
     "type": "Poison",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0024_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_024_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/24.png"
     }
     ],
     "photo": "./img/creatures/2014/24.svg",
@@ -670,8 +670,8 @@
     "type": "Electric",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0172_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_172_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/172.png"
     }
     ],
     "photo": "./img/creatures/2015/172.svg",
@@ -698,8 +698,8 @@
     "type": "Electric",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0025_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_025_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/25.png"
     }
     ],
     "photo": "./img/creatures/2015/25.svg",
@@ -726,8 +726,8 @@
     "type": "Electric",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0026_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_026_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/26.png"
     }
     ],
     "photo": "./img/creatures/2015/26.svg",
@@ -753,8 +753,8 @@
     "type": "Fighting",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0056_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_056_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/56.png"
     }
     ],
     "photo": "./img/creatures/2016/56.svg",
@@ -781,8 +781,8 @@
     "type": "Fighting",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0057_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_057_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/57.png"
     }
     ],
     "photo": "./img/creatures/2016/57.svg",
@@ -809,7 +809,7 @@
     "type": ["Fighting", "Ghost"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm1114_00_00_00.png",
+      "cartoon": "",
       "pixel": ""
     }
     ],
@@ -836,8 +836,8 @@
     "type": ["Rock", "Ground"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0074_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_074_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/74.png"
     }
     ],
     "photo": "./img/creatures/2016/74.svg",
@@ -864,8 +864,8 @@
     "type": ["Rock", "Ground"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0075_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_075_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/75.png"
     }
     ],
     "photo": "./img/creatures/2016/75.svg",
@@ -892,8 +892,8 @@
     "type": ["Rock", "Ground"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0076_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_076_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/76.png"
     }
     ],
     "photo": "./img/creatures/2016/76.svg",
@@ -919,8 +919,8 @@
     "type": ["Ghost", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0092_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_092_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/92.png"
     }
     ],
     "photo": "./img/creatures/2017/92.svg",
@@ -947,8 +947,8 @@
     "type": ["Ghost", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0093_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_093_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/93.png"
     }
     ],
     "photo": "./img/creatures/2017/93.svg",
@@ -975,8 +975,8 @@
     "type": ["Ghost", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0094_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_094_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/94.png"
     }
     ],
     "photo": "./img/creatures/2017/94.svg",
@@ -1002,8 +1002,8 @@
     "type": ["Psychic", "Fairy"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0439_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_439_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/439.png"
     }
     ],
     "photo": "./img/creatures/2017/439.svg",
@@ -1030,8 +1030,8 @@
     "type": ["Psychic", "Fairy"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0122_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_122_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/122.png"
     }
     ],
     "photo": "./img/creatures/2017/122.svg",
@@ -1057,8 +1057,8 @@
     "type": ["Neutral", "Paper"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0137_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_137_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/137.png"
     }
     ],
     "photo": "./img/creatures/2018/137.svg",
@@ -1085,8 +1085,8 @@
     "type": ["Ice", "Flying"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0144_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_144_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/144.png"
     }
     ],
     "photo": "./img/creatures/2019/144.svg",
@@ -1112,8 +1112,8 @@
     "type": "Dragon",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0147_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_147_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/147.png"
     }
     ],
     "photo": "./img/creatures/2019/147.svg",
@@ -1140,8 +1140,8 @@
     "type": "Dragon",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0148_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_148_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/148.png"
     }
     ],
     "photo": "./img/creatures/2019/148.svg",
@@ -1168,8 +1168,8 @@
     "type": ["Dragon", "Flying"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0149_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_149_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/149.png"
     }
     ],
     "photo": "./img/creatures/2019/149.svg",
@@ -1195,8 +1195,8 @@
     "type": ["Dark", "Flying"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0198_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_198_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/198.png"
     }
     ],
     "photo": "./img/creatures/2020/198.svg",
@@ -1222,8 +1222,8 @@
     "type": ["Dark", "Flying"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0430_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_430_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/430.png"
     }
     ],
     "photo": "./img/creatures/2020/430.svg",
@@ -1249,8 +1249,8 @@
     "type": ["Rock", "Ground"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0095_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_095_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/95.png"
     }
     ],
     "photo": "./img/creatures/2020/95.svg",
@@ -1277,8 +1277,8 @@
     "type": ["Steel", "Ground"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0208_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_208_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/208.png"
     }
     ],
     "photo": "./img/creatures/2020/208.svg",
@@ -1304,8 +1304,8 @@
     "type": ["Neutral", "Plastic"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0233_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_233_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/233.png"
     }
     ],
     "photo": "./img/creatures/2021/233.svg",
@@ -1332,8 +1332,8 @@
     "type": "Bug",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0265_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_265_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/265.png"
     }
     ],
     "photo": "./img/creatures/2024/265.svg",
@@ -1360,8 +1360,8 @@
     "type": "Bug",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0266_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_266_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/266.png"
     }
     ],
     "photo": "./img/creatures/2024/266.svg",
@@ -1388,8 +1388,8 @@
     "type": ["Bug", "Flying"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0267_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_267_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/267.png"
     }
     ],
     "photo": "./img/creatures/2024/267.svg",
@@ -1415,8 +1415,8 @@
     "type": "Bug",
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0268_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_268_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/268.png"
     }
     ],
     "photo": "./img/creatures/2024/268.svg",
@@ -1443,8 +1443,8 @@
     "type": ["Bug", "Poison"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0269_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_269_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/269.png"
     }
     ],
     "photo": "./img/creatures/2024/269.svg",
@@ -1470,8 +1470,8 @@
     "type": ["Bug", "Ground"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0290_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_290_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/290.png"
     }
     ],
     "photo": "./img/creatures/2022/290.svg",
@@ -1498,8 +1498,8 @@
     "type": ["Bug", "Flying"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0291_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_291_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/291.png"
     }
     ],
     "photo": "./img/creatures/2022/291.svg",
@@ -1525,8 +1525,8 @@
     "type": ["Bug", "Ghost", "Paper"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0292_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_292_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/292.png"
     }
     ],
     "photo": "./img/creatures/2022/292.svg",
@@ -1552,8 +1552,8 @@
     "type": ["Neutral", "Plastic"],
     "icon": [
     {
-      "cartoon": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-ix/scarlet-violet/icons/Small/pm0474_00_00_00.png",
-      "pixel": "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_474_1.png"
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/474.png"
     }
     ],
     "photo": "./img/creatures/2024/474.svg",
@@ -1580,7 +1580,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": ""
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/837.png"
     }
     ],
     "photo": "./img/creatures/2022/837.svg",
@@ -1608,7 +1608,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": ""
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/838.png"
     }
     ],
     "photo": "./img/creatures/2022/838.svg",
@@ -1636,7 +1636,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": ""
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/839.png"
     }
     ],
     "photo": "./img/creatures/2022/839.svg",
@@ -1663,7 +1663,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": ""
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/868.png"
     }
     ],
     "photo": "./img/creatures/2023/868.svg",
@@ -1691,7 +1691,7 @@
     "icon": [
     {
       "cartoon": "",
-      "pixel": ""
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/869.png"
     }
     ],
     "photo": "./img/creatures/2023/869.svg",
@@ -1858,7 +1858,7 @@
       "pixel": ""
     }
     ],
-    "photo": "./img/creatures/2024/2021.svg",
+    "photo": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
