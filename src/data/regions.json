@@ -52,41 +52,41 @@
     {
       "name": "Kairo",
       "games": ["Tamigucho Pink & Dark"],
-      "photo": "./img/regions/"
+      "photo": "./img/regions/Kairo.png"
     },
     {
       "name": "Affrah",
       "games": ["Tamigucho Bono & Chimp"],
-      "photo": "./img/regions/"
+      "photo": ""
     },
     {
       "name": "Brava",
       "games": ["Tamigucho Sunny & Rainny"],
-      "photo": "./img/regions/"
+      "photo": ""
     },
     {
       "name": "Munnah",
       "games": ["Tamigucho A & B"],
-      "photo": "./img/regions/"
+      "photo": ""
     },
     {
       "name": "Merca",
       "games": ["Tamigucho Carbon & Oxygen", "Tamigucho CO2"],
-      "photo": "./img/regions/"
+      "photo": ""
     },
     {
       "name": "Valorium",
       "games": ["Tamigucho Mercury & Ethanol"],
-      "photo": "./img/regions/"
+      "photo": ""
     },
     {
         "name": "Exteca",
         "games": [],
-        "photo": "./img/regions/"
+        "photo": ""
     },
     {
       "name": "Karis",
       "games": ["Tamigucho Salt & Sugar"],
-      "photo": "./img/regions/"
+      "photo": ""
     }
   ]
