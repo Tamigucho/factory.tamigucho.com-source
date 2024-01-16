@@ -7,9 +7,12 @@ import pokemonTypes from '../data/types.json'; // Import the Pokemon types data
 const PokemonDetails = ({ pokemons }) => {
   const { name } = useParams();
   const pokemon = pokemons.find(p => p.name === name);
+  //let creaturePhoto = photo ? (photo.startsWith('http') ? photo : `${creaturePhoto}`) : "default_image_url";
 };
 
 const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
+  let imageUrl = photo ? (photo.startsWith('http') ? photo : `${process.env.PUBLIC_URL}/${photo}`) : "default_image_url";
+  //let creaturePhoto = pokemon && pokemon.photo ? (pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`) : "default_image_url";
   // Function to get the emoji from the Pokemon type
   const getTypeEmoji = (type) => {
     const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
@@ -26,7 +29,7 @@ const PokemonItem = ({ id, name, type, photo, instagram, description }) => {
   return (
     <Link to={`/creatures/${name.replace(/\.|-|\s/g, '')}`}><div className="pokemon-item">
     <div className="pokemon-photo">
-        <img draggable="false" src={`${process.env.PUBLIC_URL}/${photo}`} alt={name} />
+        <img draggable="false" src={`${imageUrl}`} alt={name} />
     </div>
       <div className="pokemon-info">
         <h3>{name}</h3>
