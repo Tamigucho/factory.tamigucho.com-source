@@ -21,6 +21,8 @@ After A+B chkdsk fix:
 - /attacks page; list the first attack: "Grass Crunch"
 - /abilities page
 
+- paginator: remember current page in URL (PWA-friendly)
+
 inspo evolution table: https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)
 yes, use a table. a evolution of a evolution mean a new column!
 

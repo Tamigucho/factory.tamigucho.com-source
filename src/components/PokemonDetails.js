@@ -17,8 +17,8 @@ const PokemonDetails = ({ pokemons }) => {
   const cartoonIcon = pokemon ? (pokemon.icon[0].cartoon || "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png") : "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png";
   const pixelIcon = pokemon ? (pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png") : "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png";
   let creaturePhoto = pokemon && pokemon.photo ? (pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`) : "default_image_url";
-  let prevImageUrl = prevPokemon && prevPokemon.photo ? (prevPokemon.photo.startsWith('http') ? prevPokemon.photo : `${process.env.PUBLIC_URL}/${prevPokemon.photo}`) : "default_image_url";
-  let nextImageUrl = nextPokemon && nextPokemon.photo ? (nextPokemon.photo.startsWith('http') ? nextPokemon.photo : `${process.env.PUBLIC_URL}/${nextPokemon.photo}`) : "default_image_url";
+  let prevCreaturePhoto = prevPokemon && prevPokemon.photo ? (prevPokemon.photo.startsWith('http') ? prevPokemon.photo : `${process.env.PUBLIC_URL}/${prevPokemon.photo}`) : "default_image_url";
+  let nextCreaturePhoto = nextPokemon && nextPokemon.photo ? (nextPokemon.photo.startsWith('http') ? nextPokemon.photo : `${process.env.PUBLIC_URL}/${nextPokemon.photo}`) : "default_image_url";
 
   const [loading, setLoading] = useState(true);
 
@@ -92,12 +92,12 @@ return (
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
   <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name.replace(/\.|-|\s/g, '')}`)}>
-    ← Previous <img draggable="false" src={`${prevImageUrl}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
+    ← Previous <img draggable="false" src={`${prevCreaturePhoto}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
   </li>
 )}
 {nextPokemon && (
   <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name.replace(/\.|-|\s/g, '')}`)}>
-     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img draggable="false" src={`${nextImageUrl}`} alt={nextPokemon.name} /> Next →
+     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img draggable="false" src={`${nextCreaturePhoto}`} alt={nextPokemon.name} /> Next →
   </li>
 )}
 </ul>
