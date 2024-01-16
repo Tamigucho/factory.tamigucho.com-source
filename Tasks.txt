@@ -7,6 +7,12 @@
 
 - games now have multi-line description (so as pokemons)
 
+After A+B chkdsk fix:
+- PokeAPI Sprites PR: /home/daniella/Downloads/all-sprites, '/media/daniella/B/rmv, /media/daniella/B/git/danimesq/other of my repos/contribute-forks/PokeAPI-sprites/sprites/pokemon/versions/generation-ix/icons/cartoon', '/media/daniella/B/git/danimesq/other of my repos/contribute-forks/PokeAPI-sprites/sprites/pokemon/versions/generation-ix/icons/cartoon'
+- Pokemons: add icon cartoon
+- Annihilape and other gen9+ pokemon: add icon pixel
+- add icon pixel for Regitube
+
 - /years/{year} page: display the games launched in that year
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!
@@ -38,6 +44,9 @@ yes, use a table. a evolution of a evolution mean a new column!
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 - .json: {pokemon-name}_{gimmick-name}* should support any suffix, looping into all variations of a gimmick for a given Pokémon (example Mega Charizard X, Mega Charizard Y)
+
+mega icons pixel: /media/daniella/B/git/danimesq/other of my repos/contribute-forks/PokeAPI-sprites/sprites/pokemon/versions/generation-vii/icons
+gmax icons pixel: /media/daniella/B/git/danimesq/other of my repos/contribute-forks/PokeAPI-sprites/sprites/pokemon/versions/generation-viii/icons
 
 - Show how many gimmicks a given creature have
 - /gimmicks page, listing all of the gimmicks and their tamis
