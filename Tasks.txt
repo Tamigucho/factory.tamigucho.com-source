@@ -1,6 +1,10 @@
 - HomePage.js: add "Featured Phonemons"
 - like Types, Categories: "InfraTitans", "Legendaries", "Legendary Duos", "Mythicals", "Starters", "Kairo Starters", etc.
 
+- next/previous creature: show tamicon cartoon if filled in JSON; if empty, fallback to tami photo
+
+- /creatures/{creature}/photo: a tab with the photo, and another tab showing the versions!
+
 - games now have multi-line description (so as pokemons)
 
 - /years/{year} page: display the games launched in that year
@@ -97,6 +101,23 @@ Neutral type, too
 
 - add a 404 error page for not found pages
 - support for redirects
+
+- Pokémon -> Tamigucho migration
+
+- Add tamicon cartoon for these tamis:
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20F.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Morcegatito.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Poltoilleist.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/014.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/012.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/007.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/086.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/001.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Craboll.png
 
 new-tami-creator bash script:
 - get year, get latest creature ID to increment

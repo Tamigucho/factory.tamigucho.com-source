@@ -13,6 +13,10 @@ const PokemonDetails = ({ pokemons }) => {
   const [prevPokemon, setPrevPokemon] = useState(null);
   const [nextPokemon, setNextPokemon] = useState(null);
 
+  // Extract the cartoon and pixel icons from the pokemon object
+  const cartoonIcon = pokemon ? (pokemon.icon[0].cartoon || "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png") : "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png";
+  const pixelIcon = pokemon ? (pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png") : "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png";
+
   const [loading, setLoading] = useState(true);
 
   const [evolutions, setEvolutions] = useState([]);
@@ -97,7 +101,15 @@ return (
 <br/>
     {pokemon && ( // Add this line to conditionally render the content when pokemon is available
     <>
-        <center><h2>{pokemon.name} <small>(Nºs {pokemon.id} / {pokemon.biyearly_id})</small></h2></center>
+        <center><h2><div className="tamicons">
+            <div className="cartoon">
+              <img title="icon cartoon" alt="icon cartoon" src={cartoonIcon} />
+            </div>
+            <div className="pixel">
+              <img title="icon pixel" alt="icon pixel" src={pixelIcon} />
+            </div>
+          </div>
+          {pokemon.name} <small>(Nºs {pokemon.id} / {pokemon.biyearly_id})</small></h2></center>
         {/*<small>The {pokemon.biyearly_id}th Pokémon ever created.</small>*/}
 <div class="container">
   <div class="row">

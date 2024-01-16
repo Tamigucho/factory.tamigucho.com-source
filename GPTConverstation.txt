@@ -22,4 +22,115 @@ Same for pixel, falling-back to https://www.pokencyclopedia.info/sprites/menu-ic
 
 
 
+To add the icons before the Pokémon name, you need to modify the PokemonDetails component in src/components/PokemonDetails.js.
 
+First, you need to extract the cartoon and pixel icons from the pokemon object. If they are not available, you should use the fallback URLs.
+
+Then, you can add the div with the class tamicons before the Pokémon name inside the <h2> tag.
+
+Here's how you can do it:
+
+const PokemonDetails = ({ pokemons }) => {
+  // ... existing code ...
+
+  // Extract the cartoon and pixel icons from the pokemon object
+  const cartoonIcon = pokemon.icon[0].cartoon || "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png";
+  const pixelIcon = pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png";
+
+  return (
+    // ... existing code ...
+    <>
+      <center>
+        <h2>
+          <div className="tamicons">
+            <div className="cartoon">
+              <img title="icon cartoon" alt="icon cartoon" src={cartoonIcon} />
+            </div>
+            <div className="pixel">
+              <img title="icon pixel" alt="icon pixel" src={pixelIcon} />
+            </div>
+          </div>
+          {pokemon.name} <small>(Nºs {pokemon.id} / {pokemon.biyearly_id})</small>
+        </h2>
+        {/* ... existing code ... */}
+      </center>
+    </>
+    // ... existing code ...
+  );
+};
+
+This code will add the cartoon and pixel icons before the Pokémon name. If the cartoon or pixel icon is not available in the pokemon object, it will use the fallback URLs.
+
+
+
+
+
+
+
+Please look at my current implementation in PokemonDetails.js.
+
+Browser:
+Uncaught runtime errors:
+ERROR
+pokemon is null
+PokemonDetails@http://localhost:3000/static/js/bundle.js:3466:23
+renderWithHooks@http://localhost:3000/static/js/bundle.js:50310:31
+
+Maybe consts cartoonIcon and pixelIcon shoiuld be in an useEffect or something else?
+
+
+
+
+
+
+
+
+
+
+The error you're encountering is because the pokemon object is null at the time of component rendering. This is likely because the data hasn't been fetched yet. To fix this, you should move the cartoonIcon and pixelIcon inside a useEffect hook that depends on the pokemon state. Here's how you can do it:
+
+const PokemonDetails = ({ pokemons }) => {
+  // ... existing code ...
+
+  const [cartoonIcon, setCartoonIcon] = useState("https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png");
+  const [pixelIcon, setPixelIcon] = useState("https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png");
+
+  useEffect(() => {
+    if (pokemon) {
+      setCartoonIcon(pokemon.icon[0].cartoon || "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png");
+      setPixelIcon(pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png");
+    }
+  }, [pokemon]);
+
+  // ... existing code ...
+};
+
+
+This code will update the cartoonIcon and pixelIcon state variables whenever the pokemon state changes. If the pokemon object is null, the fallback URLs will be used.
+
+
+
+
+
+But where's on earth "if (pokemon)" present in PokemonDetails.js??
+
+
+
+
+The if (pokemon) condition is not explicitly present in your current PokemonDetails.js file. However, it's implied in the rendering of the component. For instance, in the following code block:
+
+if (loading) {
+  return <div>Loading...</div>;
+}
+
+Here, the component returns a loading div if the loading state is true. This indirectly checks if the pokemon data is available because the loading state is set to false only after the pokemon data is fetched and set.
+
+To avoid the error you're encountering, you should explicitly check if the pokemon object is available before trying to access its properties. This can be done using a conditional (ternary) operator or an if statement.
+
+Here's how you can do it using a conditional operator:
+
+const cartoonIcon = pokemon ? (pokemon.icon[0].cartoon || "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png") : "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png";
+const pixelIcon = pokemon ? (pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png") : "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png";
+
+
+This code will check if the pokemon object is available before trying to access its icon property. If the pokemon object is not available, it will use the fallback URLs.
