@@ -16,6 +16,7 @@ const PokemonDetails = ({ pokemons }) => {
   // Extract the cartoon and pixel icons from the pokemon object
   const cartoonIcon = pokemon ? (pokemon.icon[0].cartoon || "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png") : "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png";
   const pixelIcon = pokemon ? (pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png") : "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png";
+  let imageUrl = pokemon && pokemon.photo ? (pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`) : "default_image_url";
 
   const [loading, setLoading] = useState(true);
 
@@ -115,7 +116,7 @@ return (
   <div class="row">
     <div class="col-md">
           <img draggable="false" height="400px" src={`${process.env.PUBLIC_URL}/${pokemon.photo}`} alt={pokemon.name} />
-          <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/${pokemon.photo}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
+          <a title="Click to Zoom/open img on new tab" href={`${imageUrl}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
     </div>
     <div class="col-md">
     <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>

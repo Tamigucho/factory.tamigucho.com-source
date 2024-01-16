@@ -1,0 +1,283 @@
+Look at src/data/pokemons.json, specifically at the Regimeal entry.
+
+It points to an external URL rather than an internal URL, but the app interprets this: http://localhost:3000/https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png
+
+Instead of this: https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png
+
+"${process.env.PUBLIC_URL}/" (present in places like PokemonDetails.js and PokemonItem.js) should not be used if the photo key in a Pokemon entry point to a URL (begin with http instead of / or ./)
+
+
+
+
+
+
+
+The issue you're facing is due to the concatenation of ${process.env.PUBLIC_URL}/ with the URL of the image. This is causing the app to interpret the URL as a relative path instead of an absolute URL.
+
+To fix this, you need to modify the code in PokemonDetails.js and PokemonItem.js to check if the URL starts with http or https. If it does, then it should not prepend ${process.env.PUBLIC_URL}/.
+
+Here's how you can do it:
+
+let imageUrl = photo.startsWith('http') ? photo : `${process.env.PUBLIC_URL}/${photo}`;
+
+Replace all instances of ${process.env.PUBLIC_URL}/${photo} with the imageUrl variable.
+
+This will ensure that if the photo is an absolute URL (starts with http or https), it will be used as is. If it's a relative path, it will be prepended with ${process.env.PUBLIC_URL}/ as before.
+
+
+
+
+
+
+
+
+
+Remember this:
+  const pixelIcon = pokemon ? (pokemon.icon[0].pixel || "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png") : "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png";
+?
+
+Please use a operator (that's the correct name: operator?) to only use imageUrl when data is available, so the app in browser will not say "photo is undefined".
+
+
+
+
+
+Yes, you can use the logical OR operator 1 to provide a default value when photo is undefined. Here's how you can modify the imageUrl line:
+
+let imageUrl = photo ? (photo.startsWith('http') ? photo : `${process.env.PUBLIC_URL}/${photo}`) : "default_image_url";
+
+In this code, photo ? checks if photo is defined. If it is, it checks whether photo starts with 'http'. If photo is undefined, it uses the "default_image_url".
+
+Replace "default_image_url" with the URL of the image you want to display when photo is undefined.
+
+Remember to replace all instances of ${process.env.PUBLIC_URL}/${photo} with imageUrl in your code.
+
+
+
+
+
+
+Still: Uncaught ReferenceError: photo is not defined
+    PokemonDetails PokemonDetails.js:19
+    React 9
+    workLoop scheduler.development.js:266
+    flushWork scheduler.development.js:239
+    performWorkUntilDeadline scheduler.development.js:533
+
+Please actually read PokemonDetails.js
+
+
+
+
+
+
+
+The error message you're seeing is because the variable photo is not defined in the scope where you're trying to use it.
+
+In the PokemonDetails.js file, you're trying to use photo to construct imageUrl, but photo is not defined anywhere in the file.
+
+You should replace photo with pokemon.photo because pokemon is the object that contains the photo property.
+
+Here's how you can modify the imageUrl line:
+
+let imageUrl = pokemon && pokemon.photo ? (pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`) : "default_image_url";
+
+This code checks if pokemon and pokemon.photo are defined. If they are, it checks whether pokemon.photo starts with 'http'. If pokemon.photo is undefined, it uses the "default_image_url".
+
+Remember to replace "default_image_url" with the URL of the image you want to display when pokemon.photo is undefined.
+
+You should replace all instances of ${process.env.PUBLIC_URL}/${pokemon.photo} with imageUrl in your code.
+
+You can find these instances in the following lines of PokemonDetails.js:
+
+const PokemonDetails = ({ pokemons }) => {
+          ...
+          {pokemon.name} <small>(Nºs {pokemon.id} / {pokemon.biyearly_id})</small></h2></center>
+        {/*<small>The {pokemon.biyearly_id}th Pokémon ever created.</small>*/}
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+          <img draggable="false" height="400px" src={`${process.env.PUBLIC_URL}/${pokemon.photo}`} alt={pokemon.name} />
+          <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/${pokemon.photo}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
+    </div>
+    <div class="col-md">
+    <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
+    <p>Genre: <Link to={`/genres/${pokemon['genre-species'][0]}`} className={`genre-badge genre-${pokemon['genre-species'][0].toLowerCase()}`}>
+    {pokemon['genre-species'][0]}
+  </Link> {pokemon['genre-species'][1]}
+</p>
+    <p>Type: {Array.isArray(pokemon.type) ? (
+    pokemon.type.map((type, index) => (
+      <Link to={`/types/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
+        {getTypeEmoji(type)} {type}
+      </Link>
+    ))
+  ) : (
+    <Link to={`/types/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
+      {getTypeEmoji(pokemon.type)} {pokemon.type}
+    </Link>
+  )}
+</p>
+<p>Region: <Link to={`/regions/${pokemon.region}`}>{pokemon.region}</Link></p>
+<p>Official generation: {pokemon.official_gen}</p>
+<p>Biyearly generation: {pokemon.biyearly_gen}</p>
+<p>Created in: <Link to={`/years/${pokemon.year}`}>{pokemon.year}</Link></p>
+<p>Real-li
+
+const PokemonDetails = ({ pokemons }) => {
+    ...
+    </div>
+  </div>
+</div>
+
+<section className="pokedex-pokemon-evolution section">
+  <div className="column-12 dog-ear-bl push-1">
+    <h2>Evolutions</h2>
+    <ul class="evolutions-graph">
+    {evolutions.map((evolution, index) => {
+  const evolutionName = typeof evolution === 'string' ? evolution : (evolution && evolution.name ? evolution.name : '');
+  console.log('evolutionName:', evolutionName);
+  if (evolutionName) {
+    const evolutionData = pokemons.find(pokemon => pokemon.name.replace(/\.|\s|-|&/g, '') === evolutionName.replace(/\.|\s|-|&/g, ''));
+    console.log('evolutionData:', evolutionData);
+    return (
+        <li key={index} class="evolution-item">
+    {evolution === pokemon.name ? 
+          <mark>
+            <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
+            <h3>{evolution}</h3>
+          </mark> 
+          : 
+            <Link to={`/creatures/${evolution}`.replace(/\.|-|\s/g, '')}>
+            <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
+            <h3>{evolution}</h3>
+          </Link>
+        }
+        {index < evolutions.length - 1 && ' > '}
+      </li>
+    );
+  }
+})}
+    </ul>
+  </div>
+  
+const PokemonDetails = ({ pokemons }) => {
+    ...
+    </div>
+  </div>
+</div>
+
+<section className="pokedex-pokemon-evolution section">
+  <div className="column-12 dog-ear-bl push-1">
+    <h2>Evolutions</h2>
+    <ul class="evolutions-graph">
+    {evolutions.map((evolution, index) => {
+  const evolutionName = typeof evolution === 'string' ? evolution : (evolution && evolution.name ? evolution.name : '');
+  console.log('evolutionName:', evolutionName);
+  if (evolutionName) {
+    const evolutionData = pokemons.find(pokemon => pokemon.name.replace(/\.|\s|-|&/g, '') === evolutionName.replace(/\.|\s|-|&/g, ''));
+    console.log('evolutionData:', evolutionData);
+    return (
+        <li key={index} class="evolution-item">
+    {evolution === pokemon.name ? 
+          <mark>
+            <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
+            <h3>{evolution}</h3>
+          </mark> 
+          : 
+            <Link to={`/creatures/${evolution}`.replace(/\.|-|\s/g, '')}>
+            <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
+            <h3>{evolution}</h3>
+          </Link>
+        }
+        {index < evolutions.length - 1 && ' > '}
+      </li>
+    );
+  }
+})}
+    </ul>
+  </div>
+  
+const PokemonDetails = ({ pokemons }) => {
+  ...
+  }
+}, [name, pokemons]);
+
+if (loading) {
+  return <div>Loading...</div>;
+}
+
+console.log('Pokemon name: ', pokemon.name);
+
+  const getTypeEmoji = (type) => {
+    const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
+    return typeData ? typeData.emoji : '';
+  };
+
+return (
+  <div>
+    <ul class="nav nav-pills nav-fill mb-3">
+{prevPokemon && (
+  <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name.replace(/\.|-|\s/g, '')}`)}>
+    ← Previous <img draggable="false" src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
+  </li>
+)}
+{nextPokemon && (
+  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name.replace(/\.|-|\s/g, '')}`)}>
+     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img draggable="false" src={`${process.env.PUBLIC_URL}/${nextPokemon.photo}`} alt={nextPokemon.name} /> Next →
+  </li>
+)}
+</ul>
+<br/>
+    {pokemon && ( // Add this line to conditionally render the content when pokemon is available
+    <>
+        <center><h2><div className="tamicons">
+            <div className="cartoon">
+              <img title="icon cartoon" alt="icon cartoon" src={cartoonIcon} />
+            </div>
+            <div className="pixel">
+              <img title="icon pixel" alt="icon pixel" src={pixelIcon} />
+            </div>
+          </div>
+          
+const PokemonDetails = ({ pokemons }) => {
+  ...
+  }
+}, [name, pokemons]);
+
+if (loading) {
+  return <div>Loading...</div>;
+}
+
+console.log('Pokemon name: ', pokemon.name);
+
+  const getTypeEmoji = (type) => {
+    const typeData = pokemonTypes.find((pokemonType) => pokemonType.type === type);
+    return typeData ? typeData.emoji : '';
+  };
+
+return (
+  <div>
+    <ul class="nav nav-pills nav-fill mb-3">
+{prevPokemon && (
+  <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name.replace(/\.|-|\s/g, '')}`)}>
+    ← Previous <img draggable="false" src={`${process.env.PUBLIC_URL}/${prevPokemon.photo}`} alt={prevPokemon.name} /> <span><b>{prevPokemon.name}</b> (Nº {prevPokemon.id})</span>
+  </li>
+)}
+{nextPokemon && (
+  <li class="nav-item next-button" title={nextPokemon.name} onClick={() => navigate(`/creatures/${nextPokemon.name.replace(/\.|-|\s/g, '')}`)}>
+     <span><b>{nextPokemon.name}</b> (Nº {nextPokemon.id})</span> <img draggable="false" src={`${process.env.PUBLIC_URL}/${nextPokemon.photo}`} alt={nextPokemon.name} /> Next →
+  </li>
+)}
+</ul>
+<br/>
+    {pokemon && ( // Add this line to conditionally render the content when pokemon is available
+    <>
+        <center><h2><div className="tamicons">
+            <div className="cartoon">
+              <img title="icon cartoon" alt="icon cartoon" src={cartoonIcon} />
+            </div>
+            <div className="pixel">
+              <img title="icon pixel" alt="icon pixel" src={pixelIcon} />
+            </div>
+          </div>
