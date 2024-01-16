@@ -301,6 +301,17 @@ footer a:hover {
   border-bottom-right-radius: 50%;
 }
 
+.tamicons {
+  display: inline-block
+}
+.tamicons .cartoon, .tamicons .pixel {
+  display: inline-block;
+}
+.tamicons .cartoon img {
+  width: 100px;
+  height: 100px;
+}
+
 .type-header {
   border-radius: 5px;
   padding: 0 5px 0 5px;

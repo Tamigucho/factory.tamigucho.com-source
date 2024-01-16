@@ -1,0 +1,25 @@
+Aware about the Pokémon's name <h2> in src/components/PokemonDetails.js?
+
+I want to add the following before the Pokémon name (but inside the <h2>):
+<div class="tamicons"><div class="cartoon"><img title="icon cartoon" alt="icon cartoon" src="https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png"></div><div class="pixel"><img title="icon pixel" alt="icon pixel" src="https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png"></div></div>
+
+But replace "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png" by the current cartoon icon, and "https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png" by the current pixel icon; detail:
+
+In src/data/pokemons.json, you'll see there's the following key in each entry:
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": ""
+    }
+    ],
+    
+If cartoon is empty, by default the tamicons/cartoon div should fallback to this image: https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png
+Same for pixel, falling-back to https://www.pokencyclopedia.info/sprites/menu-icons/ico_old/ico_old_000_1.png
+
+
+
+
+
+
+
+
