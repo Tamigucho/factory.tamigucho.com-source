@@ -121,11 +121,11 @@ return (
           <img draggable="false" height="400px" src={`${creaturePhoto}`} alt={pokemon.name} />
           <a title="Click to Zoom/open img on new tab" href={`${creaturePhoto}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
     </div>
-    <div class="col-md">
+    <div class="col-md pokemon-details">
     <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
     <p>Genre: <Link to={`/genres/${pokemon['genre-species'][0]}`} className={`genre-badge genre-${pokemon['genre-species'][0].toLowerCase()}`}>
     {pokemon['genre-species'][0]}
-  </Link> {pokemon['genre-species'][1]}
+  </Link>{pokemon['genre-species'][1]}
 </p>
     <p>Type: {Array.isArray(pokemon.type) ? (
     pokemon.type.map((type, index) => (

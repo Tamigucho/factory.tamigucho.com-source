@@ -318,9 +318,8 @@ footer a:hover {
 }
 
 /* Description styles */
-.pokemon-description p {
-  margin: 10px 0;
-}
+.pokemon-description p {margin: 10px 0;}
+.pokemon-details a {margin-right: 5px;}
 
 .evolutions-graph img {
   height: 100px;
