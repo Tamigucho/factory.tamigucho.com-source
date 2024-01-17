@@ -21,10 +21,18 @@ const CategoryPage = () => {
   return (
     <div>
       {category && (
-        <div>
-          <h2>{category.name}</h2>
-          <img src={`${process.env.PUBLIC_URL}/${category.photo}`} alt={category.name} />
-          <p>{category.description}</p>
+        <div class="category-details">
+        <center><h2>{category.name}{/* <span className="badge bg-secondary" title={`Total Pokémons in this category: ${categoryPokemons.length}`}>${categoryPokemons.length}</span>*/}</h2></center>
+<div class="container">
+  <div class="row">
+  <div class="col-md">
+  <img src={`${process.env.PUBLIC_URL}/${category.photo}`} alt={category.name} />
+    </div>
+    <div class="col-md">
+    <p><b>Description</b>:</p><p>{category.description}</p>
+    </div>
+  </div>
+  </div>
         </div>
       )}
 <div className="pokemon-list">

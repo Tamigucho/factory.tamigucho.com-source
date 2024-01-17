@@ -1,12 +1,12 @@
 [
     {
       "name": "Infratitans",
-      "photo": "path/to/photo",
-      "description": "Description of Infratitans"
+      "photo": "./img/categories/",
+      "description": "InfraTitans are creatures that come from other planets/dimensions."
     },
     {
       "name": "Legendaries",
-      "photo": "path/to/photo",
-      "description": "Description of Legendaries"
+      "photo": "./img/categories/",
+      "description": "Excedingly rare creatures whose existence is documented mostly by legends than scientifical proofs."
     }
   ]

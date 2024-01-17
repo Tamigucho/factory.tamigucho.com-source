@@ -1,4 +1,4 @@
-- new categories: Kanto Legendary Trio (3), The Regis (8), Kanto starter trio (3), "InfraTitans", "Legendaries", "Legendary Duos", "Mythicals", "Starters", "Kairo Starters" etc.
+- new categories: "Kanto Legendary Trio" (3), "The Regis" (8), "Kanto starter trio" (3), "Legendary Duos", "Mythicals", "Starters", "Kairo Starters" etc.
 
 - /years/{year} page: display the games launched in that year
 - years/{year}: separate Pokes and Games as a tab menu!
