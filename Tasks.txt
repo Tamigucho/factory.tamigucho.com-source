@@ -1,5 +1,8 @@
 Creature page: (bugged, not working) Male/Female switch (useful for Popcanth display)
 
+- update link to github repo in footer (should be source, not site)
+- add "in construction" warn banner
+
 - Add these tamis (not pokemons):
 https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png
 https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png
