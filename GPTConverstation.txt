@@ -1,0 +1,25 @@
+PokemonDetails.js:
+Uncaught runtime errors:
+ERROR
+category.name is undefined
+./src/components/PokemonDetails.js/PokemonDetails/<.children<.children<.children<.children<.children<.children<@http://localhost:3000/static/js/bundle.js:4387:36
+
+Look at line 149.
+I'd just try to implement the same URL replace as seen in Categories.js
+
+
+
+
+
+
+To fix the issue with category.name being undefined in PokemonDetails.js, you should ensure that the category object exists and has a name property before trying to access it. You can apply the same URL replacement logic as seen in Categories.js to create the link URL. Here's the updated code snippet for the categories section in PokemonDetails.js:
+
+{pokemon.categories && (
+  <p>Categories: {pokemon.categories.map((category, index) => (
+    <Link key={index} to={`/categories/${category.replace(/\.|-|\s/g, '')}`} className="category-badge">
+      {category}
+    </Link>
+  ))}</p>
+)}
+
+This code snippet includes the .replace(/\.|-|\s/g, '') method to format the category name in the URL, similar to how it's done in Categories.js

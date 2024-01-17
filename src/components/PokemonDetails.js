@@ -146,7 +146,7 @@ return (
 <p>Real-life inspiration: <Link target="_blank" to={`${pokemon['reallife_inspo'][0]['link']}`}>{pokemon['reallife_inspo'][0]['name']}</Link></p>
 {pokemon.categories && (
   <p>Categories: {pokemon.categories.map((category, index) => (
-    <Link key={index} to={`/categories/${category}`} className="category-badge">
+    <Link key={index} to={`/categories/${category.replace(/\.|-|\s/g, '')}`} className="category-badge">
       {category}
     </Link>
   ))}</p>
