@@ -1,4 +1,3 @@
-- HomePage.js: add "Featured Phonemons"
 - like Types, Categories: "InfraTitans", "Legendaries", "Legendary Duos", "Mythicals", "Starters", "Kairo Starters", etc.
 
 - next/previous creature: show tamicon cartoon if filled in JSON; if empty, fallback to tami photo

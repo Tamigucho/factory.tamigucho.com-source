@@ -2,13 +2,17 @@ import React, { useState, useEffect } from 'react';
 import Chart from 'react-apexcharts';
 import pokemonsData from '../data/pokemons.json';
 import PokemonList from './PokemonList';
+import featuredPokemons from '../data/creatures/featured.json';
+import PokemonItem from './PokemonItem';
 
 function Home() {
     const [pokemons, setPokemons] = useState([]);
+    const [featured, setFeatured] = useState([]);
 
     useEffect(() => {
       setPokemons(pokemonsData); // Set pokemons to pokemonsData
-    }, []); // Empty dependency array means this effect runs once on mount.
+      setFeatured(featuredPokemons.map(name => pokemonsData.find(pokemon => pokemon.name === name)));
+    }, [pokemonsData, featuredPokemons]); // Empty dependency array means this effect runs once on mount.
 
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -84,6 +88,15 @@ function Home() {
     <div id="andlogo"></div></div>
     <center>
     <br/><br/><h5>Digital animals created since 2010 to {lastYear} by <a href="https://danimesq.github.io/" target="_blank">Daniella Mesquita</a>.</h5></center>
+    <hr/>
+    <h1>Featured Phonemons/Tamiguchos</h1>
+<p>Click them to see their details.</p>
+<div className="featured-pokemons">
+  {featured.map(pokemon => (
+    <PokemonItem key={pokemon.id} {...pokemon} />
+  ))}
+</div>
+<hr/>
     <PokemonList pokemons={filteredPokemons} />
     <div class="chartyears">
       <p>new tami creatures:</p>
