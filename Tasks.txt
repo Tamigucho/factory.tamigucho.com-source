@@ -1,11 +1,14 @@
+- add celacorn and popcanth
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
+
+display Male/Female switch in photo IF, ONLY IF, "photo-female" key exist for a creature
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20F.png
+
 - /years/{year} page: display the games launched in that year
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!
-
-- add celacorn and popocanth; display Male/Female switch in photo IF, ONLY IF, "photo-female" key exist for a creature
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20F.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
 
 - don't show instagram icon if instagram field empty!
 - /creatures/{creature}/photo: a tab with the photo, and another tab showing the versions! inspo: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/classic/img/creatures/2024/versions
