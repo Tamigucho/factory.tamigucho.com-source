@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import pokemons from '../data/pokemons.json';
 import pokemonTypes from '../data/types.json';
 import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
+import categoriesData from '../data/creatures/categories.json';
 
 const PokemonDetails = ({ pokemons }) => {
   const [pokemon, setPokemon] = useState(null);
@@ -143,6 +144,13 @@ return (
 <p>Biyearly generation: {pokemon.biyearly_gen}</p>
 <p>Created in: <Link to={`/years/${pokemon.year}`}>{pokemon.year}</Link></p>
 <p>Real-life inspiration: <Link target="_blank" to={`${pokemon['reallife_inspo'][0]['link']}`}>{pokemon['reallife_inspo'][0]['name']}</Link></p>
+{pokemon.categories && (
+  <p>Categories: {pokemon.categories.map((category, index) => (
+    <Link key={index} to={`/categories/${category}`} className="category-badge">
+      {category}
+    </Link>
+  ))}</p>
+)}
     </div>
   </div>
 </div>

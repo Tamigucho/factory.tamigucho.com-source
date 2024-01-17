@@ -1,5 +1,3 @@
-- "Categories" line in PokemonDetails.js!
-
 - /years/{year} page: display the games launched in that year
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!

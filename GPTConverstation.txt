@@ -1,147 +1,42 @@
-Please add a paginator for the Pokemons in CategoryPage.js, exactly as there's one in YearPage.js!
+"Categories" line in PokemonDetails.js!
 
 
 
-To add a paginator to the CategoryPage.js similar to the one in YearPage.js, you can follow these steps:
+To display the categories in the PokemonDetails.js component, you can add a section for categories similar to how types and regions are displayed. Here's the code snippet to add the categories:
 
-1. Add state hooks for currentPage, itemsPerPage, and dropdownOpen in CategoryPage.js if they are not already present.
-2. Calculate the indexOfLastItem, indexOfFirstItem, and currentItems based on the currentPage and itemsPerPage.
-3. Implement the handlePageChange function to update the currentPage.
-4. Add the pagination UI elements to the return block of the CategoryPage.js component.
+<p>Categories: {pokemon.categories.map((category, index) => (
+  <Link key={index} to={`/categories/${category}`} className="category-badge">
+    {category}
+  </Link>
+))}</p>
 
-Here is the code snippet to add to CategoryPage.js:
-
-// Add these state hooks if they are not already present
-const [currentPage, setCurrentPage] = useState(1);
-const [itemsPerPage, setItemsPerPage] = useState(10);
-const [dropdownOpen, setDropdownOpen] = useState(false);
-
-// Add these calculations
-const indexOfLastItem = currentPage * itemsPerPage;
-const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-const currentItems = pokemons.slice(indexOfFirstItem, indexOfLastItem);
-const totalPages = Math.ceil(pokemons.length / itemsPerPage);
-
-// Add this function
-const handlePageChange = (pageNumber) => {
-  setCurrentPage(pageNumber);
-};
-
-// Add the pagination UI elements to the return block
-// Replace the existing map function with this one that uses currentItems
-{currentItems.map((pokemon) => {
-  // ... existing map function code ...
-})}
-
-// Add the pagination controls (copy from YearPage.js)
-<nav aria-label="Page navigation">
-  <ul className="pagination">
-    <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
-      <a className="page-link" onClick={() => handlePageChange(currentPage - 1)}>Previous</a>
-    </li>
-    {[...Array(totalPages)].map((e, i) => (
-      <li className={`page-item ${i + 1 === currentPage ? 'active' : ''}`} key={i}>
-        <a className="page-link" onClick={() => handlePageChange(i + 1)}>{i + 1}</a>
-      </li>
-    ))}
-    <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
-      <a className="page-link" onClick={() => handlePageChange(currentPage + 1)}>Next</a>
-    </li>
-  </ul>
-</nav>
-
-// Add the dropdown for items per page (copy from YearPage.js)
-<Dropdown isOpen={dropdownOpen} toggle={() => setDropdownOpen(prevState => !prevState)}>
-  <DropdownToggle caret>
-    Items per page
-  </DropdownToggle>
-  <DropdownMenu>
-    <DropdownItem onClick={() => setItemsPerPage(10)}>10</DropdownItem>
-    <DropdownItem onClick={() => setItemsPerPage(20)}>20</DropdownItem>
-    <DropdownItem onClick={() => setItemsPerPage(50)}>50</DropdownItem>
-    <DropdownItem onClick={() => setItemsPerPage(100)}>100</DropdownItem>
-  </DropdownMenu>
-</Dropdown>
-
-Make sure to place the pagination controls and the dropdown for items per page at the appropriate place in your CategoryPage.js component, typically after the list of items and before the closing tag of the main container element.
-
-Remember to import any necessary components or hooks that are not already imported in CategoryPage.js
+Place this snippet in the appropriate location within the PokemonDetails component, such as after the type or region information. Make sure to style the category-badge class accordingly in your CSS to match the design of your application.
 
 
 
 
 
 
-http://localhost:3000/categories/Starters:
+http://localhost:3000/creatures/Caterpie:
 Uncaught runtime errors:
 ERROR
-toggle is not defined
-CategoryPage@http://localhost:3000/static/js/bundle.js:657:7
-renderWithHooks@http://localhost:3000/static/js/bundle.js:50879:31
-mountIndeterminateComponent@http://localhost:3000/static/js/bundle.js:54163:17
-
-Please look at CategoryPage.js and compare with YearPage.js
+pokemon.categories is undefined
+PokemonDetails@http://localhost:3000/main.6e2f79b57878f63ed411.hot-update.js:399:42
+renderWithHooks@http://localhost:3000/static/js/bundle.js:50882:31
 
 
 
 
+The error message indicates that pokemon.categories is undefined, which means that the pokemon object does not have a categories property, or it is not properly initialized before being accessed.
 
+To resolve this issue, you should ensure that the categories property exists on the pokemon object and that it is an array before trying to map over it. You can add a conditional check before rendering the categories:
 
-The error message indicates that the toggle function is not defined in CategoryPage.js. In YearPage.js, the toggle function is used to handle the state change for the dropdown menu. You need to define the toggle function in CategoryPage.js similar to how it's done in YearPage.js.
+{pokemon.categories && (
+  <p>Categories: {pokemon.categories.map((category, index) => (
+    <Link key={index} to={`/categories/${category}`} className="category-badge">
+      {category}
+    </Link>
+  ))}</p>
+)}
 
-Here's the missing toggle function that you should add to CategoryPage.js:
-
-const toggle = () => setDropdownOpen(prevState => !prevState);
-
-Place this function inside your component before the return statement. This will define the toggle function that is passed to the Dropdown component's toggle prop.
-
-Additionally, ensure that you have imported all necessary components and hooks from 'reactstrap' and 'react', as used in YearPage.js
-
-
-
-
-
-
-http://localhost:3000/categories/Starters:
-Uncaught runtime errors:
-ERROR
-PokemonItem is not defined
-./src/components/Categories/CategoryPage.js/CategoryPage/<.children<.children<@http://localhost:3000/main.0fd93252409782395044.hot-update.js:150:129
-CategoryPage@http://localhost:3000/main.0fd93252409782395044.hot-update.js:150:30
-
-
-
-
-The error message indicates that PokemonItem is not defined in CategoryPage.js. This component is likely being used to render each individual Pokémon item in the list, similar to how it's used in YearPage.js.
-
-To resolve this error, you need to import PokemonItem into CategoryPage.js. Add the following import statement at the top of your CategoryPage.js file:
-
-import PokemonItem from '../../PokemonItem';
-
-Make sure the import path is correct based on the location of PokemonItem relative to CategoryPage.js. After adding the import statement, the error should be resolved, and PokemonItem will be recognized within CategoryPage.js
-
-
-
-
-
-
-
-
-http://localhost:3000/categories:
-ERROR in ./src/components/Categories/CategoryPage.js 8:0-44
-Module not found: Error: Can't resolve '../../PokemonItem' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Categories'
-
-
-
-
-
-
-
-The error message indicates that the module ../../PokemonItem cannot be found. This is likely due to an incorrect import path in CategoryPage.js. The correct import path should be relative to the location of the PokemonItem component within your project's directory structure.
-
-Given the provided code snippets, PokemonItem is located in src/components/, so you should update the import statement in CategoryPage.js to the following:
-
-import PokemonItem from '../PokemonItem';
-
-
-Make sure to replace the incorrect import statement with the one provided above. This should resolve the module not found error.
+This will only attempt to render the categories if pokemon.categories is truthy (i.e., it exists and is not an empty array). If pokemon.categories is undefined or not an array, this section will not be rendered, and you will avoid the runtime error.
