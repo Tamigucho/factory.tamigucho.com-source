@@ -1,5 +1,3 @@
-- new categories: "Kanto Legendary Trio" (3), "The Regis" (8), "Kanto starter trio" (3), "Legendary Duos", "Mythicals", "Starters", "Kairo Starters" etc.
-
 - /years/{year} page: display the games launched in that year
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!
@@ -31,6 +29,7 @@ inspo evolution table: https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9
 yes, use a table. a evolution of a evolution mean a new column!
 
 - 2019: add Zapdos, Moltres ; 2025: add regirock, registeel, regice, regigigas, regielec, regidrago
+- new categories: "Kanto Legendary Trio" (3), "Legendary Duos", "Mythicals", "Kairo Starters" etc.
 
 - region page: add the champion (and create /characters, /characters/{that-champion}) ; characters will have description
 - region page: add the professor (and add to /characters)

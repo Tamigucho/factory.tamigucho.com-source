@@ -25,7 +25,8 @@
     "reallife_inspo": [
       {"name": "Frog",
       "link": "https://pt.wikipedia.org/wiki/Anura"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 2,
@@ -53,7 +54,8 @@
     "reallife_inspo": [
       {"name": "Frog",
       "link": "https://pt.wikipedia.org/wiki/Anura"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 3,
@@ -80,7 +82,8 @@
     "reallife_inspo": [
       {"name": "Frog",
       "link": "https://pt.wikipedia.org/wiki/Anura"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 4,
@@ -108,7 +111,8 @@
     "reallife_inspo": [
       {"name": "Salamander",
       "link": "https://en.wikipedia.org/wiki/Salamander"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 5,
@@ -136,7 +140,8 @@
     "reallife_inspo": [
       {"name": "Salamander",
       "link": "https://en.wikipedia.org/wiki/Salamander"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 6,
@@ -163,7 +168,8 @@
     "reallife_inspo": [
       {"name": "European Dragon",
       "link": "https://en.wikipedia.org/wiki/European_dragon"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 7,
@@ -191,7 +197,8 @@
     "reallife_inspo": [
       {"name": "Aquatic Turtle",
       "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 8,
@@ -219,7 +226,8 @@
     "reallife_inspo": [
       {"name": "Aquatic Turtle",
       "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 9,
@@ -246,7 +254,8 @@
     "reallife_inspo": [
       {"name": "Gamera",
       "link": "https://en.wikipedia.org/wiki/Gamera"}
-    ]
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
   },
   {
     "id": 10,
@@ -1820,7 +1829,7 @@
       {"name": "",
       "link": ""}
     ],
-    "categories": ["Infratitans", "Legendaries"]
+    "categories": ["Infratitans", "Legendaries", "The Regis"]
   },
   {
     "id": 2020,
@@ -1848,7 +1857,7 @@
       {"name": "",
       "link": ""}
     ],
-    "categories": ["Infratitans", "Legendaries"]
+    "categories": ["Infratitans", "Legendaries", "The Regis"]
   },
   {
     "id": 2021,
@@ -1876,7 +1885,7 @@
       {"name": "",
       "link": ""}
     ],
-    "categories": ["Infratitans", "Legendaries"]
+    "categories": ["Infratitans", "Legendaries", "The Regis"]
   }
 ]
 

@@ -8,5 +8,20 @@
       "name": "Legendaries",
       "photo": "./img/categories/",
       "description": "Excedingly rare creatures whose existence is documented mostly by legends than scientifical proofs."
+    },
+    {
+      "name": "The Regis",
+      "photo": "./img/categories/",
+      "description": "These mysterious creatures' origins may be other planet or other dimension."
+    },
+    {
+      "name": "Kanto Starter Trio",
+      "photo": "./img/categories/",
+      "description": "The starters of the Kanto region. For more details, please look at the Starters category."
+    },
+    {
+      "name": "Starters",
+      "photo": "./img/categories/",
+      "description": "The creatures available for a beginner to kickstart its journey for free."
     }
   ]
