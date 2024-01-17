@@ -1,10 +1,18 @@
-- add celacorn and popcanth
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
-
 display Male/Female switch in photo IF, ONLY IF, "photo-female" key exist for a creature
 https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
 https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20F.png
+
+- Add these tamis (not pokemons):
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Morcegatito.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Poltoilleist.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/014.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/012.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/007.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/086.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/001.png
+https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Craboll.png
 
 - /years/{year} page: display the games launched in that year
 - years/{year}: separate Pokes and Games as a tab menu!
@@ -114,18 +122,6 @@ Neutral type, too
 - support for redirects
 
 - Pokémon -> Tamigucho migration
-
-- Add tamicon cartoon for these tamis:
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Morcegatito.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Poltoilleist.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/014.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/012.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/007.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/086.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/001.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Craboll.png
 
 new-tami-creator bash script:
 - get year, get latest creature ID to increment

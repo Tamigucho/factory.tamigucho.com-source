@@ -1886,6 +1886,61 @@
       "link": ""}
     ],
     "categories": ["Infratitans", "Legendaries", "The Regis"]
+  },
+  {
+    "id": 2022,
+    "biyearly_id": 69,
+    "name": "Celacorn",
+    "type": ["Water"],
+    "icon": [
+    {
+      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png",
+      "pixel": ""
+    }
+    ],
+    "photo": "./classic/img/creatures/2022/Celacorn.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Exteca",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "evolve": "Popcanth",
+    "genre-species": ["Fishis", "Popkornensis"],
+    "reallife_inspo": [
+      {"name": "Popcorn",
+      "link": "https://en.wikipedia.org/wiki/Popcorn"}
+    ]
+  },
+  {
+    "id": 2023,
+    "biyearly_id": 70,
+    "name": "Popcanth",
+    "type": ["Water", "Salt"],
+    "icon": [
+    {
+      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png",
+      "pixel": ""
+    }
+    ],
+    "photo": "./classic/img/creatures/2022/Popcanth.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Exteca",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "genre-species": ["Fishis", "Popkornensis"],
+    "reallife_inspo": [
+      {"name": "Popcorn",
+      "link": "https://en.wikipedia.org/wiki/Popcorn"}
+    ]
   }
 ]
 
