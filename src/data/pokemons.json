@@ -1103,7 +1103,8 @@
     "reallife_inspo": [
       {"name": "",
       "link": ""}
-    ]
+    ],
+    "categories": ["Legendaries"]
   },
   {
     "id": 147,
@@ -1818,7 +1819,8 @@
     "reallife_inspo": [
       {"name": "",
       "link": ""}
-    ]
+    ],
+    "categories": ["Infratitans", "Legendaries"]
   },
   {
     "id": 2020,
@@ -1845,7 +1847,8 @@
     "reallife_inspo": [
       {"name": "",
       "link": ""}
-    ]
+    ],
+    "categories": ["Infratitans", "Legendaries"]
   },
   {
     "id": 2021,
