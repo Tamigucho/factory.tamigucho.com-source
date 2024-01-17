@@ -22,7 +22,7 @@ const CategoryPage = () => {
     <div>
       {category && (
         <div class="category-details">
-        <center><h2>{category.name}{/* <span className="badge bg-secondary" title={`Total Pokémons in this category: ${categoryPokemons.length}`}>${categoryPokemons.length}</span>*/}</h2></center>
+        <center><h2>{category.name}<span className="badge bg-secondary" title={`Total Pokémons in this category: ${pokemons.length}`}>{pokemons.length}</span></h2></center>
 <div class="container">
   <div class="row">
   <div class="col-md">

@@ -1,0 +1,16 @@
+In CategoryPage.js line 25: I'm failing to add the category's pokemon count, so I commented out that part.
+
+Please fix and uncomment.
+
+
+
+
+
+
+The issue seems to be that you're trying to access categoryPokemons.length but categoryPokemons is not defined in your current scope. You have defined pokemons instead.
+
+You can fix this by uncommenting the line and replacing categoryPokemons.length with pokemons.length. Here's how you can do it:
+
+<center><h2>{category.name}<span className="badge bg-secondary" title={`Total Pokémons in this category: ${pokemons.length}`}>{pokemons.length}</span></h2></center>
+
+This will display the count of pokemons in the current category.
