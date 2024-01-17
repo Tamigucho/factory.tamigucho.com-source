@@ -1,6 +1,4 @@
-display Male/Female switch in photo IF, ONLY IF, "photo-female" key exist for a creature
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20M.png
-https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20F.png
+Creature page: (bugged, not working) Male/Female switch (useful for Popcanth display)
 
 - Add these tamis (not pokemons):
 https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png
