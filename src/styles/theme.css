@@ -391,3 +391,34 @@ footer a:hover {
   font-weight: inherit;
   color: inherit;
 }
+
+.category-item {
+  user-select: none;
+  margin: 10px;
+  padding: 10px 10px 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+}
+
+.category-item img {
+  user-select: none;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.categories-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category-list > a, .category-list > a:hover {
+  text-decoration: none;
+  font-weight: inherit;
+  color: inherit;
+}

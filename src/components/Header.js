@@ -49,6 +49,11 @@ const Header = ({ creatureCount }) => {
     Games
   </Link>
 </li>
+<li className="nav-item">
+  <Link className={`nav-link ${location.pathname.startsWith('/categories') ? 'active' : ''}`} to="/categories">
+    Categories
+  </Link>
+</li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>

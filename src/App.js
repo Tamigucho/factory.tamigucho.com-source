@@ -20,6 +20,8 @@ import PokemonDetails from './components/PokemonDetails'; // Import the new comp
 import RegionsList from './components/Pages/Regions/RegionsList'; // Import the new component
 import GamesPage from './components/Pages/Games/GamesPage';
 import GamePage from './components/Pages/Games/GamePage';
+import Categories from './components/Categories/Categories';
+import CategoryPage from './components/Categories/CategoryPage';
 import './styles/theme.css';
 
 function App() {
@@ -55,6 +57,8 @@ function App() {
         <Route path="/genres/:genre" element={<GenrePage />} />
         <Route path="/years" element={<YearsPage />} />
         <Route path="/years/:year" element={<YearPage />} />
+        <Route path="/categories" element={<Categories />} />
+        <Route path="/categories/:categoryName" element={<CategoryPage />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />

@@ -1,0 +1,12 @@
+[
+    {
+      "name": "Infratitans",
+      "photo": "path/to/photo",
+      "description": "Description of Infratitans"
+    },
+    {
+      "name": "Legendaries",
+      "photo": "path/to/photo",
+      "description": "Description of Legendaries"
+    }
+  ]
