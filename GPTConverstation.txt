@@ -1,103 +1,147 @@
-http://localhost:3000/categories/Infratitans, http://localhost:3000/categories/Legendaries and even http://localhost:3000/categories/TheRegis are working correctly.
+Please add a paginator for the Pokemons in CategoryPage.js, exactly as there's one in YearPage.js!
 
-However, http://localhost:3000/categories/KantoStarterTrio and http://localhost:3000/categories/Starters:
+
+
+To add a paginator to the CategoryPage.js similar to the one in YearPage.js, you can follow these steps:
+
+1. Add state hooks for currentPage, itemsPerPage, and dropdownOpen in CategoryPage.js if they are not already present.
+2. Calculate the indexOfLastItem, indexOfFirstItem, and currentItems based on the currentPage and itemsPerPage.
+3. Implement the handlePageChange function to update the currentPage.
+4. Add the pagination UI elements to the return block of the CategoryPage.js component.
+
+Here is the code snippet to add to CategoryPage.js:
+
+// Add these state hooks if they are not already present
+const [currentPage, setCurrentPage] = useState(1);
+const [itemsPerPage, setItemsPerPage] = useState(10);
+const [dropdownOpen, setDropdownOpen] = useState(false);
+
+// Add these calculations
+const indexOfLastItem = currentPage * itemsPerPage;
+const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+const currentItems = pokemons.slice(indexOfFirstItem, indexOfLastItem);
+const totalPages = Math.ceil(pokemons.length / itemsPerPage);
+
+// Add this function
+const handlePageChange = (pageNumber) => {
+  setCurrentPage(pageNumber);
+};
+
+// Add the pagination UI elements to the return block
+// Replace the existing map function with this one that uses currentItems
+{currentItems.map((pokemon) => {
+  // ... existing map function code ...
+})}
+
+// Add the pagination controls (copy from YearPage.js)
+<nav aria-label="Page navigation">
+  <ul className="pagination">
+    <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+      <a className="page-link" onClick={() => handlePageChange(currentPage - 1)}>Previous</a>
+    </li>
+    {[...Array(totalPages)].map((e, i) => (
+      <li className={`page-item ${i + 1 === currentPage ? 'active' : ''}`} key={i}>
+        <a className="page-link" onClick={() => handlePageChange(i + 1)}>{i + 1}</a>
+      </li>
+    ))}
+    <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
+      <a className="page-link" onClick={() => handlePageChange(currentPage + 1)}>Next</a>
+    </li>
+  </ul>
+</nav>
+
+// Add the dropdown for items per page (copy from YearPage.js)
+<Dropdown isOpen={dropdownOpen} toggle={() => setDropdownOpen(prevState => !prevState)}>
+  <DropdownToggle caret>
+    Items per page
+  </DropdownToggle>
+  <DropdownMenu>
+    <DropdownItem onClick={() => setItemsPerPage(10)}>10</DropdownItem>
+    <DropdownItem onClick={() => setItemsPerPage(20)}>20</DropdownItem>
+    <DropdownItem onClick={() => setItemsPerPage(50)}>50</DropdownItem>
+    <DropdownItem onClick={() => setItemsPerPage(100)}>100</DropdownItem>
+  </DropdownMenu>
+</Dropdown>
+
+Make sure to place the pagination controls and the dropdown for items per page at the appropriate place in your CategoryPage.js component, typically after the list of items and before the closing tag of the main container element.
+
+Remember to import any necessary components or hooks that are not already imported in CategoryPage.js
+
+
+
+
+
+
+http://localhost:3000/categories/Starters:
 Uncaught runtime errors:
 ERROR
-pokemon.type.map is not a function
-./src/components/Categories/CategoryPage.js/CategoryPage/<.children<.children<@http://localhost:3000/static/js/bundle.js:588:48
-CategoryPage@http://localhost:3000/static/js/bundle.js:567:26
-renderWithHooks@http://localhost:3000/static/js/bundle.js:50795:31
+toggle is not defined
+CategoryPage@http://localhost:3000/static/js/bundle.js:657:7
+renderWithHooks@http://localhost:3000/static/js/bundle.js:50879:31
+mountIndeterminateComponent@http://localhost:3000/static/js/bundle.js:54163:17
 
-Are there something wrong in pokemons.json, categories.json and/or CategoryPage.js?
-
-
+Please look at CategoryPage.js and compare with YearPage.js
 
 
 
 
 
 
-The error message pokemon.type.map is not a function suggests that the type property of a pokemon object is not an array. The map function is an array method in JavaScript, so it can only be used on arrays.
+The error message indicates that the toggle function is not defined in CategoryPage.js. In YearPage.js, the toggle function is used to handle the state change for the dropdown menu. You need to define the toggle function in CategoryPage.js similar to how it's done in YearPage.js.
 
-In your pokemons.json file, the type property of each pokemon object should be an array. However, it seems that for some pokemon objects, type is not an array but a string.
+Here's the missing toggle function that you should add to CategoryPage.js:
 
-For example, in the creatures.json file, we can see that some pokemon objects have a type property that is a string:
+const toggle = () => setDropdownOpen(prevState => !prevState);
 
-startLine: 180
-endLine: 180
+Place this function inside your component before the return statement. This will define the toggle function that is passed to the Dropdown component's toggle prop.
 
-To fix this issue, you need to ensure that the type property of each pokemon object is an array, even if there is only one type.
-
-For example, instead of "type": "Water", it should be "type": ["Water"].
-
-After ensuring that all type properties are arrays, the map function should work correctly in the CategoryPage.js file.
-
-If you don't have control over the data structure and can't ensure that type will always be an array, you can add a check in your code to convert type to an array if it's not already one. Here's how you can do it:
-
-const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
-
-Then, you can use types.map instead of pokemon.type.map. This will ensure that map is always called on an array.
-
-
-
-
-
-CategoryPage.js:
-'types' is declared but its value is never read.ts(6133)
+Additionally, ensure that you have imported all necessary components and hooks from 'reactstrap' and 'react', as used in YearPage.js
 
 
 
 
 
 
-
-
-The warning 'types' is declared but its value is never read.ts(6133) is indicating that you've declared a variable types but you're not using it anywhere in your code.
-
-To resolve this, you need to replace pokemon.type.map with types.map in your CategoryPage.js file. This will ensure that the map function is always called on an array, as types is guaranteed to be an array.
-
-Here's how you can do it:
-
-const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
-// Use types.map instead of pokemon.type.map
-types.map(type => {
-  // Your code here
-});
-
-
-This change will ensure that the types variable is being used, and the warning should disappear.
+http://localhost:3000/categories/Starters:
+Uncaught runtime errors:
+ERROR
+PokemonItem is not defined
+./src/components/Categories/CategoryPage.js/CategoryPage/<.children<.children<@http://localhost:3000/main.0fd93252409782395044.hot-update.js:150:129
+CategoryPage@http://localhost:3000/main.0fd93252409782395044.hot-update.js:150:30
 
 
 
 
+The error message indicates that PokemonItem is not defined in CategoryPage.js. This component is likely being used to render each individual Pokémon item in the list, similar to how it's used in YearPage.js.
+
+To resolve this error, you need to import PokemonItem into CategoryPage.js. Add the following import statement at the top of your CategoryPage.js file:
+
+import PokemonItem from '../../PokemonItem';
+
+Make sure the import path is correct based on the location of PokemonItem relative to CategoryPage.js. After adding the import statement, the error should be resolved, and PokemonItem will be recognized within CategoryPage.js
 
 
-Please show the updated pokemon-type div, with your solution.
 
 
 
 
-Here's the updated pokemon-type div with the solution applied:
 
-{pokemons.map((pokemon) => {
-  const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
-  const creaturePhoto = pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`;
-  return (
-    <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>
-      <div className="pokemon-item">
-        <img src={creaturePhoto} alt={pokemon.name} />
-        <h3>{pokemon.name}</h3>
-        <div className="pokemon-type">Type: 
-          {types.map((type, index) => {
-            const typeData = typesData.find(t => t.type === type);
-            return (
-              <Link key={index} to={`/types/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
-                {typeData.emoji} {type}
-              </Link>
-            );
-          })}
-        </div>
-      </div>
-    </Link>
-  );
-})}
+
+http://localhost:3000/categories:
+ERROR in ./src/components/Categories/CategoryPage.js 8:0-44
+Module not found: Error: Can't resolve '../../PokemonItem' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Categories'
+
+
+
+
+
+
+
+The error message indicates that the module ../../PokemonItem cannot be found. This is likely due to an incorrect import path in CategoryPage.js. The correct import path should be relative to the location of the PokemonItem component within your project's directory structure.
+
+Given the provided code snippets, PokemonItem is located in src/components/, so you should update the import statement in CategoryPage.js to the following:
+
+import PokemonItem from '../PokemonItem';
+
+
+Make sure to replace the incorrect import statement with the one provided above. This should resolve the module not found error.

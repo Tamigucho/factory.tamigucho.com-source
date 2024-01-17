@@ -1,13 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import pokemonsData from '../../data/pokemons.json';
+import PokemonItem from '../PokemonItem';
 import categoriesData from '../../data/creatures/categories.json';
 import typesData from '../../data/types.json';
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 const CategoryPage = () => {
   const { categoryName } = useParams();
   const [category, setCategory] = useState(null);
   const [pokemons, setPokemons] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(10);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen(prevState => !prevState);
+
+// Add this function
+const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+// Add these calculations
+const indexOfLastItem = currentPage * itemsPerPage;
+const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+const currentItems = pokemons.slice(indexOfFirstItem, indexOfLastItem);
+const totalPages = Math.ceil(pokemons.length / itemsPerPage);
 
   useEffect(() => {
     const foundCategory = categoriesData.find(category => category.name.replace(/\.|-|\s/g, '') === categoryName);
@@ -35,30 +53,36 @@ const CategoryPage = () => {
   </div>
         </div>
       )}
-<div className="pokemon-list">
-{pokemons.map((pokemon) => {
-  const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
-  const creaturePhoto = pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`;
-  return (
-    <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>
-      <div className="pokemon-item">
-        <img src={creaturePhoto} alt={pokemon.name} />
-        <h3>{pokemon.name}</h3>
-        <div className="pokemon-type">Type: 
-          {types.map((type, index) => {
-            const typeData = typesData.find(t => t.type === type);
-            return (
-              <Link key={index} to={`/types/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
-                {typeData.emoji} {type}
-              </Link>
-            );
-          })}
+        <div className="pokemon-list">
+        {currentItems.map((pokemon, index) => (
+  <PokemonItem key={index} {...pokemon} />
+))}
         </div>
-      </div>
-    </Link>
-  );
-})}
-</div>
+        <nav aria-label="Page navigation">
+  <ul className="pagination">
+    <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+      <a className="page-link" onClick={() => handlePageChange(currentPage - 1)}>Previous</a>
+    </li>
+    {[...Array(totalPages)].map((e, i) => (
+      <li className={`page-item ${i + 1 === currentPage ? 'active' : ''}`} key={i}>
+        <a className="page-link" onClick={() => handlePageChange(i + 1)}>{i + 1}</a>
+      </li>
+    ))}
+    <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
+      <a className="page-link" onClick={() => handlePageChange(currentPage + 1)}>Next</a>
+    </li>
+  </ul>
+</nav> <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+  <DropdownToggle caret>
+    Items per page
+  </DropdownToggle>
+  <DropdownMenu>
+    <DropdownItem onClick={() => setItemsPerPage(10)}>10</DropdownItem>
+    <DropdownItem onClick={() => setItemsPerPage(20)}>20</DropdownItem>
+    <DropdownItem onClick={() => setItemsPerPage(50)}>50</DropdownItem>
+    <DropdownItem onClick={() => setItemsPerPage(100)}>100</DropdownItem>
+  </DropdownMenu>
+</Dropdown>
     </div>
   );
 };
