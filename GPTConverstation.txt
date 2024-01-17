@@ -1,0 +1,103 @@
+http://localhost:3000/categories/Infratitans, http://localhost:3000/categories/Legendaries and even http://localhost:3000/categories/TheRegis are working correctly.
+
+However, http://localhost:3000/categories/KantoStarterTrio and http://localhost:3000/categories/Starters:
+Uncaught runtime errors:
+ERROR
+pokemon.type.map is not a function
+./src/components/Categories/CategoryPage.js/CategoryPage/<.children<.children<@http://localhost:3000/static/js/bundle.js:588:48
+CategoryPage@http://localhost:3000/static/js/bundle.js:567:26
+renderWithHooks@http://localhost:3000/static/js/bundle.js:50795:31
+
+Are there something wrong in pokemons.json, categories.json and/or CategoryPage.js?
+
+
+
+
+
+
+
+
+The error message pokemon.type.map is not a function suggests that the type property of a pokemon object is not an array. The map function is an array method in JavaScript, so it can only be used on arrays.
+
+In your pokemons.json file, the type property of each pokemon object should be an array. However, it seems that for some pokemon objects, type is not an array but a string.
+
+For example, in the creatures.json file, we can see that some pokemon objects have a type property that is a string:
+
+startLine: 180
+endLine: 180
+
+To fix this issue, you need to ensure that the type property of each pokemon object is an array, even if there is only one type.
+
+For example, instead of "type": "Water", it should be "type": ["Water"].
+
+After ensuring that all type properties are arrays, the map function should work correctly in the CategoryPage.js file.
+
+If you don't have control over the data structure and can't ensure that type will always be an array, you can add a check in your code to convert type to an array if it's not already one. Here's how you can do it:
+
+const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
+
+Then, you can use types.map instead of pokemon.type.map. This will ensure that map is always called on an array.
+
+
+
+
+
+CategoryPage.js:
+'types' is declared but its value is never read.ts(6133)
+
+
+
+
+
+
+
+
+The warning 'types' is declared but its value is never read.ts(6133) is indicating that you've declared a variable types but you're not using it anywhere in your code.
+
+To resolve this, you need to replace pokemon.type.map with types.map in your CategoryPage.js file. This will ensure that the map function is always called on an array, as types is guaranteed to be an array.
+
+Here's how you can do it:
+
+const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
+// Use types.map instead of pokemon.type.map
+types.map(type => {
+  // Your code here
+});
+
+
+This change will ensure that the types variable is being used, and the warning should disappear.
+
+
+
+
+
+
+Please show the updated pokemon-type div, with your solution.
+
+
+
+
+Here's the updated pokemon-type div with the solution applied:
+
+{pokemons.map((pokemon) => {
+  const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
+  const creaturePhoto = pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`;
+  return (
+    <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>
+      <div className="pokemon-item">
+        <img src={creaturePhoto} alt={pokemon.name} />
+        <h3>{pokemon.name}</h3>
+        <div className="pokemon-type">Type: 
+          {types.map((type, index) => {
+            const typeData = typesData.find(t => t.type === type);
+            return (
+              <Link key={index} to={`/types/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
+                {typeData.emoji} {type}
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </Link>
+  );
+})}

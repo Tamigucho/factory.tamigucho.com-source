@@ -36,27 +36,28 @@ const CategoryPage = () => {
         </div>
       )}
 <div className="pokemon-list">
-  {pokemons.map((pokemon) => {
-    const creaturePhoto = pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`;
-    return (
-      <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>
-        <div className="pokemon-item">
-          <img src={creaturePhoto} alt={pokemon.name} />
-          <h3>{pokemon.name}</h3>
-          <div className="pokemon-type">Type: 
-            {pokemon.type.map((type, index) => {
-              const typeData = typesData.find(t => t.type === type);
-              return (
-                <Link key={index} to={`/types/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
-                  {typeData.emoji} {type}
-                </Link>
-              );
-            })}
-          </div>
+{pokemons.map((pokemon) => {
+  const types = Array.isArray(pokemon.type) ? pokemon.type : [pokemon.type];
+  const creaturePhoto = pokemon.photo.startsWith('http') ? pokemon.photo : `${process.env.PUBLIC_URL}/${pokemon.photo}`;
+  return (
+    <Link key={pokemon.id} to={`/creatures/${pokemon.name.replace(/\.|-|\s/g, '')}`}>
+      <div className="pokemon-item">
+        <img src={creaturePhoto} alt={pokemon.name} />
+        <h3>{pokemon.name}</h3>
+        <div className="pokemon-type">Type: 
+          {types.map((type, index) => {
+            const typeData = typesData.find(t => t.type === type);
+            return (
+              <Link key={index} to={`/types/${type}`} className={`type-badge type-${type.toLowerCase()}`}>
+                {typeData.emoji} {type}
+              </Link>
+            );
+          })}
         </div>
-      </Link>
-    );
-  })}
+      </div>
+    </Link>
+  );
+})}
 </div>
     </div>
   );
