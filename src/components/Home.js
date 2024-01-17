@@ -92,11 +92,14 @@ function Home() {
     <h1>Featured Phonemons/Tamiguchos</h1>
 <p>Click them to see their details.</p>
 <div className="featured-pokemons">
+  <div className="pokemon-list">
   {featured.map(pokemon => (
     <PokemonItem key={pokemon.id} {...pokemon} />
   ))}
+  </div>
 </div>
 <hr/>
+    <h1>🗓️ Years <small>and their creatures</small></h1>
     <PokemonList pokemons={filteredPokemons} />
     <div class="chartyears">
       <p>new tami creatures:</p>
