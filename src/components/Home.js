@@ -111,7 +111,7 @@ function Home() {
 <img draggable="false" alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2011/logotype.png`}/>
           </li>
 <li class="nav-item" title="2013-2015">
-            <img draggable="false" alt="Phonemon" height="26px" src={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`}/>
+            <img draggable="false" alt="Phonemon" height="26px" src={`${process.env.PUBLIC_URL}/img/institutional/2013/logotype.svg`}/>
           </li>
           <li class="nav-item" title="2015-2018">
             <img draggable="false" alt="Phonemon" height="16px" src={`${process.env.PUBLIC_URL}/img/institutional/2015/logotype.png`}/>

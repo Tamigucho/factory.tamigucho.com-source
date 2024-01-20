@@ -1,5 +1,5 @@
-- fix timestamp logic for footer
 - tamis present in tamipedia dultra imgs in factory classic: use assets.tamigucho.com instead of local!
+- fix timestamp logic for footer
 - ask cursor Chat to update README.md adding the latest features present in the code
 - move .nostalgit folders to branches! safer
 - fix github's 404 erros when going directly to a URL [SOLUTION 1: redirect 404 to index.html:] https://stackoverflow.com/a/46060999/5623661 https://github.com/rafgraph/spa-github-pages | [SOLUTION 2: hash #:] https://stackoverflow.com/questions/74263485/how-to-fix-error-404-with-github-pages-and-react https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages/71985764#71985764
@@ -84,6 +84,8 @@ draw tami examples for its gimmicks; task annotated in: '/media/daniella/B/git/T
 
 - regional forms dropdown, alongside the gimmick dropdown ; will appear only when available
 - gimmick dropdown: should also support gimmicks on regional forms! so, it will react to changes made by clicking an item in the regional forms dropdown!
+
+- like in https://tamigucho.com/tamipedia/petalrock/, add people.json (daniella, dultra) and add to creatures.json: creator, artwork illustrator
 
 - list gens (and their mons dex numbers) by: biyearly-gens and official-gens
 
