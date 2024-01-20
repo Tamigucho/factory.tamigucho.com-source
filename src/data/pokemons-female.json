@@ -3,11 +3,11 @@
     "name": "Popcanth",
     "icon": [
     {
-      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth%20F.png",
+      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth_F.png",
       "pixel": ""
     }
     ],
-    "photo": "./classic/img/creatures/2022/2022/Popcanth(F).png",
+    "photo": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/full/Popcanth_F.png",
     "instagram": "https://www.instagram.com/p/what"
   }
 ]

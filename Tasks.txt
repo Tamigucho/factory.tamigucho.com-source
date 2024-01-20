@@ -1,4 +1,3 @@
-- tamis present in tamipedia dultra imgs in factory classic: use assets.tamigucho.com instead of local!
 - fix timestamp logic for footer
 - ask cursor Chat to update README.md adding the latest features present in the code
 - move .nostalgit folders to branches! safer
