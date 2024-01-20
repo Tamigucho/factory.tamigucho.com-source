@@ -1,11 +1,16 @@
-- fix timestamp logic for footer
+- blue/red switcher changing between line 1 and line 2 of the description/entry
+
+- update link to github repo in footer (should be source, not site)
+- add "in construction" warn banner
+
+- [CURSOR] fix timestamp logic for footer
 - ask cursor Chat to update README.md adding the latest features present in the code
 - move .nostalgit folders to branches! safer
 - fix github's 404 erros when going directly to a URL [SOLUTION 1: redirect 404 to index.html:] https://stackoverflow.com/a/46060999/5623661 https://github.com/rafgraph/spa-github-pages | [SOLUTION 2: hash #:] https://stackoverflow.com/questions/74263485/how-to-fix-error-404-with-github-pages-and-react https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages/71985764#71985764
 
+- add two new 2011's logotypes to <div class="chartyears"/>
+- Plasmmer Accounts button: make it responsive, not overlapping the bootstrap mobile menu btn
 
-- update link to github repo in footer (should be source, not site)
-- add "in construction" warn banner
 
 - Add these tamis (not pokemons):
 https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png
