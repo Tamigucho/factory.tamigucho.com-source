@@ -528,7 +528,7 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Raticate",
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Rodentius", "Rattatas"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -555,7 +555,7 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Rodentius", "Rattatas"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -638,7 +638,7 @@
     "official_gen": 1,
     "year": 2014,
     "evolve": "Arbok",
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Liophis", "Kobra"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -665,7 +665,7 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Liophis", "Kobra"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -694,7 +694,7 @@
     "official_gen": 2,
     "year": 2015,
     "evolve": "Pikachu",
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Rodentius", "Raichus"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -722,7 +722,7 @@
     "official_gen": 1,
     "year": 2015,
     "evolve": "Raichu",
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Rodentius", "Raichus"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -749,7 +749,7 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2015,
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Rodentius", "Raichus"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -1108,12 +1108,12 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Birtrius", "Articus"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
     ],
-    "categories": ["Legendaries"]
+    "categories": ["Legendaries", "Kanto Legendary Trio"]
   },
   {
     "id": 147,
@@ -1202,7 +1202,7 @@
     "id": 198,
     "biyearly_id": 44,
     "name": "Murkrow",
-    "type": ["Dark", "Flying"],
+    "type": ["Night", "Flying"],
     "icon": [
     {
       "cartoon": "",
@@ -1220,7 +1220,7 @@
     "official_gen": 2,
     "year": 2020,
     "evolve": "Honchkrow",
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Corvus", "Krowensis"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -1229,7 +1229,7 @@
     "id": 430,
     "biyearly_id": 45,
     "name": "Honchkrow",
-    "type": ["Dark", "Flying"],
+    "type": ["Night", "Flying"],
     "icon": [
     {
       "cartoon": "",
@@ -1246,7 +1246,7 @@
     "biyearly_gen": 6,
     "official_gen": 4,
     "year": 2020,
-    "genre-species": ["Felis", "Catus"],
+    "genre-species": ["Corvus", "Krowensis"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -1826,8 +1826,8 @@
     "year": 2025,
     "genre-species": ["Regius", "Tubiliaris"],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {"name": "Life Tube",
+      "link": "https://en.wikipedia.org/wiki/Swim_ring"}
     ],
     "categories": ["Infratitans", "Legendaries", "The Regis"]
   },
@@ -1854,8 +1854,8 @@
     "year": 2024,
     "genre-species": ["Regius", "Kraftus"],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {"name": "Regitube",
+      "link": "https://knowyourmeme.com/memes/regitube"}
     ],
     "categories": ["Infratitans", "Legendaries", "The Regis"]
   },
@@ -1870,7 +1870,7 @@
       "pixel": ""
     }
     ],
-    "photo": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Unknown.png",
+    "photo": "./img/creatures/2024/Regimeal/artwork.png",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1882,8 +1882,8 @@
     "year": 2024,
     "genre-species": ["Regius", "Mealiaris"],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {"name": "Regitube",
+      "link": "https://knowyourmeme.com/memes/regitube"}
     ],
     "categories": ["Infratitans", "Legendaries", "The Regis"]
   },
@@ -1941,6 +1941,90 @@
       {"name": "Popcorn",
       "link": "https://en.wikipedia.org/wiki/Popcorn"}
     ]
+  },
+  {
+    "id": 2024,
+    "biyearly_id": 71,
+    "name": "Morcegatito",
+    "type": ["Night", "Flying"],
+    "icon": [
+    {
+      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Morcegatito.png",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2024/Morcegatito/artwork.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Affrah",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "genre-species": ["Felis", "Morcegatitus"],
+    "reallife_inspo": [
+      {"name": "Gargoyles",
+      "link": "https://en.wikipedia.org/wiki/Gargoyle"}
+    ],
+    "categories": ["Legendaries", "The Gargoyles"]
+  },
+  {
+    "id": 2025,
+    "biyearly_id": 72,
+    "name": "Capsuled",
+    "type": ["Plastic"],
+    "icon": [
+    {
+      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2013/Capsuled.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Kairo",
+    "biyearly_gen": 2,
+    "official_gen": 0,
+    "year": 2013,
+    "genre-species": ["Plasticus", "Capsulis"],
+    "reallife_inspo": [
+      {"name": "Pill/Capsule",
+      "link": "https://en.wikipedia.org/wiki/Capsule_(pharmacy)"}
+    ],
+    "categories": []
+  },
+  {
+    "id": 2026,
+    "biyearly_id": 73,
+    "name": "Bagust",
+    "type": ["Plastic", "Flying"],
+    "icon": [
+    {
+      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2013/Bagust.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 2,
+    "official_gen": 0,
+    "year": 2013,
+    "genre-species": ["Plasticus", "Bagis"],
+    "reallife_inspo": [
+      {"name": "Plastic Shopping Bag",
+      "link": "https://en.wikipedia.org/wiki/Plastic_shopping_bag"}
+    ],
+    "categories": []
   }
 ]
 

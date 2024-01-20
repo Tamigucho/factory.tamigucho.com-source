@@ -10,7 +10,7 @@ body {
 #header-wrapper {
   user-select: none;
   margin: 0px auto 0px;
-  height: 66px;
+  height: 76px;
   padding: 30px 0px 0px 0px;
   overflow: hidden;
 }
@@ -27,7 +27,7 @@ body {
   overflow: hidden;
   float: left;
   width: 468px;
-  height: 60px;
+  height: 70px;
   margin-top: -24px;
   margin-left: 10px;
 }

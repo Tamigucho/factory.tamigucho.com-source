@@ -7,7 +7,7 @@
 /* Define colors for Pokémon types */
 :root {
   --type-bug: #A8B820;
-  --type-dark: #705848;
+  --type-night: #705848;
   --type-dragon: #7038F8;
   --type-electric: #F8D030;
   --type-fairy: #EE99AC;
@@ -233,7 +233,7 @@ footer a:hover {
 
 /* Dynamically assign background colors based on Pokémon type */
 .type-bug { background-color: var(--type-bug) }
-.type-dark { background-color: var(--type-dark) }
+.type-night { background-color: var(--type-night) }
 .type-dragon { background-color: var(--type-dragon) }
 .type-electric { background-color: var(--type-electric) }
 .type-fairy { background-color: var(--type-fairy) }

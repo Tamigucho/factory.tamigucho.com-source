@@ -100,7 +100,7 @@ function Home() {
 </div>
 <hr/>
 <h1 id="mainnav">Navigation</h1><ul><li>Soon.</li></ul>
-<p>Since 2010, me, <a href="https://danimesq.github.io/" target="_blank">Daniella Mesquita</a>, hasn't stopped even a single year creating these mons. I was able to see new mons even in the form of a cloud or a water dropplet that could inspire me to create something new. They were originally intended to be Pokémons, but who know if they won't someday? All I can do now is to open the multiverse to free the mon-catching universe off Nintendo's walled garden. My original dream was that The Pokémon Company could listen to its fans, but I wasn't so wrong as DeFi's community-ownership is here to stay and: if the community can't be heard, they build that themselves. That's what the Tamigucho Universe should be about.</p>
+<p>Since 2010, me, <a href="https://danimesq.github.io/" target="_blank">Daniella Mesquita</a>, hasn't stopped even a single year creating these mons. I was able to see new mons even in the form of a cloud or a water dropplet that could inspire me to create something new. They were originally intended to be Pokémons, but who know if they won't someday? All I can do now is to <a target="_blank" href="https://tamigucho.com/about/vision/">open the multiverse to free the mon-catching universe off Nintendo's walled garden</a>. My original dream was that The Pokémon Company could listen to its fans, but I wasn't so wrong as DeFi's community-ownership is here to stay and: if the community can't be heard, they build that themselves. That's what the Tamigucho Universe should be about.</p>
 <p>If you think "Pokémon is a legalized roosterfight", please read my <a href="https://twitter.com/DaniMesqBR/status/1538582659722625025" target="_blank">thread (in Portuguese) at Twitter</a> (I'll never call it "X").</p>
 <div class="chartyears">
       <p>new tami creatures:</p>
@@ -132,17 +132,16 @@ function Home() {
     <li>2013 and 2022 were Phonemon/Tamigucho's ATHs (All Time Highs), the years with most mons created since 2010.</li>
     <li>From 2014 to 2018, new mons creation was growing through 4 years non-stopping. Even with the hell we suffered in 2018, things got worse when the unnameable started governing here. And yes, 2014 was a horrid year and I was trying to keep my mental sanity in 2015 (which didn't worked at the time).</li>
     <li>A depression started in December 2021 through 2022 is what led me to forget my personal life and begin drawing the most mons I ever did before.</li>
-    {/* CTRL+K: "Please fix the style syntax for JSX.": */}
     <li>After reaching its ATH in <a href="#2022">2022<span class="badge" style={{display: 'unset'}}>39</span></a>, new tami creations had a cooling in <a href="#2023">2023<span class="badge" style={{display: 'unset'}}>13</span></a>, being at front of <a href="#2017">2017<span class="badge" style={{display: 'unset'}}>12</span></a> levels by just 1 tamigucho.</li>
     </ul>
 
-    <p><b>Gens with the most tamis created</b>:</p>
+    <p><b>Years with the most tamis created</b>:</p>
 <ol>
 <li>👑🥇 2022</li>
 <li>👑🥈 2013</li>
 <li>👑🥉 2018</li>
 </ol>
-<p><b>Gens with the fewest tamis created</b>:</p>
+<p><b>Years with the fewest tamis created</b>:</p>
 <ol>
 <li>👑🥇 2021</li>
 <li>👑🥈 2010+2020 [DRAW]</li>

@@ -26,17 +26,17 @@
   "color": "#A8B820",
   "emoji": "🐛",
   "weaknesses": ["Fire", "Flying", "Rock", "Plastic", "Salt"],
-  "resistance": ["Plant", "Psychic", "Dark", "Paper"],
+  "resistance": ["Plant", "Psychic", "Night", "Paper"],
   "effectiveness": {
     "Bug": 1,
     "Ghost": 0.5,
-    "Dark": 2,
+    "Night": 2,
     "Paper": 2,
     "Rock": 0.5
   }
 },
 {
-  "type": "Dark",
+  "type": "Night",
   "color": "#705848",
   "emoji": "🌑",
   "weaknesses": ["Fighting", "Bug", "Fairy"],
@@ -44,7 +44,7 @@
   "effectiveness": {
     "Bug": 2,
     "Ghost": 2,
-    "Dark": 1
+    "Night": 1
   }
 },
 {
@@ -56,7 +56,7 @@
   "effectiveness": {
     "Bug": 1,
     "Ghost": 1,
-    "Dark": 1,
+    "Night": 1,
     "Dragon": 2,
     "Fairy": 0.5
   }
@@ -81,11 +81,11 @@
   "color": "#EE99AC",
   "emoji": "🧚",
   "weaknesses": ["Poison", "Steel", "Salt", "Sugar"],
-  "resistance": ["Fighting", "Dragon", "Dark"],
+  "resistance": ["Fighting", "Dragon", "Night"],
   "effectiveness": {
     "Fighting": 0.5,
     "Dragon": 2,
-    "Dark": 2,
+    "Night": 2,
     "Poison": 0.5,
     "Steel": 0.5,
     "Sugar": 2
@@ -96,7 +96,7 @@
   "color": "#C03028",
   "emoji": "🥊",
   "weaknesses": ["Flying", "Psychic", "Fairy"],
-  "resistance": ["Animal", "Rock", "Steel", "Ice", "Dark"],
+  "resistance": ["Animal", "Rock", "Steel", "Ice", "Night"],
   "effectiveness": {
     "Flying": 2,
     "Psychic": 2,
@@ -105,7 +105,7 @@
     "Rock": 1,
     "Steel": 0.5,
     "Ice": 0.5,
-    "Dark": 0.5
+    "Night": 0.5
   }
 },
 {
@@ -147,11 +147,11 @@
   "type": "Ghost",
   "color": "#705898",
   "emoji": "👻",
-  "weaknesses": ["Dark"],
+  "weaknesses": ["Night"],
   "resistance": ["Psychic", "Ghost", "Animal", "Salt", "Sugar"],
   "effectiveness": {
     "Ghost": 2,
-    "Dark": 2,
+    "Night": 2,
     "Psychic": 0.5,
     "Animal": 0
   }
@@ -228,12 +228,12 @@
   "type": "Psychic",
   "color": "#F85888",
   "emoji": "🔮",
-  "weaknesses": ["Bug", "Ghost", "Dark"],
+  "weaknesses": ["Bug", "Ghost", "Night"],
   "resistance": ["Fighting", "Poison", "Animal"],
   "effectiveness": {
     "Bug": 2,
     "Ghost": 2,
-    "Dark": 2,
+    "Night": 2,
     "Fighting": 0.5,
     "Poison": 0.5,
     "Animal": 2
