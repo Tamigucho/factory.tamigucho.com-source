@@ -7,7 +7,8 @@
 - ask cursor Chat to update README.md adding the latest features present in the code
 - move .nostalgit folders to branches! safer
 
-- /years/year: add its games!
+- /years/{year}: add its games!
+- /regions/region: add real-life inspo (ref pokemons.json)
 
 - /items (first item: symbiorb - /items/symbiorb)
 - new item: NeuraSync
