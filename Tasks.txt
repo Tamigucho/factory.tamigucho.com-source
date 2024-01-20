@@ -1,3 +1,7 @@
+- classic: that 4 draft 2022 tamis: (mv that to scan, antenna versions)
+
+- /items (first item: symbiorb)
+
 - blue/red switcher changing between line 1 and line 2 of the description/entry
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
