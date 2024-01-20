@@ -1,7 +1,3 @@
-Creature page: (bugged, not working) Male/Female switch (useful for Popcanth display)
-
-
-
 - fix timestamp logic for footer
 - tamis present in tamipedia dultra imgs in factory classic: use assets.tamigucho.com instead of local!
 - ask cursor Chat to update README.md adding the latest features present in the code
@@ -45,6 +41,8 @@ After A+B chkdsk fix:
 - PokemonDetails.js: list attacks learnable and abilities
 - /attacks page; list the first attack: "Grass Crunch"
 - /abilities page
+
+- fix male/female switcher feature (test on Popcanth, Funry)
 
 inspo evolution table: https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)
 yes, use a table. a evolution of a evolution mean a new column!

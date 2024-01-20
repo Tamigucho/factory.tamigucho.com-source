@@ -312,6 +312,19 @@ footer a:hover {
   height: 128px;
 }
 
+/* src/styles/theme.css */
+.gender-switch button {
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.gender-switch button.inactive {
+  filter: grayscale(100%);
+}
+
 .type-header {
   border-radius: 5px;
   padding: 0 5px 0 5px;

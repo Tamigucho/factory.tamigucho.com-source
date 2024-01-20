@@ -21,9 +21,52 @@ const PokemonDetails = ({ pokemons }) => {
   let prevCreaturePhoto = prevPokemon && prevPokemon.photo ? (prevPokemon.photo.startsWith('http') ? prevPokemon.photo : `${process.env.PUBLIC_URL}/${prevPokemon.photo}`) : "default_image_url";
   let nextCreaturePhoto = nextPokemon && nextPokemon.photo ? (nextPokemon.photo.startsWith('http') ? nextPokemon.photo : `${process.env.PUBLIC_URL}/${nextPokemon.photo}`) : "default_image_url";
 
+  // Define handleGenderSwitch function here
+// src/components/PokemonDetails.js
+const handleGenderSwitch = (newGender) => {
+  console.log('handleGenderSwitch called with newGender:', newGender);
+  if (newGender === 'female' && !femaleData.name) {
+    fetch('/data/pokemons-female.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Log the processed names for comparison
+        console.log('Processed names from pokemons-female.json:', data.map(entry => entry.name.toLowerCase().replace(/[^a-z0-9]/gi, '')));
+        console.log('Processed name from pokemon:', pokemon.name.toLowerCase().replace(/[^a-z0-9]/gi, ''));
+
+        const femaleEntry = data.find(entry => entry.name.toLowerCase().replace(/[^a-z0-9]/gi, '') === pokemon.name.toLowerCase().replace(/[^a-z0-9]/gi, ''));
+        setFemaleData(femaleEntry || {});
+        console.log('femaleData after fetch:', femaleData); // Add this line to check the state
+      })
+      .catch(error => {
+        console.error('There has been a problem with your fetch operation:', error);
+      });
+  }
+  setGender(newGender);
+};
+
   const [loading, setLoading] = useState(true);
 
   const [evolutions, setEvolutions] = useState([]);
+
+  // Add new state for gender and female data
+  const [femaleData, setFemaleData] = useState({});
+  const [gender, setGender] = useState('male');
+
+  // Define activeData here, after all state hooks
+  const activeData = gender === 'female' && femaleData.name ? { ...pokemon, ...femaleData } : pokemon;
+
+  useEffect(() => {
+    handleGenderSwitch('male'); // Assuming 'male' is the default gender
+  }, []); // Empty dependency array to run only on mount
+
+  useEffect(() => {
+    console.log('femaleData updated:', femaleData);
+  }, [femaleData]); // Log when femaleData changes
 
   useEffect(() => {
     if (pokemons && pokemons.length > 0) {
@@ -37,6 +80,26 @@ const PokemonDetails = ({ pokemons }) => {
       console.log('originalName:', originalName);
       if (foundPokemon) {
         setPokemon(foundPokemon);
+
+        // Load female data on component mount
+        if (pokemon && gender === 'female') {
+          fetch('/data/pokemons-female.json')
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(data => {
+              const femaleEntry = data.find(entry => entry.name.toLowerCase().replace(/[^a-z0-9]/gi, '') === pokemon.name.toLowerCase().replace(/[^a-z0-9]/gi, ''));
+              setFemaleData(femaleEntry || {});
+              console.log('femaleData after fetch:', femaleData); // Add this line to check the state
+            })
+            .catch(error => {
+              console.error('There has been a problem with your fetch operation:', error);
+            });
+        }
+
         // Move these lines inside useEffect, after pokemon has been set
       // Find pre-evolutions
       const preEvolutions = pokemons.filter(p => Array.isArray(p.evolve) ? p.evolve.includes(foundPokemon.name) : p.evolve === foundPokemon.name);
@@ -75,7 +138,7 @@ const PokemonDetails = ({ pokemons }) => {
 
     fetchPokemon();
   }
-}, [name, pokemons]);
+}, [name, pokemons, pokemon, gender]);
 
 if (loading) {
   return <div>Loading...</div>;
@@ -103,7 +166,7 @@ return (
 )}
 </ul>
 <br/>
-    {pokemon && ( // Add this line to conditionally render the content when pokemon is available
+    {pokemon && (
     <>
         <center><h2><div className="tamicons">
             <div className="cartoon">
@@ -113,39 +176,56 @@ return (
               <img title="icon pixel" alt="icon pixel" src={pixelIcon} />
             </div>
           </div>
-          {pokemon.name} <small>(Nºs {pokemon.id} / {pokemon.biyearly_id})</small></h2></center>
-        {/*<small>The {pokemon.biyearly_id}th Pokémon ever created.</small>*/}
+          {activeData.name} <small>(Nºs {activeData.id} / {activeData.biyearly_id})</small></h2></center>
+        <div className="gender-switch">
+  <button
+    className={`gender-switch-button ${!femaleData.name ? 'inactive' : gender === 'male' ? 'active' : ''}`}
+    style={{ backgroundColor: !femaleData.name ? 'gray' : gender === 'male' ? 'blue' : 'gray' }}
+    onClick={() => handleGenderSwitch('male')}
+    disabled={!femaleData.name} // Disable if no female data
+  >
+    ♂️
+  </button>
+  <button
+    className={`gender-switch-button ${gender === 'female' && femaleData.name ? 'active' : 'inactive'}`}
+    style={{ backgroundColor: gender === 'female' && femaleData.name ? 'pink' : 'gray' }} // Corrected logic for female button
+    onClick={() => handleGenderSwitch('female')}
+    disabled={!femaleData || !femaleData.name} // Disable if no female data
+  >
+    ♀️
+  </button>
+</div>
 <div class="container">
   <div class="row">
     <div class="col-md">
-          <img draggable="false" height="400px" src={`${creaturePhoto}`} alt={pokemon.name} />
-          <a title="Click to Zoom/open img on new tab" href={`${creaturePhoto}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={pokemon.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
+          <img draggable="false" height="400px" src={`${creaturePhoto}`} alt={activeData.name} />
+          <a title="Click to Zoom/open img on new tab" href={`${creaturePhoto}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={activeData.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
     </div>
     <div class="col-md pokemon-details">
-    <p>{pokemon.description.map((line, index) => <p key={index}>{line}</p>)}</p>
-    <p>Genre: <Link to={`/genres/${pokemon['genre-species'][0]}`} className={`genre-badge genre-${pokemon['genre-species'][0].toLowerCase()}`}>
-    {pokemon['genre-species'][0]}
-  </Link>{pokemon['genre-species'][1]}
+    <p>{activeData.description.map((line, index) => <p key={index}>{line}</p>)}</p>
+    <p>Genre: <Link to={`/genres/${activeData['genre-species'][0]}`} className={`genre-badge genre-${activeData['genre-species'][0].toLowerCase()}`}>
+    {activeData['genre-species'][0]}
+  </Link>{activeData['genre-species'][1]}
 </p>
-    <p>Type: {Array.isArray(pokemon.type) ? (
-    pokemon.type.map((type, index) => (
+    <p>Type: {Array.isArray(activeData.type) ? (
+    activeData.type.map((type, index) => (
       <Link to={`/types/${type}`} key={index} className={`type-badge type-${type.toLowerCase()}`}>
         {getTypeEmoji(type)} {type}
       </Link>
     ))
   ) : (
-    <Link to={`/types/${pokemon.type}`} className={`type-badge type-${pokemon.type.toLowerCase()}`}>
-      {getTypeEmoji(pokemon.type)} {pokemon.type}
+    <Link to={`/types/${activeData.type}`} className={`type-badge type-${activeData.type.toLowerCase()}`}>
+      {getTypeEmoji(activeData.type)} {activeData.type}
     </Link>
   )}
 </p>
-<p>Region: <Link to={`/regions/${pokemon.region}`}>{pokemon.region}</Link></p>
-<p>Official generation: {pokemon.official_gen}</p>
-<p>Biyearly generation: {pokemon.biyearly_gen}</p>
-<p>Created in: <Link to={`/years/${pokemon.year}`}>{pokemon.year}</Link></p>
-<p>Real-life inspiration: <Link target="_blank" to={`${pokemon['reallife_inspo'][0]['link']}`}>{pokemon['reallife_inspo'][0]['name']}</Link></p>
-{pokemon.categories && (
-  <p>Categories: {pokemon.categories.map((category, index) => (
+<p>Region: <Link to={`/regions/${activeData.region}`}>{activeData.region}</Link></p>
+<p>Official generation: {activeData.official_gen}</p>
+<p>Biyearly generation: {activeData.biyearly_gen}</p>
+<p>Created in: <Link to={`/years/${activeData.year}`}>{activeData.year}</Link></p>
+<p>Real-life inspiration: <Link target="_blank" to={`${activeData['reallife_inspo'][0]['link']}`}>{activeData['reallife_inspo'][0]['name']}</Link></p>
+{activeData.categories && (
+  <p>Categories: {activeData.categories.map((category, index) => (
     <Link key={index} to={`/categories/${category.replace(/\.|-|\s/g, '')}`} className="category-badge">
       {category}
     </Link>
@@ -167,7 +247,7 @@ return (
     console.log('evolutionData:', evolutionData);
     return (
         <li key={index} class="evolution-item">
-    {evolution === pokemon.name ? 
+    {evolution === activeData.name ? 
           <mark>
             <img draggable="false" alt={evolution} src={`${process.env.PUBLIC_URL}/${evolutionData.photo}`} />
             <h3>{evolution}</h3>
@@ -186,7 +266,6 @@ return (
     </ul>
   </div>
 </section>
-    {/* Add more details about the specific Pokemon */}
     </>
     )}
   </div>
