@@ -2,7 +2,7 @@ general improvements:
 - classic: that 4 draft 2022 tamis: (mv that to scan, antenna versions)
 
 Windows 11 PowerPoint:
-- render version for 2022's Sprouterra, Wormit, Clameta, Crabterfly, Funry_F (fixed colors based cam), Funry_M, Starecover, 
+- render version for 2022's Sprouterra, Wormit, Clameta, Crabterfly, Funry_F (fixed colors based cam), Funry_M, Starecover, and 2017's tamis
 - dewhale resizedimage.svg: #3AA3CB -> #00a4e9
 - https://archive.is/BoAG7#selection-3349.1-3365.103 make cutt version of Ziraldonkey
 
