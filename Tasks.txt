@@ -1,14 +1,23 @@
 general improvements:
-- Home.js: add "in construction" warn banner
-- update link to github repo in footer (should be source, not site)
-- neutral type interact with ghost same way of animal
 - classic: that 4 draft 2022 tamis: (mv that to scan, antenna versions)
+- classic: fix scroll
+
+Windows 11 PowerPoint:
+- dewhale resizedimage.svg: #3AA3CB -> #00a4e9
+
+- evolution img url isn't working for external URLs
+
+- mv searchbox to header
+- play a creature cry
+
+- PokemonDetails: current infos moved to /src/components/Pages/Creatures/Details/Overview
+- PokemonDetails: tab menu with: Overview, History (Creatures/History/CreatureName.js) otherwise History returns Bramblin poke empty msg https://assets.pokemon.com/assets/cms2/img/pokedex/full/946.png
 
 - [CURSOR] fix timestamp logic for footer
 - ask cursor Chat to update README.md adding the latest features present in the code
 - move .nostalgit folders to branches! safer
 
-- /years/{year}: add its games!
+- /years/{year}: add its games (as cards)!
 - /regions/{region}: add real-life inspo (ref pokemons.json)
 - /regions/{region}: games as cards!
 
