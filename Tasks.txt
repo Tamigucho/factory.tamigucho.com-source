@@ -1,17 +1,23 @@
-- classic: that 4 draft 2022 tamis: (mv that to scan, antenna versions)
-
+general improvements:
+- Home.js: add "in construction" warn banner
 - update link to github repo in footer (should be source, not site)
-- add "in construction" warn banner
+- neutral type interact with ghost same way of animal
+- classic: that 4 draft 2022 tamis: (mv that to scan, antenna versions)
 
 - [CURSOR] fix timestamp logic for footer
 - ask cursor Chat to update README.md adding the latest features present in the code
 - move .nostalgit folders to branches! safer
 
 - /years/{year}: add its games!
-- /regions/region: add real-life inspo (ref pokemons.json)
+- /regions/{region}: add real-life inspo (ref pokemons.json)
+- /regions/{region}: games as cards!
 
 - /items (first item: symbiorb - /items/symbiorb)
 - new item: NeuraSync
+- new item: Corn Fossil
+- new item: TamiCard
+- /items/categories! (example: TamiStorage)
+- new item: TamiBlock
 
 - blue/red switcher changing between line 1 and line 2 of the description/entry
 
@@ -77,7 +83,7 @@ After A+B chkdsk fix:
 - /attacks page; list the first attack: "Grass Crunch"
 - /abilities page
 
-- fix male/female switcher feature (test on Popcanth, Funry)
+- fix male/female switcher feature (test on Popcanth, Funry) http://localhost:3000/creatures/Popcanth
 
 inspo evolution table: https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)
 yes, use a table. a evolution of a evolution mean a new column!
@@ -99,6 +105,7 @@ yes, use a table. a evolution of a evolution mean a new column!
 - like in https://tamigucho.com/tamipedia/petalrock/, add people.json (daniella, dultra) and add to creatures.json: creator, artwork illustrator
 
 - list gens (and their mons dex numbers) by: biyearly-gens and official-gens
+- biyearly gen not anymore hardcoded in pokemons.json
 
 - list of type combos (such as Carkol/Coalossal's Rock+Fire+Rubber), and the Pokémons using them
 
