@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import pokemonsData from '../../data/pokemons.json';
 import PokemonItem from '../PokemonItem';
 import categoriesData from '../../data/creatures/categories.json';
-import typesData from '../../data/types.json';
+import typesData from '../../data/creatures/types.json';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 const CategoryPage = () => {

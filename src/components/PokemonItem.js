@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useParams } from 'react-router-dom';
 import pokemons from '../data/pokemons.json';
-import pokemonTypes from '../data/types.json'; // Import the Pokemon types data
+import pokemonTypes from '../data/creatures/types.json'; // Import the Pokemon types data
 
 const PokemonDetails = ({ pokemons }) => {
   const { name } = useParams();

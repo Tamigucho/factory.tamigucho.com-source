@@ -4,6 +4,7 @@ import regionsData from '../../../data/regions.json';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import pokemonsData from '../../../data/pokemons.json';
 import PokemonItem from '../../PokemonItem';
+import gamesData from '../../../data/games.json';
 
 //const PokemonItem = ({ id, name, type, photo }) => (
 //    <div>
@@ -52,7 +53,16 @@ useEffect(() => {
          <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/${region.photo}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a>
         </center>
         <h3>Games <span className="badge bg-secondary" title={`Set in the ${region.name} region: ${games.length} games`}>{games.length}</span></h3>
-        <ul>{games.map(game => <li key={game}><Link to={`/games/${game.replace(/&|\s/g, '')}`}>{game}</Link></li>)}</ul>
+        <div className="game-list">{games.map(game =>
+        <Link to={`/games/${game.replace(/&|\s/g, '')}`}><div className="game-item">
+          <div className="game-photo">
+            <img draggable="false" src={`${process.env.PUBLIC_URL}/${game.photo}`} alt={game.name} />
+        </div>
+        <div className="game-info">
+            <h3>{game.name} {game}</h3>
+        </div>
+          </div></Link>
+        )}</div>
         <h3>Pokémons <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByRegion.length}`}>{pokemonsByRegion.length}</span></h3>
         <div className="pokemon-list">
   {currentItems.map((pokemon, index) => (

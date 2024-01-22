@@ -1,16 +1,22 @@
-general improvements:
-- classic: that 4 draft 2022 tamis: (mv that to scan, antenna versions)
-
 Windows 11 PowerPoint:
 - render version for 2022's Sprouterra, Wormit, Clameta, Crabterfly, Funry_F (fixed colors based cam), Funry_M, Starecover, and 2017's tamis, fix colorize 2015's Wormorph so ->svg then apply sprite's psychedelic colors ->png
 - dewhale resizedimage.svg: #3AA3CB -> #00a4e9
 - https://archive.is/BoAG7#selection-3349.1-3365.103 make cutt version of Ziraldonkey
 
+- add the Glass type!
+
+- creatures now can have more than 1 genre/species! example: birsh is both Avis and Fishis!
+
+- pokemons.json: rename "photo" to "artwork", and put "instagram" under it now as an array!
+- only display instagram link/icon if artwork/instagram entry isn't empty!
+
+- rename "IMG_20170605_0001" to "Cliclay" | credit https://chat.openai.com/c/09a76560-4c31-4c6d-8b04-a9327b23988b
+
 - evolution img url isn't working for external URLs
 
 - mv searchbox to header
 - play a creature cry
-- show a tami egg! (only if available) and breeding info such as egg formation time/egg amount! 2018: https://archive.is/BoAG7#selection-70.560-1849.33 (mv to versions/original-scans) | 2015/2016: '/media/daniella/B/git/Tamigucho/&meta/Private/Products/sharedExperinces-Features/DNA/Breeding/Eggs/Tami Eggs designs and characteristics.png'
+- show a tami egg! (only if available) and breeding info such as egg formation time/egg amount! 2018: https://archive.is/BoAG7#selection-70.560-1849.33 (mv to versions/original-scans) | 2015/2016: '/media/daniella/B/git/Tamigucho/&meta/Private/Products/sharedExperinces-Features/DNA/Breeding/Eggs/Tami Eggs designs and characteristics.png' | 2019: https://archive.is/BoAG7#selection-1855.0-1897.6
 
 - PokemonDetails: current infos moved to /src/components/Pages/Creatures/Details/Overview
 - PokemonDetails: tab menu with: Overview, History (Creatures/History/CreatureName.js) otherwise History returns Bramblin poke empty msg https://assets.pokemon.com/assets/cms2/img/pokedex/full/946.png

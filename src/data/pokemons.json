@@ -445,7 +445,7 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Pidgeotto",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": ["Avis", "Pigeos"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -473,7 +473,7 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Pidgeot",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": ["Avis", "Pigeos"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -500,7 +500,7 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": ["Avis", "Pigeos"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -583,7 +583,7 @@
     "official_gen": 1,
     "year": 2014,
     "evolve": "Fearow",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": ["Avis", "Fearensis"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -610,7 +610,7 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": ["Avis", "Fearensis"],
     "reallife_inspo": [
       {"name": "",
       "link": ""}
@@ -822,16 +822,16 @@
       "pixel": ""
     }
     ],
-    "photo": "./img/creatures/2016/979.svg",
+    "photo": "./img/creatures/2022/979.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
       "and, too."
     ],
     "region": "Paldea",
-    "biyearly_gen": 4,
+    "biyearly_gen": 7,
     "official_gen": 9,
-    "year": 2016,
+    "year": 2022,
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
       {"name": "",
@@ -1593,7 +1593,7 @@
       "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/837.png"
     }
     ],
-    "photo": "./img/creatures/2022/837.svg",
+    "photo": "./img/creatures/2019/837.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1602,7 +1602,7 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2022,
+    "year": 2019,
     "evolve": "Carkol",
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
@@ -1621,7 +1621,7 @@
       "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/838.png"
     }
     ],
-    "photo": "./img/creatures/2022/838.svg",
+    "photo": "./img/creatures/2019/838.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1630,7 +1630,7 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2022,
+    "year": 2019,
     "evolve": "Coalossal",
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
@@ -1649,7 +1649,7 @@
       "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/839.png"
     }
     ],
-    "photo": "./img/creatures/2022/839.svg",
+    "photo": "./img/creatures/2019/839.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1658,7 +1658,7 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2022,
+    "year": 2019,
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
       {"name": "",
@@ -1676,7 +1676,7 @@
       "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/868.png"
     }
     ],
-    "photo": "./img/creatures/2023/868.svg",
+    "photo": "./img/creatures/2019/868.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1685,7 +1685,7 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2023,
+    "year": 2019,
     "evolve": "Alcremie",
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
@@ -1704,7 +1704,7 @@
       "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/869.png"
     }
     ],
-    "photo": "./img/creatures/2023/869.svg",
+    "photo": "./img/creatures/2019/869.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1713,7 +1713,7 @@
     "region": "Galar",
     "biyearly_gen": 7,
     "official_gen": 8,
-    "year": 2023,
+    "year": 2019,
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
       {"name": "",
@@ -1731,7 +1731,7 @@
       "pixel": ""
     }
     ],
-    "photo": "./img/creatures/2023/932.svg",
+    "photo": "./img/creatures/2022/932.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1740,7 +1740,7 @@
     "region": "Paldea",
     "biyearly_gen": 7,
     "official_gen": 9,
-    "year": 2023,
+    "year": 2022,
     "evolve": "Naclstack",
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
@@ -1759,7 +1759,7 @@
       "pixel": ""
     }
     ],
-    "photo": "./img/creatures/2023/933.svg",
+    "photo": "./img/creatures/2022/933.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1768,7 +1768,7 @@
     "region": "Paldea",
     "biyearly_gen": 7,
     "official_gen": 9,
-    "year": 2023,
+    "year": 2022,
     "evolve": "Garnacl",
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
@@ -1787,7 +1787,7 @@
       "pixel": ""
     }
     ],
-    "photo": "./img/creatures/2023/934.svg",
+    "photo": "./img/creatures/2022/934.svg",
     "instagram": "https://www.instagram.com/p/what",
     "description": [
       "to add;",
@@ -1796,7 +1796,7 @@
     "region": "Paldea",
     "biyearly_gen": 7,
     "official_gen": 9,
-    "year": 2023,
+    "year": 2022,
     "genre-species": ["Canis", "Familiaris"],
     "reallife_inspo": [
       {"name": "",
@@ -1862,34 +1862,6 @@
   {
     "id": 2021,
     "biyearly_id": 68,
-    "name": "Regimeal",
-    "type": ["Salt", "Sugar"],
-    "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
-    ],
-    "photo": "./img/creatures/2024/Regimeal/artwork.png",
-    "instagram": "https://www.instagram.com/p/what",
-    "description": [
-      "to add;",
-      "and, too."
-    ],
-    "region": "Brava",
-    "biyearly_gen": 8,
-    "official_gen": 0,
-    "year": 2024,
-    "genre-species": ["Regius", "Mealiaris"],
-    "reallife_inspo": [
-      {"name": "Regitube",
-      "link": "https://knowyourmeme.com/memes/regitube"}
-    ],
-    "categories": ["Infratitans", "Legendaries", "The Regis"]
-  },
-  {
-    "id": 2022,
-    "biyearly_id": 69,
     "name": "Celacorn",
     "type": ["Water"],
     "icon": [
@@ -1905,9 +1877,9 @@
       "and, too."
     ],
     "region": "Exteca",
-    "biyearly_gen": 8,
+    "biyearly_gen": 7,
     "official_gen": 0,
-    "year": 2024,
+    "year": 2022,
     "evolve": "Popcanth",
     "genre-species": ["Fishis", "Popkornensis"],
     "reallife_inspo": [
@@ -1916,8 +1888,8 @@
     ]
   },
   {
-    "id": 2023,
-    "biyearly_id": 70,
+    "id": 2022,
+    "biyearly_id": 69,
     "name": "Popcanth",
     "type": ["Water", "Salt"],
     "icon": [
@@ -1933,9 +1905,9 @@
       "and, too."
     ],
     "region": "Exteca",
-    "biyearly_gen": 8,
+    "biyearly_gen": 7,
     "official_gen": 0,
-    "year": 2024,
+    "year": 2022,
     "genre-species": ["Fishis", "Popkornensis"],
     "reallife_inspo": [
       {"name": "Popcorn",
@@ -1943,8 +1915,63 @@
     ]
   },
   {
+    "id": 2023,
+    "biyearly_id": 70,
+    "name": "Minhokans",
+    "type": ["Ground", "Water"],
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2024/Minhokans/artwork.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "evolve": "Minhokobra",
+    "genre-species": ["Liophis", "Drakobrus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
+  },
+  {
     "id": 2024,
     "biyearly_id": 71,
+    "name": "Minhokobra",
+    "type": ["Ground", "Plant"],
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2024/Minhokobra/artwork.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "genre-species": ["Liophis", "Drakobrus"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
+    ]
+  },
+  {
+    "id": 2025,
+    "biyearly_id": 72,
     "name": "Morcegatito",
     "type": ["Night", "Flying"],
     "icon": [
@@ -1971,8 +1998,64 @@
     "categories": ["Legendaries", "The Gargoyles"]
   },
   {
-    "id": 2025,
-    "biyearly_id": 72,
+    "id": 2026,
+    "biyearly_id": 73,
+    "name": "Regimeal",
+    "type": ["Salt", "Sugar"],
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2024/Regimeal/artwork.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "genre-species": ["Regius", "Mealiaris"],
+    "reallife_inspo": [
+      {"name": "Regitube",
+      "link": "https://knowyourmeme.com/memes/regitube"}
+    ],
+    "categories": ["Infratitans", "Legendaries", "The Regis"]
+  },
+  {
+    "id": 2027,
+    "biyearly_id": 74,
+    "name": "Kuhlice",
+    "type": ["Water", "Ice"],
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2024/Kuhlice/artwork.png",
+    "instagram": "https://www.instagram.com/p/what",
+    "description": [
+      "to add;",
+      "and, too."
+    ],
+    "region": "",
+    "biyearly_gen": 8,
+    "official_gen": 0,
+    "year": 2024,
+    "genre-species": ["Fishis", "Kuhlis"],
+    "reallife_inspo": [
+      {"name": "Kuhli Loach",
+      "link": "https://en.wikipedia.org/wiki/Kuhli_loach"}
+    ],
+    "categories": []
+  },
+  {
+    "id": 2028,
+    "biyearly_id": 75,
     "name": "Capsuled",
     "type": ["Plastic"],
     "icon": [
@@ -1999,8 +2082,8 @@
     "categories": []
   },
   {
-    "id": 2026,
-    "biyearly_id": 73,
+    "id": 2029,
+    "biyearly_id": 76,
     "name": "Bagust",
     "type": ["Plastic", "Flying"],
     "icon": [
@@ -2023,6 +2106,34 @@
     "reallife_inspo": [
       {"name": "Plastic Shopping Bag",
       "link": "https://en.wikipedia.org/wiki/Plastic_shopping_bag"}
+    ],
+    "categories": []
+  },
+  {
+    "id": 2030,
+    "biyearly_id": 77,
+    "name": "Birsh",
+    "type": ["Water", "Flying"],
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": ""
+    }
+    ],
+    "photo": "./img/creatures/2023/Birsh.jpeg",
+    "instagram": "https://www.instagram.com/p/Cn4y7kbOFmo/",
+    "description": [
+      "A bird that, like mammals such as dolphins, adapted to live in seas like fishes. Birsh is also known as \"the aquatic Birdumont\".",
+      "It adapted to live 24/7 in the water by creating an air bubble that also protects their tamers when traveling underwater; this air bubble is created by a symbiosis with another tamigucho."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 7,
+    "official_gen": 0,
+    "year": 2023,
+    "genre-species": ["Avis", "Bishis"],
+    "reallife_inspo": [
+      {"name": "",
+      "link": ""}
     ],
     "categories": []
   }

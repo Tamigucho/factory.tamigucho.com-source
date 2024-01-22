@@ -15,7 +15,7 @@ const Genres = () => {
 
   return (
     <div className="genres-page">
-      <h2>Genres <span className="badge bg-secondary">{genres.length}</span></h2>
+      <h2>Pokémon Genres <span className="badge bg-secondary">{genres.length}</span></h2>
       <ul>
         {genres.map((genre, index) => (
           <li key={index}>

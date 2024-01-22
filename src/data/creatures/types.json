@@ -18,8 +18,10 @@
     "color": "#808080",
     "emoji": "🔘",
     "weaknesses": [],
-    "resistance": [],
-    "effectiveness": {}
+    "resistance": ["Ghost"],
+    "effectiveness": {
+      "Ghost": 0
+    }
   },
 {
   "type": "Bug",
@@ -148,12 +150,13 @@
   "color": "#705898",
   "emoji": "👻",
   "weaknesses": ["Night"],
-  "resistance": ["Psychic", "Ghost", "Animal", "Salt", "Sugar"],
+  "resistance": ["Psychic", "Ghost", "Animal", "Neutral", "Salt", "Sugar"],
   "effectiveness": {
     "Ghost": 2,
     "Night": 2,
     "Psychic": 0.5,
-    "Animal": 0
+    "Animal": 0,
+    "Neutral": 0
   }
 },
 {

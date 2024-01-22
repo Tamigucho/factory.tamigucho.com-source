@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import pokemons from '../data/pokemons.json';
-import pokemonTypes from '../data/types.json';
+import pokemonTypes from '../data/creatures/types.json';
 import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
 import categoriesData from '../data/creatures/categories.json';
 
@@ -176,25 +176,8 @@ return (
               <img title="icon pixel" alt="icon pixel" src={pixelIcon} />
             </div>
           </div>
-          {activeData.name} <small>(Nºs {activeData.id} / {activeData.biyearly_id})</small></h2></center>
-        <div className="gender-switch">
-  <button
-    className={`gender-switch-button ${!femaleData.name ? 'inactive' : gender === 'male' ? 'active' : ''}`}
-    style={{ backgroundColor: !femaleData.name ? 'gray' : gender === 'male' ? 'blue' : 'gray' }}
-    onClick={() => handleGenderSwitch('male')}
-    disabled={!femaleData.name} // Disable if no female data
-  >
-    ♂️
-  </button>
-  <button
-    className={`gender-switch-button ${gender === 'female' && femaleData.name ? 'active' : 'inactive'}`}
-    style={{ backgroundColor: gender === 'female' && femaleData.name ? 'pink' : 'gray' }} // Corrected logic for female button
-    onClick={() => handleGenderSwitch('female')}
-    disabled={!femaleData || !femaleData.name} // Disable if no female data
-  >
-    ♀️
-  </button>
-</div>
+          {activeData.name} <small>(Nºs {activeData.id} / {activeData.biyearly_id})</small>
+          </h2><div className="gender-switch"><button class={`default active`}>♂️</button><button className={`female`}>♀️</button></div></center>
 <div class="container">
   <div class="row">
     <div class="col-md">
@@ -202,7 +185,11 @@ return (
           <a title="Click to Zoom/open img on new tab" href={`${creaturePhoto}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a> <a title="Source photo at Instagram" href={activeData.instagram} target="_blank" rel="noopener noreferrer"><i alt="Source" className="fab fa-instagram"></i></a>
     </div>
     <div class="col-md pokemon-details">
-    <p>{activeData.description.map((line, index) => <p key={index}>{line}</p>)}</p>
+    <div class="pedia-switch">
+      <button class="red active"></button>
+      <button class="blue"></button>
+    </div>
+    {activeData.description.map((line, index) => <p key={index}>{line}</p>)}
     <p>Genre: <Link to={`/genres/${activeData['genre-species'][0]}`} className={`genre-badge genre-${activeData['genre-species'][0].toLowerCase()}`}>
     {activeData['genre-species'][0]}
   </Link>{activeData['genre-species'][1]}

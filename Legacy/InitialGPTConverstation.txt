@@ -40,7 +40,7 @@ To create a basic ReactJS template site with the described features, we need to 
 7. **src/components/PokemonList.js**: This component will display the list of Pokémons and handle the rendering of each Pokémon item.
 8. **src/components/PokemonItem.js**: A component for each Pokémon entry, displaying the photo, Instagram source link, name, type, and description.
 9. **src/components/TypePage.js**: A component for displaying all Pokémon of a certain type when that type is clicked.
-10. **src/data/types.json**: A JSON file containing the mapping of Pokémon types to their corresponding colors and emojis.
+10. **src/data/creatures/types.json**: A JSON file containing the mapping of Pokémon types to their corresponding colors and emojis.
 11. **src/data/pokemons.json**: A JSON file to store the list of Pokémons with their details. This file will be used to generate the publicly accessible JSON file as well.
 12. **public/pokemons.json**: The publicly accessible JSON file that will be generated from `src/data/pokemons.json` and will include the count of Pokémons and other variables.
 13. **src/styles/theme.css**: A CSS file for the theme styles that will be applied to the site.
@@ -58,7 +58,7 @@ Now, let's call the function with the filenames in the order that they should be
    "src/components/PokemonList.js",
    "src/components/PokemonItem.js",
    "src/components/TypePage.js",
-   "src/data/types.json",
+   "src/data/creatures/types.json",
    "src/data/pokemons.json",
    "public/pokemons.json",
    "src/styles/theme.css",
@@ -171,10 +171,10 @@ Creating file...
 Thinking...
 Writing code...
 Step 19
-Finding related files for src/data/types.json
+Finding related files for src/data/creatures/types.json
 {"dependencies":["src/components/PokemonItem.js","src/components/TypePage.js"]}
 Step 20
-Generating src/data/types.json
+Generating src/data/creatures/types.json
 Creating file...
 Thinking...
 Writing code...
@@ -184,7 +184,7 @@ Finding related files for src/data/pokemons.json
   "dependencies": [
    "src/components/PokemonList.js",
    "src/components/PokemonItem.js",
-   "src/data/types.json"
+   "src/data/creatures/types.json"
   ]
 }
 Step 22
@@ -237,7 +237,7 @@ Finding related files for README.md
    "src/components/PokemonList.js",
    "src/components/PokemonItem.js",
    "src/components/TypePage.js",
-   "src/data/types.json",
+   "src/data/creatures/types.json",
    "src/data/pokemons.json",
    "public/pokemons.json",
    "src/styles/theme.css",

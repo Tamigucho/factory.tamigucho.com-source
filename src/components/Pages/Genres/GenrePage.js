@@ -29,7 +29,7 @@ const totalPages = Math.ceil(pokemonsByGenre.length / itemsPerPage);
 
   return (
     <div className="genre-page">
-      <h2>{genre} <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByGenre.length}`}>{pokemonsByGenre.length}</span></h2>
+      <h2><small>Pokémon Scientific Genre: </small>{genre} <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByGenre.length}`}>{pokemonsByGenre.length}</span></h2>
       <div className="pokemon-list">
       {currentItems.map((pokemon, index) => (
   <PokemonItem key={index} {...pokemon} />

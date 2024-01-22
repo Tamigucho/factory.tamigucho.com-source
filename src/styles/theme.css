@@ -37,7 +37,7 @@
 
 /* Header styles */
 .header .navbar {
-  background-color: #3AA3CB!important; /* Blue color for the header */
+  background-color: #00a4e9!important; /* Blue color for the header */
 }
 
 /* FRAMEWORK.JS LATER MERGE WITH ----> */
@@ -120,7 +120,7 @@ footer a:hover {
   border-radius: 0px !important;
 }
 .footer, footer {
-  background: #3AA3CB;
+  background: #00a4e9;
   color: #fff;
 }
 
@@ -184,7 +184,7 @@ footer a:hover {
 
 .footer {
   user-select: none;
-  background-color: #3AA3CB!important; /* Blue color for the header */
+  background-color: #00a4e9!important; /* Blue color for the header */
 }
 
 /* Pokémon list styles */
@@ -287,7 +287,7 @@ footer a:hover {
   background-color:#fff;
 }
 .prev-button:hover, .next-button:hover {
-  background-color:#3AA3CB;
+  background-color:#00a4e9;
 }
 
 .prev-button {
@@ -312,7 +312,6 @@ footer a:hover {
   height: 128px;
 }
 
-/* src/styles/theme.css */
 .gender-switch button {
   border-radius: 50%;
   border: none;
@@ -320,15 +319,67 @@ footer a:hover {
   margin: 5px;
   cursor: pointer;
 }
-
-.gender-switch button.inactive {
+.gender-switch button.default {
+  /*background: url(../../public/img/ui/icon-red.png);
+  background-repeat: no-repeat;*/
+  background-color: #fff;
+  /*background-position: 7px 7px;*/
+}
+.gender-switch button.female {
+  /*background: url(../../public/img/ui/icon-blue.png);
+  background-repeat: no-repeat;*/
+  background-color: #fff;
+  /*background-position: 7px 7px;*/
+}
+.gender-switch button {
   filter: grayscale(100%);
   box-shadow: 0px 0px 2px 2px transparent;
   border: 2px solid transparent;
 }
 .gender-switch button.active {
-  box-shadow: 0px 0px 2px 2px #000;
-  border: 2px solid #fff;
+  filter: none;
+  box-shadow: 0px 0px 2px 2px #fff;
+}
+.gender-switch button.default.active {
+  border: 2px solid #00a4e9;
+}
+.gender-switch button.female.active {
+  border: 2px solid #ec2a78;
+}
+
+.pedia-switch button {
+  border-radius: 50%;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+.pedia-switch button.red {
+  background: url(../../public/img/ui/icon-red.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 7px 7px;
+}
+.pedia-switch button.blue {
+  background: url(../../public/img/ui/icon-blue.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 7px 7px;
+}
+.pedia-switch button {
+  filter: grayscale(100%);
+  box-shadow: 0px 0px 2px 2px transparent;
+  border: 2px solid transparent;
+}
+.pedia-switch button.active {
+  filter: none;
+  box-shadow: 0px 0px 2px 2px #fff;
+}
+.pedia-switch button.red.active {
+  border: 2px solid #ec2a78;
+}
+.pedia-switch button.blue.active {
+  border: 2px solid #00a4e9;
 }
 
 .type-header {

@@ -76,6 +76,13 @@ function Home() {
 
   return (
     <div>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <h4 class="alert-heading">Please don't screenshot 📸</h4>
+  <p>🚧 Site is under construction 🚧👷‍♀️🏗</p>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+</div>
     <div id="header-wrapper">
     <div id="adssection">
     <div class="adssection no-items section" id="adssection"></div>
