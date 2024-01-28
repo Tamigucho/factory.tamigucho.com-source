@@ -1,10 +1,3 @@
-Windows 11 PowerPoint:
-- render version for 2022's Sprouterra, Wormit, Clameta, Crabterfly, Funry_F (fixed colors based cam), Funry_M, Starecover, and 2017's tamis, fix colorize 2015's Wormorph so ->svg then apply sprite's psychedelic colors ->png
-- dewhale resizedimage.svg: #3AA3CB -> #00a4e9
-- https://archive.is/BoAG7#selection-3349.1-3365.103 make cutt version of Ziraldonkey
-
-- Use https://github.com/eballai/NoAI on the professional artworks
-
 - add the Glass type!
 
 - creatures now can have more than 1 genre/species! example: birsh is both Avis and Fishis!
@@ -17,8 +10,11 @@ Windows 11 PowerPoint:
 - evolution img url isn't working for external URLs
 
 - play a creature cry (available for: Bulball?, Waterain?, Bulbomb?, ?, ?, Birdumont, Wormorph)
+
+- Use https://github.com/eballai/NoAI on the professional artworks
 - mv searchbox to header
 - Header menu: Institutional > Statement about AI
+
 - show a tami egg! (only if available) and breeding info such as egg formation time/egg amount! 2018: https://archive.is/BoAG7#selection-70.560-1849.33 (mv to versions/original-scans) | 2015/2016: '/media/daniella/B/git/Tamigucho/&meta/Private/Products/sharedExperinces-Features/DNA/Breeding/Eggs/Tami Eggs designs and characteristics.png' | 2019: https://archive.is/BoAG7#selection-1855.0-1897.6
 
 - PokemonDetails: current infos moved to /src/components/Pages/Creatures/Details/Overview
