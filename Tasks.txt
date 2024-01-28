@@ -1,12 +1,9 @@
+- Disalow AI training, via robots.txt
+
 Windows 11 PowerPoint:
 - render version for 2022's Sprouterra, Wormit, Clameta, Crabterfly, Funry_F (fixed colors based cam), Funry_M, Starecover, and 2017's tamis, fix colorize 2015's Wormorph so ->svg then apply sprite's psychedelic colors ->png
 - dewhale resizedimage.svg: #3AA3CB -> #00a4e9
 - https://archive.is/BoAG7#selection-3349.1-3365.103 make cutt version of Ziraldonkey
-
-has quote:
-<div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">Tami Factory /regions/{region}: show each country border of TamiEarth as a temporary placeholder map cover!</div></div></div>Prohibit AI training<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:15</span><div class="time-inner" title="25 January 2024, 06:15:53"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:15</span></div></span></div>
-
-<div class="message spoilers-container" dir="auto">Institutional &gt; Statement about AI<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:16</span><div class="time-inner" title="25 January 2024, 06:16:14"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:16</span></div></span></div>
 
 - add the Glass type!
 
@@ -19,8 +16,9 @@ has quote:
 
 - evolution img url isn't working for external URLs
 
+- play a creature cry (available for: Bulball?, Waterain?, Bulbomb?, ?, ?, Birdumont, Wormorph)
 - mv searchbox to header
-- play a creature cry
+- Header menu: Institutional > Statement about AI
 - show a tami egg! (only if available) and breeding info such as egg formation time/egg amount! 2018: https://archive.is/BoAG7#selection-70.560-1849.33 (mv to versions/original-scans) | 2015/2016: '/media/daniella/B/git/Tamigucho/&meta/Private/Products/sharedExperinces-Features/DNA/Breeding/Eggs/Tami Eggs designs and characteristics.png' | 2019: https://archive.is/BoAG7#selection-1855.0-1897.6
 
 - PokemonDetails: current infos moved to /src/components/Pages/Creatures/Details/Overview
