@@ -1,0 +1,17 @@
+# From https://supergeekery.com/blog/ai-and-your-content-how-to-opt-to-opt-out
+
+# Don't add any content to the GPT model
+User-agent: GPTBot
+Disallow: /
+
+# No ChatGPT user allowed anywhere on the site
+User-agent: ChatGPT-User
+Disallow: /
+
+# Don't add any content to the Gemini/Bard model
+User-agent: Google-Extended
+Disallow: /
+
+# May prevent image generation AIs
+User-agent: CCBot
+Disallow: /
