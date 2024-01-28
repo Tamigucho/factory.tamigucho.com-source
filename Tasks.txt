@@ -3,6 +3,8 @@ Windows 11 PowerPoint:
 - dewhale resizedimage.svg: #3AA3CB -> #00a4e9
 - https://archive.is/BoAG7#selection-3349.1-3365.103 make cutt version of Ziraldonkey
 
+- Use https://github.com/eballai/NoAI on the professional artworks
+
 - add the Glass type!
 
 - creatures now can have more than 1 genre/species! example: birsh is both Avis and Fishis!
