@@ -3,6 +3,11 @@ Windows 11 PowerPoint:
 - dewhale resizedimage.svg: #3AA3CB -> #00a4e9
 - https://archive.is/BoAG7#selection-3349.1-3365.103 make cutt version of Ziraldonkey
 
+has quote:
+<div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">Tami Factory /regions/{region}: show each country border of TamiEarth as a temporary placeholder map cover!</div></div></div>Prohibit AI training<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:15</span><div class="time-inner" title="25 January 2024, 06:15:53"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:15</span></div></span></div>
+
+<div class="message spoilers-container" dir="auto">Institutional &gt; Statement about AI<span class="time"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:16</span><div class="time-inner" title="25 January 2024, 06:16:14"><span class="post-views">1</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">06:16</span></div></span></div>
+
 - add the Glass type!
 
 - creatures now can have more than 1 genre/species! example: birsh is both Avis and Fishis!
