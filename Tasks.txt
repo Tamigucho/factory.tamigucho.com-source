@@ -11,7 +11,7 @@
 
 - play a creature cry (available for: Bulball?, Waterain?, Bulbomb?, ?, ?, Birdumont, Wormorph)
 
-- Use https://github.com/eballai/NoAI on the professional artworks
+- Use https://github.com/eballai/NoAI on the professional artworks /media/daniella/B/git/Tamigucho/&meta/Private/Linux-Tasks-9.txt
 - mv searchbox to header
 - Header menu: Institutional > Statement about AI
 
