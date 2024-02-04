@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import pokemonsData from '../../../data/pokemons.json';
 import PokemonItem from '../../PokemonItem';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Helmet } from 'react-helmet';
 
 const GenrePage = () => {
     const { genre } = useParams();

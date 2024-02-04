@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import pokemonsData from '../../../data/pokemons.json';
+import { Helmet } from 'react-helmet';
 
 const YearsPage = () => {
   const years = [...new Set(pokemonsData.map(pokemon => pokemon.year))];

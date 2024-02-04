@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import categoriesData from '../../data/creatures/categories.json';
+import { Helmet } from 'react-helmet';
 
 const Categories = () => {
   return (

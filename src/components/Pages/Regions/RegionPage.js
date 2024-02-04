@@ -5,6 +5,7 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 import pokemonsData from '../../../data/pokemons.json';
 import PokemonItem from '../../PokemonItem';
 import gamesData from '../../../data/games.json';
+import { Helmet } from 'react-helmet';
 
 //const PokemonItem = ({ id, name, type, photo }) => (
 //    <div>

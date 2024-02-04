@@ -4,6 +4,7 @@ import pokemonsData from '../data/pokemons.json';
 import PokemonList from './PokemonList';
 import featuredPokemons from '../data/creatures/featured.json';
 import PokemonItem from './PokemonItem';
+import { Helmet } from 'react-helmet';
 
 function Home() {
     const [pokemons, setPokemons] = useState([]);

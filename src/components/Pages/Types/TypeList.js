@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 //import PokemonItem from './PokemonItem';
 import pokemonsData from '../../../data/pokemons.json';
 import pokemonTypes from '../../../data/creatures/types.json';
+import { Helmet } from 'react-helmet';
 
 pokemonTypes.forEach(type => {
   type.pokemonCount = pokemonsData.reduce((count, pokemon) => {

@@ -5,6 +5,7 @@ import PokemonItem from '../PokemonItem';
 import categoriesData from '../../data/creatures/categories.json';
 import typesData from '../../data/creatures/types.json';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Helmet } from 'react-helmet';
 
 const CategoryPage = () => {
   const { categoryName } = useParams();
@@ -39,8 +40,8 @@ const totalPages = Math.ceil(pokemons.length / itemsPerPage);
   return (
     <div>
     <Helmet>
-        <title>{category.name}</title>
-        <meta property="og:title" content={category.name} />
+        <title>{category.name} - Tamigucho Factory</title>
+        <meta property="og:title" content={`${category.name} - Tamigucho Factory`} />
         <meta property="og:description" content={category.description} />
     </Helmet>
       {category && (

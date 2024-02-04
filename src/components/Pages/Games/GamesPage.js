@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 //import regionsData from '../data/regions.json';
 import gamesData from '../../../data/games.json';
+import { Helmet } from 'react-helmet';
 
 const GamesPage = () => {
   // Get all unique games from all regions

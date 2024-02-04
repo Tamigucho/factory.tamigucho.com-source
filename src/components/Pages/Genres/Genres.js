@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import pokemonsData from '../../../data/pokemons.json';
+import { Helmet } from 'react-helmet';
 
 const Genres = () => {
   const genres = [...new Set(pokemonsData.map(pokemon => pokemon['genre-species'][0]))];

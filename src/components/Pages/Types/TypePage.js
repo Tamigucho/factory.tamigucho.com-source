@@ -5,6 +5,7 @@ import PokemonItem from '../../PokemonItem';
 import pokemonsData from '../../../data/pokemons.json';
 import pokemonTypes from '../../../data/creatures/types.json';
 //import TypeList from './TypeList'; // Import the TypeList component
+import { Helmet } from 'react-helmet';
 
 const TypePage = () => {
   const { typeName } = useParams();
