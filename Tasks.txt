@@ -7,6 +7,8 @@
 
 - pokemons.json: rename "photo" to "artwork", and put "instagram" under it now as an array!
 - only display instagram link/icon if artwork/instagram entry isn't empty!
+- /creatures/{creature}/photo: a tab with the photo, and another tab showing the versions! inspo: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/classic/img/creatures/2024/versions
+- same for region photo (/regions/{region}/photo: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/img/regions/versions
 
 - rename "IMG_20170605_0001" to "Cliclay" | credit https://chat.openai.com/c/09a76560-4c31-4c6d-8b04-a9327b23988b
 
@@ -81,11 +83,7 @@ https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Craboll.png
 - years/{year}: separate Pokes and Games as a tab menu!
 - /regions/{region}: separate Pokes and Games as a tab menu!
 
-- don't show instagram icon if instagram field empty!
-- /creatures/{creature}/photo: a tab with the photo, and another tab showing the versions! inspo: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/classic/img/creatures/2024/versions
-- same for region photo (/regions/{region}/photo: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/img/regions/versions
-
-- games now have multi-line description (so as pokemons)
+- games now have multi-line description (so as pokemons) from .js file
 
 - [non-gpt] add genre to all pokemons (replace canis, but make sure to add a canis exemplar)
 
