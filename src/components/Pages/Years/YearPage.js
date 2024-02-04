@@ -24,6 +24,10 @@ const YearPage = () => {
 
     return (
       <div className="year-page">
+      <Helmet>
+          <title>{year} Year - Tamigucho Factory</title>
+          <meta property="og:title" content={`${year} Year - Tamigucho Factory`} />
+      </Helmet>
         <h2>{year} <span className="badge bg-secondary" title="Creatures made in this year">{pokemons.length}</span></h2>
         <div className="pokemon-list">
         {currentItems.map((pokemon, index) => (

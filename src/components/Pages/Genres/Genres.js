@@ -15,6 +15,10 @@ const Genres = () => {
 
   return (
     <div className="genres-page">
+    <Helmet>
+        <title>Genres - Tamigucho Factory</title>
+        <meta property="og:title" content="Genres - Tamigucho Factory" />
+    </Helmet>
       <h2>Pokémon Genres <span className="badge bg-secondary">{genres.length}</span></h2>
       <ul>
         {genres.map((genre, index) => (

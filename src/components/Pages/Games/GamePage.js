@@ -10,6 +10,12 @@ const GamePage = () => {
 
   return (
     <div class="game-details">
+    <Helmet>
+        <title>{game.name} - Tamigucho Factory</title>
+        <meta property="og:title" content={`${game.name} - Tamigucho Factory`} />
+        <meta property="og:description" content={game.description} />
+        <meta property="og:image" content={game.photo} />
+    </Helmet>
         <center><h2>{game.name}</h2></center>
         <div class="container">
   <div class="row">

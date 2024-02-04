@@ -41,6 +41,10 @@ const RegionsList = () => {
 
   return (
     <div>
+    <Helmet>
+        <title>Regions - Tamigucho Factory</title>
+        <meta property="og:title" content="Regions - Tamigucho Factory" />
+    </Helmet>
       <center><h1>TamiEarth</h1><img height="200px" src={`${process.env.PUBLIC_URL}/./img/regions/TamiEarth.png`}/>
          <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/./img/regions/TamiEarth.png`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a>
          </center>

@@ -16,6 +16,10 @@ const YearsPage = () => {
 
   return (
     <div className="years-page">
+    <Helmet>
+        <title>Year - Tamigucho Factory</title>
+        <meta property="og:title" content="{`Year - Tamigucho Factory" />
+    </Helmet>
       <h2>Years <span className="badge bg-secondary">{years.length}</span></h2>
       <ul>
         {years.map((year, index) => (

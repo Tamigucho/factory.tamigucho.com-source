@@ -49,6 +49,11 @@ useEffect(() => {
   
     return (
       <div>
+      <Helmet>
+          <title>{region.name} - Tamigucho Factory</title>
+          <meta property="og:title" content={`${region.name} - Tamigucho Factory`} />
+          <meta property="og:image" content={region.photo} />
+      </Helmet>
         <center><h2>{region.name}</h2><img height="250px" src={`${process.env.PUBLIC_URL}/${region.photo}`}/>
          <a title="Click to Zoom/open img on new tab" href={`${process.env.PUBLIC_URL}/${region.photo}`} target="_blank" rel="noopener noreferrer"><i class="fas fa-magnifying-glass-plus"></i></a>
         </center>

@@ -76,6 +76,12 @@ function Home() {
 
   return (
     <div>
+    <Helmet>
+        <title>Tamigucho Factory: Home</title>
+        <meta property="og:title" content="Tamigucho Factory: Home" />
+        <meta property="og:description" content="The home nest where every Tamigucho is born and listed." />
+        <meta property="og:image" content={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`} />
+    </Helmet>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
   <h4 class="alert-heading">Please don't screenshot 📸</h4>
   <p>🚧 Site is under construction 🚧👷‍♀️🏗</p>

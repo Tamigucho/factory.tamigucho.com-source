@@ -5,6 +5,10 @@ import categoriesData from '../../data/creatures/categories.json';
 const Categories = () => {
   return (
     <div>
+    <Helmet>
+        <title>Creature Categories - Tamigucho Factory</title>
+        <meta property="og:title" content="Creature Categories - Tamigucho Factory" />
+    </Helmet>
     <h2>Categories <span className="badge bg-secondary">{categoriesData.length}</span></h2>
     <div className="categories-list">
       {categoriesData.map((category) => (

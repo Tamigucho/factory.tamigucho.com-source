@@ -155,11 +155,11 @@ console.log('Pokemon name: ', pokemon.name);
 return (
   <div>
     <Helmet>
-        <title>{pokemon.name}</title>
-        <meta property="og:title" content={pokemon.name} />
+        <title>{pokemon.name} - Tamigucho Factory</title>
+        <meta property="og:title" content={`${pokemon.name} - Tamigucho Factory`} />
         <meta property="og:description" content={pokemon.description} />
         <meta property="og:image" content={imageUrl} />
-      </Helmet>
+    </Helmet>
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
   <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name.replace(/\.|-|\s/g, '')}`)}>

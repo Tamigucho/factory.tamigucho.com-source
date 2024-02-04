@@ -38,6 +38,11 @@ const totalPages = Math.ceil(pokemons.length / itemsPerPage);
 
   return (
     <div>
+    <Helmet>
+        <title>{category.name}</title>
+        <meta property="og:title" content={category.name} />
+        <meta property="og:description" content={category.description} />
+    </Helmet>
       {category && (
         <div class="category-details">
         <center><h2>{category.name} <span className="badge bg-secondary" title={`Total Pokémons in this category: ${pokemons.length}`}>{pokemons.length}</span></h2></center>

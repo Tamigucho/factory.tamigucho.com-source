@@ -25,6 +25,10 @@ setPokemonsByType(filteredPokemons);
 
   return (
     <div className="type-page">
+    <Helmet>
+        <title>{typeName.toLowerCase()} Type - Tamigucho Factory</title>
+        <meta property="og:title" content={`${typeName.toLowerCase()} Type - Tamigucho Factory`} />
+    </Helmet>
       <h2>
         <span className={`type-header type-${typeName.toLowerCase()}`}>{pokemonTypes.find(type => type.type === typeName).emoji} {typeName.charAt(0).toUpperCase() + typeName.slice(1)} Type Pokémons</span>
         <span className="badge bg-secondary" title={`Total Pokémons in this type: ${pokemonsCount}`}>{pokemonsCount}</span>

@@ -9,6 +9,10 @@ const GamesPage = () => {
 
   return (
     <div>
+    <Helmet>
+        <title>Games List - Tamigucho Factory</title>
+        <meta property="og:title" content="List - Tamigucho Factory" />
+    </Helmet>
       <h2>Games <span className="badge bg-secondary">{games.length}</span></h2>
       <div className="game-list">{games.map(game => (
     <Link to={`/games/${game.name.replace(/&|\s/g, '')}`}><div className="game-item">

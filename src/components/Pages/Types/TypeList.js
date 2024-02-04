@@ -27,6 +27,10 @@ const TypeList = () => {
   }, {});
   return (
     <div className="type-list">
+    <Helmet>
+        <title>Types - Tamigucho Factory</title>
+        <meta property="og:title" content="Types - Tamigucho Factory" />
+    </Helmet>
       <h2>Pokémon Types <span className="badge bg-secondary">{pokemonTypes.length}</span></h2>
       <ul>
         {pokemonTypes.map((type, index) => (

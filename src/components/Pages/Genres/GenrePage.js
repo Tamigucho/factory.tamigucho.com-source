@@ -29,6 +29,10 @@ const totalPages = Math.ceil(pokemonsByGenre.length / itemsPerPage);
 
   return (
     <div className="genre-page">
+    <Helmet>
+        <title>{genre} Scientific Genre - Tamigucho Factory</title>
+        <meta property="og:title" content={`${genre} Scientific Genre - Tamigucho Factory`} />
+    </Helmet>
       <h2><small>Pokémon Scientific Genre: </small>{genre} <span className="badge bg-secondary" title={`Total Pokémons in this genre: ${pokemonsByGenre.length}`}>{pokemonsByGenre.length}</span></h2>
       <div className="pokemon-list">
       {currentItems.map((pokemon, index) => (
