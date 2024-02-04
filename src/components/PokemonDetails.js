@@ -5,6 +5,7 @@ import pokemons from '../data/pokemons.json';
 import pokemonTypes from '../data/creatures/types.json';
 import pokemonsData from '../data/pokemons.json'; // Import the Pokemon data
 import categoriesData from '../data/creatures/categories.json';
+import { Helmet } from 'react-helmet';
 
 const PokemonDetails = ({ pokemons }) => {
   const [pokemon, setPokemon] = useState(null);
@@ -153,6 +154,12 @@ console.log('Pokemon name: ', pokemon.name);
 
 return (
   <div>
+    <Helmet>
+        <title>{pokemon.name}</title>
+        <meta property="og:title" content={pokemon.name} />
+        <meta property="og:description" content={pokemon.description} />
+        <meta property="og:image" content={imageUrl} />
+      </Helmet>
     <ul class="nav nav-pills nav-fill mb-3">
 {prevPokemon && (
   <li class="nav-item prev-button" title={prevPokemon.name} onClick={() => navigate(`/creatures/${prevPokemon.name.replace(/\.|-|\s/g, '')}`)}>

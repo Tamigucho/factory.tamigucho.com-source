@@ -8,6 +8,7 @@
     "start": "npm run count-all-creatures && react-scripts start",
     "build": "npm run count-all-creatures && react-scripts build",
     "test": "npm run count-all-creatures && react-scripts test",
+    "predeploy": "react-snap",
     "eject": "react-scripts eject"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "react": "^18.0.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.2.1"
@@ -27,7 +29,8 @@
     "@babel/core": "^7.17.0",
     "@babel/preset-env": "^7.17.0",
     "@babel/preset-react": "^7.17.0",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "react-snap": "^1.23.0"
   },
   "author": "Your Name",
   "license": "ISC",
