@@ -1,4 +1,7 @@
+- Header menu: Institutional > Statement about AI
+
 - add the Glass type!
+- add the Soap type (does nothing to glass type)!
 
 - creatures now can have more than 1 genre/species! example: birsh is both Avis and Fishis!
 
@@ -13,7 +16,6 @@
 
 - Use https://github.com/eballai/NoAI on the professional artworks /media/daniella/B/git/Tamigucho/&meta/Private/Linux-Tasks-9.txt
 - mv searchbox to header
-- Header menu: Institutional > Statement about AI
 
 - show a tami egg! (only if available) and breeding info such as egg formation time/egg amount! 2018: https://archive.is/BoAG7#selection-70.560-1849.33 (mv to versions/original-scans) | 2015/2016: '/media/daniella/B/git/Tamigucho/&meta/Private/Products/sharedExperinces-Features/DNA/Breeding/Eggs/Tami Eggs designs and characteristics.png' | 2019: https://archive.is/BoAG7#selection-1855.0-1897.6
 
