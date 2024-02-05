@@ -6,6 +6,16 @@
 
 - creatures now can have more than 1 genre/species! example: birsh is both Avis and Fishis!
 
+Factory:
+- This year has already surpassed by %: Last year X%, ATH year X%
+- 
+
+<div class="message spoilers-container" dir="auto">Tami Factory Classic:
+Featured: focus only on the 100% original ones; add Capn'ccino and the similar<span class="time"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">23:11</span><div class="time-inner" title="24 January 2024, 23:11:00"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">23:11</span></div></span></div>
+
+<div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">- Floflis 25 branding script (appnds to .XML file - no conflicts)
+- Install Winapps (but regeach ste...</div></div></div>Tamigucho Factory React: update a .XML RSS feed (and a json feed as well) every time a new Tamigucho is added (with its /{Name} link)<span class="time"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">04:01</span><div class="time-inner" title="24 January 2024, 04:01:14"><span class="post-views">2</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">04:01</span></div></span></div>
+
 - pokemons.json: rename "photo" to "artwork", and put "instagram" under it now as an array!
 - only display instagram link/icon if artwork/instagram entry isn't empty!
 - /creatures/{creature}/photo: a tab with the photo, and another tab showing the versions! inspo: /media/daniella/B/git/Tamigucho/Sites/subdomains/factory/public/classic/img/creatures/2024/versions
