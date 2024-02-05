@@ -1,6 +1,7 @@
-- Header menu: Classic Site
 - Header menu: Institutional > Statement about AI link
 - Header menu: Institutional > Statement about AI page
+
+./future directory Tasks
 
 - add the Glass type!
 - add the Soap type (does nothing to glass type)!

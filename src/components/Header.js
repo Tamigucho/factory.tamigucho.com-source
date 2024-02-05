@@ -54,6 +54,7 @@ const Header = ({ creatureCount }) => {
     Categories
   </Link>
 </li>
+<li className="nav-item"><Link target="_blank" className="nav-link" to="/classic/">Classic Site</Link></li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>
