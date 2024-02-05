@@ -1,4 +1,6 @@
-- Header menu: Institutional > Statement about AI
+- Header menu: Classic Site
+- Header menu: Institutional > Statement about AI link
+- Header menu: Institutional > Statement about AI page
 
 - add the Glass type!
 - add the Soap type (does nothing to glass type)!

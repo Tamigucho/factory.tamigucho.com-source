@@ -3,12 +3,15 @@
     "id": 1,
     "biyearly_id": 1,
     "name": "Bulbasaur",
-    "type": ["Plant", "Poison"],
+    "type": [
+      "Plant",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/1.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/1.png"
+      }
     ],
     "photo": "./img/creatures/2010/1.svg",
     "instagram": "https://www.instagram.com/bulbasaur",
@@ -21,23 +24,34 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Ivysaur",
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Frog",
-      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Frog",
+        "link": "https://pt.wikipedia.org/wiki/Anura"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 2,
     "biyearly_id": 2,
     "name": "Ivysaur",
-    "type":  ["Plant", "Poison"],
+    "type": [
+      "Plant",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/2.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/2.png"
+      }
     ],
     "photo": "./img/creatures/2010/2.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -50,23 +64,34 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Venusaur",
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Frog",
-      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Frog",
+        "link": "https://pt.wikipedia.org/wiki/Anura"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 3,
     "biyearly_id": 3,
     "name": "Venusaur",
-    "type":  ["Plant", "Poison"],
+    "type": [
+      "Plant",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/3.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/3.png"
+      }
     ],
     "photo": "./img/creatures/2010/3.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -78,12 +103,20 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Frog",
-      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Frog",
+        "link": "https://pt.wikipedia.org/wiki/Anura"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 4,
@@ -91,10 +124,10 @@
     "name": "Charmander",
     "type": "Fire",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/4.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/4.png"
+      }
     ],
     "photo": "./img/creatures/2010/4.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -107,23 +140,31 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Charmeleon",
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Salamander",
-      "link": "https://en.wikipedia.org/wiki/Salamander"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Salamander",
+        "link": "https://en.wikipedia.org/wiki/Salamander"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 5,
     "biyearly_id": 5,
     "name": "Charmeleon",
-    "type":  "Fire",
+    "type": "Fire",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/5.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/5.png"
+      }
     ],
     "photo": "./img/creatures/2010/5.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -136,23 +177,31 @@
     "official_gen": 1,
     "year": 2010,
     "evolve": "Charizard",
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Salamander",
-      "link": "https://en.wikipedia.org/wiki/Salamander"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Salamander",
+        "link": "https://en.wikipedia.org/wiki/Salamander"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 6,
     "biyearly_id": 6,
     "name": "Charizard",
-    "type":  "Fire",
+    "type": "Fire",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/6.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/6.png"
+      }
     ],
     "photo": "./img/creatures/2010/6.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -164,12 +213,20 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2010,
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "European Dragon",
-      "link": "https://en.wikipedia.org/wiki/European_dragon"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "European Dragon",
+        "link": "https://en.wikipedia.org/wiki/European_dragon"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 7,
@@ -177,10 +234,10 @@
     "name": "Squirtle",
     "type": "Water",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/7.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/7.png"
+      }
     ],
     "photo": "./img/creatures/2011/7.svg",
     "instagram": "https://www.instagram.com/squirtle",
@@ -193,23 +250,31 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Wartortle",
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Aquatic Turtle",
-      "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Aquatic Turtle",
+        "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 8,
     "biyearly_id": 8,
     "name": "Wartortle",
-    "type":  "Water",
+    "type": "Water",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/8.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/8.png"
+      }
     ],
     "photo": "./img/creatures/2011/8.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -222,23 +287,31 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Blastoise",
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Aquatic Turtle",
-      "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Aquatic Turtle",
+        "link": "https://en.wikipedia.org/wiki/Aquatic_turtles"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 9,
     "biyearly_id": 9,
     "name": "Blastoise",
-    "type":  "Water",
+    "type": "Water",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/9.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/9.png"
+      }
     ],
     "photo": "./img/creatures/2011/9.svg",
     "instagram": "https://www.instagram.com/charmander",
@@ -250,12 +323,20 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "genre-species": ["Canis", "Familiaris"],
-    "reallife_inspo": [
-      {"name": "Gamera",
-      "link": "https://en.wikipedia.org/wiki/Gamera"}
+    "genre-species": [
+      "Canis",
+      "Familiaris"
     ],
-    "categories": ["Starters", "Kanto Starter Trio"]
+    "reallife_inspo": [
+      {
+        "name": "Gamera",
+        "link": "https://en.wikipedia.org/wiki/Gamera"
+      }
+    ],
+    "categories": [
+      "Starters",
+      "Kanto Starter Trio"
+    ]
   },
   {
     "id": 10,
@@ -263,10 +344,10 @@
     "name": "Caterpie",
     "type": "Bug",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/10.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/10.png"
+      }
     ],
     "photo": "./img/creatures/2011/10.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -279,10 +360,15 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Metapod",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "Eastern Tiger Swallowtail Caterpillar",
-      "link": "https://en.wikipedia.org/wiki/Papilio_glaucus"}
+      {
+        "name": "Eastern Tiger Swallowtail Caterpillar",
+        "link": "https://en.wikipedia.org/wiki/Papilio_glaucus"
+      }
     ]
   },
   {
@@ -291,10 +377,10 @@
     "name": "Metapod",
     "type": "Bug",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/11.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/11.png"
+      }
     ],
     "photo": "./img/creatures/2011/11.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -307,22 +393,30 @@
     "official_gen": 1,
     "year": 2011,
     "evolve": "Butterfree",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "Cabbage White Butterfly Pupa",
-      "link": "https://en.wikipedia.org/wiki/Pieris_rapae"}
+      {
+        "name": "Cabbage White Butterfly Pupa",
+        "link": "https://en.wikipedia.org/wiki/Pieris_rapae"
+      }
     ]
   },
   {
     "id": 12,
     "biyearly_id": 12,
     "name": "Butterfree",
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/12.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/12.png"
+      }
     ],
     "photo": "./img/creatures/2011/12.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -334,22 +428,30 @@
     "biyearly_gen": 1,
     "official_gen": 1,
     "year": 2011,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "Cabbage White Butterfly",
-      "link": "https://en.wikipedia.org/wiki/Pieris_rapae"}
+      {
+        "name": "Cabbage White Butterfly",
+        "link": "https://en.wikipedia.org/wiki/Pieris_rapae"
+      }
     ]
   },
   {
     "id": 13,
     "biyearly_id": 13,
     "name": "Weedle",
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/13.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/13.png"
+      }
     ],
     "photo": "./img/creatures/2012/13.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -362,22 +464,30 @@
     "official_gen": 1,
     "year": 2012,
     "evolve": "Kakuna",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 14,
     "biyearly_id": 14,
     "name": "Kakuna",
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/14.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/14.png"
+      }
     ],
     "photo": "./img/creatures/2012/14.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -390,22 +500,30 @@
     "official_gen": 1,
     "year": 2012,
     "evolve": "Beedrill",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 15,
     "biyearly_id": 15,
     "name": "Beedrill",
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/15.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/15.png"
+      }
     ],
     "photo": "./img/creatures/2012/15.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -417,22 +535,30 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2012,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 16,
     "biyearly_id": 16,
     "name": "Pidgey",
-    "type": ["Animal", "Flying"],
+    "type": [
+      "Animal",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/16.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/16.png"
+      }
     ],
     "photo": "./img/creatures/2013/16.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -445,22 +571,30 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Pidgeotto",
-    "genre-species": ["Avis", "Pigeos"],
+    "genre-species": [
+      "Avis",
+      "Pigeos"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 17,
     "biyearly_id": 17,
     "name": "Pidgeotto",
-    "type": ["Animal", "Flying"],
+    "type": [
+      "Animal",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/17.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/17.png"
+      }
     ],
     "photo": "./img/creatures/2013/17.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -473,22 +607,30 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Pidgeot",
-    "genre-species": ["Avis", "Pigeos"],
+    "genre-species": [
+      "Avis",
+      "Pigeos"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 18,
     "biyearly_id": 18,
     "name": "Pidgeot",
-    "type": ["Animal", "Flying"],
+    "type": [
+      "Animal",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/18.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/18.png"
+      }
     ],
     "photo": "./img/creatures/2013/18.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -500,10 +642,15 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "genre-species": ["Avis", "Pigeos"],
+    "genre-species": [
+      "Avis",
+      "Pigeos"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -512,10 +659,10 @@
     "name": "Rattata",
     "type": "Animal",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/19.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/19.png"
+      }
     ],
     "photo": "./img/creatures/2013/19.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -528,10 +675,15 @@
     "official_gen": 1,
     "year": 2013,
     "evolve": "Raticate",
-    "genre-species": ["Rodentius", "Rattatas"],
+    "genre-species": [
+      "Rodentius",
+      "Rattatas"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -540,10 +692,10 @@
     "name": "Raticate",
     "type": "Animal",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/20.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/20.png"
+      }
     ],
     "photo": "./img/creatures/2013/20.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -555,22 +707,30 @@
     "biyearly_gen": 2,
     "official_gen": 1,
     "year": 2013,
-    "genre-species": ["Rodentius", "Rattatas"],
+    "genre-species": [
+      "Rodentius",
+      "Rattatas"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 21,
     "biyearly_id": 21,
     "name": "Spearow",
-    "type": ["Animal", "Flying"],
+    "type": [
+      "Animal",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/21.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/21.png"
+      }
     ],
     "photo": "./img/creatures/2014/21.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -583,22 +743,30 @@
     "official_gen": 1,
     "year": 2014,
     "evolve": "Fearow",
-    "genre-species": ["Avis", "Fearensis"],
+    "genre-species": [
+      "Avis",
+      "Fearensis"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 22,
     "biyearly_id": 22,
     "name": "Fearow",
-    "type": ["Animal", "Flying"],
+    "type": [
+      "Animal",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/22.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/22.png"
+      }
     ],
     "photo": "./img/creatures/2014/22.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -610,10 +778,15 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "genre-species": ["Avis", "Fearensis"],
+    "genre-species": [
+      "Avis",
+      "Fearensis"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -622,10 +795,10 @@
     "name": "Ekans",
     "type": "Poison",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/23.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/23.png"
+      }
     ],
     "photo": "./img/creatures/2014/23.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -638,10 +811,15 @@
     "official_gen": 1,
     "year": 2014,
     "evolve": "Arbok",
-    "genre-species": ["Liophis", "Kobra"],
+    "genre-species": [
+      "Liophis",
+      "Kobra"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -650,10 +828,10 @@
     "name": "Arbok",
     "type": "Poison",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/24.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/24.png"
+      }
     ],
     "photo": "./img/creatures/2014/24.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -665,23 +843,27 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2014,
-    "genre-species": ["Liophis", "Kobra"],
+    "genre-species": [
+      "Liophis",
+      "Kobra"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
-
   {
     "id": 172,
     "biyearly_id": 25,
     "name": "Pichu",
     "type": "Electric",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/172.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/172.png"
+      }
     ],
     "photo": "./img/creatures/2015/172.svg",
     "instagram": "https://www.instagram.com/pikachu",
@@ -694,10 +876,15 @@
     "official_gen": 2,
     "year": 2015,
     "evolve": "Pikachu",
-    "genre-species": ["Rodentius", "Raichus"],
+    "genre-species": [
+      "Rodentius",
+      "Raichus"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -706,10 +893,10 @@
     "name": "Pikachu",
     "type": "Electric",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/25.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/25.png"
+      }
     ],
     "photo": "./img/creatures/2015/25.svg",
     "instagram": "https://www.instagram.com/pikachu",
@@ -722,10 +909,15 @@
     "official_gen": 1,
     "year": 2015,
     "evolve": "Raichu",
-    "genre-species": ["Rodentius", "Raichus"],
+    "genre-species": [
+      "Rodentius",
+      "Raichus"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -734,10 +926,10 @@
     "name": "Raichu",
     "type": "Electric",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/26.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/26.png"
+      }
     ],
     "photo": "./img/creatures/2015/26.svg",
     "instagram": "https://www.instagram.com/pikachu",
@@ -749,10 +941,15 @@
     "biyearly_gen": 3,
     "official_gen": 1,
     "year": 2015,
-    "genre-species": ["Rodentius", "Raichus"],
+    "genre-species": [
+      "Rodentius",
+      "Raichus"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -761,10 +958,10 @@
     "name": "Mankey",
     "type": "Fighting",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/56.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/56.png"
+      }
     ],
     "photo": "./img/creatures/2016/56.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -777,10 +974,15 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Primeape",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -789,10 +991,10 @@
     "name": "Primeape",
     "type": "Fighting",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/57.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/57.png"
+      }
     ],
     "photo": "./img/creatures/2016/57.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -805,22 +1007,30 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Annihilape",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 979,
     "biyearly_id": 30,
     "name": "Annihilape",
-    "type": ["Fighting", "Ghost"],
+    "type": [
+      "Fighting",
+      "Ghost"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2022/979.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -832,22 +1042,30 @@
     "biyearly_gen": 7,
     "official_gen": 9,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 74,
     "biyearly_id": 31,
     "name": "Geodude",
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/74.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/74.png"
+      }
     ],
     "photo": "./img/creatures/2016/74.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -860,22 +1078,30 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Graveler",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 75,
     "biyearly_id": 32,
     "name": "Graveler",
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/75.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/75.png"
+      }
     ],
     "photo": "./img/creatures/2016/75.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -888,22 +1114,30 @@
     "official_gen": 1,
     "year": 2016,
     "evolve": "Golem",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 76,
     "biyearly_id": 33,
     "name": "Golem",
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/76.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/76.png"
+      }
     ],
     "photo": "./img/creatures/2016/76.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -915,22 +1149,30 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2016,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 92,
     "biyearly_id": 34,
     "name": "Gastly",
-    "type": ["Ghost", "Poison"],
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/92.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/92.png"
+      }
     ],
     "photo": "./img/creatures/2017/92.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -943,22 +1185,30 @@
     "official_gen": 1,
     "year": 2017,
     "evolve": "Haunter",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 93,
     "biyearly_id": 35,
     "name": "Haunter",
-    "type": ["Ghost", "Poison"],
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/93.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/93.png"
+      }
     ],
     "photo": "./img/creatures/2017/93.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -971,22 +1221,30 @@
     "official_gen": 1,
     "year": 2017,
     "evolve": "Gengar",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 94,
     "biyearly_id": 36,
     "name": "Gengar",
-    "type": ["Ghost", "Poison"],
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/94.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/94.png"
+      }
     ],
     "photo": "./img/creatures/2017/94.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -998,22 +1256,30 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2017,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 439,
     "biyearly_id": 37,
     "name": "Mime Jr.",
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/439.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/439.png"
+      }
     ],
     "photo": "./img/creatures/2017/439.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1026,22 +1292,30 @@
     "official_gen": 4,
     "year": 2017,
     "evolve": "Mr. Mime",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 122,
     "biyearly_id": 38,
     "name": "Mr. Mime",
-    "type": ["Psychic", "Fairy"],
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/122.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/122.png"
+      }
     ],
     "photo": "./img/creatures/2017/122.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1053,22 +1327,30 @@
     "biyearly_gen": 4,
     "official_gen": 1,
     "year": 2017,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 137,
     "biyearly_id": 39,
     "name": "Porygon",
-    "type": ["Neutral", "Paper"],
+    "type": [
+      "Neutral",
+      "Paper"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/137.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/137.png"
+      }
     ],
     "photo": "./img/creatures/2018/137.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1081,22 +1363,30 @@
     "official_gen": 1,
     "year": 2018,
     "evolve": "Porygon2",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 144,
     "biyearly_id": 40,
     "name": "Articuno",
-    "type": ["Ice", "Flying"],
+    "type": [
+      "Ice",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/144.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/144.png"
+      }
     ],
     "photo": "./img/creatures/2019/144.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1108,12 +1398,20 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "genre-species": ["Birtrius", "Articus"],
-    "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+    "genre-species": [
+      "Birtrius",
+      "Articus"
     ],
-    "categories": ["Legendaries", "Kanto Legendary Trio"]
+    "reallife_inspo": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "categories": [
+      "Legendaries",
+      "Kanto Legendary Trio"
+    ]
   },
   {
     "id": 147,
@@ -1121,10 +1419,10 @@
     "name": "Dratini",
     "type": "Dragon",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/147.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/147.png"
+      }
     ],
     "photo": "./img/creatures/2019/147.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1137,10 +1435,15 @@
     "official_gen": 1,
     "year": 2019,
     "evolve": "Dragonair",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -1149,10 +1452,10 @@
     "name": "Dragonair",
     "type": "Dragon",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/148.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/148.png"
+      }
     ],
     "photo": "./img/creatures/2019/148.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1165,22 +1468,30 @@
     "official_gen": 1,
     "year": 2019,
     "evolve": "Dragonite",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 149,
     "biyearly_id": 43,
     "name": "Dragonite",
-    "type": ["Dragon", "Flying"],
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/149.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/149.png"
+      }
     ],
     "photo": "./img/creatures/2019/149.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1192,22 +1503,30 @@
     "biyearly_gen": 5,
     "official_gen": 1,
     "year": 2019,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 198,
     "biyearly_id": 44,
     "name": "Murkrow",
-    "type": ["Night", "Flying"],
+    "type": [
+      "Night",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/198.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/198.png"
+      }
     ],
     "photo": "./img/creatures/2020/198.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1220,21 +1539,30 @@
     "official_gen": 2,
     "year": 2020,
     "evolve": "Honchkrow",
-    "genre-species": ["Corvus", "Krowensis"],
+    "genre-species": [
+      "Corvus",
+      "Krowensis"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
-  },  {
+  },
+  {
     "id": 430,
     "biyearly_id": 45,
     "name": "Honchkrow",
-    "type": ["Night", "Flying"],
+    "type": [
+      "Night",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/430.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/430.png"
+      }
     ],
     "photo": "./img/creatures/2020/430.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1246,22 +1574,30 @@
     "biyearly_gen": 6,
     "official_gen": 4,
     "year": 2020,
-    "genre-species": ["Corvus", "Krowensis"],
+    "genre-species": [
+      "Corvus",
+      "Krowensis"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 95,
     "biyearly_id": 46,
     "name": "Onix",
-    "type": ["Rock", "Ground"],
+    "type": [
+      "Rock",
+      "Ground"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/95.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/95.png"
+      }
     ],
     "photo": "./img/creatures/2020/95.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1274,22 +1610,30 @@
     "official_gen": 1,
     "year": 2020,
     "evolve": "Steelix",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 208,
     "biyearly_id": 47,
     "name": "Steelix",
-    "type": ["Steel", "Ground"],
+    "type": [
+      "Steel",
+      "Ground"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/208.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/208.png"
+      }
     ],
     "photo": "./img/creatures/2020/208.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1301,22 +1645,30 @@
     "biyearly_gen": 6,
     "official_gen": 2,
     "year": 2020,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 233,
     "biyearly_id": 48,
     "name": "Porygon2",
-    "type": ["Neutral", "Plastic"],
+    "type": [
+      "Neutral",
+      "Plastic"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/233.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/233.png"
+      }
     ],
     "photo": "./img/creatures/2021/233.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1329,10 +1681,15 @@
     "official_gen": 2,
     "year": 2021,
     "evolve": "Porygon-Z",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -1341,10 +1698,10 @@
     "name": "Wurmple",
     "type": "Bug",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/265.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/265.png"
+      }
     ],
     "photo": "./img/creatures/2024/265.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1356,11 +1713,19 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "evolve": ["Silcoon", "Cascoon"],
-    "genre-species": ["Canis", "Familiaris"],
+    "evolve": [
+      "Silcoon",
+      "Cascoon"
+    ],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -1369,10 +1734,10 @@
     "name": "Silcoon",
     "type": "Bug",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/266.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/266.png"
+      }
     ],
     "photo": "./img/creatures/2024/266.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1385,22 +1750,30 @@
     "official_gen": 3,
     "year": 2024,
     "evolve": "Beautifly",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 267,
     "biyearly_id": 51,
     "name": "Beautifly",
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/267.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/267.png"
+      }
     ],
     "photo": "./img/creatures/2024/267.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1412,10 +1785,15 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
@@ -1424,10 +1802,10 @@
     "name": "Cascoon",
     "type": "Bug",
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/268.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/268.png"
+      }
     ],
     "photo": "./img/creatures/2024/268.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1440,22 +1818,30 @@
     "official_gen": 3,
     "year": 2024,
     "evolve": "Dustox",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 269,
     "biyearly_id": 53,
     "name": "Dustox",
-    "type": ["Bug", "Poison"],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/269.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/269.png"
+      }
     ],
     "photo": "./img/creatures/2024/269.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1467,22 +1853,30 @@
     "biyearly_gen": 8,
     "official_gen": 3,
     "year": 2024,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 290,
     "biyearly_id": 54,
     "name": "Nincada",
-    "type": ["Bug", "Ground"],
+    "type": [
+      "Bug",
+      "Ground"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/290.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/290.png"
+      }
     ],
     "photo": "./img/creatures/2022/290.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1494,23 +1888,34 @@
     "biyearly_gen": 7,
     "official_gen": 3,
     "year": 2022,
-    "evolve": ["Ninjask", "Shedinja"],
-    "genre-species": ["Canis", "Familiaris"],
+    "evolve": [
+      "Ninjask",
+      "Shedinja"
+    ],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 291,
     "biyearly_id": 55,
     "name": "Ninjask",
-    "type": ["Bug", "Flying"],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/291.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/291.png"
+      }
     ],
     "photo": "./img/creatures/2022/291.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1522,22 +1927,31 @@
     "biyearly_gen": 7,
     "official_gen": 3,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 292,
     "biyearly_id": 56,
     "name": "Shedinja",
-    "type": ["Bug", "Ghost", "Paper"],
+    "type": [
+      "Bug",
+      "Ghost",
+      "Paper"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/292.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/292.png"
+      }
     ],
     "photo": "./img/creatures/2022/292.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1549,22 +1963,30 @@
     "biyearly_gen": 7,
     "official_gen": 3,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 474,
     "biyearly_id": 57,
     "name": "Porygon-Z",
-    "type": ["Neutral", "Plastic"],
+    "type": [
+      "Neutral",
+      "Plastic"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/474.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/474.png"
+      }
     ],
     "photo": "./img/creatures/2024/474.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1576,22 +1998,30 @@
     "biyearly_gen": 8,
     "official_gen": 4,
     "year": 2024,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 837,
     "biyearly_id": 58,
     "name": "Rolycoly",
-    "type": ["Rock", "Rubber"],
+    "type": [
+      "Rock",
+      "Rubber"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/837.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/837.png"
+      }
     ],
     "photo": "./img/creatures/2019/837.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1604,22 +2034,31 @@
     "official_gen": 8,
     "year": 2019,
     "evolve": "Carkol",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 838,
     "biyearly_id": 59,
     "name": "Carkol",
-    "type": ["Rock", "Fire", "Rubber"],
+    "type": [
+      "Rock",
+      "Fire",
+      "Rubber"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/838.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/838.png"
+      }
     ],
     "photo": "./img/creatures/2019/838.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1632,22 +2071,31 @@
     "official_gen": 8,
     "year": 2019,
     "evolve": "Coalossal",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 839,
     "biyearly_id": 60,
     "name": "Coalossal",
-    "type": ["Rock", "Fire", "Rubber"],
+    "type": [
+      "Rock",
+      "Fire",
+      "Rubber"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/839.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/839.png"
+      }
     ],
     "photo": "./img/creatures/2019/839.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1659,22 +2107,30 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2019,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 868,
     "biyearly_id": 61,
     "name": "Milcery",
-    "type": ["Fairy", "Sugar"],
+    "type": [
+      "Fairy",
+      "Sugar"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/868.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/868.png"
+      }
     ],
     "photo": "./img/creatures/2019/868.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1687,22 +2143,30 @@
     "official_gen": 8,
     "year": 2019,
     "evolve": "Alcremie",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 869,
     "biyearly_id": 62,
     "name": "Alcremie",
-    "type": ["Fairy", "Sugar"],
+    "type": [
+      "Fairy",
+      "Sugar"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/869.png"
-    }
+      {
+        "cartoon": "",
+        "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/869.png"
+      }
     ],
     "photo": "./img/creatures/2019/869.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1714,22 +2178,30 @@
     "biyearly_gen": 7,
     "official_gen": 8,
     "year": 2019,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 932,
     "biyearly_id": 63,
     "name": "Nacli",
-    "type": ["Rock", "Salt"],
+    "type": [
+      "Rock",
+      "Salt"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2022/932.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1742,22 +2214,30 @@
     "official_gen": 9,
     "year": 2022,
     "evolve": "Naclstack",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 933,
     "biyearly_id": 64,
     "name": "Naclstack",
-    "type": ["Rock", "Salt"],
+    "type": [
+      "Rock",
+      "Salt"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2022/933.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1770,22 +2250,30 @@
     "official_gen": 9,
     "year": 2022,
     "evolve": "Garnacl",
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 934,
     "biyearly_id": 65,
     "name": "Garganacl",
-    "type": ["Rock", "Salt"],
+    "type": [
+      "Rock",
+      "Salt"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2022/934.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1797,22 +2285,30 @@
     "biyearly_gen": 7,
     "official_gen": 9,
     "year": 2022,
-    "genre-species": ["Canis", "Familiaris"],
+    "genre-species": [
+      "Canis",
+      "Familiaris"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 2019,
     "biyearly_id": 66,
     "name": "Regitube",
-    "type": ["Rubber", "Plastic"],
+    "type": [
+      "Rubber",
+      "Plastic"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2025/2019.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1824,23 +2320,34 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2025,
-    "genre-species": ["Regius", "Tubiliaris"],
-    "reallife_inspo": [
-      {"name": "Life Tube",
-      "link": "https://en.wikipedia.org/wiki/Swim_ring"}
+    "genre-species": [
+      "Regius",
+      "Tubiliaris"
     ],
-    "categories": ["Infratitans", "Legendaries", "The Regis"]
+    "reallife_inspo": [
+      {
+        "name": "Life Tube",
+        "link": "https://en.wikipedia.org/wiki/Swim_ring"
+      }
+    ],
+    "categories": [
+      "Infratitans",
+      "Legendaries",
+      "The Regis"
+    ]
   },
   {
     "id": 2020,
     "biyearly_id": 67,
     "name": "Regikraft",
-    "type": ["Paper"],
+    "type": [
+      "Paper"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2024/2020.svg",
     "instagram": "https://www.instagram.com/p/what",
@@ -1852,23 +2359,34 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Regius", "Kraftus"],
-    "reallife_inspo": [
-      {"name": "Regitube",
-      "link": "https://knowyourmeme.com/memes/regitube"}
+    "genre-species": [
+      "Regius",
+      "Kraftus"
     ],
-    "categories": ["Infratitans", "Legendaries", "The Regis"]
+    "reallife_inspo": [
+      {
+        "name": "Regitube",
+        "link": "https://knowyourmeme.com/memes/regitube"
+      }
+    ],
+    "categories": [
+      "Infratitans",
+      "Legendaries",
+      "The Regis"
+    ]
   },
   {
     "id": 2021,
     "biyearly_id": 68,
     "name": "Celacorn",
-    "type": ["Water"],
+    "type": [
+      "Water"
+    ],
     "icon": [
-    {
-      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png",
-      "pixel": ""
-    }
+      {
+        "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Celacorn.png",
+        "pixel": ""
+      }
     ],
     "photo": "./classic/img/creatures/2022/Celacorn.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -1881,22 +2399,30 @@
     "official_gen": 0,
     "year": 2022,
     "evolve": "Popcanth",
-    "genre-species": ["Fishis", "Popkornensis"],
+    "genre-species": [
+      "Fishis",
+      "Popkornensis"
+    ],
     "reallife_inspo": [
-      {"name": "Popcorn",
-      "link": "https://en.wikipedia.org/wiki/Popcorn"}
+      {
+        "name": "Popcorn",
+        "link": "https://en.wikipedia.org/wiki/Popcorn"
+      }
     ]
   },
   {
     "id": 2022,
     "biyearly_id": 69,
     "name": "Popcanth",
-    "type": ["Water", "Salt"],
+    "type": [
+      "Water",
+      "Salt"
+    ],
     "icon": [
-    {
-      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth_M.png",
-      "pixel": ""
-    }
+      {
+        "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Popcanth_M.png",
+        "pixel": ""
+      }
     ],
     "photo": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/full/Popcanth_M.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -1908,22 +2434,30 @@
     "biyearly_gen": 7,
     "official_gen": 0,
     "year": 2022,
-    "genre-species": ["Fishis", "Popkornensis"],
+    "genre-species": [
+      "Fishis",
+      "Popkornensis"
+    ],
     "reallife_inspo": [
-      {"name": "Popcorn",
-      "link": "https://en.wikipedia.org/wiki/Popcorn"}
+      {
+        "name": "Popcorn",
+        "link": "https://en.wikipedia.org/wiki/Popcorn"
+      }
     ]
   },
   {
     "id": 2023,
     "biyearly_id": 70,
     "name": "Minhokans",
-    "type": ["Ground", "Water"],
+    "type": [
+      "Ground",
+      "Water"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2024/Minhokans/artwork.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -1936,22 +2470,30 @@
     "official_gen": 0,
     "year": 2024,
     "evolve": "Minhokobra",
-    "genre-species": ["Liophis", "Drakobrus"],
+    "genre-species": [
+      "Liophis",
+      "Drakobrus"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 2024,
     "biyearly_id": 71,
     "name": "Minhokobra",
-    "type": ["Ground", "Plant"],
+    "type": [
+      "Ground",
+      "Plant"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2024/Minhokobra/artwork.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -1963,22 +2505,30 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Liophis", "Drakobrus"],
+    "genre-species": [
+      "Liophis",
+      "Drakobrus"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ]
   },
   {
     "id": 2025,
     "biyearly_id": 72,
     "name": "Morcegatito",
-    "type": ["Night", "Flying"],
+    "type": [
+      "Night",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Morcegatito.png",
-      "pixel": ""
-    }
+      {
+        "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Morcegatito.png",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2024/Morcegatito/artwork.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -1990,23 +2540,34 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Felis", "Morcegatitus"],
-    "reallife_inspo": [
-      {"name": "Gargoyles",
-      "link": "https://en.wikipedia.org/wiki/Gargoyle"}
+    "genre-species": [
+      "Felis",
+      "Morcegatitus"
     ],
-    "categories": ["Legendaries", "The Gargoyles"]
+    "reallife_inspo": [
+      {
+        "name": "Gargoyles",
+        "link": "https://en.wikipedia.org/wiki/Gargoyle"
+      }
+    ],
+    "categories": [
+      "Legendaries",
+      "The Gargoyles"
+    ]
   },
   {
     "id": 2026,
     "biyearly_id": 73,
     "name": "Regimeal",
-    "type": ["Salt", "Sugar"],
+    "type": [
+      "Salt",
+      "Sugar"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2024/Regimeal/artwork.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -2018,23 +2579,35 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Regius", "Mealiaris"],
-    "reallife_inspo": [
-      {"name": "Regitube",
-      "link": "https://knowyourmeme.com/memes/regitube"}
+    "genre-species": [
+      "Regius",
+      "Mealiaris"
     ],
-    "categories": ["Infratitans", "Legendaries", "The Regis"]
+    "reallife_inspo": [
+      {
+        "name": "Regitube",
+        "link": "https://knowyourmeme.com/memes/regitube"
+      }
+    ],
+    "categories": [
+      "Infratitans",
+      "Legendaries",
+      "The Regis"
+    ]
   },
   {
     "id": 2027,
     "biyearly_id": 74,
     "name": "Kuhlice",
-    "type": ["Water", "Ice"],
+    "type": [
+      "Water",
+      "Ice"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2024/Kuhlice/artwork.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -2046,10 +2619,15 @@
     "biyearly_gen": 8,
     "official_gen": 0,
     "year": 2024,
-    "genre-species": ["Fishis", "Kuhlis"],
+    "genre-species": [
+      "Fishis",
+      "Kuhlis"
+    ],
     "reallife_inspo": [
-      {"name": "Kuhli Loach",
-      "link": "https://en.wikipedia.org/wiki/Kuhli_loach"}
+      {
+        "name": "Kuhli Loach",
+        "link": "https://en.wikipedia.org/wiki/Kuhli_loach"
+      }
     ],
     "categories": []
   },
@@ -2057,12 +2635,14 @@
     "id": 2028,
     "biyearly_id": 75,
     "name": "Capsuled",
-    "type": ["Plastic"],
+    "type": [
+      "Plastic"
+    ],
     "icon": [
-    {
-      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png",
-      "pixel": ""
-    }
+      {
+        "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Capsuled.png",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2013/Capsuled.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -2074,10 +2654,15 @@
     "biyearly_gen": 2,
     "official_gen": 0,
     "year": 2013,
-    "genre-species": ["Plasticus", "Capsulis"],
+    "genre-species": [
+      "Plasticus",
+      "Capsulis"
+    ],
     "reallife_inspo": [
-      {"name": "Pill/Capsule",
-      "link": "https://en.wikipedia.org/wiki/Capsule_(pharmacy)"}
+      {
+        "name": "Pill/Capsule",
+        "link": "https://en.wikipedia.org/wiki/Capsule_(pharmacy)"
+      }
     ],
     "categories": []
   },
@@ -2085,12 +2670,15 @@
     "id": 2029,
     "biyearly_id": 76,
     "name": "Bagust",
-    "type": ["Plastic", "Flying"],
+    "type": [
+      "Plastic",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png",
-      "pixel": ""
-    }
+      {
+        "cartoon": "https://assets.tamigucho.com/assets/cms2/img/tamipedia/icon/cartoon/Bagust.png",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2013/Bagust.png",
     "instagram": "https://www.instagram.com/p/what",
@@ -2102,10 +2690,15 @@
     "biyearly_gen": 2,
     "official_gen": 0,
     "year": 2013,
-    "genre-species": ["Plasticus", "Bagis"],
+    "genre-species": [
+      "Plasticus",
+      "Bagis"
+    ],
     "reallife_inspo": [
-      {"name": "Plastic Shopping Bag",
-      "link": "https://en.wikipedia.org/wiki/Plastic_shopping_bag"}
+      {
+        "name": "Plastic Shopping Bag",
+        "link": "https://en.wikipedia.org/wiki/Plastic_shopping_bag"
+      }
     ],
     "categories": []
   },
@@ -2113,12 +2706,15 @@
     "id": 2030,
     "biyearly_id": 77,
     "name": "Birsh",
-    "type": ["Water", "Flying"],
+    "type": [
+      "Water",
+      "Flying"
+    ],
     "icon": [
-    {
-      "cartoon": "",
-      "pixel": ""
-    }
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
     ],
     "photo": "./img/creatures/2023/Birsh.jpeg",
     "instagram": "https://www.instagram.com/p/Cn4y7kbOFmo/",
@@ -2130,12 +2726,170 @@
     "biyearly_gen": 7,
     "official_gen": 0,
     "year": 2023,
-    "genre-species": ["Avis", "Bishis"],
+    "genre-species": [
+      "Avis",
+      "Bishis"
+    ],
     "reallife_inspo": [
-      {"name": "",
-      "link": ""}
+      {
+        "name": "",
+        "link": ""
+      }
     ],
     "categories": []
+  },
+  {
+    "id": 2031,
+    "biyearly_id": 78,
+    "name": "Shampent",
+    "type": [
+      "Fairy",
+      "Water",
+      "Electric"
+    ],
+    "icon": [
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
+    ],
+    "photo": "./img/creatures/2024/Shampent/artwork.png",
+    "instagram": "",
+    "description": [
+      "Shampent can't handle seeing messed-up hairs: it will throw its shampoo goo and use its comb-like arms to fix it.",
+      "Some Shampent may develop more a Soap or an Electric type, as they are quite energetic on cleaning and the hair leftovers on its arms may produce electricity."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024,
+    "evolve": "",
+    "genre-species": [
+      "Potis",
+      "Shampus"
+    ],
+    "reallife_inspo": [
+      {
+        "name": "Shampoo Tube",
+        "link": "https://en.wikipedia.org/wiki/Shampoo"
+      }
+    ],
+    "categories": [
+      ""
+    ]
+  },
+  {
+    "id": 2032,
+    "biyearly_id": 79,
+    "name": "Soum",
+    "type": [
+      "Steel"
+    ],
+    "icon": [
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
+    ],
+    "photo": "./img/creatures/2024/Soum/artwork.png",
+    "instagram": "",
+    "description": [
+      "These lonely creatures love companies, and for that they call the attention of anyone around by playing loud sounds and even immitating the noises of other species.",
+      "Soums are very popular because of their powerful ability of immitating barely every kind of noise in existence, but that work isn't perfect. They can even play music, but on its own way and notes."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024,
+    "evolve": "Sounduo",
+    "genre-species": [
+      "Boxis",
+      "Soundus"
+    ],
+    "reallife_inspo": [
+      {
+        "name": "Loudspeaker",
+        "link": "https://en.wikipedia.org/wiki/Loudspeaker_enclosure"
+      }
+    ],
+    "categories": [
+      ""
+    ]
+  },
+  {
+    "id": 2033,
+    "biyearly_id": 80,
+    "name": "Sounduo",
+    "type": [
+      "Steel"
+    ],
+    "icon": [
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
+    ],
+    "photo": "./img/creatures/2024/Sounduo/artwork.png",
+    "instagram": "",
+    "description": [
+      "When two Soums meet one another and they form a strong bond, they morph together becoming a single creature called Sounduo. They are very popular on beaches by some annoying guys.",
+      "When Soum morph, its ability to mimmick sounds is considerably improved. They are very popular at some grunge musical shows for their excentric value."
+    ],
+    "region": "Brava",
+    "biyearly_gen": 8,
+    "official_gen": 3,
+    "year": 2024,
+    "evolve": "Pancadope",
+    "genre-species": [
+      "Boxis",
+      "Soundus"
+    ],
+    "reallife_inspo": [
+      {
+        "name": "Loudspeaker",
+        "link": "https://en.wikipedia.org/wiki/Loudspeaker_enclosure"
+      }
+    ],
+    "categories": [
+      ""
+    ]
+  },
+  {
+    "id": 2034,
+    "biyearly_id": 81,
+    "name": "Mushrultra",
+    "type": [
+      "Rock","Fairy","Plant"
+    ],
+    "icon": [
+      {
+        "cartoon": "",
+        "pixel": ""
+      }
+    ],
+    "photo": "./img/creatures/2024/Mushrultra/artwork.png",
+    "instagram": "",
+    "description": [
+      "A beetle and/or other creature ending in 'tle' was mistakenly described as the source of the Ultra type phenomena, while actually all they did was having a excelsior capacity at storing and using the Ultra energy.",
+      "Little is known about this creature, except ancient tales of cushion-like mushrooms that once touching their crystals, people were able to make their wishes and imaginations real."
+    ],
+    "region": "Kairo",
+    "biyearly_gen": 8,
+    "official_gen": 1,
+    "year": 2024,
+    "evolve": "",
+    "genre-species": [
+      "Shardis",
+      "Teras"
+    ],
+    "reallife_inspo": [
+      {
+        "name": "",
+        "link": ""
+      }
+    ],
+    "categories": [
+      "Legendaries", "Infratitans"
+    ]
   }
 ]
-

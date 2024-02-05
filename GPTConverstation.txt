@@ -1,0 +1,219 @@
+Let's create the creature generator.
+
+Resides in scripts/newcreature/add.js (you have to fill it, its empty currently).
+
+Depends on data in src/data/creatures/template.json (already filled).
+
+add.json will guide user through filing details, and based in the template.json, src/data/pokemons.json will get this filled entry added.
+
+Ask the id (but tell the latest one found in pokemons.json), the biyearly_id (also tell the latest one found), the name, the type(s), the icon (cartoon, pixel) or leave empty one or both, photo, instagram link (or leave it empty), description line 1, description line 2, region, gen (biyearly, official), year, evolve to (can leave empty), genre-species, real life inspo (can leave empty), categories (this last can be left empty too).
+
+
+
+
+
+// This file will guide the user through adding a new creature entry to the pokemons.json file based on the template in template.json
+// It will prompt the user for details such as id, biyearly_id, name, type, icon, photo, instagram link, description, region, gen, year, evolve, genre-species, real life inspo, and categories.
+// The user will be informed of the latest id and biyearly_id found in pokemons.json to help them fill in the new entry.
+
+
+
+
+
+
+
+(was using cursorfast instead of gpt4)
+
+
+
+
+Let's create the creature generator.
+
+Resides in scripts/newcreature/add.js (you have to fill it, its empty currently).
+
+Depends on data in src/data/creatures/template.json (already filled).
+
+add.json will guide user through filing details, and based in the template.json, src/data/pokemons.json will get this filled entry added.
+
+Ask the id (but tell the latest one found in pokemons.json), the biyearly_id (also tell the latest one found), the name, the type(s), the icon (cartoon, pixel) or leave empty one or both, photo, instagram link (or leave it empty), description line 1, description line 2, region, gen (biyearly, official), year, evolve to (can leave empty), genre-species, real life inspo (can leave empty), categories (this last can be left empty too).
+
+So, to put that to work, please fill add.js!
+
+
+
+
+
+
+
+
+
+To create the creature generator as described, the scripts/newcreature/add.js file needs to be filled with code that reads the template from src/data/creatures/template.json, prompts the user for the necessary details, and then adds the new creature to src/data/pokemons.json. Below is the implementation:
+
+const fs = require('fs');
+const readline = require('readline');
+const path = require('path');
+
+const templatePath = path.join(__dirname, '../../src/data/creatures/template.json');
+const pokemonsPath = path.join(__dirname, '../../src/data/pokemons.json');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+const template = JSON.parse(fs.readFileSync(templatePath, 'utf8'));
+const pokemons = JSON.parse(fs.readFileSync(pokemonsPath, 'utf8'));
+
+const latestId = pokemons[pokemons.length - 1].id;
+const latestBiyearlyId = pokemons[pokemons.length - 1].biyearly_id;
+
+const questions = [
+  `Enter id (latest id is ${latestId}): `,
+  `Enter biyearly_id (latest biyearly_id is ${latestBiyearlyId}): `,
+  'Enter name: ',
+  'Enter types (comma separated): ',
+  'Enter cartoon icon URL (leave empty if none): ',
+  'Enter pixel icon URL (leave empty if none): ',
+  'Enter photo URL: ',
+  'Enter Instagram link (leave empty if none): ',
+  'Enter description line 1: ',
+  'Enter description line 2: ',
+  'Enter region: ',
+  'Enter biyearly gen: ',
+  'Enter official gen: ',
+  'Enter year: ',
+  'Enter evolve to (leave empty if none): ',
+  'Enter genre-species (comma separated): ',
+  'Enter real life inspo name (leave empty if none): ',
+  'Enter real life inspo link (leave empty if none): ',
+  'Enter categories (comma separated, leave empty if none): '
+];
+
+function askQuestion(index = 0, answers = []) {
+  if (index < questions.length) {
+    rl.question(questions[index], (answer) => {
+      answers.push(answer);
+      askQuestion(index + 1, answers);
+    });
+  } else {
+    rl.close();
+    processAnswers(answers);
+  }
+}
+
+function processAnswers(answers) {
+  const [id, biyearly_id, name, types, cartoon, pixel, photo, instagram, description1, description2, region, biyearly_gen, official_gen, year, evolve, genreSpecies, realLifeName, realLifeLink, categories] = answers;
+  const newCreature = { ...template, id: parseInt(id), biyearly_id: parseInt(biyearly_id), name, type: types.split(', '), icon: [{ cartoon, pixel }], photo, instagram, description: [description1, description2], region, biyearly_gen: parseInt(biyearly_gen), official_gen: parseInt(official_gen), year: parseInt(year), evolve, genre-species: genreSpecies.split(', '), reallife_inspo: [{ name: realLifeName, link: realLifeLink }], categories: categories.split(', ') };
+  pokemons.push(newCreature);
+  fs.writeFileSync(pokemonsPath, JSON.stringify(pokemons, null, 2));
+  console.log('New creature added successfully!');
+}
+
+askQuestion();
+
+This script uses Node.js's readline module to interactively prompt the user for each piece of information required to create a new creature entry. It reads the current list of creatures from src/data/pokemons.json to inform the user of the latest id and biyearly_id. After collecting all necessary information, it adds the new creature to the list and writes the updated list back to src/data/pokemons.json
+
+
+
+
+
+
+
+
+
+
+Currently, on entries' arrays like type and genre-species in pokemons.json, are getting "item,item" inside the same quote instead of "item","item" (I talk about add.json still)
+
+
+
+
+
+
+
+
+
+To fix the issue with arrays like type and genre-species in pokemons.json where items are getting added as "item,item" instead of separate items like "item", "item", you need to modify the processAnswers function in scripts/newcreature/add.js. Specifically, change how you're splitting the input for these arrays. Use .split(', ') (note the space after the comma) to ensure items are added as separate entries in the array.
+
+Here's the corrected part of the code:
+
+const newCreature = { ...template, id: parseInt(id), biyearly_id: parseInt(biyearly_id), name, type: types.split(', '), icon: [{ cartoon, pixel }], photo, instagram, description: [description1, description2], region, biyearly_gen: parseInt(biyearly_gen), official_gen: parseInt(official_gen), year: parseInt(year), evolve, 'genre-species': genreSpecies.split(', '), reallife_inspo: [{ name: realLifeName, link: realLifeLink }], categories: categories.split(', ') };
+
+Ensure that when entering multiple items for types, genre-species, or categories, they are separated by a comma followed by a space. This change will correctly format the arrays in pokemons.json
+
+
+
+
+
+
+
+
+I need another thing: before the script begin asking, it should open the Gnome simple-scan app (simple-scan command).
+
+
+
+
+
+
+
+
+
+To open the Gnome simple-scan app before the script begins asking questions, you can use Node.js's child_process module to execute the simple-scan command. Add this at the beginning of your scripts/newcreature/add.js file:
+
+const { exec } = require('child_process');
+
+exec('simple-scan', (error, stdout, stderr) => {
+  if (error) {
+    console.error(`exec error: ${error}`);
+    return;
+  }
+  console.log(`stdout: ${stdout}`);
+  console.error(`stderr: ${stderr}`);
+});
+
+This code snippet should be placed before any other code in add.js, ensuring that the simple-scan application is launched right as the script starts.
+
+
+
+
+
+
+About the previous issue, still:
+Enter genre-species (comma separated): Boxis,Soundus
+
+But:
+
+"genre-species": [
+  "Boxis,Soundus"
+],
+
+
+
+
+
+
+
+To correctly separate the items in the genre-species array when they are entered as "Boxis,Soundus" without a space after the comma, you should modify the split method to account for commas without spaces. Here's the updated line in your processAnswers function in scripts/newcreature/add.js:
+
+  const newCreature = { ...template, id: parseInt(id), biyearly_id: parseInt(biyearly_id), name, type: types.split(', '), icon: [{ cartoon, pixel }], photo, instagram, description: [description1, description2], region, biyearly_gen: parseInt(biyearly_gen), official_gen: parseInt(official_gen), year: parseInt(year), evolve, 'genre-species': genreSpecies.split(','), reallife_inspo: [{ name: realLifeName, link: realLifeLink }], categories: categories.split(', ') };
+  
+This change to .split(',') for genreSpecies will ensure that items are correctly separated into individual array elements even if there is no space after the comma.
+
+
+
+
+
+For genre-species, now it works. But type, still:
+
+"type": [
+  "Rock,Fairy"
+],
+
+
+
+
+
+To address the issue with the type field in pokemons.json where items are not being separated correctly, you should apply the same fix as for genre-species. Specifically, you need to adjust the .split() method to handle commas without spaces for the types input as well. Here's the corrected line in your processAnswers function in scripts/newcreature/add.js:
+
+  const newCreature = { ...template, id: parseInt(id), biyearly_id: parseInt(biyearly_id), name, type: types.split(','), icon: [{ cartoon, pixel }], photo, instagram, description: [description1, description2], region, biyearly_gen: parseInt(biyearly_gen), official_gen: parseInt(official_gen), year: parseInt(year), evolve, 'genre-species': genreSpecies.split(','), reallife_inspo: [{ name: realLifeName, link: realLifeLink }], categories: categories.split(', ') };
+  
+This change to .split(',') for types ensures that items are correctly separated into individual array elements even if there is no space after the comma.

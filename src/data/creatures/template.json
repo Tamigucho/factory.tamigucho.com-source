@@ -1,0 +1,29 @@
+{
+    "id": 1,
+    "biyearly_id": 1,
+    "name": "Bulbasaur",
+    "type": ["Plant", "Poison"],
+    "icon": [
+    {
+      "cartoon": "",
+      "pixel": "https://raw.githubusercontent.com/danimesq/sprites/main/sprites/pokemon/versions/generation-viii/icons/1.png"
+    }
+    ],
+    "photo": "./img/creatures/2010/1.svg",
+    "instagram": "https://www.instagram.com/bulbasaur",
+    "description": [
+      "Bulbasaur is a dual-type Plant/Poison Pokémon introduced in Generation I.",
+      "It evolves into Ivysaur starting at level 16, which evolves into Venusaur starting at level 32."
+    ],
+    "region": "Kanto",
+    "biyearly_gen": 1,
+    "official_gen": 1,
+    "year": 2010,
+    "evolve": "Ivysaur",
+    "genre-species": ["Canis", "Familiaris"],
+    "reallife_inspo": [
+      {"name": "Frog",
+      "link": "https://pt.wikipedia.org/wiki/Anura"}
+    ],
+    "categories": ["Starters", "Kanto Starter Trio"]
+}
