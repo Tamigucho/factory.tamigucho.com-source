@@ -1,7 +1,5 @@
-- Header menu: Institutional > Statement about AI link
-- Header menu: Institutional > Statement about AI page
-
-./future directory Tasks
+- Header menu: dropdown link Institutional > Statement about AI
+- page Statement about AI
 
 - add the Glass type!
 - add the Soap type (does nothing to glass type)!
@@ -43,6 +41,8 @@
 - new item: TamiBlock
 
 - blue/red switcher changing between line 1 and line 2 of the description/entry
+
+./future directory Tasks
 
 - add a dropdown menu containing all the gimmicks available for a given pokemon, and refresh its data when clicked (read from JSON {pokemon-name}_{gimmick-name} inspo https://www.pokemon.com/br/pokedex/charizard ; gimmicks available: Symbio (Treearth), Super (Treearth) ; this dropdown will appear only when there is data available
 - .json: {pokemon-name}_{gimmick-name}* should support any suffix, looping into all variations of a gimmick for a given Pokémon (example Mega Charizard X, Mega Charizard Y)
