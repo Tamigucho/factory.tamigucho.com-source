@@ -1,0 +1,1 @@
+If normal isn't filed, assume normal form name is "Normal"; otherwise, apply custom name from it.

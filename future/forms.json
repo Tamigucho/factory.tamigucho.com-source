@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Mercuray",
+        "forms": [
+            {
+                "default": "",
+                "normal": "Roam",
+                "Apex": [
+                    {
+                        "photo": "./img/creatures/2010/Mercuray/forms/Apex/artwork.png",
+                        "instagram": "",
+                        "type": [],
+                        "description": [
+                            "",
+                            ""
+                        ],
+                        "year": 2010,
+                        "reallife_inspo": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Etanolight",
+        "forms": [
+            {
+                "default": "",
+                "normal": "Roam",
+                "Apex": [
+                    {
+                        "photo": "./img/creatures/2010/Etanolight/forms/Apex/artwork.png",
+                        "instagram": "",
+                        "type": [],
+                        "description": [
+                            "",
+                            ""
+                        ],
+                        "year": 2010,
+                        "reallife_inspo": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mushultra",
+        "forms": [
+            {
+                "default": "Compact",
+                "normal": "",
+                "Compact": [
+                    {
+                        "photo": "./img/creatures/2024/Mushultra/forms/Compact/artwork.png",
+                        "instagram": "",
+                        "type": [],
+                        "description": [
+                            "",
+                            ""
+                        ],
+                        "year": 2024,
+                        "reallife_inspo": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ],
+                "Dormant": [
+                    {
+                        "photo": "./img/creatures/2024/Mushultra/forms/Dormant/artwork.png",
+                        "instagram": "",
+                        "type": [],
+                        "description": [
+                            "",
+                            ""
+                        ],
+                        "year": 2024,
+                        "reallife_inspo": [
+                            {
+                                "name": "",
+                                "link": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
