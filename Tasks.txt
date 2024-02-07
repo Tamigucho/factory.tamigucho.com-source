@@ -1,3 +1,5 @@
+- tami entries: add "creators" key to tamis (male, female), forms, etc ; if empty, assume its DaniMesq
+
 - Header menu: dropdown link Institutional > Statement about AI
 - page Statement about AI
 
