@@ -1,5 +1,7 @@
 - tami entries: add "creators" key to tamis (male, female), forms, etc ; if empty, assume its DaniMesq
 
+- {year} folder in img: add versions/ (/instagram, /artwork, /draw), instagram.jp(e)g, artwork.* and draw.svg
+
 - Header menu: dropdown link Institutional > Statement about AI
 - page Statement about AI
 
