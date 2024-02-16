@@ -2,21 +2,24 @@
 
 - {year} folder in img: add versions/ (/instagram, /artwork, /draw), instagram.jp(e)g, artwork.* and draw.svg
 
-<div class="message spoilers-container" dir="auto">Tami Factory React Site:
+Tami Factory React Site:
 - Fictional inspirations array in creatures.json: for example, Morcegatito will have two fictional inspirations, which are memes; in the array: name and link of each!
 - New Categories: "Meme-based", "Politics-based"
-
 New Tami Sh Script:
-- get hsh and ask pls to rg<span class="time"><span class="post-views">4</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">03:02</span><div class="time-inner" title="15 January 2024, 03:02:43"><span class="post-views">4</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">03:02</span></div></span></div>
+- get hsh and ask pls to rg
 
-has quote:
-<div class="message spoilers-container" dir="auto"><div class="reply quote-like quote-like-hoverable quote-like-border rp" dir="auto" style="--peer-color-rgb: var(--peer-2-color-rgb); --peer-border-background: var(--peer-2-border-background);"><div class="c-ripple"></div><div class="reply-content"><div class="reply-title" dir="auto"><span class="peer-title" dir="auto" data-peer-id="-1303020294" data-dialog="0" data-only-first-name="0" data-plain-text="0" data-from-name="0">Mob-PC</span></div><div class="reply-subtitle" dir="auto">Tami Factory React Site:
-- Fictional inspirations array in creatures.json: for example, Morcegatito ...</div></div></div>Sh Script:
-- open Gnome Scan<span class="time"><span class="post-views">4</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">03:57</span><div class="time-inner" title="15 January 2024, 03:57:06"><span class="post-views">4</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">03:57</span></div></span></div>
+Sh Script:
+- open Gnome Scan
 
-<div class="message spoilers-container" dir="auto">Tami Factory React Site:
+Tami Factory React Site:
 - line 1/line 2 switcher using favicon Red or Blue
-- Male/Female switcher gray CSS for other tamis, but available for Popcanth!<span class="time"><span class="post-views">3</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">17:23</span><div class="time-inner" title="15 January 2024, 17:23:43"><span class="post-views">3</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">17:23</span></div></span></div>
+- Male/Female switcher gray CSS for other tamis, but available for Popcanth!
+
+<div class="message spoilers-container" dir="auto">Tami Factory Classic:
+- add two new Tamis of 2011 found in Blogger
+- Add Bulball evo Drainest and Onionut will be final evo; "Bulblast" will be Onionut's Super morph<span class="time"><span class="post-views">3</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">22:30</span><div class="time-inner" title="17 January 2024, 22:30:56"><span class="post-views">3</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">22:30</span></div></span></div>
+
+<div class="message spoilers-container" dir="auto">Tami Factory React site: add versioning to game covers!<span class="time"><span class="post-views">3</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">22:31</span><div class="time-inner" title="17 January 2024, 22:31:52"><span class="post-views">3</span><span class="tgico time-icon time-part time-icon-views"></span><span class="i18n" dir="auto">22:31</span></div></span></div>
 
 - Header menu: dropdown link Institutional > Statement about AI
 - page Statement about AI
