@@ -4,8 +4,8 @@ import mintablesData from '../../../../data/creatures/mintables.json';
 import { Helmet } from 'react-helmet';
 
 const MintablesItem = () => {
-  const { mintableName } = useParams();
-  const mintable = mintablesData.find(m => m.name === mintableName);
+  const { mintableId } = useParams();
+  const mintable = mintablesData.find(m => m.id === mintableId);
 
   if (!mintable) {
     return <div>Mintable not found</div>;

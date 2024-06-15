@@ -19,7 +19,7 @@ const MintablesPage = () => {
             <img draggable="false" className="card-img-top" src={`${process.env.PUBLIC_URL}/${mintable.image}`} alt={mintable.name} />
             <div className="card-body">
               <h5 className="card-title">{mintable.name}</h5>
-              <Link to={`/extra/mintables/${mintable.name}`} className="btn btn-primary">View Details</Link>
+              <Link to={`/extra/mintables/${mintable.id}`} className="btn btn-primary">View Details</Link>
             </div>
           </div>
         ))}

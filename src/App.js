@@ -62,7 +62,7 @@ function App() {
         <Route path="/categories" element={<Categories />} />
         <Route path="/categories/:categoryName" element={<CategoryPage />} />
         <Route path="/extra/mintables" element={<MintablesPage />} />
-        <Route path="/extra/mintables/:mintableName" element={<MintablesItem />} />
+        <Route path="/extra/mintables/:mintableId" element={<MintablesItem />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />
