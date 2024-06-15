@@ -1,12 +1,12 @@
-commit QmdkQGYft3E9qUjruXReMeWZ5acaGHnu5FxCV9e4LxEQfD
+commit QmUhkTSPmzuoFhgMzHVuWSn8ExWfqf8WZq6h76s1LJD4RS
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 160787f09dd3457dc0050b0803488192f5cb2ef9813aa455db9f2d90a27a68a650b2a3f31ed7bb602a0904d7efae13c0990ba0eab91277e32c6061e5300f934400
+Signature: 21db2d1f27c92bfe50533c3a443f3afc68d9d4c2eae3d1f7ffe439d61d16fca5595cc58e04f74ff256cd94bf1244fa83363f6bd9e19aa0e3ffb802dfb101e2cf00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmfExwfSdG9GehRQuX3BQj6AEr34Z8wFoq1T3Lz8hXMbCT
-Commit CID if containing only file hashes: QmYGaiiEct5rNYR5pnUgYsRDhGcAQfNqjBVyN2m8LQ5oGX
+Commit CID if including git's SHA1: QmbBTvYBNFSXR9ryFEw114gvybq7JK8bj1mXGikpiMECo7
+Commit CID if containing only file hashes: QmQyXdwgYZBvJFLHxTVA1v61hoxq8Xn3kR3zKJJCNoZtbR
 
 ------------------------------
 
@@ -17,23 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'public/img/ui/orb-supply.svg'
-chmod 0664 'public/img/ui/orb-supply.svg'
-/usr/bin/touch -hcmd "2024-06-15 17:06:27.9895935000 -0300" 'public/img/ui/orb-supply.svg'
-/usr/bin/touch -hcad "2024-06-15 17:06:37.6994480000 -0300" 'public/img/ui/orb-supply.svg'
-chown -h 1000:1000 'public/img/ui/orb-supply.svg.weborigin'
-chmod 0664 'public/img/ui/orb-supply.svg.weborigin'
-/usr/bin/touch -hcmd "2024-06-15 17:07:19.1679433000 -0300" 'public/img/ui/orb-supply.svg.weborigin'
-/usr/bin/touch -hcad "2024-06-15 17:08:10.6649581000 -0300" 'public/img/ui/orb-supply.svg.weborigin'
-chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-chmod 0664 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcmd "2024-06-15 17:20:14.4066950000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcad "2024-06-15 17:20:14.4916973000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-chmod 0664 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcmd "2024-06-15 17:19:26.8423881000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcad "2024-06-15 17:19:26.9083899000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-chown -h 1000:1000 'src/data/creatures/mintables.json'
-chmod 0664 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcmd "2024-06-15 16:34:00.4850971000 -0300" 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcad "2024-06-15 16:34:00.6210912000 -0300" 'src/data/creatures/mintables.json'
+chown -h 1000:1000 'Tasks.txt'
+chmod 0664 'Tasks.txt'
+/usr/bin/touch -hcmd "2024-06-15 16:55:19.1645927000 -0300" 'Tasks.txt'
+/usr/bin/touch -hcad "2024-06-15 16:58:10.7294170000 -0300" 'Tasks.txt'

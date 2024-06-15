@@ -1,4 +1,6 @@
-- mintables/mintable: tell the ???/??? left, and if no one left, hide the "Mint on Orb" button
+- mintables/mintable: if no one left (supplyleft variable), hide the "Mint on Orb" button
+- fill supplyleft automatically (mintables.json)
+- tamigucho page: if it has a mintable, show a button (have to align the ID of mintables with the tamis listed, maybe using a new entry in the mintables.json entries)
 
 - tami entries: add "creators" key to tamis (male, female), forms, etc ; if empty, assume its DaniMesq
 
@@ -205,7 +207,7 @@ Neutral type, too
 - add a 404 error page for not found pages
 - support for redirects
 
-- Pokémon -> Tamigucho migration
+- Pokémon -> Tamigucho migration (finally)
 
 new-tami-creator bash script:
 - get year, get latest creature ID to increment
