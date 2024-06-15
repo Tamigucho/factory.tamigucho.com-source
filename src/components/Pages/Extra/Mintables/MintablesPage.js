@@ -15,11 +15,11 @@ const MintablesPage = () => {
       <h6>These <a href="https://www.lens.xyz/" target="_blank">Lens</a> collectables will be later convertible into cards (or somewhat else nice) which will enable some perks. For example, owning a "[Super] Treearth" hand-drawn card would make the owner elligible for in-game items such as a Treearthium gem, the Sync Gem and an exclusive <a href="https://tamigucho.com/tamipedia/sprouterra/" target="_blank">Sprouterra</a> to use the later items once it morphs into Poterra -&gt; <a href="https://tamigucho.com/tamipedia/treearth/" target="_blank">Treearth</a>.</h6>
       <div className="mintables-list">
         {mintablesData.map((mintable, index) => (
-          <div className="mintables-item" key={index}>
-            <img draggable="false" src={`${process.env.PUBLIC_URL}/${mintable.image}`} alt={mintable.name} />
-{mintable.name}
-              <br/><Link to={`/extra/mintables/${mintable.id}`} className="btn btn-primary">View Details</Link>
-          </div>
+          <Link to={`/extra/mintables/${mintable.id}`}><div className="mintables-item" key={index}>
+            <div className="mintable-photo"><img draggable="false" src={`${process.env.PUBLIC_URL}/${mintable.image}`} alt={mintable.name} /></div>
+<h3>{mintable.name}</h3><br/>
+<span className="badge bg-secondary" title={`Asset Supply: ${mintable.supplyleft} left, ${mintable.supplymax} total`}><i><img src="../../img/ui/orb-supply.svg" style={{width:16, height:16}}></img></i> {mintable.supplyleft}/{mintable.supplymax}</span>
+          </div></Link>
         ))}
       </div>
     </div>

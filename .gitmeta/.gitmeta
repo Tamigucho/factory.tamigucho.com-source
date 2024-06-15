@@ -1,12 +1,12 @@
-commit QmS5bi7XmWh1EVsjEHSbgtjQthfVKRx7FAtuVCwYgNzeoL
+commit QmdkQGYft3E9qUjruXReMeWZ5acaGHnu5FxCV9e4LxEQfD
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 42a8ea6b1466a306e0934d034b5c830e82cae8061e3618424dd12aa634d5cf2f42854d0358515579c4ea08cb2d8243e0a60e9a586002e8d4562a1a751a186a8e00
+Signature: 160787f09dd3457dc0050b0803488192f5cb2ef9813aa455db9f2d90a27a68a650b2a3f31ed7bb602a0904d7efae13c0990ba0eab91277e32c6061e5300f934400
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmUy9AShs7ZigmrcsHjij4XoWa2LoYLo86LnJFKhifufEn
-Commit CID if containing only file hashes: QmbWYdqpZcbaPm1SbnfT45DQqX1thLhgCFypszsGzyGWzz
+Commit CID if including git's SHA1: QmfExwfSdG9GehRQuX3BQj6AEr34Z8wFoq1T3Lz8hXMbCT
+Commit CID if containing only file hashes: QmYGaiiEct5rNYR5pnUgYsRDhGcAQfNqjBVyN2m8LQ5oGX
 
 ------------------------------
 
@@ -17,19 +17,23 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'public/img/creatures/handdrawn/2023/Nyaqua.jpeg'
-chmod 0664 'public/img/creatures/handdrawn/2023/Nyaqua.jpeg'
-/usr/bin/touch -hcmd "2024-06-15 15:57:12.3013407000 -0300" 'public/img/creatures/handdrawn/2023/Nyaqua.jpeg'
-/usr/bin/touch -hcad "2024-06-15 15:57:12.9943752000 -0300" 'public/img/creatures/handdrawn/2023/Nyaqua.jpeg'
+chown -h 1000:1000 'public/img/ui/orb-supply.svg'
+chmod 0664 'public/img/ui/orb-supply.svg'
+/usr/bin/touch -hcmd "2024-06-15 17:06:27.9895935000 -0300" 'public/img/ui/orb-supply.svg'
+/usr/bin/touch -hcad "2024-06-15 17:06:37.6994480000 -0300" 'public/img/ui/orb-supply.svg'
+chown -h 1000:1000 'public/img/ui/orb-supply.svg.weborigin'
+chmod 0664 'public/img/ui/orb-supply.svg.weborigin'
+/usr/bin/touch -hcmd "2024-06-15 17:07:19.1679433000 -0300" 'public/img/ui/orb-supply.svg.weborigin'
+/usr/bin/touch -hcad "2024-06-15 17:08:10.6649581000 -0300" 'public/img/ui/orb-supply.svg.weborigin'
 chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesItem.js'
 chmod 0664 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcmd "2024-06-15 14:04:06.1176237000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcad "2024-06-15 14:04:06.2616143000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+/usr/bin/touch -hcmd "2024-06-15 17:20:14.4066950000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+/usr/bin/touch -hcad "2024-06-15 17:20:14.4916973000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
 chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesPage.js'
 chmod 0664 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcmd "2024-06-15 16:10:00.0421160000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcad "2024-06-15 16:10:00.1601178000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcmd "2024-06-15 17:19:26.8423881000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcad "2024-06-15 17:19:26.9083899000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
 chown -h 1000:1000 'src/data/creatures/mintables.json'
 chmod 0664 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcmd "2024-06-15 15:56:32.0792637000 -0300" 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcad "2024-06-15 15:56:32.2072705000 -0300" 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcmd "2024-06-15 16:34:00.4850971000 -0300" 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcad "2024-06-15 16:34:00.6210912000 -0300" 'src/data/creatures/mintables.json'

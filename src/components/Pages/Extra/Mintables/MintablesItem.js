@@ -28,6 +28,7 @@ const MintablesItem = () => {
       </div>
       <div class="col-md mintable-details">
       <h1>{mintable.name}</h1>
+      <p>Supply: <span className="badge bg-secondary" title={`Asset Supply: ${mintable.supplyleft} left, ${mintable.supplymax} total`}><i><img src="../../img/ui/orb-supply.svg" style={{width:16, height:16}}></img></i> {mintable.supplyleft}/{mintable.supplymax}</span> <small>(supply left isn't automatically displayed. For real-time info, <a href={mintable.Orb} target="_blank" rel="noopener noreferrer">see it on Orb</a>)</small></p>
       <div className="links">
         <a href={mintable.OpenSea} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><img src="../../img/social/button/opensea.svg" width="32px" height="32px"></img> OpenSea</button></a>
         <a href={mintable.Orb} target="_blank" rel="noopener noreferrer"><button className="btn btn-primary"><img src="../../img/social/button/orb.svg" width="32px" height="32px"></img> Mint on Orb</button></a>
