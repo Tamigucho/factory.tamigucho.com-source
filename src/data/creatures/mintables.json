@@ -8,5 +8,15 @@
     "Arweave": "https://viewblock.io/arweave/tx/Yp5yzpubuz2ZwmJqMBQTJZLe2gWSLN-PFM-S2dKjQoE",
     "Orb": "https://orb.club/p/0x04e14d-0x12",
     "ipfs": "https://ipfs.io/ipfs/QmakYvkTmnFLuyLeZcmbDfM71vHpz9H5TexiQfCLNtPn4W"
+  },
+  {
+    "name": "Nyaqua",
+    "id": "nyaqua",
+    "image": "./img/creatures/handdrawn/2023/Nyaqua.jpeg",
+    "OpenSea": "https://opensea.io/collection/lens-collect-profile-319821-publication-21",
+    "BlockchainScan": "https://polygonscan.com/token/0x435d30dc103d361384596dc06dab43cdf055eb0f",
+    "Arweave": "https://viewblock.io/arweave/tx/HcnWAkWRzL1VKG_qtZJgWz-eYn8_lhbjDX80JkraZ3o",
+    "Orb": "https://orb.club/p/0x04e14d-0x15",
+    "ipfs": "https://ipfs.io/ipfs/QmQmSST9DAC9H9j9TurySdvLKVYjjzxb4iPTiNQtUE5Dr1"
   }
 ]

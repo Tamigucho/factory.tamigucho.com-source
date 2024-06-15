@@ -14,7 +14,7 @@ const MintablesItem = () => {
   return (
     <div class="mintable-details">
   <Helmet>
-      <title>{mintable.name} - Tamigucho Factory</title>
+      <title>{mintable.name} @ Hand-drawn Mintables - Tamigucho Factory</title>
       <meta property="og:title" content={`${mintable.name} - Tamigucho Factory`} />
       <meta property="og:description" content={mintable.description} />
       <meta property="og:image" content={mintable.image} />
