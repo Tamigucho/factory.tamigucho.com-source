@@ -12,6 +12,7 @@ const MintablesPage = () => {
     </Helmet>
     <div className="mintables-page">
       <h2>Mintables <span className="badge bg-secondary">{mintablesData.length}</span></h2>
+      <h4>These mintables will later be convertible into cards that will enable perks. For example, owning a [Super] Treearth would make elligible for in-game items such as a Treearthium gem and the Sync Gem.</h4>
       <div className="mintables-list">
       <div className="mintables-item">
         {mintablesData.map((mintable, index) => (
