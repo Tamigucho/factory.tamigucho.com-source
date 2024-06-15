@@ -1,12 +1,12 @@
-commit QmPSBJxjPjrwypEt654VYGzph1ez6ynbYcj3BmRz89fyYi
+commit Qmdd65J1qxjeDmoj6D2ucrs9M5Q3W7Sg9CYPDtPQCekSzh
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 3913ec159b207d86e81153fde891cd4a123c301eef3d9b4568995d9222bc2ab81c6e7f4a4697e68392cc522051d411296e7ef2f18d7d5b4f5ea783f39aac422a01
+Signature: 53940f0377ef15b059fcc0ac91e177a5068e9f6dcdb5293d471cebff65c51da17c454e358b1729aae6e4891e9bcf4ca407703558ba6402fd55a591d70936ba2000
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmaJLzfZrGiz9oXsB865h4iVay4D5qc1Jo7c4rxQCTt8Zj
-Commit CID if containing only file hashes: QmSgZtc5rx6vsTPTEKTsZMQAUztnoaGHBo2ZBAbiBtumj8
+Commit CID if including git's SHA1: QmNorkLJbUwpyPXb9M1v7kyFT9YGNGdXdPTwCvgixjPFCm
+Commit CID if containing only file hashes: QmTfMXjmNQP2o5idjqhAdVBHdWFZc2Qat6WDytJ9EUJzNF
 
 ------------------------------
 
@@ -17,27 +17,63 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
-chmod 0664 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
-/usr/bin/touch -hcmd "2024-06-14 17:04:22.4469115000 -0300" 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
-/usr/bin/touch -hcad "2024-06-14 17:04:25.6659240000 -0300" 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
-chown -h 1000:1000 'src/App.js'
-chmod 0664 'src/App.js'
-/usr/bin/touch -hcmd "2024-06-14 21:11:04.5436914000 -0300" 'src/App.js'
-/usr/bin/touch -hcad "2024-06-14 21:11:04.6496790000 -0300" 'src/App.js'
-chown -h 1000:1000 'src/components/Header.js'
-chmod 0664 'src/components/Header.js'
-/usr/bin/touch -hcmd "2024-06-14 21:06:26.5965385000 -0300" 'src/components/Header.js'
-/usr/bin/touch -hcad "2024-06-14 21:06:26.7835410000 -0300" 'src/components/Header.js'
+chown -h 1000:1000 'public/api.json'
+chmod 0664 'public/api.json'
+/usr/bin/touch -hcmd "2024-06-14 21:22:14.0874583000 -0300" 'public/api.json'
+/usr/bin/touch -hcad "2024-06-14 21:23:30.1487363000 -0300" 'public/api.json'
+chown -h 1000:1000 'public/img/social/button/arweave.svg'
+chmod 0664 'public/img/social/button/arweave.svg'
+/usr/bin/touch -hcmd "2024-06-14 23:35:09.6658761000 -0300" 'public/img/social/button/arweave.svg'
+/usr/bin/touch -hcad "2024-06-14 23:53:30.3819535000 -0300" 'public/img/social/button/arweave.svg'
+chown -h 1000:1000 'public/img/social/button/arweave.svg.weborigin'
+chmod 0664 'public/img/social/button/arweave.svg.weborigin'
+/usr/bin/touch -hcmd "2024-06-14 23:39:47.2884033000 -0300" 'public/img/social/button/arweave.svg.weborigin'
+/usr/bin/touch -hcad "2024-06-14 23:53:30.3819535000 -0300" 'public/img/social/button/arweave.svg.weborigin'
+chown -h 1000:1000 'public/img/social/button/etherscan.svg'
+chmod 0664 'public/img/social/button/etherscan.svg'
+/usr/bin/touch -hcmd "2024-06-14 23:34:58.9014116000 -0300" 'public/img/social/button/etherscan.svg'
+/usr/bin/touch -hcad "2024-06-14 23:53:30.3819535000 -0300" 'public/img/social/button/etherscan.svg'
+chown -h 1000:1000 'public/img/social/button/etherscan.svg.weborigin'
+chmod 0664 'public/img/social/button/etherscan.svg.weborigin'
+/usr/bin/touch -hcmd "2024-06-14 23:39:15.6945204000 -0300" 'public/img/social/button/etherscan.svg.weborigin'
+/usr/bin/touch -hcad "2024-06-14 23:53:30.3819535000 -0300" 'public/img/social/button/etherscan.svg.weborigin'
+chown -h 1000:1000 'public/img/social/button/opensea.svg'
+chmod 0664 'public/img/social/button/opensea.svg'
+/usr/bin/touch -hcmd "2024-06-14 23:34:19.9986603000 -0300" 'public/img/social/button/opensea.svg'
+/usr/bin/touch -hcad "2024-06-14 23:38:02.3242928000 -0300" 'public/img/social/button/opensea.svg'
+chown -h 1000:1000 'public/img/social/button/opensea.svg.weborigin'
+chmod 0664 'public/img/social/button/opensea.svg.weborigin'
+/usr/bin/touch -hcmd "2024-06-14 23:37:53.1189946000 -0300" 'public/img/social/button/opensea.svg.weborigin'
+/usr/bin/touch -hcad "2024-06-14 23:43:30.3895784000 -0300" 'public/img/social/button/opensea.svg.weborigin'
+chown -h 1000:1000 'public/img/social/button/orb.svg'
+chmod 0664 'public/img/social/button/orb.svg'
+/usr/bin/touch -hcmd "2024-06-14 23:33:38.1656421000 -0300" 'public/img/social/button/orb.svg'
+/usr/bin/touch -hcad "2024-06-14 23:36:44.0646093000 -0300" 'public/img/social/button/orb.svg'
+chown -h 1000:1000 'public/img/social/button/orb.svg.weborigin'
+chmod 0664 'public/img/social/button/orb.svg.weborigin'
+/usr/bin/touch -hcmd "2024-06-14 23:36:22.4138042000 -0300" 'public/img/social/button/orb.svg.weborigin'
+/usr/bin/touch -hcad "2024-06-14 23:43:30.3905784000 -0300" 'public/img/social/button/orb.svg.weborigin'
+chown -h 1000:1000 'public/img/ui/ipfs-c.svg'
+chmod 0664 'public/img/ui/ipfs-c.svg'
+/usr/bin/touch -hcmd "2024-06-14 23:44:32.9837587000 -0300" 'public/img/ui/ipfs-c.svg'
+/usr/bin/touch -hcad "2024-06-14 23:44:35.6608070000 -0300" 'public/img/ui/ipfs-c.svg'
+chown -h 1000:1000 'public/img/ui/ipfs-w.svg'
+chmod 0664 'public/img/ui/ipfs-w.svg'
+/usr/bin/touch -hcmd "2024-06-14 23:43:34.3916569000 -0300" 'public/img/ui/ipfs-w.svg'
+/usr/bin/touch -hcad "2024-06-14 23:45:17.0525325000 -0300" 'public/img/ui/ipfs-w.svg'
 chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesItem.js'
 chmod 0664 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcmd "2024-06-14 21:33:12.9329634000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcad "2024-06-14 21:33:13.0289618000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+/usr/bin/touch -hcmd "2024-06-15 00:12:45.3659645000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+/usr/bin/touch -hcad "2024-06-15 00:12:45.5379609000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
 chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesPage.js'
 chmod 0664 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcmd "2024-06-14 21:32:06.6741025000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcad "2024-06-14 21:32:06.8031002000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcmd "2024-06-14 23:12:14.4426687000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcad "2024-06-14 23:12:14.5376661000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
 chown -h 1000:1000 'src/data/creatures/mintables.json'
 chmod 0664 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcmd "2024-06-14 20:59:15.0929789000 -0300" 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcad "2024-06-14 20:59:15.2239812000 -0300" 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcmd "2024-06-15 00:13:42.6878083000 -0300" 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcad "2024-06-15 00:13:42.7698067000 -0300" 'src/data/creatures/mintables.json'
+chown -h 1000:1000 'src/styles/theme.css'
+chmod 0664 'src/styles/theme.css'
+/usr/bin/touch -hcmd "2024-06-14 23:09:26.9555655000 -0300" 'src/styles/theme.css'
+/usr/bin/touch -hcad "2024-06-14 23:09:27.3765523000 -0300" 'src/styles/theme.css'

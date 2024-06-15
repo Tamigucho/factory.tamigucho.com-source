@@ -491,3 +491,52 @@ footer a:hover {
   font-weight: inherit;
   color: inherit;
 }
+
+/* Pokémon list styles */
+.mintables-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mintables-list > a, .mintables-list > a:hover {
+  text-decoration: none;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.mintables-item {
+  user-select: none;
+  margin: 10px;
+  padding: 10px 10px 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+}
+
+.mintables-item img {
+  user-select: none;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.mintables .type {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Description styles */
+.mintable-description p {margin: 10px 0;}
+.mintable-details a {margin-right: 5px;}
+
+.mintable-details .cover {
+  max-width: 400px
+}
