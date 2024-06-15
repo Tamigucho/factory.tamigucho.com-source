@@ -1,5 +1,18 @@
-- mintables/mintable: if no one left (supplyleft variable), hide the "Mint on Orb" button
-- fill supplyleft automatically (mintables.json)
+mintables: inspired by PokemonItem.js' "<Link to={`/creatures/${name.replace(/\.|-|\s/g, '')}`}>", do the same for Mintables (adjust in MintablesPage.js, Header.js, and possibly App.js+MintablesItem.js)
+
+fix:
+http://localhost:3000/categories
+http://localhost:3000/categories/Infratitans
+http://localhost:3000/regions/Kairo
+
+- mintables/:mintable: if no one left (supplyleft variable being "0"), hide the "Mint on Orb" button
+
+- fill supplyleft automatically (mintables.json), using Puppeteer
+https://orb.club/p/0x04e14d-0x12
+/html/body/div/div/main/div/div/div[3]/div[2]/div[4]/div[1]/div[2]/div
+<div class="flex items-center"><img alt="C" loading="lazy" width="14" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/assets/icons/cards.svg">46/50 left</div>
+(but need to parse, getting only what comes before "left", getting between the "/")
+
 - tamigucho page: if it has a mintable, show a button (have to align the ID of mintables with the tamis listed, maybe using a new entry in the mintables.json entries)
 
 - tami entries: add "creators" key to tamis (male, female), forms, etc ; if empty, assume its DaniMesq
