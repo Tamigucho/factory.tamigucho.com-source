@@ -1,12 +1,12 @@
-commit QmaG3d4gpJHLhrkaoig3R7DjcspX8eHsnp6HrnVSVnR5DL
+commit QmZPFgh3zxu2zCPoUSr6n71cUPTiHgiubHWa7tbWHAwynH
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: a29caf26207db569154a43fa1b31f14d6ade1bd9fc53eaf7f7875420e63d5d4f774b65c920608e27e2fe8fff2c2dfb003b6a47b351e0d8495fb2d8d0d43528ab00
+Signature: 479b9ee639a98993e36d50c9016785eddd78c540764c2abd4a27955e815c2e195160e6c0973db690337d7f034e185c8ab3b0568a3affa8c3dca5368031f4e98701
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmPCq51gvHPeQ4kjwrAtXafS6W6rLWKXnqyUaz9ah449ye
-Commit CID if containing only file hashes: QmZZykJCXr6ieNUQUZFTmpJwHvMzMWogHNhfuedhX7Toch
+Commit CID if including git's SHA1: Qmcj7vZLhBeo3QASZLzQ2QaRJLBChX76piEqGMApvTX85G
+Commit CID if containing only file hashes: QmcFkp1kFhGwUjHVcXVsfxCduaaE3nwGrRxwPYVnv76Cp2
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'Tasks.txt'
-chmod 0664 'Tasks.txt'
-/usr/bin/touch -hcmd "2024-06-15 13:16:36.5200883000 -0300" 'Tasks.txt'
-/usr/bin/touch -hcad "2024-06-15 13:16:49.2051345000 -0300" 'Tasks.txt'
+chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+chmod 0664 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcmd "2024-06-15 13:48:23.1952562000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcad "2024-06-15 13:48:23.4591860000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
