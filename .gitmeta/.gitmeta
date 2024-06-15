@@ -1,12 +1,12 @@
-commit QmUbZsnu1q3Hr5fWZw2dZ6Udq5AYMTR9t2QkoBhhLBP2EF
+commit QmRbUAjr21rYSuSurd3tRTPoovTUTxfMNWTPdumksJvrjp
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 8c5a24820753bef3460a3c0c9a229c13d8061b972a67bfb5f20dbf3b6a4c4216679c424780d34fa581c52ad8916addcee576e4dee9414a87144164286015781701
+Signature: 6d7bb35774f02bfc5b80b67f51572d8565fff4f64fab1ebbfb0a370a419ba835726a85d0388cc611731b352a091affb2f971dadb8aca9b60e4b0bee70dac8d9d01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmR9BT6VbjqE2GMAUh7H4aQhZLB3G21uGJEWYm1jLXinyc
-Commit CID if containing only file hashes: QmNV7wkbAXjMqvtxDoGj5isju4Akpb1XdMNLaaXME6Efbc
+Commit CID if including git's SHA1: QmfNj3HT1dPT4gNNkMwSDovq8u3wM1tBHCBqrbqgtb1dpv
+Commit CID if containing only file hashes: QmUuSs887wMR6bh8sFv138Z1DRqrK9GgUPgE2GReagKXuL
 
 ------------------------------
 
@@ -17,19 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'src/App.js'
-chmod 0664 'src/App.js'
-/usr/bin/touch -hcmd "2024-06-15 00:31:22.8043518000 -0300" 'src/App.js'
-/usr/bin/touch -hcad "2024-06-15 00:31:22.8713514000 -0300" 'src/App.js'
-chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-chmod 0664 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcmd "2024-06-15 00:31:25.2863358000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-/usr/bin/touch -hcad "2024-06-15 00:31:25.3453354000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
-chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-chmod 0664 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcmd "2024-06-15 00:32:21.1049815000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-/usr/bin/touch -hcad "2024-06-15 00:32:21.1739811000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
-chown -h 1000:1000 'src/data/creatures/mintables.json'
-chmod 0664 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcmd "2024-06-15 00:29:32.7290857000 -0300" 'src/data/creatures/mintables.json'
-/usr/bin/touch -hcad "2024-06-15 00:29:32.8530849000 -0300" 'src/data/creatures/mintables.json'
+chown -h 1000:1000 'src/components/Home.js'
+chmod 0664 'src/components/Home.js'
+/usr/bin/touch -hcmd "2024-06-15 00:36:38.0616850000 -0300" 'src/components/Home.js'
+/usr/bin/touch -hcad "2024-06-15 00:36:38.1126785000 -0300" 'src/components/Home.js'

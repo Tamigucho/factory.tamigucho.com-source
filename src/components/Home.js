@@ -84,6 +84,9 @@ function Home() {
         <meta property="og:image" content={`${process.env.PUBLIC_URL}/img/blogger2013/logotype.svg`} />
     </Helmet>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <h1>⚠️ Tamigucho won't have Pokémons ⚠️</h1>
+      <h2>The Pokémons featured here are, temporarily, for demonstration purposes only.</h2>
+      <hr/>
   <h4 class="alert-heading">Please don't screenshot 📸</h4>
   <p>🚧 Site is under construction 🚧👷‍♀️🏗</p>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
