@@ -55,6 +55,7 @@ const Header = ({ creatureCount }) => {
   </Link>
 </li>
 <li className="nav-item"><Link target="_blank" className="nav-link" to="/classic/">Classic Site</Link></li>
+<li className="nav-item"><Link className={`nav-link ${location.pathname.startsWith('/extra/mintables') ? 'active' : ''}`} to="/extra/mintables">Mintables</Link></li>
               {/* Add more navigation items as needed */}
             </ul>
           </div>

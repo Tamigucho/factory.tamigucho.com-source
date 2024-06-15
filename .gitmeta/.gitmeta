@@ -1,12 +1,12 @@
-commit QmUf2e7SSyTEwg6WeSxHQx9XcHE54zCwayCC3okbYdg69b
+commit QmPSBJxjPjrwypEt654VYGzph1ez6ynbYcj3BmRz89fyYi
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 54d00675e4188dcdd90517dc74393ae1859f677d0379875476bf61690051319c41cb81f2f56a1ccba57ec58f2c64cb17ddc2b144c22dfb2741766d7b84c066db00
+Signature: 3913ec159b207d86e81153fde891cd4a123c301eef3d9b4568995d9222bc2ab81c6e7f4a4697e68392cc522051d411296e7ef2f18d7d5b4f5ea783f39aac422a01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmNZo9aUJJkC62SFQrtXBccXxQCux4X87C4LzYP2VMcDqE
-Commit CID if containing only file hashes: QmRsgh1bJKp1GjhNsk65fumKyL3aGP7gMxtpJTq9TLQxtt
+Commit CID if including git's SHA1: QmaJLzfZrGiz9oXsB865h4iVay4D5qc1Jo7c4rxQCTt8Zj
+Commit CID if containing only file hashes: QmSgZtc5rx6vsTPTEKTsZMQAUztnoaGHBo2ZBAbiBtumj8
 
 ------------------------------
 
@@ -17,7 +17,27 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'AIConversation.txt'
-chmod 0664 'AIConversation.txt'
-/usr/bin/touch -hcmd "2024-06-14 22:13:56.7922334000 -0300" 'AIConversation.txt'
-/usr/bin/touch -hcad "2024-06-14 22:14:43.1709988000 -0300" 'AIConversation.txt'
+chown -h 1000:1000 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
+chmod 0664 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
+/usr/bin/touch -hcmd "2024-06-14 17:04:22.4469115000 -0300" 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
+/usr/bin/touch -hcad "2024-06-14 17:04:25.6659240000 -0300" 'public/img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg'
+chown -h 1000:1000 'src/App.js'
+chmod 0664 'src/App.js'
+/usr/bin/touch -hcmd "2024-06-14 21:11:04.5436914000 -0300" 'src/App.js'
+/usr/bin/touch -hcad "2024-06-14 21:11:04.6496790000 -0300" 'src/App.js'
+chown -h 1000:1000 'src/components/Header.js'
+chmod 0664 'src/components/Header.js'
+/usr/bin/touch -hcmd "2024-06-14 21:06:26.5965385000 -0300" 'src/components/Header.js'
+/usr/bin/touch -hcad "2024-06-14 21:06:26.7835410000 -0300" 'src/components/Header.js'
+chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+chmod 0664 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+/usr/bin/touch -hcmd "2024-06-14 21:33:12.9329634000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+/usr/bin/touch -hcad "2024-06-14 21:33:13.0289618000 -0300" 'src/components/Pages/Extra/Mintables/MintablesItem.js'
+chown -h 1000:1000 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+chmod 0664 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcmd "2024-06-14 21:32:06.6741025000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+/usr/bin/touch -hcad "2024-06-14 21:32:06.8031002000 -0300" 'src/components/Pages/Extra/Mintables/MintablesPage.js'
+chown -h 1000:1000 'src/data/creatures/mintables.json'
+chmod 0664 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcmd "2024-06-14 20:59:15.0929789000 -0300" 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcad "2024-06-14 20:59:15.2239812000 -0300" 'src/data/creatures/mintables.json'

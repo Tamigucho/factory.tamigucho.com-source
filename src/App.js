@@ -22,6 +22,8 @@ import GamesPage from './components/Pages/Games/GamesPage';
 import GamePage from './components/Pages/Games/GamePage';
 import Categories from './components/Categories/Categories';
 import CategoryPage from './components/Categories/CategoryPage';
+import MintablesPage from './components/Pages/Extra/Mintables/MintablesPage';
+import MintablesItem from './components/Pages/Extra/Mintables/MintablesItem';
 import './styles/theme.css';
 
 function App() {
@@ -59,6 +61,8 @@ function App() {
         <Route path="/years/:year" element={<YearPage />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/categories/:categoryName" element={<CategoryPage />} />
+        <Route path="/extra/mintables" element={<MintablesPage />} />
+        <Route path="/extra/mintables/:mintableName" element={<MintablesItem />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />
