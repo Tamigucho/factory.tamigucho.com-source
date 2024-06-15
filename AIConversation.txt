@@ -1,0 +1,791 @@
+Let's create a brand new page(s).
+
+These will be src/components/Pages/Extra/Mintables/MintablesPage.js and src/components/Pages/Extra/Mintables/MintablesItem.js; URLs will be {site}/extra/mintables and {site}/extra/mintables/{mintable}.
+
+Will read from src/data/creatures/mintables.json!
+
+MintablesPage will list all of the mintables as cards, with their image, name (be inspired by how Pokémons are listed, for example.
+
+The MintableItem page will read the following data:
+- Name
+- Image
+- OpenSea
+- BlockchainScan
+- Arweave
+
+OpenSea, BlockchainScan and Arweave will be target="blank" buttons pointing to the URLs of each JSON value.
+
+The first ever enrtry for the JSON, fill it:
+- Name: "[Super] Treearth"
+- Image: ./img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg
+- OpenSea: https://opensea.io/collection/lens-collect-profile-319821-publication-18  
+- BlockchainScan: https://polygonscan.com/token/0x8cff0e8aaab4b7233ccbe9825676ad54b1b454c0
+- Arweave: https://viewblock.io/arweave/tx/Yp5yzpubuz2ZwmJqMBQTJZLe2gWSLN-PFM-S2dKjQoE 
+
+
+
+
+
+
+To create the new pages for listing and displaying "mintables" as specified, you'll need to create two new components and a JSON data file. Below are the steps and code snippets to achieve this:
+
+### 1. Create the JSON Data File
+Create a new JSON file at `src/data/creatures/mintables.json` with the following content:
+```json
+[
+  {
+    "name": "[Super] Treearth",
+    "image": "./img/creatures/handdrawn/gimmick/super-morph/2023/Treearth.jpeg",
+    "OpenSea": "https://opensea.io/collection/lens-collect-profile-319821-publication-18",
+    "BlockchainScan": "https://polygonscan.com/token/0x8cff0e8aaab4b7233ccbe9825676ad54b1b454c0",
+    "Arweave": "https://viewblock.io/arweave/tx/Yp5yzpubuz2ZwmJqMBQTJZLe2gWSLN-PFM-S2dKjQoE"
+  }
+]
+```
+
+### 2. Create the MintablesPage Component
+Create a new file `src/components/Pages/Extra/Mintables/MintablesPage.js`:
+```javascript
+import React from 'react';
+import { Link } from 'react-router-dom';
+import mintablesData from '../../../data/creatures/mintables.json';
+
+const MintablesPage = () => {
+  return (
+    <div className="mintables-page">
+      <h1>Mintables</h1>
+      <div className="mintables-list">
+        {mintablesData.map((mintable, index) => (
+          <div key={index} className="card">
+            <img src={mintable.image} alt={mintable.name} />
+            <h2>{mintable.name}</h2>
+            <Link to={`/extra/mintables/${mintable.name}`}>View Details</Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default MintablesPage;
+```
+
+### 3. Create the MintablesItem Component
+Create a new file `src/components/Pages/Extra/Mintables/MintablesItem.js`:
+```javascript
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import mintablesData from '../../../data/creatures/mintables.json';
+
+const MintablesItem = () => {
+  const { mintableName } = useParams();
+  const mintable = mintablesData.find(m => m.name === mintableName);
+
+  if (!mintable) {
+    return <div>Mintable not found</div>;
+  }
+
+  return (
+    <div className="mintable-details">
+      <h1>{mintable.name}</h1>
+      <img src={mintable.image} alt={mintable.name} />
+      <div className="links">
+        <a href={mintable.OpenSea} target="_blank" rel="noopener noreferrer">OpenSea</a>
+        <a href={mintable.BlockchainScan} target="_blank" rel="noopener noreferrer">BlockchainScan</a>
+        <a href={mintable.Arweave} target="_blank" rel="noopener noreferrer">Arweave</a>
+      </div>
+    </div>
+  );
+};
+
+export default MintablesItem;
+```
+
+### 4. Update Routing
+Make sure to update your routing configuration to include paths for these new components. This typically involves updating your main router setup, often found in `src/App.js` or similar, to include routes for `/extra/mintables` and `/extra/mintables/:mintable`.
+
+This setup will allow you to list mintables and view details for each mintable, with links to OpenSea, BlockchainScan, and Arweave as specified.
+
+
+
+
+
+
+
+Please update the routing for me, also in Header.js. And please, why /extra/mintables/:mintable instead of /extra/mintables/Mintable (from its name)? Same way /creatures handle names like Mr Mime, prettifying them.
+
+
+
+
+
+
+
+
+
+### Update Routing in [src/App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1)
+
+To include the new routes for the mintables pages, you need to update the [src/App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1) file. Add the following routes inside the `<Routes>` component:
+
+```javascript:src/App.js
+47|        <Route path="/extra/mintables" element={<MintablesPage />} />
+48|        <Route path="/extra/mintables/:mintableName" element={<MintablesItem />} />
+```
+
+### Update Header for Navigation in `src/components/Header.js`
+
+Assuming you have a navigation component in `Header.js`, add a link to the mintables page:
+
+```javascript
+<Link to="/extra/mintables">Mintables</Link>
+```
+
+### Explanation for URL Parameter Naming
+
+The URL parameter `/extra/mintables/:mintableName` uses `:mintableName` to dynamically match the name of the mintable item. This is a common practice in React Router to denote variables in the URL path. The name `:mintableName` is used instead of `:Mintable` for clarity and convention, indicating it's a variable part of the URL that represents the name of a mintable.
+
+For handling names with spaces (like "Mr Mime"), URLs typically replace spaces with hyphens or underscores for better readability and compatibility. This transformation is handled when setting up the links and when retrieving the parameters in your components. You can use a function to replace spaces with hyphens when creating links and reverse the process when reading the URL parameter.
+
+
+
+
+
+
+
+
+The above error occurred in the <App> component:
+
+App@http://localhost:3000/static/js/bundle.js:74:82
+Router@http://localhost:3000/static/js/bundle.js:68018:7
+BrowserRouter@http://localhost:3000/static/js/bundle.js:65995:7
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. react-dom.development.js:18687
+Uncaught ReferenceError: MintablesPage is not defined
+    App App.js:62
+    React 9
+    workLoop scheduler.development.js:266
+    flushWork scheduler.development.js:239
+    performWorkUntilDeadline scheduler.development.js:533
+
+
+
+
+
+
+The error message you're encountering indicates that [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#5%2C7-5%2C7) is not defined in your [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1) file. This typically happens when the component is not properly imported. To resolve this issue, ensure that you import [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#5%2C7-5%2C7) and [MintablesItem](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#5%2C7-5%2C7) at the top of your [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1) file.
+
+Here's how you can update your imports in [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1):
+
+```javascript:src/App.js
+1|import MintablesPage from './components/Pages/Extra/Mintables/MintablesPage';
+2|import MintablesItem from './components/Pages/Extra/Mintables/MintablesItem';
+```
+
+Make sure these import statements are added before you use these components in your routes. This should resolve the `ReferenceError` and allow your application to recognize `MintablesPage` and `MintablesItem` when setting up the routes.
+
+
+
+
+
+ERROR
+MintablesPage is not defined
+App@http://localhost:3000/static/js/bundle.js:268:94
+renderWithHooks@http://localhost:3000/static/js/bundle.js:51699:31
+mountIndeterminateComponent@http://localhost:3000/static/js/bundle.js:54983:17
+beginWork@http://localhost:3000/static/js/bundle.js:56279:20
+callCallback@http://localhost:3000/static/js/bundle.js:41295:18
+invokeGuardedCallbackDev@http://localhost:3000/static/js/bundle.js:41339:20
+invokeGuardedCallback@http://localhost:3000/static/js/bundle.js:41396:35
+beginWork$1@http://localhost:3000/static/js/bundle.js:61260:32
+performUnitOfWork@http://localhost:3000/static/js/bundle.js:60508:16
+workLoopSync@http://localhost:3000/static/js/bundle.js:60431:26
+renderRootSync@http://localhost:3000/static/js/bundle.js:60404:11
+performConcurrentWorkOnRoot@http://localhost:3000/static/js/bundle.js:59799:78
+workLoop@http://localhost:3000/static/js/bundle.js:74312:46
+flushWork@http://localhost:3000/static/js/bundle.js:74290:18
+performWorkUntilDeadline@http://localhost:3000/static/js/bundle.js:74527:25
+
+Maybe Header.js too?
+
+
+
+
+
+
+The error you're encountering indicates that [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#5%2C7-5%2C7) is not defined in your [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1) file, which suggests that the component has not been properly imported. To fix this, you need to add import statements for [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#5%2C7-5%2C7) and [MintablesItem](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#5%2C7-5%2C7) in your [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1).
+
+Here's how you can update your imports in [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1):
+
+```javascript:src/App.js
+1|import MintablesPage from './components/Pages/Extra/Mintables/MintablesPage';
+2|import MintablesItem from './components/Pages/Extra/Mintables/MintablesItem';
+```
+
+Make sure these import statements are added at the top of your `App.js` file before using these components in your routes.
+
+Additionally, if you need to update `Header.js` to include navigation to the new Mintables pages, you can add a link like this:
+
+```javascript:src/components/Header.js
+<Link to="/extra/mintables">Mintables</Link>
+```
+
+Ensure this link is placed within the navigation section of your `Header.js` component. This setup should resolve the `ReferenceError` and allow your application to recognize `MintablesPage` and `MintablesItem` when setting up the routes.
+
+
+
+
+
+
+
+Your changes did nothing. I'm pretty sure that's not the issue.
+
+
+
+
+It seems like the issue might be related to the file path or the export statements in your component files. Here are a few steps to troubleshoot and resolve the issue:
+
+1. **Verify File Paths**: Ensure that the file paths in the import statements in your [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1) are correct. The paths should correctly point to the location of [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) and [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1).
+
+2. **Check Export Statements**: Make sure that both [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#5%2C7-5%2C7) and [MintablesItem](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#5%2C7-5%2C7) are properly exported in their respective files. The export statement should look like this at the bottom of each file:
+   ```javascript
+   export default MintablesPage;
+   export default MintablesItem;
+   ```
+
+3. **Case Sensitivity**: Ensure that the file names and references are case-sensitive and match exactly in both the file system and the import statements.
+
+4. **Rebuild the Project**: Sometimes, changes might not be picked up until you restart the development server. Try stopping the server and starting it again.
+
+5. **Check for Typos**: A common issue could be a simple typo either in the file name, export, or import statements. Double-check for any typos.
+
+If these steps do not resolve the issue, consider checking the console for any other detailed errors that might give more insight into what is going wrong.
+
+
+
+
+
+
+
+
+Please do it for each file.
+
+
+
+
+
+
+
+
+
+To resolve the issue with the [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#5%2C7-5%2C7) and [MintablesItem](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#5%2C7-5%2C7) components not being recognized in your [App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1), ensure that the import paths are correct and that the components are properly exported. Here's how to correctly set up the imports and exports:
+
+### 1. Verify and Correct Import Statements in [src/App.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#1%2C1-1%2C1)
+Ensure that the import paths are correct. Here's how you should import the components:
+
+```javascript:src/App.js
+1|import MintablesPage from './components/Pages/Extra/Mintables/MintablesPage';
+2|import MintablesItem from './components/Pages/Extra/Mintables/MintablesItem';
+```
+
+### 2. Ensure Proper Export in Component Files
+Check the component files to ensure they are exported correctly. Here's what the export part of each component file should look like:
+
+**MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+export default MintablesPage;
+```
+
+**MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+export default MintablesItem;
+```
+
+### 3. Update Routing in `src/App.js`
+Make sure the routes are set up correctly in your `App.js`:
+
+```javascript:src/App.js
+64|        <Route path="/extra/mintables" element={<MintablesPage />} />
+65|        <Route path="/extra/mintables/:mintableName" element={<MintablesItem />} />
+```
+
+### 4. Update Navigation in `src/components/Header.js`
+Add a navigation link to the Mintables page in your `Header.js`:
+
+```javascript:src/components/Header.js
+<Link to="/extra/mintables">Mintables</Link>
+```
+
+### 5. Restart the Development Server
+After making these changes, restart your development server to ensure all updates are loaded correctly.
+
+If you continue to face issues, double-check the file paths and ensure there are no typos in the file names or paths.
+
+
+
+
+
+
+
+
+Nothing did anything.
+
+Uncaught ReferenceError: MintablesPage is not defined
+    App App.js:63
+    renderWithHooks React
+    mountIndeterminateComponent bundle.js:54983
+    React 9
+    workLoop utils.js:251
+    flushWork utils.js:229
+    performWorkUntilDeadline scheduler.development.js:221
+App.js:63
+Uncaught ReferenceError: MintablesPage is not defined
+    App App.js:63
+    renderWithHooks React
+    mountIndeterminateComponent bundle.js:54983
+    React 10
+    workLoop utils.js:251
+    flushWork utils.js:229
+    performWorkUntilDeadline scheduler.development.js:221
+App.js:63
+The above error occurred in the <App> component:
+
+App@http://localhost:3000/static/js/bundle.js:74:82
+Router@http://localhost:3000/static/js/bundle.js:68018:7
+BrowserRouter@http://localhost:3000/static/js/bundle.js:65995:7
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. react-dom.development.js:18388
+Uncaught ReferenceError: MintablesPage is not defined
+    App App.js:63
+    renderWithHooks React
+    mountIndeterminateComponent bundle.js:54983
+    React 7
+    workLoop utils.js:251
+    flushWork utils.js:229
+    performWorkUntilDeadline scheduler.development.js:221
+
+
+
+
+It appears that the issue persists with the [MintablesPage](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/App.js#25%2C8-25%2C8) not being recognized, which suggests a problem with either the file path or the export statement. Here's a step-by-step approach to ensure everything is set up correctly:
+
+### 1. Verify File Path and Name
+Ensure that the file [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) is located at [src/components/Pages/Extra/Mintables/MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) and that the file name matches exactly, including case sensitivity.
+
+### 2. Check Export Statement in [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1)
+Open [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) and ensure that the export statement is correct. It should look like this:
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+export default MintablesPage;
+```
+
+### 3. Correct Import Statement in `App.js`
+Make sure the import statement in `App.js` is correct and matches the file path and name:
+```javascript:src/App.js
+import MintablesPage from './components/Pages/Extra/Mintables/MintablesPage';
+```
+
+### 4. Restart Development Server
+After making these changes, restart your development server to ensure all updates are correctly loaded.
+
+If these steps do not resolve the issue, please check the console for any other detailed errors and ensure there are no typos in the file names or paths.
+
+
+
+
+
+
+
+
+
+ERROR
+Cannot find module '../../../data/creatures/mintables.json'
+webpackMissingModule@http://localhost:3000/static/js/bundle.js:2518:50
+./src/components/Pages/Extra/Mintables/MintablesPage.js@http://localhost:3000/static/js/bundle.js:2518:163
+options.factory@http://localhost:3000/static/js/bundle.js:86857:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:86272:33
+fn@http://localhost:3000/static/js/bundle.js:86514:21
+./src/App.js@http://localhost:3000/static/js/bundle.js:39:125
+options.factory@http://localhost:3000/static/js/bundle.js:86857:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:86272:33
+fn@http://localhost:3000/static/js/bundle.js:86514:21
+./src/index.js@http://localhost:3000/static/js/bundle.js:5991:81
+options.factory@http://localhost:3000/static/js/bundle.js:86857:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:86272:33
+@http://localhost:3000/static/js/bundle.js:87439:56
+@http://localhost:3000/static/js/bundle.js:87441:12
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesItem.js 7:0-67
+Module not found: Error: Can't resolve '../../../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesPage.js 6:0-67
+Module not found: Error: Can't resolve '../../../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+
+
+
+
+
+
+
+
+
+
+The error messages indicate that the module `../../../data/creatures/mintables.json` cannot be found by Webpack during the build process. This typically happens due to incorrect file paths or the file not existing at the specified location. Here's how to resolve this issue:
+
+### Steps to Resolve the Module Not Found Error
+
+1. **Verify the File Location**: Ensure that the [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1) file is located in the directory [src/data/creatures/](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/Legacy/InitialGPTConverstation.txt#43%2C7-43%2C7). The path should be relative to the files where it's being imported.
+
+2. **Check the Import Path**: In both [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) and [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1), the import path for [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1) should correctly point to the file based on the file's location relative to these JavaScript files. Given the directory structure, the path you've used seems correct, but double-check that there are no typos or misplacements in the directory structure.
+
+3. **File and Folder Names Case Sensitivity**: Ensure that all folder names and the file name in the path are correctly spelled and match the case sensitivity of the actual names in your file system.
+
+4. **Restart the Development Server**: After verifying the paths and the existence of the file, restart your development server to clear any caching issues that might be causing the problem.
+
+If the file definitely exists at the correct path and the issue persists, consider checking the permissions of the file to ensure that your development environment has read access to it.
+
+
+
+
+
+
+
+../data/, and not ../../../data
+
+
+
+
+
+
+
+
+
+The error you're encountering is due to incorrect relative paths in your import statements for [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1) in both [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) and [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1). The correct relative path should be `../data/creatures/mintables.json` instead of `../../../data/creatures/mintables.json`. Here's how you should update the import statements:
+
+**For MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+import mintablesData from '../data/creatures/mintables.json';
+```
+
+**For MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+import mintablesData from '../data/creatures/mintables.json';
+```
+
+Make sure to adjust the paths based on the actual location of your `mintables.json` file relative to these JavaScript files. After updating, restart your development server to apply the changes.
+
+
+
+
+
+
+
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesItem.js 7:0-61
+Module not found: Error: Can't resolve '../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesPage.js 6:0-61
+Module not found: Error: Can't resolve '../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+
+What?!
+
+Doesn't that follow the same model seen in @PokemonList.js ?
+
+
+
+
+
+
+
+The error you're encountering in [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) and [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) is due to incorrect relative paths for importing [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1). The path you've used (`'../data/creatures/mintables.json'`) assumes that the [data](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#3%2C31-3%2C31) directory is one level up from the current files, which is not correct based on the error message.
+
+In contrast, the [PokemonList.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/PokemonList.js#1%2C1-1%2C1) file correctly accesses its data file because its path is correctly relative to its location. To fix the issue in [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) and [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1), you need to adjust the path to correctly point to the location of the [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1) file.
+
+Here's how you should update the import statements:
+
+**For MintablesPage.js and MintablesItem.js:**
+```javascript
+import mintablesData from '../../../data/creatures/mintables.json';
+```
+
+This path goes up three levels from the current files (MintablesPage.js and MintablesItem.js) before accessing the `data` directory, which should correctly locate the `mintables.json` file based on your project's structure. After updating, restart your development server to apply the changes.
+
+
+
+
+
+
+
+
+Please write for each, then.
+
+
+
+
+
+
+
+
+
+To resolve the import errors in [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) and [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1), you need to correct the relative paths used to import [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1). The correct path should navigate up three directories before accessing the [data](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#3%2C31-3%2C31) directory. Here's how you should update the import statements:
+
+**For MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+import mintablesData from '../../../data/creatures/mintables.json';
+```
+
+**For MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+import mintablesData from '../../../data/creatures/mintables.json';
+```
+
+Make sure to restart your development server after making these changes to ensure that the updates are applied correctly.
+
+
+
+
+
+
+
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesItem.js 7:0-67
+Module not found: Error: Can't resolve '../../../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesPage.js 6:0-67
+Module not found: Error: Can't resolve '../../../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+
+Shouldn't that be one ../ less?
+
+
+
+
+
+
+
+
+
+The error messages indicate that the path to `mintables.json` is incorrect in both [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) and [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1). The path you've used (`'../../../data/creatures/mintables.json'`) seems to navigate up too many directories. Based on the error message and typical project structure, you should navigate up two directories, not three.
+
+Here's how you should update the import statements:
+
+**For MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+import mintablesData from '../../data/creatures/mintables.json';
+```
+
+**For MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+import mintablesData from '../../data/creatures/mintables.json';
+```
+
+After updating, restart your development server to apply the changes.
+
+
+
+
+
+Please try now with four ../
+
+ERROR
+Cannot find module '../../data/creatures/mintables.json'
+webpackMissingModule@http://localhost:3000/static/js/bundle.js:2518:50
+./src/components/Pages/Extra/Mintables/MintablesPage.js@http://localhost:3000/static/js/bundle.js:2518:160
+options.factory@http://localhost:3000/static/js/bundle.js:86857:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:86272:33
+fn@http://localhost:3000/static/js/bundle.js:86514:21
+./src/App.js@http://localhost:3000/static/js/bundle.js:39:125
+options.factory@http://localhost:3000/static/js/bundle.js:86857:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:86272:33
+fn@http://localhost:3000/static/js/bundle.js:86514:21
+./src/index.js@http://localhost:3000/static/js/bundle.js:5991:81
+options.factory@http://localhost:3000/static/js/bundle.js:86857:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:86272:33
+@http://localhost:3000/static/js/bundle.js:87439:56
+@http://localhost:3000/static/js/bundle.js:87441:12
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesItem.js 7:0-64
+Module not found: Error: Can't resolve '../../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+ERROR in ./src/components/Pages/Extra/Mintables/MintablesPage.js 6:0-64
+Module not found: Error: Can't resolve '../../data/creatures/mintables.json' in '/media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables'
+
+
+
+
+
+
+
+
+The error messages indicate that the path to [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1) is still incorrect in both [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) and [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1). The path you've tried with four [../](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/#1%2C1-1%2C1) navigates up too many directories. Based on the error message and typical project structure, you should navigate up three directories.
+
+Here's how you should update the import statements:
+
+**For MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+import mintablesData from '../../../data/creatures/mintables.json';
+```
+
+**For MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+import mintablesData from '../../../data/creatures/mintables.json';
+```
+
+After updating, restart your development server to apply the changes.
+
+
+
+
+
+Four ../, not three.
+
+
+
+
+To resolve the import errors in [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) and [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1), you need to correct the relative paths used to import [mintables.json](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/data/creatures/mintables.json#1%2C1-1%2C1). The correct path should navigate up four directories before accessing the [data](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#3%2C37-3%2C37) directory. Here's how you should update the import statements:
+
+**For MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+import mintablesData from '../../../../data/creatures/mintables.json';
+```
+
+**For MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+import mintablesData from '../../../../data/creatures/mintables.json';
+```
+
+Make sure to restart your development server after making these changes to ensure that the updates are applied correctly.
+
+
+
+
+
+
+
+Human goes rebel and it does difference, again!
+Issue solved!
+
+Now, I need an updatge on MintablesItem.js.
+Ensure the items are cards, so as in PokemonList.js!
+
+
+
+
+
+To update [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) to display items as cards similar to [PokemonList.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/PokemonList.js#1%2C1-1%2C1), you can modify the component's JSX structure to use a card layout. Here's how you can adjust the return statement to incorporate a card design:
+
+
+```13:22:src/components/Pages/Extra/Mintables/MintablesItem.js
+  return (
+    <div className="mintable-details">
+      <h1>{mintable.name}</h1>
+      <img src={mintable.image} alt={mintable.name} />
+      <div className="links">
+        <a href={mintable.OpenSea} target="_blank" rel="noopener noreferrer">OpenSea</a>
+        <a href={mintable.BlockchainScan} target="_blank" rel="noopener noreferrer">BlockchainScan</a>
+        <a href={mintable.Arweave} target="_blank" rel="noopener noreferrer">Arweave</a>
+      </div>
+    </div>
+```
+
+
+Replace the above block with the following code to style the mintable details as cards:
+
+```javascript
+return (
+  <div className="card mintable-card">
+    <img className="card-img-top" src={mintable.image} alt={mintable.name} />
+    <div className="card-body">
+      <h5 className="card-title">{mintable.name}</h5>
+      <div className="links">
+        <a href={mintable.OpenSea} target="_blank" rel="noopener noreferrer">OpenSea</a>
+        <a href={mintable.BlockchainScan} target="_blank" rel="noopener noreferrer">BlockchainScan</a>
+        <a href={mintable.Arweave} target="_blank" rel="noopener noreferrer">Arweave</a>
+      </div>
+    </div>
+  </div>
+);
+```
+
+This code snippet wraps the mintable details in a Bootstrap card component, which includes an image at the top and details in the body of the card. Make sure your CSS is set up to handle the card layout appropriately.
+
+
+
+
+
+
+
+
+
+No, I mean, MintablesPage!
+
+
+
+
+To update [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) to display items as cards similar to [PokemonList.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/PokemonList.js#1%2C1-1%2C1), you can modify the JSX structure within the map function to use a card layout. Here's how you can adjust the code:
+
+Replace the existing div block inside the map function in [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) with the following card layout:
+
+
+```10:15:src/components/Pages/Extra/Mintables/MintablesPage.js
+        {mintablesData.map((mintable, index) => (
+          <div key={index} className="card">
+            <img src={mintable.image} alt={mintable.name} />
+            <h2>{mintable.name}</h2>
+            <Link to={`/extra/mintables/${mintable.name}`}>View Details</Link>
+          </div>
+```
+
+
+Here's the updated code for the card layout:
+
+```javascript
+<div key={index} className="card">
+  <img className="card-img-top" src={mintable.image} alt={mintable.name} />
+  <div className="card-body">
+    <h5 className="card-title">{mintable.name}</h5>
+    <Link to={`/extra/mintables/${mintable.name}`} className="btn btn-primary">View Details</Link>
+  </div>
+</div>
+```
+
+This code snippet wraps each mintable item in a Bootstrap card component, which includes an image at the top and details in the body of the card, along with a button to view more details. Make sure your CSS is set up to handle the card layout appropriately.
+
+
+
+
+
+
+
+The image is not loading, both in MintablesPage and MintablesItem.
+
+Please point the image to ../ instead of ./ please
+
+
+
+
+
+
+
+To fix the image loading issue in both [MintablesPage.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#1%2C1-1%2C1) and [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1), you need to adjust the path used in the [src](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesPage.js#12%2C43-12%2C43) attribute of the `<img>` tags. Change the path from [./](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/#1%2C1-1%2C1) to [../](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/#1%2C1-1%2C1) to correctly reference the image location relative to the component's directory.
+
+Here's how you should update the image source in both files:
+
+**For MintablesPage.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesPage.js
+12|            <img className="card-img-top" src={`../${mintable.image}`} alt={mintable.name} />
+```
+
+**For MintablesItem.js:**
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+16|      <img src={`../${mintable.image}`} alt={mintable.name} />
+```
+
+After making these changes, the images should load correctly assuming the paths are otherwise correct relative to the project's directory structure.
+
+
+
+
+
+For MintablesItem.js, it needs an upper ../ path, because of routing.
+
+
+
+
+To adjust the image path in [MintablesItem.js](file:///media/daniella/B/git/Tamigucho/Sites/subdomains/factory/src/components/Pages/Extra/Mintables/MintablesItem.js#1%2C1-1%2C1) to account for routing and directory structure, you should change the image source path to go up one additional directory level. Here's the updated line for the image source:
+
+```javascript:src/components/Pages/Extra/Mintables/MintablesItem.js
+16|      <img src={`../../${mintable.image}`} alt={mintable.name} />
+```
+
+This change uses `../../` to correctly navigate the directory structure based on the routing setup. Make sure to restart your development server to see the changes.
