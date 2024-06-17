@@ -1,4 +1,4 @@
-mintables: inspired by PokemonItem.js' "<Link to={`/creatures/${name.replace(/\.|-|\s/g, '')}`}>", do the same for Mintables (adjust in MintablesPage.js, Header.js, and possibly App.js+MintablesItem.js)
+-? mintables: inspired by PokemonItem.js' "<Link to={`/creatures/${name.replace(/\.|-|\s/g, '')}`}>", do the same for Mintables (adjust in MintablesPage.js, Header.js, and possibly App.js+MintablesItem.js)
 
 fix:
 http://localhost:3000/categories
@@ -15,9 +15,12 @@ https://orb.club/p/0x04e14d-0x12
 
 - tamigucho page: if it has a mintable, show a button (have to align the ID of mintables with the tamis listed, maybe using a new entry in the mintables.json entries)
 
+- new component: clickable tamigucho card (then begin using it on /creatures)
+- new page: articles. first article: "Tamiguchos created by unconventional ways", and use the new clickable tamigucho card component for Mercuray, Etanolight, Wormorph, Birdumont, Nat, Popcanth.
+
 - tami entries: add "creators" key to tamis (male, female), forms, etc ; if empty, assume its DaniMesq
 
-- {year} folder in img: add versions/ (/instagram, /artwork, /draw), instagram.jp(e)g, artwork.* and draw.svg
+- {year} folder in img: add versions/ (/instagram, /artwork, /handdraw), instagram.jp(e)g, artwork.* and draw.svg ; about handdrawn version, link it to a mintable if available
 
 Tami Factory React Site:
 - Fictional inspirations array in creatures.json: for example, Morcegatito will have two fictional inspirations, which are memes; in the array: name and link of each!
