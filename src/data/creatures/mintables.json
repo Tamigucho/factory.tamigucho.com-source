@@ -9,7 +9,7 @@
     "Orb": "https://orb.club/p/0x04e14d-0x12",
     "ipfs": "https://ipfs.io/ipfs/QmakYvkTmnFLuyLeZcmbDfM71vHpz9H5TexiQfCLNtPn4W",
     "supplymax": "50",
-    "supplyleft": "46"
+    "supplyleft": "45"
   },
   {
     "name": "Nyaqua",
@@ -21,6 +21,18 @@
     "Orb": "https://orb.club/p/0x04e14d-0x15",
     "ipfs": "https://ipfs.io/ipfs/QmQmSST9DAC9H9j9TurySdvLKVYjjzxb4iPTiNQtUE5Dr1",
     "supplymax": "200",
-    "supplyleft": "199"
+    "supplyleft": "195"
+  },
+  {
+    "name": "Starecover",
+    "id": "starecover",
+    "image": "./img/creatures/handdrawn/2022/Starecover.jpeg",
+    "OpenSea": "https://opensea.io/collection/lens-collect-profile-319821-publication-31",
+    "BlockchainScan": "https://polygonscan.com/token/0xa770ae314e92e0982070f32b70859895352d1b15",
+    "Arweave": "https://viewblock.io/arweave/tx/NA8N0m1sCb6yTTqKb6O0mfGl7NGY7M4hjiXTSFBPuT0",
+    "Orb": "https://orb.club/p/0x04e14d-0x1f",
+    "ipfs": "https://ipfs.io/ipfs/QmSE7JSgjcQHyRiqendMBEDcJi6tfMnzshj4QQ1xy4qGXV",
+    "supplymax": "15",
+    "supplyleft": "14"
   }
 ]
