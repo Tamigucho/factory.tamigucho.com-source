@@ -9,7 +9,7 @@
     "Orb": "https://orb.club/p/0x04e14d-0x12",
     "ipfs": "https://ipfs.io/ipfs/QmakYvkTmnFLuyLeZcmbDfM71vHpz9H5TexiQfCLNtPn4W",
     "supplymax": "50",
-    "supplyleft": "45"
+    "supplyleft": "44"
   },
   {
     "name": "Nyaqua",
@@ -21,7 +21,7 @@
     "Orb": "https://orb.club/p/0x04e14d-0x15",
     "ipfs": "https://ipfs.io/ipfs/QmQmSST9DAC9H9j9TurySdvLKVYjjzxb4iPTiNQtUE5Dr1",
     "supplymax": "200",
-    "supplyleft": "195"
+    "supplyleft": "194"
   },
   {
     "name": "Starecover",
@@ -34,5 +34,29 @@
     "ipfs": "https://ipfs.io/ipfs/QmSE7JSgjcQHyRiqendMBEDcJi6tfMnzshj4QQ1xy4qGXV",
     "supplymax": "15",
     "supplyleft": "14"
+  },
+  {
+    "name": "Torchnid",
+    "id": "torchnid",
+    "image": "./img/creatures/handdrawn/2023/Torchnid.jpeg",
+    "OpenSea": "https://opensea.io/collection/lens-collect-profile-319821-publication-34",
+    "BlockchainScan": "https://polygonscan.com/token/0x0caa809178e9c90bf30ab13bb39eced753e53440",
+    "Arweave": "https://viewblock.io/arweave/tx/FrdFx-1IPcTApSDeYPJmF9qe1-0Wyiq9m-c_BAonpJw",
+    "Orb": "https://orb.club/p/0x04e14d-0x22",
+    "ipfs": "https://ipfs.io/ipfs/QmZsp8PLuQoCfVwW8Bo7AdpHJ1yqhCUkXMcDHV8oeWDN1y",
+    "supplymax": "200",
+    "supplyleft": "198"
+  },
+  {
+    "name": "Chockatiel",
+    "id": "chockatiel",
+    "image": "./img/creatures/handdrawn/2023/Chockatiel.jpeg",
+    "OpenSea": "https://opensea.io/collection/lens-collect-profile-319821-publication-39",
+    "BlockchainScan": "https://polygonscan.com/token/0xacc03fffd3c9c1d8a7e1f956fa1a171d730f02cc",
+    "Arweave": "https://viewblock.io/arweave/tx/R657UIOeSLCBolHqRw10HpDXcU6DMdV10yzy16rsGDc",
+    "Orb": "https://orb.club/p/0x04e14d-0x27",
+    "ipfs": "https://ipfs.io/ipfs/Qmc5kYHgHfe7zbMvkAez4NDnXN3ZepzBbtjYc6iSgKW1qa",
+    "supplymax": "200",
+    "supplyleft": "199"
   }
 ]
