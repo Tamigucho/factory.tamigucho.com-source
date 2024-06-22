@@ -1,12 +1,12 @@
-commit QmaabnNjGAGztjKyBsPJK662dx6FcdoSfz7LrM9sBKUJj9
+commit QmVvK33cS5CDsghQ6BgRwiRYrErsb7SrnM4qnYP8qiUwqc
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 50ae63d4092a0088f753f14acff8b8b3f6fc2207e40f76772239f7856963237a5763c9b4c624d93bdf70c079819693b7f80c953766e6b68946363a76b9e8faae01
+Signature: 9adc29a3e76851f24d3372db0caa28c67809da90028a70c78fb01d4acf4cd050402f19ad6b514b99318c8326cc184325cc61026dbea6b842fe43bb06a46900ef00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmUQqkZq7U3VNEb9CmQXiTDC9FemCbkN6ASzhCwoj7hX4v
-Commit CID if containing only file hashes: QmbHfnRA18iAtCiJ3vDGHQChSZG8dgq3YitVw1r8jxhPvZ
+Commit CID if including git's SHA1: QmPkg1N9pWj9KgjeTkPc88dziohgxLaNeFJyM2GNNsbb4b
+Commit CID if containing only file hashes: QmZrzNwG8hKKDXP6gLEKLQjMy3fYAe1g1SEZJJJFfN9ecK
 
 ------------------------------
 
@@ -17,7 +17,11 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'Tasks.txt'
-chmod 0664 'Tasks.txt'
-/usr/bin/touch -hcmd "2024-06-17 00:56:01.8026716000 -0300" 'Tasks.txt'
-/usr/bin/touch -hcad "2024-06-17 00:56:09.7601176000 -0300" 'Tasks.txt'
+chown -h 1000:1000 'public/img/creatures/handdrawn/2024/Capnccino.jpeg'
+chmod 0664 'public/img/creatures/handdrawn/2024/Capnccino.jpeg'
+/usr/bin/touch -hcmd "2024-06-21 21:41:48.0030081000 -0300" 'public/img/creatures/handdrawn/2024/Capnccino.jpeg'
+/usr/bin/touch -hcad "2024-06-21 21:41:58.0076710000 -0300" 'public/img/creatures/handdrawn/2024/Capnccino.jpeg'
+chown -h 1000:1000 'src/data/creatures/mintables.json'
+chmod 0664 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcmd "2024-06-21 21:48:09.6115065000 -0300" 'src/data/creatures/mintables.json'
+/usr/bin/touch -hcad "2024-06-21 21:48:25.9150634000 -0300" 'src/data/creatures/mintables.json'
